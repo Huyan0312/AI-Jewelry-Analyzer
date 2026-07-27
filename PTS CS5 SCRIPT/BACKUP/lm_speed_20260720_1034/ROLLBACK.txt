@@ -1,0 +1,5 @@
+﻿Rollback: copy 3 files from this folder back over:
+  PTS CS5 SCRIPT\headless_detector.py
+  jewelry_front_detector\lmstudio_client.py
+  jewelry_front_detector\config.py
+Then Restart Detector.

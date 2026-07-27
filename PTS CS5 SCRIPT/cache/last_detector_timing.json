@@ -1,0 +1,22 @@
+{
+  "base_name": "test_sample",
+  "image": "C:\\Users\\pvhan\\AppData\\Local\\Temp\\tmpxg78ob55\\test_sample.png",
+  "model": "test-model",
+  "ms": {
+    "resize_ms": 0.0,
+    "encode_ms": 0.0,
+    "jpeg_bytes": 0,
+    "b64_kb": 0,
+    "send_w": 100,
+    "send_h": 100,
+    "lm_all_views_ms": 0.01829996472224593,
+    "process_views_ms": 0.06659998325631022,
+    "dimension_ms": 0.027799978852272034,
+    "save_json_ms": 0.5213000113144517,
+    "move_ms": 0,
+    "total_ms": 28.35039998171851
+  },
+  "views": 7,
+  "ts": "2026-07-25 16:11:37",
+  "mode": "original_file_like_gui"
+}

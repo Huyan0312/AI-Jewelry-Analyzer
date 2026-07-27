@@ -1,0 +1,1833 @@
+2026-07-20 10:23:03 | SCALE | === START 889524-A.jpg ===
+2026-07-20 10:23:03 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-20 10:23:03 | SCALE | 1b_hanger_list | step=0ms | cum=0ms
+2026-07-20 10:23:03 | PS_AI | 889524-A | phase=queue | START
+2026-07-20 10:23:12 | SCALE | === START 889524-A.jpg ===
+2026-07-20 10:23:12 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-20 10:23:12 | SCALE | 1b_hanger_list | step=0ms | cum=0ms
+2026-07-20 10:23:12 | PS_AI | 889524-A | phase=queue | START
+2026-07-20 10:23:13 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=446ms | write_job=0ms | total=446ms | path=M:\departments\Share\2D (HandDrawing)\18.07\Scale 3D\KS\Finish\889524-A.jpg
+2026-07-20 10:23:13 | SCALE | 2_queue_AI | step=454ms | cum=454ms
+2026-07-20 10:23:17 | SCALE | 3_dialog | step=4575ms | cum=5029ms
+2026-07-20 10:23:17 | SCALE | 4_calc_scale | step=0ms | cum=5029ms
+2026-07-20 10:23:17 | PS_AI | 889524-A | phase=waitAndCopy | START
+2026-07-20 10:23:27 | DETECTOR | 889524-A | resize=187ms lm=11167ms views=182ms json=4ms total=11663ms
+2026-07-20 10:23:27 | PS_AI | 889524-A | wait | ok | waited=9516ms | polls=30
+2026-07-20 10:23:28 | PS_AI | 889524-A | copy | views=7 | read_json=0ms | cptl=828ms | total=848ms
+2026-07-20 10:23:28 | PS_AI | 889524-A | waitAndCopy TOTAL | wait=9516ms | copy=848ms | total=10365ms
+2026-07-20 10:23:28 | SCALE | 5_wait_copy_AI | step=10372ms | cum=15401ms
+2026-07-20 10:23:28 | SCALE | 6_resolution_200 | step=120ms | cum=15521ms
+2026-07-20 10:23:28 | SCALE | 7_collect_views | step=9ms | cum=15530ms
+2026-07-20 10:23:28 | SCALE | 8_group_scale | step=409ms | cum=15939ms
+2026-07-20 10:23:28 | SCALE | 9_fill_bg | step=92ms | cum=16031ms
+2026-07-20 10:23:29 | SCALE | 10_ungroup_views | step=337ms | cum=16368ms
+2026-07-20 10:23:29 | SCALE | 11_zoom | step=458ms | cum=16826ms
+2026-07-20 10:23:29 | SCALE | DONE | AI queue=454ms wait=9516ms copy=848ms mode=job_link
+2026-07-20 10:23:29 | SCALE | 1_selection: 0ms (cum 0ms) || 1b_hanger_list: 0ms (cum 0ms) || 2_queue_AI: 454ms (cum 454ms) || 3_dialog: 4575ms (cum 5029ms) || 4_calc_scale: 0ms (cum 5029ms) || 5_wait_copy_AI: 10372ms (cum 15401ms) || 6_resolution_200: 120ms (cum 15521ms) || 7_collect_views: 9ms (cum 15530ms) || 8_group_scale: 409ms (cum 15939ms) || 9_fill_bg: 92ms (cum 16031ms) || 10_ungroup_views: 337ms (cum 16368ms) || 11_zoom: 458ms (cum 16826ms) || TOTAL: 16827ms
+2026-07-20 10:23:29 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 10:26:50 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-20 10:26:50 | SCALE | 1_selection | step=15ms | cum=15ms
+2026-07-20 10:26:50 | SCALE | 1b_hanger_list | step=0ms | cum=15ms
+2026-07-20 10:26:50 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-20 10:27:04 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-20 10:27:04 | SCALE | 1_selection | step=2ms | cum=2ms
+2026-07-20 10:27:04 | SCALE | 1b_hanger_list | step=1ms | cum=3ms
+2026-07-20 10:27:04 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-20 10:29:40 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-20 10:29:40 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-20 10:29:40 | SCALE | 1b_hanger_list | step=0ms | cum=0ms
+2026-07-20 10:29:40 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-20 10:29:40 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=export_jpg | check=0ms | resolve=24ms | export=100ms | total=124ms
+2026-07-20 10:29:40 | SCALE | 2_queue_AI | step=133ms | cum=133ms
+2026-07-20 10:29:51 | SCALE | 3_dialog | step=10483ms | cum=10616ms
+2026-07-20 10:29:51 | SCALE | 4_calc_scale | step=0ms | cum=10616ms
+2026-07-20 10:29:51 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitAndCopy | START
+2026-07-20 10:29:53 | DETECTOR | DF27.COMP017.12_DI_07072026 | resize=7ms lm=11176ms views=98ms json=1ms total=11283ms
+2026-07-20 10:29:54 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=3116ms | polls=10
+2026-07-20 10:29:55 | PS_AI | DF27.COMP017.12_DI_07072026 | copy | views=7 | read_json=1ms | cptl=1419ms | total=1436ms
+2026-07-20 10:29:55 | PS_AI | DF27.COMP017.12_DI_07072026 | waitAndCopy TOTAL | wait=3116ms | copy=1436ms | total=4566ms
+2026-07-20 10:29:55 | SCALE | 5_wait_copy_AI | step=4578ms | cum=15194ms
+2026-07-20 10:29:55 | SCALE | 6_resolution_200 | step=140ms | cum=15334ms
+2026-07-20 10:29:55 | SCALE | 7_collect_views | step=80ms | cum=15414ms
+2026-07-20 10:29:56 | SCALE | 8_group_scale | step=560ms | cum=15974ms
+2026-07-20 10:29:56 | SCALE | 9_fill_bg | step=122ms | cum=16096ms
+2026-07-20 10:29:57 | SCALE | 10_ungroup_views | step=533ms | cum=16629ms
+2026-07-20 10:29:57 | SCALE | 11_zoom | step=469ms | cum=17098ms
+2026-07-20 10:29:57 | SCALE | DONE | AI queue=124ms wait=3116ms copy=1436ms mode=export_jpg
+2026-07-20 10:29:57 | SCALE | 1_selection: 0ms (cum 0ms) || 1b_hanger_list: 0ms (cum 0ms) || 2_queue_AI: 133ms (cum 133ms) || 3_dialog: 10483ms (cum 10616ms) || 4_calc_scale: 0ms (cum 10616ms) || 5_wait_copy_AI: 4578ms (cum 15194ms) || 6_resolution_200: 140ms (cum 15334ms) || 7_collect_views: 80ms (cum 15414ms) || 8_group_scale: 560ms (cum 15974ms) || 9_fill_bg: 122ms (cum 16096ms) || 10_ungroup_views: 533ms (cum 16629ms) || 11_zoom: 469ms (cum 17098ms) || TOTAL: 17100ms
+2026-07-20 10:29:57 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 10:32:10 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-20 10:32:10 | SCALE | 1_selection | step=3ms | cum=3ms
+2026-07-20 10:32:10 | SCALE | 1b_hanger_list | step=0ms | cum=3ms
+2026-07-20 10:32:10 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-20 10:32:10 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=export_jpg | check=1ms | resolve=136ms | export=104ms | total=241ms
+2026-07-20 10:32:10 | SCALE | 2_queue_AI | step=247ms | cum=250ms
+2026-07-20 10:32:15 | SCALE | 3_dialog | step=4495ms | cum=4745ms
+2026-07-20 10:32:15 | SCALE | 4_calc_scale | step=1ms | cum=4746ms
+2026-07-20 10:32:15 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitAndCopy | START
+2026-07-20 10:32:24 | DETECTOR | DF27.COMP017.12_DI_07072026 | resize=1ms lm=11191ms views=81ms json=1ms total=11276ms
+2026-07-20 10:32:24 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=9181ms | polls=30
+2026-07-20 10:32:25 | PS_AI | DF27.COMP017.12_DI_07072026 | copy | views=7 | read_json=1ms | cptl=1076ms | total=1099ms
+2026-07-20 10:32:25 | PS_AI | DF27.COMP017.12_DI_07072026 | waitAndCopy TOTAL | wait=9181ms | copy=1099ms | total=10290ms
+2026-07-20 10:32:25 | SCALE | 5_wait_copy_AI | step=10301ms | cum=15047ms
+2026-07-20 10:32:25 | SCALE | 6_resolution_200 | step=111ms | cum=15158ms
+2026-07-20 10:32:25 | SCALE | 7_collect_views | step=81ms | cum=15239ms
+2026-07-20 10:32:26 | SCALE | 8_group_scale | step=572ms | cum=15811ms
+2026-07-20 10:32:26 | SCALE | 9_fill_bg | step=145ms | cum=15956ms
+2026-07-20 10:32:26 | SCALE | 10_ungroup_views | step=509ms | cum=16465ms
+2026-07-20 10:32:27 | SCALE | 11_zoom | step=460ms | cum=16925ms
+2026-07-20 10:32:27 | SCALE | DONE | AI queue=241ms wait=9181ms copy=1099ms mode=export_jpg
+2026-07-20 10:32:27 | SCALE | 1_selection: 3ms (cum 3ms) || 1b_hanger_list: 0ms (cum 3ms) || 2_queue_AI: 247ms (cum 250ms) || 3_dialog: 4495ms (cum 4745ms) || 4_calc_scale: 1ms (cum 4746ms) || 5_wait_copy_AI: 10301ms (cum 15047ms) || 6_resolution_200: 111ms (cum 15158ms) || 7_collect_views: 81ms (cum 15239ms) || 8_group_scale: 572ms (cum 15811ms) || 9_fill_bg: 145ms (cum 15956ms) || 10_ungroup_views: 509ms (cum 16465ms) || 11_zoom: 460ms (cum 16925ms) || TOTAL: 16926ms
+2026-07-20 10:32:27 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 10:42:39 | SCALE | === START 889060 A.jpg ===
+2026-07-20 10:42:39 | SCALE | 1_selection | step=2ms | cum=2ms
+2026-07-20 10:42:39 | SCALE | 1b_hanger_list | step=1ms | cum=3ms
+2026-07-20 10:42:39 | PS_AI | 889060 A | phase=queue | START
+2026-07-20 10:42:39 | PS_AI | 889060 A | queue | mode=job_link | check=1ms | resolve=3ms | write_job=0ms | total=4ms | path=D:\CODE\Agent\AutoNhanDangAnh\jewelry_front_detector\output\889060 A.jpg
+2026-07-20 10:42:39 | SCALE | 2_queue_AI | step=10ms | cum=13ms
+2026-07-20 10:42:43 | SCALE | 3_dialog | step=3852ms | cum=3865ms
+2026-07-20 10:42:43 | SCALE | 4_calc_scale | step=0ms | cum=3865ms
+2026-07-20 10:42:43 | PS_AI | 889060 A | phase=waitAndCopy | START
+2026-07-20 10:42:52 | DETECTOR | 889060 A | send=1023x682 jpeg=64KB b64=86KB resize=46ms enc=0ms lm=10207ms views=146ms json=1ms total=10504ms
+2026-07-20 10:42:52 | PS_AI | 889060 A | wait | ok | waited=8850ms | polls=29
+2026-07-20 10:42:52 | PS_AI | 889060 A | copy | views=7 | read_json=1ms | cptl=891ms | total=905ms
+2026-07-20 10:42:52 | PS_AI | 889060 A | waitAndCopy TOTAL | wait=8850ms | copy=905ms | total=9769ms
+2026-07-20 10:42:52 | SCALE | 5_wait_copy_AI | step=9777ms | cum=13642ms
+2026-07-20 10:42:53 | SCALE | 6_resolution_200 | step=134ms | cum=13776ms
+2026-07-20 10:42:53 | SCALE | 7_collect_views | step=80ms | cum=13856ms
+2026-07-20 10:42:53 | SCALE | 8_group_scale | step=528ms | cum=14384ms
+2026-07-20 10:42:53 | SCALE | 9_fill_bg | step=108ms | cum=14492ms
+2026-07-20 10:42:54 | SCALE | 10_ungroup_views | step=494ms | cum=14986ms
+2026-07-20 10:42:54 | SCALE | 11_zoom | step=487ms | cum=15473ms
+2026-07-20 10:42:54 | SCALE | DONE | AI queue=5ms wait=8850ms copy=905ms mode=job_link
+2026-07-20 10:42:54 | SCALE | 1_selection: 2ms (cum 2ms) || 1b_hanger_list: 1ms (cum 3ms) || 2_queue_AI: 10ms (cum 13ms) || 3_dialog: 3852ms (cum 3865ms) || 4_calc_scale: 0ms (cum 3865ms) || 5_wait_copy_AI: 9777ms (cum 13642ms) || 6_resolution_200: 134ms (cum 13776ms) || 7_collect_views: 80ms (cum 13856ms) || 8_group_scale: 528ms (cum 14384ms) || 9_fill_bg: 108ms (cum 14492ms) || 10_ungroup_views: 494ms (cum 14986ms) || 11_zoom: 487ms (cum 15473ms) || TOTAL: 15474ms
+2026-07-20 10:42:54 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 10:50:00 | SCALE | === START 889060 A.jpg ===
+2026-07-20 10:50:10 | SCALE | === START 889060 A.jpg ===
+2026-07-20 10:50:10 | SCALE | 1_selection | step=4ms | cum=4ms
+2026-07-20 10:50:10 | SCALE | 1b_hanger_list | step=0ms | cum=4ms
+2026-07-20 10:50:10 | PS_AI | 889060 A | phase=queue | START
+2026-07-20 10:50:10 | PS_AI | 889060 A | queue | mode=job_link | check=1ms | resolve=3ms | write_job=0ms | total=4ms | path=D:\CODE\Agent\AutoNhanDangAnh\jewelry_front_detector\output\889060 A.jpg
+2026-07-20 10:50:10 | SCALE | 2_queue_AI | step=11ms | cum=15ms
+2026-07-20 10:50:16 | SCALE | 3_dialog | step=5706ms | cum=5721ms
+2026-07-20 10:50:16 | SCALE | 4_calc_scale | step=0ms | cum=5721ms
+2026-07-20 10:50:16 | PS_AI | 889060 A | phase=waitAndCopy | START
+2026-07-20 10:50:22 | DETECTOR | 889060 A | send=1023x682 jpeg=64KB b64=86KB resize=29ms enc=0ms lm=9640ms views=115ms json=1ms total=9786ms
+2026-07-20 10:50:23 | PS_AI | 889060 A | wait | ok | waited=6400ms | polls=21
+2026-07-20 10:50:24 | PS_AI | 889060 A | copy | views=7 | read_json=0ms | cptl=1055ms | total=1069ms
+2026-07-20 10:50:24 | PS_AI | 889060 A | waitAndCopy TOTAL | wait=6400ms | copy=1069ms | total=7486ms
+2026-07-20 10:50:24 | SCALE | 5_wait_copy_AI | step=7494ms | cum=13215ms
+2026-07-20 10:50:24 | SCALE | 6_resolution_200 | step=126ms | cum=13341ms
+2026-07-20 10:50:24 | SCALE | 7_collect_views | step=81ms | cum=13422ms
+2026-07-20 10:50:24 | SCALE | 8_group_scale | step=595ms | cum=14017ms
+2026-07-20 10:50:25 | SCALE | 9_fill_bg | step=150ms | cum=14167ms
+2026-07-20 10:50:25 | SCALE | 10_ungroup_views | step=514ms | cum=14681ms
+2026-07-20 10:50:26 | SCALE | 11_zoom | step=475ms | cum=15156ms
+2026-07-20 10:50:26 | SCALE | DONE | AI queue=4ms wait=6400ms copy=1069ms mode=job_link
+2026-07-20 10:50:26 | SCALE | 1_selection: 4ms (cum 4ms) || 1b_hanger_list: 0ms (cum 4ms) || 2_queue_AI: 11ms (cum 15ms) || 3_dialog: 5706ms (cum 5721ms) || 4_calc_scale: 0ms (cum 5721ms) || 5_wait_copy_AI: 7494ms (cum 13215ms) || 6_resolution_200: 126ms (cum 13341ms) || 7_collect_views: 81ms (cum 13422ms) || 8_group_scale: 595ms (cum 14017ms) || 9_fill_bg: 150ms (cum 14167ms) || 10_ungroup_views: 514ms (cum 14681ms) || 11_zoom: 475ms (cum 15156ms) || TOTAL: 15158ms
+2026-07-20 10:50:26 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 10:55:53 | SCALE | === START 889060 A.jpg ===
+2026-07-20 10:55:53 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-20 10:55:53 | SCALE | 1b_hanger_list | step=2ms | cum=3ms
+2026-07-20 10:55:53 | PS_AI | 889060 A | phase=queue | START
+2026-07-20 10:56:04 | SCALE | === START 889060 A.jpg ===
+2026-07-20 10:56:04 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-20 10:56:04 | SCALE | 1b_hanger_list | step=7ms | cum=7ms
+2026-07-20 10:56:04 | PS_AI | 889060 A | phase=queue | START
+2026-07-20 10:56:04 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=10ms | total=10ms | path=D:\CODE\Agent\AutoNhanDangAnh\jewelry_front_detector\output\889060 A.jpg
+2026-07-20 10:56:04 | SCALE | 2_queue_AI | step=10ms | cum=17ms
+2026-07-20 10:56:10 | SCALE | 3_dialog | step=5949ms | cum=5966ms
+2026-07-20 10:56:10 | SCALE | 4_calc_scale | step=0ms | cum=5966ms
+2026-07-20 10:56:10 | PS_AI | 889060 A | phase=waitAndCopy | START
+2026-07-20 10:56:18 | DETECTOR | 889060 A | send=1500x999 jpeg=148KB b64=197KB resize=54ms enc=0ms lm=11235ms views=157ms json=1ms total=11539ms
+2026-07-20 10:56:18 | PS_AI | 889060 A | wait | ok | waited=7708ms | polls=25
+2026-07-20 10:56:19 | PS_AI | 889060 A | copy | views=7 | read_json=0ms | cptl=1004ms | total=1026ms
+2026-07-20 10:56:19 | PS_AI | 889060 A | waitAndCopy TOTAL | wait=7708ms | copy=1026ms | total=8748ms
+2026-07-20 10:56:19 | SCALE | 5_wait_copy_AI | step=8748ms | cum=14714ms
+2026-07-20 10:56:19 | SCALE | 6_resolution_200 | step=121ms | cum=14835ms
+2026-07-20 10:56:19 | SCALE | 7_collect_views | step=79ms | cum=14914ms
+2026-07-20 10:56:20 | SCALE | 8_group_scale | step=569ms | cum=15483ms
+2026-07-20 10:56:20 | SCALE | 9_fill_bg | step=152ms | cum=15635ms
+2026-07-20 10:56:20 | SCALE | 10_ungroup_views | step=508ms | cum=16143ms
+2026-07-20 10:56:21 | SCALE | 11_zoom | step=481ms | cum=16624ms
+2026-07-20 10:56:21 | SCALE | DONE | AI queue=10ms wait=7708ms copy=1026ms mode=job_link
+2026-07-20 10:56:21 | SCALE | 1_selection: 0ms (cum 0ms) || 1b_hanger_list: 7ms (cum 7ms) || 2_queue_AI: 10ms (cum 17ms) || 3_dialog: 5949ms (cum 5966ms) || 4_calc_scale: 0ms (cum 5966ms) || 5_wait_copy_AI: 8748ms (cum 14714ms) || 6_resolution_200: 121ms (cum 14835ms) || 7_collect_views: 79ms (cum 14914ms) || 8_group_scale: 569ms (cum 15483ms) || 9_fill_bg: 152ms (cum 15635ms) || 10_ungroup_views: 508ms (cum 16143ms) || 11_zoom: 481ms (cum 16624ms) || TOTAL: 16626ms
+2026-07-20 10:56:21 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 10:56:40 | SCALE | === START 889060 A.jpg ===
+2026-07-20 10:56:40 | SCALE | 1_selection | step=2ms | cum=2ms
+2026-07-20 10:56:40 | SCALE | 1b_hanger_list | step=2ms | cum=4ms
+2026-07-20 10:56:40 | PS_AI | 889060 A | phase=queue | START
+2026-07-20 10:56:40 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=4ms | write_job=0ms | total=4ms | path=D:\CODE\Agent\AutoNhanDangAnh\jewelry_front_detector\output\889060 A.jpg
+2026-07-20 10:56:40 | SCALE | 2_queue_AI | step=11ms | cum=15ms
+2026-07-20 10:56:46 | SCALE | 3_dialog | step=6294ms | cum=6309ms
+2026-07-20 10:56:46 | SCALE | 4_calc_scale | step=0ms | cum=6309ms
+2026-07-20 10:56:46 | PS_AI | 889060 A | phase=waitAndCopy | START
+2026-07-20 10:56:52 | DETECTOR | 889060 A | send=1500x999 jpeg=148KB b64=197KB resize=41ms enc=0ms lm=9788ms views=141ms json=1ms total=9972ms
+2026-07-20 10:56:52 | PS_AI | 889060 A | wait | ok | waited=6023ms | polls=18
+2026-07-20 10:56:54 | PS_AI | 889060 A | copy | views=7 | read_json=0ms | cptl=1058ms | total=1090ms
+2026-07-20 10:56:54 | PS_AI | 889060 A | waitAndCopy TOTAL | wait=6023ms | copy=1090ms | total=7113ms
+2026-07-20 10:56:54 | SCALE | 5_wait_copy_AI | step=7117ms | cum=13426ms
+2026-07-20 10:56:54 | SCALE | 6_resolution_200 | step=111ms | cum=13537ms
+2026-07-20 10:56:54 | SCALE | 7_collect_views | step=96ms | cum=13633ms
+2026-07-20 10:56:54 | SCALE | 8_group_scale | step=593ms | cum=14226ms
+2026-07-20 10:56:54 | SCALE | 9_fill_bg | step=144ms | cum=14370ms
+2026-07-20 10:56:55 | SCALE | 10_ungroup_views | step=512ms | cum=14882ms
+2026-07-20 10:56:55 | SCALE | 11_zoom | step=496ms | cum=15378ms
+2026-07-20 10:56:55 | SCALE | DONE | AI queue=4ms wait=6023ms copy=1090ms mode=job_link
+2026-07-20 10:56:55 | SCALE | 1_selection: 2ms (cum 2ms) || 1b_hanger_list: 2ms (cum 4ms) || 2_queue_AI: 11ms (cum 15ms) || 3_dialog: 6294ms (cum 6309ms) || 4_calc_scale: 0ms (cum 6309ms) || 5_wait_copy_AI: 7117ms (cum 13426ms) || 6_resolution_200: 111ms (cum 13537ms) || 7_collect_views: 96ms (cum 13633ms) || 8_group_scale: 593ms (cum 14226ms) || 9_fill_bg: 144ms (cum 14370ms) || 10_ungroup_views: 512ms (cum 14882ms) || 11_zoom: 496ms (cum 15378ms) || TOTAL: 15378ms
+2026-07-20 10:56:55 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 14:38:40 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 14:38:40 | SCALE | 1_selection | step=2ms | cum=2ms
+2026-07-20 14:38:40 | SCALE | 1b_hanger_list | step=2ms | cum=4ms
+2026-07-20 14:38:40 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 14:38:40 | PS_AI | FINE27.COMP027_DI_07152026 | queue | mode=job_link | check=1ms | resolve=118ms | write_job=1ms | total=120ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\FINE27.COMP027_DI_07152026.jpg
+2026-07-20 14:38:40 | SCALE | 2_queue_AI | step=125ms | cum=129ms
+2026-07-20 14:38:44 | SCALE | 3_dialog | step=4240ms | cum=4369ms
+2026-07-20 14:38:44 | SCALE | 4_calc_scale | step=0ms | cum=4369ms
+2026-07-20 14:38:44 | PS_AI | FINE27.COMP027_DI_07152026 | phase=waitAndCopy | START
+2026-07-20 14:38:54 | DETECTOR | FINE27.COMP027_DI_07152026 | send=1500x999 jpeg=156KB b64=208KB resize=49ms enc=1ms lm=11180ms views=271ms json=1ms total=11502ms
+2026-07-20 14:38:54 | PS_AI | FINE27.COMP027_DI_07152026 | wait | ok | waited=9593ms | polls=31
+2026-07-20 14:38:55 | PS_AI | FINE27.COMP027_DI_07152026 | copy | views=7 | read_json=0ms | cptl=1174ms | total=1205ms
+2026-07-20 14:38:55 | PS_AI | FINE27.COMP027_DI_07152026 | waitAndCopy TOTAL | wait=9593ms | copy=1205ms | total=10799ms
+2026-07-20 14:38:55 | SCALE | 5_wait_copy_AI | step=10807ms | cum=15176ms
+2026-07-20 14:38:55 | SCALE | 6_resolution_200 | step=167ms | cum=15343ms
+2026-07-20 14:38:55 | SCALE | 7_collect_views | step=87ms | cum=15430ms
+2026-07-20 14:38:56 | SCALE | 8_group_scale | step=622ms | cum=16052ms
+2026-07-20 14:38:56 | SCALE | 9_fill_bg | step=144ms | cum=16196ms
+2026-07-20 14:38:57 | SCALE | 10_ungroup_views | step=590ms | cum=16786ms
+2026-07-20 14:38:57 | SCALE | 11_zoom | step=470ms | cum=17256ms
+2026-07-20 14:38:57 | SCALE | DONE | AI queue=120ms wait=9593ms copy=1205ms mode=job_link
+2026-07-20 14:38:57 | SCALE | 1_selection: 2ms (cum 2ms) || 1b_hanger_list: 2ms (cum 4ms) || 2_queue_AI: 125ms (cum 129ms) || 3_dialog: 4240ms (cum 4369ms) || 4_calc_scale: 0ms (cum 4369ms) || 5_wait_copy_AI: 10807ms (cum 15176ms) || 6_resolution_200: 167ms (cum 15343ms) || 7_collect_views: 87ms (cum 15430ms) || 8_group_scale: 622ms (cum 16052ms) || 9_fill_bg: 144ms (cum 16196ms) || 10_ungroup_views: 590ms (cum 16786ms) || 11_zoom: 470ms (cum 17256ms) || TOTAL: 17256ms
+2026-07-20 14:38:57 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 15:24:16 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 15:24:16 | SCALE | 1_selection | step=2ms | cum=2ms
+2026-07-20 15:24:16 | SCALE | 1b_hanger_list | step=0ms | cum=2ms
+2026-07-20 15:24:16 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 15:24:16 | PS_AI | FINE27.COMP027_DI_07152026 | queue | mode=job_link | check=0ms | resolve=122ms | write_job=0ms | total=122ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\FINE27.COMP027_DI_07152026.jpg
+2026-07-20 15:24:16 | SCALE | 2_queue_AI | step=130ms | cum=132ms
+2026-07-20 15:24:20 | SCALE | 3_dialog | step=4043ms | cum=4175ms
+2026-07-20 15:24:20 | SCALE | 4_calc_scale | step=0ms | cum=4175ms
+2026-07-20 15:24:20 | PS_AI | FINE27.COMP027_DI_07152026 | phase=waitAndCopy | START
+2026-07-20 15:24:32 | DETECTOR | FINE27.COMP027_DI_07152026 | send=1800x1199 jpeg=240KB b64=320KB resize=1250ms enc=1ms lm=11849ms views=259ms json=1ms total=13521ms
+2026-07-20 15:24:32 | PS_AI | FINE27.COMP027_DI_07152026 | wait | ok | waited=11888ms | polls=39
+2026-07-20 15:24:33 | PS_AI | FINE27.COMP027_DI_07152026 | copy | views=7 | read_json=0ms | cptl=1095ms | total=1109ms
+2026-07-20 15:24:33 | PS_AI | FINE27.COMP027_DI_07152026 | waitAndCopy TOTAL | wait=11888ms | copy=1109ms | total=13014ms
+2026-07-20 15:24:33 | SCALE | 5_wait_copy_AI | step=13014ms | cum=17189ms
+2026-07-20 15:24:33 | SCALE | 6_resolution_200 | step=131ms | cum=17320ms
+2026-07-20 15:24:33 | SCALE | 7_collect_views | step=84ms | cum=17404ms
+2026-07-20 15:24:34 | SCALE | 8_group_scale | step=596ms | cum=18000ms
+2026-07-20 15:24:34 | SCALE | 9_fill_bg | step=158ms | cum=18158ms
+2026-07-20 15:24:35 | SCALE | 10_ungroup_views | step=542ms | cum=18700ms
+2026-07-20 15:24:35 | SCALE | 11_zoom | step=487ms | cum=19187ms
+2026-07-20 15:24:35 | SCALE | DONE | AI queue=122ms wait=11888ms copy=1109ms mode=job_link
+2026-07-20 15:24:35 | SCALE | 1_selection: 2ms (cum 2ms) || 1b_hanger_list: 0ms (cum 2ms) || 2_queue_AI: 130ms (cum 132ms) || 3_dialog: 4043ms (cum 4175ms) || 4_calc_scale: 0ms (cum 4175ms) || 5_wait_copy_AI: 13014ms (cum 17189ms) || 6_resolution_200: 131ms (cum 17320ms) || 7_collect_views: 84ms (cum 17404ms) || 8_group_scale: 596ms (cum 18000ms) || 9_fill_bg: 158ms (cum 18158ms) || 10_ungroup_views: 542ms (cum 18700ms) || 11_zoom: 487ms (cum 19187ms) || TOTAL: 19189ms
+2026-07-20 15:24:35 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 15:26:17 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 15:26:17 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-20 15:26:17 | SCALE | 1b_hanger_list | step=0ms | cum=0ms
+2026-07-20 15:26:17 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 15:26:17 | PS_AI | FINE27.COMP027_DI_07152026 | queue | mode=job_link | check=15ms | resolve=183ms | write_job=0ms | total=198ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\FINE27.COMP027_DI_07152026.jpg
+2026-07-20 15:26:17 | SCALE | 2_queue_AI | step=198ms | cum=198ms
+2026-07-20 15:26:20 | SCALE | 3_dialog | step=2891ms | cum=3089ms
+2026-07-20 15:26:20 | SCALE | 4_calc_scale | step=1ms | cum=3090ms
+2026-07-20 15:26:20 | PS_AI | FINE27.COMP027_DI_07152026 | phase=waitAndCopy | START
+2026-07-20 15:26:30 | DETECTOR | FINE27.COMP027_DI_07152026 | mode=original send=1800x1199 lm=11046ms views=263ms json=1ms total=11465ms
+2026-07-20 15:26:31 | PS_AI | FINE27.COMP027_DI_07152026 | wait | ok | waited=10990ms | polls=36
+2026-07-20 15:26:32 | PS_AI | FINE27.COMP027_DI_07152026 | copy | views=7 | read_json=1ms | cptl=1113ms | total=1135ms
+2026-07-20 15:26:32 | PS_AI | FINE27.COMP027_DI_07152026 | waitAndCopy TOTAL | wait=10990ms | copy=1135ms | total=12139ms
+2026-07-20 15:26:32 | SCALE | 5_wait_copy_AI | step=12148ms | cum=15238ms
+2026-07-20 15:26:32 | SCALE | 6_resolution_200 | step=126ms | cum=15364ms
+2026-07-20 15:26:32 | SCALE | 7_collect_views | step=83ms | cum=15447ms
+2026-07-20 15:26:33 | SCALE | 8_group_scale | step=638ms | cum=16085ms
+2026-07-20 15:26:33 | SCALE | 9_fill_bg | step=151ms | cum=16236ms
+2026-07-20 15:26:33 | SCALE | 10_ungroup_views | step=570ms | cum=16806ms
+2026-07-20 15:26:34 | SCALE | 11_zoom | step=489ms | cum=17295ms
+2026-07-20 15:26:34 | SCALE | DONE | AI queue=198ms wait=10990ms copy=1135ms mode=job_link
+2026-07-20 15:26:34 | SCALE | 1_selection: 0ms (cum 0ms) || 1b_hanger_list: 0ms (cum 0ms) || 2_queue_AI: 198ms (cum 198ms) || 3_dialog: 2891ms (cum 3089ms) || 4_calc_scale: 1ms (cum 3090ms) || 5_wait_copy_AI: 12148ms (cum 15238ms) || 6_resolution_200: 126ms (cum 15364ms) || 7_collect_views: 83ms (cum 15447ms) || 8_group_scale: 638ms (cum 16085ms) || 9_fill_bg: 151ms (cum 16236ms) || 10_ungroup_views: 570ms (cum 16806ms) || 11_zoom: 489ms (cum 17295ms) || TOTAL: 17296ms
+2026-07-20 15:26:34 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 15:28:38 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 15:28:38 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 15:28:38 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 15:28:45 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 15:28:46 | PS_AI | FINE27.COMP027_DI_07152026 | queue | mode=job_link | check=2ms | resolve=1039ms | write_job=0ms | total=1041ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\FINE27.COMP027_DI_07152026.jpg
+2026-07-20 15:28:46 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 15:28:46 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-20 15:28:46 | SCALE | 1_selection | step=2ms | cum=3ms
+2026-07-20 15:28:46 | SCALE | 1b_hanger_list | step=1ms | cum=4ms
+2026-07-20 15:28:58 | SCALE | 3_dialog | step=11702ms | cum=11706ms
+2026-07-20 15:28:58 | SCALE | 4_calc_scale | step=0ms | cum=11706ms
+2026-07-20 15:28:58 | PS_AI | FINE27.COMP027_DI_07152026 | phase=waitAndCopy | START
+2026-07-20 15:29:00 | DETECTOR | FINE27.COMP027_DI_07152026 | mode=original send=1800x1199 lm=10774ms views=218ms json=1ms total=11130ms
+2026-07-20 15:29:00 | PS_AI | FINE27.COMP027_DI_07152026 | wait | ok | waited=1635ms | polls=5
+2026-07-20 15:29:01 | PS_AI | FINE27.COMP027_DI_07152026 | copy | views=7 | read_json=0ms | cptl=1137ms | total=1151ms
+2026-07-20 15:29:01 | PS_AI | FINE27.COMP027_DI_07152026 | waitAndCopy TOTAL | wait=1635ms | copy=1151ms | total=2800ms
+2026-07-20 15:29:01 | SCALE | 5_wait_copy_AI | step=2800ms | cum=14506ms
+2026-07-20 15:29:01 | SCALE | 6_resolution_200 | step=117ms | cum=14623ms
+2026-07-20 15:29:01 | SCALE | 7_collect_views | step=83ms | cum=14706ms
+2026-07-20 15:29:02 | SCALE | 8_group_scale | step=617ms | cum=15323ms
+2026-07-20 15:29:02 | SCALE | 9_fill_bg | step=137ms | cum=15460ms
+2026-07-20 15:29:02 | SCALE | 10_ungroup_views | step=528ms | cum=15988ms
+2026-07-20 15:29:03 | SCALE | 11_zoom | step=472ms | cum=16460ms
+2026-07-20 15:29:03 | SCALE | DONE | AI queue=1043ms wait=1635ms copy=1151ms mode=job_link
+2026-07-20 15:29:03 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 2ms (cum 3ms) || 1b_hanger_list: 1ms (cum 4ms) || 3_dialog: 11702ms (cum 11706ms) || 4_calc_scale: 0ms (cum 11706ms) || 5_wait_copy_AI: 2800ms (cum 14506ms) || 6_resolution_200: 117ms (cum 14623ms) || 7_collect_views: 83ms (cum 14706ms) || 8_group_scale: 617ms (cum 15323ms) || 9_fill_bg: 137ms (cum 15460ms) || 10_ungroup_views: 528ms (cum 15988ms) || 11_zoom: 472ms (cum 16460ms) || TOTAL: 16462ms
+2026-07-20 15:29:03 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 15:29:34 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 15:29:34 | PS_AI | FINE27.COMP027_DI_07152026 | queue | mode=job_link | check=0ms | resolve=112ms | write_job=0ms | total=112ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\FINE27.COMP027_DI_07152026.jpg
+2026-07-20 15:29:34 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 15:29:34 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-20 15:30:24 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 15:30:24 | PS_AI | FINE27.COMP027_DI_07152026 | queue | mode=job_link | check=0ms | resolve=259ms | write_job=0ms | total=259ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\FINE27.COMP027_DI_07152026.jpg
+2026-07-20 15:30:24 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 15:30:24 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-20 15:30:24 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-20 15:30:24 | SCALE | 1b_hanger_list | step=0ms | cum=0ms
+2026-07-20 15:30:29 | SCALE | 3_dialog | step=5205ms | cum=5205ms
+2026-07-20 15:30:29 | SCALE | 4_calc_scale | step=0ms | cum=5205ms
+2026-07-20 15:30:29 | PS_AI | FINE27.COMP027_DI_07152026 | phase=waitAndCopy | START
+2026-07-20 15:30:39 | DETECTOR | FINE27.COMP027_DI_07152026 | mode=original send=1800x1199 lm=11597ms views=189ms json=1ms total=12093ms
+2026-07-20 15:30:39 | PS_AI | FINE27.COMP027_DI_07152026 | wait | ok | waited=9146ms | polls=30
+2026-07-20 15:30:40 | PS_AI | FINE27.COMP027_DI_07152026 | copy | views=7 | read_json=1ms | cptl=1015ms | total=1031ms
+2026-07-20 15:30:40 | PS_AI | FINE27.COMP027_DI_07152026 | waitAndCopy TOTAL | wait=9146ms | copy=1031ms | total=10193ms
+2026-07-20 15:30:40 | SCALE | 5_wait_copy_AI | step=10200ms | cum=15405ms
+2026-07-20 15:30:40 | SCALE | 6_resolution_200 | step=107ms | cum=15512ms
+2026-07-20 15:30:40 | SCALE | 7_collect_views | step=81ms | cum=15593ms
+2026-07-20 15:30:40 | SCALE | 8_group_scale | step=553ms | cum=16146ms
+2026-07-20 15:30:40 | SCALE | 9_fill_bg | step=122ms | cum=16268ms
+2026-07-20 15:30:41 | SCALE | 10_ungroup_views | step=524ms | cum=16792ms
+2026-07-20 15:30:41 | SCALE | 11_zoom | step=458ms | cum=17250ms
+2026-07-20 15:30:41 | SCALE | DONE | AI queue=259ms wait=9146ms copy=1031ms mode=job_link
+2026-07-20 15:30:41 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 0ms (cum 0ms) || 1b_hanger_list: 0ms (cum 0ms) || 3_dialog: 5205ms (cum 5205ms) || 4_calc_scale: 0ms (cum 5205ms) || 5_wait_copy_AI: 10200ms (cum 15405ms) || 6_resolution_200: 107ms (cum 15512ms) || 7_collect_views: 81ms (cum 15593ms) || 8_group_scale: 553ms (cum 16146ms) || 9_fill_bg: 122ms (cum 16268ms) || 10_ungroup_views: 524ms (cum 16792ms) || 11_zoom: 458ms (cum 17250ms) || TOTAL: 17251ms
+2026-07-20 15:30:41 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 16:10:00 | PS_AI | DF27.COMP017.11_DI_07072026 | phase=queue | START
+2026-07-20 16:10:00 | PS_AI | DF27.COMP017.11_DI_07072026 | queue | mode=job_link | check=0ms | resolve=708ms | write_job=1ms | total=710ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\DF27.COMP017.11_DI_07072026.jpg
+2026-07-20 16:10:00 | SCALE | === START DF27.COMP017.11_DI_07072026.jpg ===
+2026-07-20 16:10:00 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-20 16:10:00 | SCALE | 1_selection | step=2ms | cum=3ms
+2026-07-20 16:10:00 | SCALE | 1b_hanger_list | step=2ms | cum=5ms
+2026-07-20 16:10:14 | DETECTOR | DF27.COMP017.11_DI_07072026 | mode=original send=1365x917 lm=11751ms views=137ms json=1ms total=12057ms
+2026-07-20 16:10:21 | SCALE | 3_dialog | step=20582ms | cum=20587ms
+2026-07-20 16:10:21 | SCALE | 4_calc_scale | step=0ms | cum=20587ms
+2026-07-20 16:10:21 | PS_AI | DF27.COMP017.11_DI_07072026 | phase=waitAndCopy | START
+2026-07-20 16:10:21 | PS_AI | DF27.COMP017.11_DI_07072026 | wait | already_ready | 0ms
+2026-07-20 16:10:22 | PS_AI | DF27.COMP017.11_DI_07072026 | copy | views=7 | read_json=0ms | cptl=1090ms | total=1103ms
+2026-07-20 16:10:22 | PS_AI | DF27.COMP017.11_DI_07072026 | waitAndCopy TOTAL | wait=0ms | copy=1103ms | total=1103ms
+2026-07-20 16:10:22 | SCALE | 5_wait_copy_AI | step=1106ms | cum=21693ms
+2026-07-20 16:10:22 | SCALE | 6_resolution_200 | step=145ms | cum=21838ms
+2026-07-20 16:10:22 | SCALE | 7_collect_views | step=133ms | cum=21971ms
+2026-07-20 16:10:23 | SCALE | 8_group_scale | step=600ms | cum=22571ms
+2026-07-20 16:10:23 | SCALE | 9_fill_bg | step=127ms | cum=22698ms
+2026-07-20 16:10:24 | SCALE | 10_ungroup_views | step=568ms | cum=23266ms
+2026-07-20 16:10:24 | SCALE | 11_zoom | step=445ms | cum=23711ms
+2026-07-20 16:10:24 | SCALE | DONE | AI queue=710ms wait=?ms copy=1103ms mode=job_link
+2026-07-20 16:10:24 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 2ms (cum 3ms) || 1b_hanger_list: 2ms (cum 5ms) || 3_dialog: 20582ms (cum 20587ms) || 4_calc_scale: 0ms (cum 20587ms) || 5_wait_copy_AI: 1106ms (cum 21693ms) || 6_resolution_200: 145ms (cum 21838ms) || 7_collect_views: 133ms (cum 21971ms) || 8_group_scale: 600ms (cum 22571ms) || 9_fill_bg: 127ms (cum 22698ms) || 10_ungroup_views: 568ms (cum 23266ms) || 11_zoom: 445ms (cum 23711ms) || TOTAL: 23712ms
+2026-07-20 16:10:24 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 16:28:07 | PS_AI | DF27.COMP017.11_DI_07072026 | phase=queue | START
+2026-07-20 16:28:08 | PS_AI | DF27.COMP017.11_DI_07072026 | queue | mode=job_link | check=0ms | resolve=757ms | write_job=14ms | total=776ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\DF27.COMP017.11_DI_07072026.jpg
+2026-07-20 16:28:08 | SCALE | === START DF27.COMP017.11_DI_07072026.jpg ===
+2026-07-20 16:28:08 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-20 16:28:08 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-20 16:28:08 | SCALE | 1b_hanger_list | step=2ms | cum=4ms
+2026-07-20 16:28:17 | SCALE | 3_dialog | step=8919ms | cum=8923ms
+2026-07-20 16:28:17 | SCALE | 4_calc_scale | step=7ms | cum=8930ms
+2026-07-20 16:28:17 | PS_AI | DF27.COMP017.11_DI_07072026 | phase=waitAndCopy | START
+2026-07-20 16:28:20 | DETECTOR | DF27.COMP017.11_DI_07072026 | mode=original send=1365x917 lm=9761ms views=114ms json=1ms total=9922ms
+2026-07-20 16:28:20 | PS_AI | DF27.COMP017.11_DI_07072026 | wait | ok | waited=3393ms | polls=11
+2026-07-20 16:28:22 | PS_AI | DF27.COMP017.11_DI_07072026 | copy | views=7 | read_json=1ms | cptl=1301ms | total=1320ms
+2026-07-20 16:28:22 | PS_AI | DF27.COMP017.11_DI_07072026 | waitAndCopy TOTAL | wait=3393ms | copy=1320ms | total=4729ms
+2026-07-20 16:28:22 | SCALE | 5_wait_copy_AI | step=4736ms | cum=13666ms
+2026-07-20 16:28:22 | SCALE | 6_resolution_200 | step=120ms | cum=13786ms
+2026-07-20 16:28:22 | SCALE | 7_collect_views | step=129ms | cum=13915ms
+2026-07-20 16:28:23 | SCALE | 8_group_scale | step=752ms | cum=14667ms
+2026-07-20 16:28:23 | SCALE | 9_fill_bg | step=179ms | cum=14846ms
+2026-07-20 16:28:24 | SCALE | 10_ungroup_views | step=891ms | cum=15737ms
+2026-07-20 16:28:24 | SCALE | 11_zoom | step=481ms | cum=16218ms
+2026-07-20 16:28:24 | SCALE | DONE | AI queue=776ms wait=3393ms copy=1320ms mode=job_link
+2026-07-20 16:28:24 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 1ms (cum 2ms) || 1b_hanger_list: 2ms (cum 4ms) || 3_dialog: 8919ms (cum 8923ms) || 4_calc_scale: 7ms (cum 8930ms) || 5_wait_copy_AI: 4736ms (cum 13666ms) || 6_resolution_200: 120ms (cum 13786ms) || 7_collect_views: 129ms (cum 13915ms) || 8_group_scale: 752ms (cum 14667ms) || 9_fill_bg: 179ms (cum 14846ms) || 10_ungroup_views: 891ms (cum 15737ms) || 11_zoom: 481ms (cum 16218ms) || TOTAL: 16220ms
+2026-07-20 16:28:24 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 16:28:54 | PS_AI | DF27.COMP017.11_DI_07072026 | phase=queue | START
+2026-07-20 16:28:54 | PS_AI | DF27.COMP017.11_DI_07072026 | queue | mode=job_link | check=0ms | resolve=130ms | write_job=2ms | total=132ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\DF27.COMP017.11_DI_07072026.jpg
+2026-07-20 16:28:55 | SCALE | === START DF27.COMP017.11_DI_07072026.jpg ===
+2026-07-20 16:28:55 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-20 16:28:55 | SCALE | 1_selection | step=2ms | cum=3ms
+2026-07-20 16:28:55 | SCALE | 1b_hanger_list | step=1ms | cum=4ms
+2026-07-20 16:29:00 | SCALE | 3_dialog | step=5730ms | cum=5734ms
+2026-07-20 16:29:00 | SCALE | 4_calc_scale | step=4ms | cum=5738ms
+2026-07-20 16:29:00 | PS_AI | DF27.COMP017.11_DI_07072026 | phase=waitAndCopy | START
+2026-07-20 16:29:06 | DETECTOR | DF27.COMP017.11_DI_07072026 | mode=original send=1365x917 lm=9723ms views=134ms json=4ms total=9899ms
+2026-07-20 16:29:07 | PS_AI | DF27.COMP017.11_DI_07072026 | wait | ok | waited=6411ms | polls=21
+2026-07-20 16:29:08 | PS_AI | DF27.COMP017.11_DI_07072026 | copy | views=7 | read_json=0ms | cptl=1165ms | total=1184ms
+2026-07-20 16:29:08 | PS_AI | DF27.COMP017.11_DI_07072026 | waitAndCopy TOTAL | wait=6411ms | copy=1184ms | total=7612ms
+2026-07-20 16:29:08 | SCALE | 5_wait_copy_AI | step=7617ms | cum=13355ms
+2026-07-20 16:29:08 | SCALE | 6_resolution_200 | step=109ms | cum=13464ms
+2026-07-20 16:29:08 | SCALE | 7_collect_views | step=124ms | cum=13588ms
+2026-07-20 16:29:09 | SCALE | 8_group_scale | step=725ms | cum=14313ms
+2026-07-20 16:29:09 | SCALE | 9_fill_bg | step=140ms | cum=14453ms
+2026-07-20 16:29:10 | SCALE | 10_ungroup_views | step=856ms | cum=15309ms
+2026-07-20 16:29:10 | SCALE | 11_zoom | step=493ms | cum=15802ms
+2026-07-20 16:29:10 | SCALE | DONE | AI queue=132ms wait=6411ms copy=1184ms mode=job_link
+2026-07-20 16:29:10 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 2ms (cum 3ms) || 1b_hanger_list: 1ms (cum 4ms) || 3_dialog: 5730ms (cum 5734ms) || 4_calc_scale: 4ms (cum 5738ms) || 5_wait_copy_AI: 7617ms (cum 13355ms) || 6_resolution_200: 109ms (cum 13464ms) || 7_collect_views: 124ms (cum 13588ms) || 8_group_scale: 725ms (cum 14313ms) || 9_fill_bg: 140ms (cum 14453ms) || 10_ungroup_views: 856ms (cum 15309ms) || 11_zoom: 493ms (cum 15802ms) || TOTAL: 15804ms
+2026-07-20 16:29:10 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 16:29:51 | PS_AI | DF27.COMP017.11_DI_07072026 | phase=queue | START
+2026-07-20 16:29:51 | PS_AI | DF27.COMP017.11_DI_07072026 | queue | mode=job_link | check=0ms | resolve=243ms | write_job=0ms | total=243ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\DF27.COMP017.11_DI_07072026.jpg
+2026-07-20 16:29:51 | SCALE | === START DF27.COMP017.11_DI_07072026.jpg ===
+2026-07-20 16:29:51 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-20 16:29:51 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-20 16:29:51 | SCALE | 1b_hanger_list | step=2ms | cum=4ms
+2026-07-20 16:29:59 | SCALE | 3_dialog | step=8416ms | cum=8420ms
+2026-07-20 16:29:59 | SCALE | 4_calc_scale | step=13ms | cum=8433ms
+2026-07-20 16:29:59 | PS_AI | DF27.COMP017.11_DI_07072026 | phase=waitAndCopy | START
+2026-07-20 16:30:03 | DETECTOR | DF27.COMP017.11_DI_07072026 | mode=original send=1365x917 lm=9856ms views=134ms json=1ms total=10030ms
+2026-07-20 16:30:03 | PS_AI | DF27.COMP017.11_DI_07072026 | wait | ok | waited=3743ms | polls=12
+2026-07-20 16:30:04 | PS_AI | DF27.COMP017.11_DI_07072026 | copy | views=7 | read_json=0ms | cptl=1189ms | total=1220ms
+2026-07-20 16:30:04 | PS_AI | DF27.COMP017.11_DI_07072026 | waitAndCopy TOTAL | wait=3743ms | copy=1220ms | total=4976ms
+2026-07-20 16:30:04 | SCALE | 5_wait_copy_AI | step=4979ms | cum=13412ms
+2026-07-20 16:30:04 | SCALE | 6_resolution_200 | step=111ms | cum=13523ms
+2026-07-20 16:30:05 | SCALE | 7_collect_views | step=123ms | cum=13646ms
+2026-07-20 16:30:05 | SCALE | 8_group_scale | step=718ms | cum=14364ms
+2026-07-20 16:30:05 | SCALE | 9_fill_bg | step=171ms | cum=14535ms
+2026-07-20 16:30:06 | SCALE | 10_ungroup_views | step=869ms | cum=15404ms
+2026-07-20 16:30:07 | SCALE | 11_zoom | step=474ms | cum=15878ms
+2026-07-20 16:30:07 | SCALE | DONE | AI queue=243ms wait=3743ms copy=1220ms mode=job_link
+2026-07-20 16:30:07 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 1ms (cum 2ms) || 1b_hanger_list: 2ms (cum 4ms) || 3_dialog: 8416ms (cum 8420ms) || 4_calc_scale: 13ms (cum 8433ms) || 5_wait_copy_AI: 4979ms (cum 13412ms) || 6_resolution_200: 111ms (cum 13523ms) || 7_collect_views: 123ms (cum 13646ms) || 8_group_scale: 718ms (cum 14364ms) || 9_fill_bg: 171ms (cum 14535ms) || 10_ungroup_views: 869ms (cum 15404ms) || 11_zoom: 474ms (cum 15878ms) || TOTAL: 15878ms
+2026-07-20 16:30:07 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-20 16:41:18 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 16:41:18 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 16:41:18 | PS_AI | FINE27.COMP027_DI_07152026 | queue | mode=job_link | check=0ms | resolve=492ms | write_job=0ms | total=492ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\FINE27.COMP027_DI_07152026.jpg
+2026-07-20 16:41:18 | SCALE | 0_queue_AI | step=507ms | cum=507ms
+2026-07-20 16:41:18 | SCALE | 1_selection | step=0ms | cum=507ms
+2026-07-20 16:41:18 | SCALE | 1b_hanger_list | step=0ms | cum=507ms
+2026-07-20 16:41:37 | DETECTOR | FINE27.COMP027_DI_07152026 | mode=original send=1800x1199 lm=14393ms views=246ms json=1ms total=16692ms
+2026-07-20 16:41:47 | SCALE | 3_dialog | step=28483ms | cum=28990ms
+2026-07-20 16:41:47 | SCALE | CANCEL dialog | 0_queue_AI: 507ms (cum 507ms) | 1_selection: 0ms (cum 507ms) | 1b_hanger_list: 0ms (cum 507ms) | 3_dialog: 28483ms (cum 28990ms) | TOTAL: 28990ms
+2026-07-20 16:41:59 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 16:41:59 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 16:42:09 | SCALE | === START FINE27.COMP027_DI_07152026.jpg ===
+2026-07-20 16:42:09 | PS_AI | FINE27.COMP027_DI_07152026 | phase=queue | START
+2026-07-20 16:42:09 | PS_AI | FINE27.COMP027_DI_07152026 | queue | mode=job_link | check=0ms | resolve=133ms | write_job=0ms | total=133ms | path=M:\departments\Share\2D (HandDrawing)\20.07\Scale 3D\KS\Finish\FINE27.COMP027_DI_07152026.jpg
+2026-07-20 16:42:09 | SCALE | 0_queue_AI | step=133ms | cum=133ms
+2026-07-20 16:42:09 | SCALE | 1_selection | step=0ms | cum=133ms
+2026-07-20 16:42:09 | SCALE | 1b_hanger_list | step=16ms | cum=149ms
+2026-07-20 16:42:09 | PS_AI | FINE27.COMP027_DI_07152026 | phase=waitOnly | START
+2026-07-20 16:42:23 | DETECTOR | FINE27.COMP027_DI_07152026 | mode=original send=1800x1199 lm=11309ms views=186ms json=1ms total=11608ms
+2026-07-20 16:42:23 | PS_AI | FINE27.COMP027_DI_07152026 | wait | ok | waited=13993ms | polls=46
+2026-07-20 16:42:23 | PS_AI | FINE27.COMP027_DI_07152026 | waitOnly | ok | wait=13993ms | drawing=889971 | brand=14k | total=14010ms
+2026-07-20 16:42:23 | SCALE | 2_wait_AI | step=14013ms | cum=14162ms
+2026-07-20 16:43:07 | SCALE | 3_dialog | step=44336ms | cum=58498ms
+2026-07-20 16:43:07 | SCALE | CANCEL dialog | 0_queue_AI: 133ms (cum 133ms) | 1_selection: 0ms (cum 133ms) | 1b_hanger_list: 16ms (cum 149ms) | 2_wait_AI: 14013ms (cum 14162ms) | 3_dialog: 44336ms (cum 58498ms) | TOTAL: 58498ms
+2026-07-21 14:09:18 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 14:09:18 | SCALE | === START 889524-A.jpg ===
+2026-07-21 14:09:18 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 14:10:47 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 14:10:47 | SCALE | === START 889524-A.jpg ===
+2026-07-21 14:10:47 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 14:11:08 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 14:11:08 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\889524-A.jpg
+2026-07-21 14:11:08 | SCALE | === START 889524-A.jpg ===
+2026-07-21 14:11:08 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 14:11:08 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 14:11:08 | SCALE | 1b_hanger_list | step=0ms | cum=0ms
+2026-07-21 14:11:08 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 14:11:27 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=13118ms views=211ms json=1ms total=16574ms
+2026-07-21 14:11:27 | PS_AI | 889524-A | wait | ok | waited=18894ms | polls=62
+2026-07-21 14:11:27 | PS_AI | 889524-A | waitOnly | ok | wait=18894ms | drawing=889524 | brand=14k | total=18915ms
+2026-07-21 14:11:27 | SCALE | 2_wait_AI | step=18915ms | cum=18915ms
+2026-07-21 14:11:37 | SCALE | 3_dialog | step=10100ms | cum=29015ms
+2026-07-21 14:11:37 | SCALE | 4_calc_scale | step=0ms | cum=29015ms
+2026-07-21 14:11:37 | PS_AI | 889524-A | phase=copyOnly | START
+2026-07-21 14:11:37 | PS_AI | 889524-A | sheet | drawing=889524 | metal=14K | brand=14k
+2026-07-21 14:11:38 | PS_AI | 889524-A | copy | views=7 | read_json=0ms | cptl=684ms | total=715ms
+2026-07-21 14:11:38 | PS_AI | 889524-A | copyOnly | views=7 | total=715ms
+2026-07-21 14:11:38 | SCALE | 5_copy_AI | step=715ms | cum=29730ms
+2026-07-21 14:11:38 | SCALE | 6_resolution_200 | step=121ms | cum=29851ms
+2026-07-21 14:11:38 | SCALE | 7_collect_views | step=16ms | cum=29867ms
+2026-07-21 14:11:38 | SCALE | 8_group_scale | step=304ms | cum=30171ms
+2026-07-21 14:11:39 | SCALE | 9_fill_bg | step=69ms | cum=30240ms
+2026-07-21 14:11:39 | SCALE | 10_ungroup_views | step=260ms | cum=30500ms
+2026-07-21 14:11:39 | SCALE | 11_zoom | step=497ms | cum=30997ms
+2026-07-21 14:11:39 | SCALE | DONE | AI queue=?ms wait=18894ms copy=715ms mode=job_link
+2026-07-21 14:11:39 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 0ms (cum 0ms) || 1b_hanger_list: 0ms (cum 0ms) || 2_wait_AI: 18915ms (cum 18915ms) || 3_dialog: 10100ms (cum 29015ms) || 4_calc_scale: 0ms (cum 29015ms) || 5_copy_AI: 715ms (cum 29730ms) || 6_resolution_200: 121ms (cum 29851ms) || 7_collect_views: 16ms (cum 29867ms) || 8_group_scale: 304ms (cum 30171ms) || 9_fill_bg: 69ms (cum 30240ms) || 10_ungroup_views: 260ms (cum 30500ms) || 11_zoom: 497ms (cum 30997ms) || TOTAL: 30998ms
+2026-07-21 14:11:39 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-21 14:28:39 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 14:28:39 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=1ms | write_job=1ms | total=3ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 14:28:39 | SCALE | === START 889524-A.jpg ===
+2026-07-21 14:28:39 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 14:28:39 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-21 14:28:39 | SCALE | 1b_hanger_list | step=1ms | cum=2ms
+2026-07-21 14:28:39 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 14:28:52 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=10425ms views=150ms json=1ms total=10577ms
+2026-07-21 14:28:52 | PS_AI | 889524-A | wait | ok | waited=12805ms | polls=42
+2026-07-21 14:28:52 | PS_AI | 889524-A | waitOnly | ok | wait=12805ms | drawing=889524 | brand=14k | total=12820ms
+2026-07-21 14:28:52 | SCALE | 2_wait_AI | step=12823ms | cum=12825ms
+2026-07-21 14:29:20 | SCALE | 3_dialog | step=27812ms | cum=40637ms
+2026-07-21 14:29:20 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1b_hanger_list: 1ms (cum 2ms) | 2_wait_AI: 12823ms (cum 12825ms) | 3_dialog: 27812ms (cum 40637ms) | TOTAL: 40637ms
+2026-07-21 15:03:46 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 15:03:46 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=2ms | write_job=0ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 15:03:46 | SCALE | === START 889524-A.jpg ===
+2026-07-21 15:03:46 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-21 15:03:46 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-21 15:03:46 | SCALE | 1b_hanger_list | step=1ms | cum=3ms
+2026-07-21 15:03:46 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 15:04:05 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=11243ms views=151ms json=1ms total=16293ms
+2026-07-21 15:04:05 | PS_AI | 889524-A | wait | ok | waited=18531ms | polls=61
+2026-07-21 15:04:05 | PS_AI | 889524-A | waitOnly | ok | wait=18531ms | drawing=889524 | brand=14k | total=18545ms
+2026-07-21 15:04:05 | SCALE | 2_wait_AI | step=18547ms | cum=18550ms
+2026-07-21 15:04:10 | SCALE | 3_dialog | step=4965ms | cum=23515ms
+2026-07-21 15:04:10 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1b_hanger_list: 1ms (cum 3ms) | 2_wait_AI: 18547ms (cum 18550ms) | 3_dialog: 4965ms (cum 23515ms) | TOTAL: 23515ms
+2026-07-21 15:06:38 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 15:06:38 | PS_AI | 889524-A | queue | mode=job_link | check=1ms | resolve=1ms | write_job=1ms | total=3ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 15:06:38 | SCALE | === START 889524-A.jpg ===
+2026-07-21 15:06:38 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-21 15:06:38 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-21 15:06:38 | SCALE | 1b_hanger_list | step=1ms | cum=3ms
+2026-07-21 15:06:38 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 15:06:54 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=10862ms views=153ms json=1ms total=13794ms
+2026-07-21 15:06:54 | PS_AI | 889524-A | wait | ok | waited=16115ms | polls=53
+2026-07-21 15:06:54 | PS_AI | 889524-A | waitOnly | ok | wait=16115ms | drawing=889524 | brand=14k | total=16131ms
+2026-07-21 15:06:54 | SCALE | 2_wait_AI | step=16133ms | cum=16136ms
+2026-07-21 15:07:08 | SCALE | 3_dialog | step=13372ms | cum=29508ms
+2026-07-21 15:07:08 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1b_hanger_list: 1ms (cum 3ms) | 2_wait_AI: 16133ms (cum 16136ms) | 3_dialog: 13372ms (cum 29508ms) | TOTAL: 29510ms
+2026-07-21 15:07:14 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 15:07:14 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=1ms | write_job=1ms | total=4ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 15:07:14 | SCALE | === START 889524-A.jpg ===
+2026-07-21 15:07:14 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-21 15:07:14 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-21 15:07:14 | SCALE | 1b_hanger_list | step=1ms | cum=3ms
+2026-07-21 15:07:14 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 15:07:33 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=13346ms views=154ms json=1ms total=16251ms
+2026-07-21 15:07:33 | PS_AI | 889524-A | wait | ok | waited=18644ms | polls=61
+2026-07-21 15:07:33 | PS_AI | 889524-A | waitOnly | ok | wait=18644ms | drawing=889524 | brand=14k | total=18655ms
+2026-07-21 15:07:33 | SCALE | 2_wait_AI | step=18657ms | cum=18660ms
+2026-07-21 15:09:23 | SCALE | 3_dialog | step=110522ms | cum=129182ms
+2026-07-21 15:09:23 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1b_hanger_list: 1ms (cum 3ms) | 2_wait_AI: 18657ms (cum 18660ms) | 3_dialog: 110522ms (cum 129182ms) | TOTAL: 129182ms
+2026-07-21 15:09:33 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 15:09:33 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=2ms | write_job=0ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 15:09:33 | SCALE | === START 889524-A.jpg ===
+2026-07-21 15:09:33 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-21 15:09:33 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-21 15:09:33 | SCALE | 1b_hanger_list | step=1ms | cum=3ms
+2026-07-21 15:09:33 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 15:09:52 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=14007ms views=146ms json=1ms total=16915ms
+2026-07-21 15:09:52 | PS_AI | 889524-A | wait | ok | waited=19171ms | polls=63
+2026-07-21 15:09:52 | PS_AI | 889524-A | waitOnly | ok | wait=19171ms | drawing=889524 | brand=14k | total=19182ms
+2026-07-21 15:09:52 | SCALE | 2_wait_AI | step=19185ms | cum=19188ms
+2026-07-21 15:09:56 | SCALE | 3_dialog | step=4423ms | cum=23611ms
+2026-07-21 15:09:56 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1b_hanger_list: 1ms (cum 3ms) | 2_wait_AI: 19185ms (cum 19188ms) | 3_dialog: 4423ms (cum 23611ms) | TOTAL: 23611ms
+2026-07-21 15:17:51 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 15:17:51 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=15ms | write_job=0ms | total=15ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 15:17:51 | SCALE | === START 889524-A.jpg ===
+2026-07-21 15:17:51 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 15:17:51 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 15:17:51 | SCALE | 1c_sel_crop | step=181ms | cum=181ms
+2026-07-21 15:17:51 | SCALE | 1b_hanger_list | step=0ms | cum=181ms
+2026-07-21 15:17:51 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 15:18:14 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=15231ms views=152ms json=1ms total=20997ms
+2026-07-21 15:18:14 | PS_AI | 889524-A | wait | ok | waited=23067ms | polls=76
+2026-07-21 15:18:14 | PS_AI | 889524-A | waitOnly | ok | wait=23067ms | drawing=889524 | brand=14k | total=23078ms
+2026-07-21 15:18:14 | SCALE | 2_wait_AI | step=23082ms | cum=23263ms
+2026-07-21 15:18:42 | SCALE | 3_dialog | step=28091ms | cum=51354ms
+2026-07-21 15:18:42 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 181ms (cum 181ms) | 1b_hanger_list: 0ms (cum 181ms) | 2_wait_AI: 23082ms (cum 23263ms) | 3_dialog: 28091ms (cum 51354ms) | TOTAL: 51354ms
+2026-07-21 16:08:38 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:08:38 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:08:38 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:08:58 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:08:58 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=2ms | write_job=0ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:08:58 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:08:58 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:08:58 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-21 16:08:58 | SCALE | 1c_sel_crop | step=226ms | cum=227ms
+2026-07-21 16:08:58 | SCALE | 1b_hanger_list | step=3ms | cum=230ms
+2026-07-21 16:08:58 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:09:17 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=12988ms views=249ms json=1ms total=17315ms
+2026-07-21 16:09:17 | PS_AI | 889060 A | wait | ok | waited=19214ms | polls=63
+2026-07-21 16:09:17 | PS_AI | 889060 A | waitOnly | ok | wait=19214ms | drawing=889060 | brand=14k | total=19226ms
+2026-07-21 16:09:17 | SCALE | 2_wait_AI | step=19229ms | cum=19459ms
+2026-07-21 16:09:23 | SCALE | 3_dialog | step=5545ms | cum=25004ms
+2026-07-21 16:09:23 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 226ms (cum 227ms) | 1b_hanger_list: 3ms (cum 230ms) | 2_wait_AI: 19229ms (cum 19459ms) | 3_dialog: 5545ms (cum 25004ms) | TOTAL: 25004ms
+2026-07-21 16:13:20 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:13:20 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:13:20 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:13:20 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:13:20 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 16:13:20 | SCALE | 1c_sel_crop | step=131ms | cum=131ms
+2026-07-21 16:13:20 | SCALE | 1b_hanger_list | step=0ms | cum=131ms
+2026-07-21 16:13:20 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:13:36 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=10752ms views=152ms json=1ms total=13707ms
+2026-07-21 16:13:36 | PS_AI | 889060 A | wait | ok | waited=15856ms | polls=52
+2026-07-21 16:13:36 | PS_AI | 889060 A | waitOnly | ok | wait=15856ms | drawing=889060 | brand=14k | total=15874ms
+2026-07-21 16:13:36 | SCALE | 2_wait_AI | step=15875ms | cum=16006ms
+2026-07-21 16:13:45 | SCALE | 3_dialog | step=8947ms | cum=24953ms
+2026-07-21 16:13:45 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 131ms (cum 131ms) | 1b_hanger_list: 0ms (cum 131ms) | 2_wait_AI: 15875ms (cum 16006ms) | 3_dialog: 8947ms (cum 24953ms) | TOTAL: 24955ms
+2026-07-21 16:13:51 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:13:51 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=1ms | write_job=1ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:13:52 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:13:52 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-21 16:13:52 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-21 16:13:52 | SCALE | 1c_sel_crop | step=127ms | cum=129ms
+2026-07-21 16:13:52 | SCALE | 1b_hanger_list | step=2ms | cum=131ms
+2026-07-21 16:13:52 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:14:08 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=10882ms views=132ms json=1ms total=13860ms
+2026-07-21 16:14:08 | PS_AI | 889060 A | wait | ok | waited=16132ms | polls=53
+2026-07-21 16:14:08 | PS_AI | 889060 A | waitOnly | ok | wait=16132ms | drawing=889060 | brand=14k | total=16148ms
+2026-07-21 16:14:08 | SCALE | 2_wait_AI | step=16150ms | cum=16281ms
+2026-07-21 16:14:29 | SCALE | 3_dialog | step=21033ms | cum=37314ms
+2026-07-21 16:14:29 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 127ms (cum 129ms) | 1b_hanger_list: 2ms (cum 131ms) | 2_wait_AI: 16150ms (cum 16281ms) | 3_dialog: 21033ms (cum 37314ms) | TOTAL: 37314ms
+2026-07-21 16:17:40 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:17:40 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:17:40 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:17:40 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:17:40 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 16:17:40 | SCALE | 1c_sel_crop | step=124ms | cum=124ms
+2026-07-21 16:17:40 | SCALE | 1b_hanger_list | step=7ms | cum=131ms
+2026-07-21 16:17:40 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:17:57 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=11030ms views=164ms json=0ms total=14161ms
+2026-07-21 16:17:57 | PS_AI | 889060 A | wait | ok | waited=16463ms | polls=54
+2026-07-21 16:17:57 | PS_AI | 889060 A | waitOnly | ok | wait=16463ms | drawing=889060 | brand=14k | total=16476ms
+2026-07-21 16:17:57 | SCALE | 2_wait_AI | step=16476ms | cum=16607ms
+2026-07-21 16:18:16 | SCALE | 3_dialog | step=18989ms | cum=35596ms
+2026-07-21 16:18:16 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 124ms (cum 124ms) | 1b_hanger_list: 7ms (cum 131ms) | 2_wait_AI: 16476ms (cum 16607ms) | 3_dialog: 18989ms (cum 35596ms) | TOTAL: 35598ms
+2026-07-21 16:18:31 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:18:31 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=15ms | write_job=0ms | total=15ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:18:31 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:18:31 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:18:31 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 16:18:32 | SCALE | 1c_sel_crop | step=140ms | cum=140ms
+2026-07-21 16:18:32 | SCALE | 1b_hanger_list | step=2ms | cum=142ms
+2026-07-21 16:18:32 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:18:47 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=11199ms views=144ms json=1ms total=13995ms
+2026-07-21 16:18:48 | PS_AI | 889060 A | wait | ok | waited=16168ms | polls=53
+2026-07-21 16:18:48 | PS_AI | 889060 A | waitOnly | ok | wait=16168ms | drawing=889060 | brand=14k | total=16184ms
+2026-07-21 16:18:48 | SCALE | 2_wait_AI | step=16187ms | cum=16329ms
+2026-07-21 16:18:53 | SCALE | 3_dialog | step=5204ms | cum=21533ms
+2026-07-21 16:18:53 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 140ms (cum 140ms) | 1b_hanger_list: 2ms (cum 142ms) | 2_wait_AI: 16187ms (cum 16329ms) | 3_dialog: 5204ms (cum 21533ms) | TOTAL: 21542ms
+2026-07-21 16:19:14 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:19:14 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:19:14 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:19:19 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:19:19 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=1ms | write_job=0ms | total=1ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:19:19 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:19:19 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:19:19 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 16:19:20 | SCALE | 1c_sel_crop | step=159ms | cum=159ms
+2026-07-21 16:19:20 | SCALE | 1b_hanger_list | step=0ms | cum=159ms
+2026-07-21 16:19:20 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:19:39 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=14153ms views=169ms json=1ms total=17077ms
+2026-07-21 16:19:39 | PS_AI | 889060 A | wait | ok | waited=19236ms | polls=63
+2026-07-21 16:19:39 | PS_AI | 889060 A | waitOnly | ok | wait=19236ms | drawing=889060 | brand=14k | total=19460ms
+2026-07-21 16:19:39 | SCALE | 2_wait_AI | step=19468ms | cum=19627ms
+2026-07-21 16:19:45 | SCALE | 3_dialog | step=6231ms | cum=25858ms
+2026-07-21 16:19:45 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 159ms (cum 159ms) | 1b_hanger_list: 0ms (cum 159ms) | 2_wait_AI: 19468ms (cum 19627ms) | 3_dialog: 6231ms (cum 25858ms) | TOTAL: 25858ms
+2026-07-21 16:24:55 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:24:55 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:24:55 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:24:55 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:24:55 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 16:24:56 | SCALE | 1c_sel_crop | step=254ms | cum=254ms
+2026-07-21 16:24:56 | SCALE | 1b_hanger_list | step=5ms | cum=259ms
+2026-07-21 16:24:56 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:25:17 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=13695ms views=164ms json=1ms total=19331ms
+2026-07-21 16:25:17 | PS_AI | 889060 A | wait | ok | waited=21422ms | polls=70
+2026-07-21 16:25:17 | PS_AI | 889060 A | waitOnly | ok | wait=21422ms | drawing=889060 | brand=14k | total=21641ms
+2026-07-21 16:25:17 | SCALE | 2_wait_AI | step=21642ms | cum=21901ms
+2026-07-21 16:25:35 | SCALE | 3_dialog | step=17986ms | cum=39887ms
+2026-07-21 16:25:35 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 254ms (cum 254ms) | 1b_hanger_list: 5ms (cum 259ms) | 2_wait_AI: 21642ms (cum 21901ms) | 3_dialog: 17986ms (cum 39887ms) | TOTAL: 39887ms
+2026-07-21 16:29:20 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:29:20 | PS_AI | 889060 A | queue | mode=job_link | check=1ms | resolve=2ms | write_job=0ms | total=3ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:29:20 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:29:20 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:29:20 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-21 16:29:21 | SCALE | 1c_sel_crop | step=246ms | cum=247ms
+2026-07-21 16:29:21 | SCALE | 1b_hanger_list | step=2ms | cum=249ms
+2026-07-21 16:29:21 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:29:39 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=13250ms views=157ms json=1ms total=16271ms
+2026-07-21 16:29:39 | PS_AI | 889060 A | wait | ok | waited=18267ms | polls=60
+2026-07-21 16:29:39 | PS_AI | 889060 A | waitOnly | ok | wait=18267ms | drawing=889060 | brand=14k | total=18487ms
+2026-07-21 16:29:39 | SCALE | 2_wait_AI | step=18490ms | cum=18739ms
+2026-07-21 16:31:11 | SCALE | 3_dialog | step=92065ms | cum=110804ms
+2026-07-21 16:31:11 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 246ms (cum 247ms) | 1b_hanger_list: 2ms (cum 249ms) | 2_wait_AI: 18490ms (cum 18739ms) | 3_dialog: 92065ms (cum 110804ms) | TOTAL: 110819ms
+2026-07-21 16:31:42 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:31:42 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:31:42 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:31:42 | SCALE | 0_queue_AI | step=13ms | cum=13ms
+2026-07-21 16:31:42 | SCALE | 1_selection | step=0ms | cum=13ms
+2026-07-21 16:31:42 | SCALE | 1c_sel_crop | step=227ms | cum=240ms
+2026-07-21 16:31:42 | SCALE | 1b_hanger_list | step=0ms | cum=240ms
+2026-07-21 16:31:42 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:31:58 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=10975ms views=168ms json=1ms total=14047ms
+2026-07-21 16:31:58 | PS_AI | 889060 A | wait | ok | waited=16136ms | polls=51
+2026-07-21 16:31:59 | PS_AI | 889060 A | waitOnly | ok | wait=16136ms | drawing=889060 | brand=14k | total=16355ms
+2026-07-21 16:31:59 | SCALE | 2_wait_AI | step=16371ms | cum=16611ms
+2026-07-21 16:32:08 | SCALE | 3_dialog | step=9249ms | cum=25860ms
+2026-07-21 16:32:08 | SCALE | CANCEL dialog | 0_queue_AI: 13ms (cum 13ms) | 1_selection: 0ms (cum 13ms) | 1c_sel_crop: 227ms (cum 240ms) | 1b_hanger_list: 0ms (cum 240ms) | 2_wait_AI: 16371ms (cum 16611ms) | 3_dialog: 9249ms (cum 25860ms) | TOTAL: 25860ms
+2026-07-21 16:32:13 | PS_AI | 889060 A | phase=queue | START
+2026-07-21 16:32:13 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:32:13 | SCALE | === START 889060 A.jpg ===
+2026-07-21 16:32:13 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:32:13 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 16:32:13 | SCALE | 1c_sel_crop | step=230ms | cum=230ms
+2026-07-21 16:32:13 | SCALE | 1b_hanger_list | step=0ms | cum=230ms
+2026-07-21 16:32:13 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-21 16:32:29 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=11069ms views=136ms json=1ms total=13985ms
+2026-07-21 16:32:29 | PS_AI | 889060 A | wait | ok | waited=15860ms | polls=52
+2026-07-21 16:32:29 | PS_AI | 889060 A | waitOnly | ok | wait=15860ms | drawing=889060 | brand=14k | total=16078ms
+2026-07-21 16:32:29 | SCALE | 2_wait_AI | step=16085ms | cum=16315ms
+2026-07-21 16:32:34 | SCALE | 3_dialog | step=5119ms | cum=21434ms
+2026-07-21 16:32:34 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 230ms (cum 230ms) | 1b_hanger_list: 0ms (cum 230ms) | 2_wait_AI: 16085ms (cum 16315ms) | 3_dialog: 5119ms (cum 21434ms) | TOTAL: 21434ms
+2026-07-21 16:33:03 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 16:33:03 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:33:03 | SCALE | === START 889524-A.jpg ===
+2026-07-21 16:33:03 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:33:03 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 16:33:03 | SCALE | 1c_sel_crop | step=266ms | cum=266ms
+2026-07-21 16:33:03 | SCALE | 1b_hanger_list | step=0ms | cum=266ms
+2026-07-21 16:33:03 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 16:33:21 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=12715ms views=135ms json=1ms total=15715ms
+2026-07-21 16:33:21 | PS_AI | 889524-A | wait | ok | waited=17901ms | polls=58
+2026-07-21 16:33:22 | PS_AI | 889524-A | waitOnly | ok | wait=17901ms | drawing=889524 | brand=14k | total=18120ms
+2026-07-21 16:33:22 | SCALE | 2_wait_AI | step=18126ms | cum=18392ms
+2026-07-21 16:34:17 | SCALE | 3_dialog | step=55245ms | cum=73637ms
+2026-07-21 16:34:17 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 266ms (cum 266ms) | 1b_hanger_list: 0ms (cum 266ms) | 2_wait_AI: 18126ms (cum 18392ms) | 3_dialog: 55245ms (cum 73637ms) | TOTAL: 73639ms
+2026-07-21 16:42:14 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 16:42:14 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=3ms | write_job=0ms | total=3ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:42:14 | SCALE | === START 889524-A.jpg ===
+2026-07-21 16:42:14 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:42:14 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-21 16:42:14 | SCALE | 1c_sel_crop | step=223ms | cum=223ms
+2026-07-21 16:42:14 | SCALE | 1b_hanger_list | step=3ms | cum=226ms
+2026-07-21 16:42:14 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 16:42:29 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=10698ms views=149ms json=1ms total=13642ms
+2026-07-21 16:42:29 | PS_AI | 889524-A | wait | ok | waited=15622ms | polls=50
+2026-07-21 16:42:30 | PS_AI | 889524-A | waitOnly | ok | wait=15622ms | drawing=889524 | brand=14k | total=15843ms
+2026-07-21 16:42:30 | SCALE | 2_wait_AI | step=15846ms | cum=16072ms
+2026-07-21 16:42:43 | SCALE | 3_dialog | step=13849ms | cum=29921ms
+2026-07-21 16:42:43 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 223ms (cum 223ms) | 1b_hanger_list: 3ms (cum 226ms) | 2_wait_AI: 15846ms (cum 16072ms) | 3_dialog: 13849ms (cum 29921ms) | TOTAL: 29922ms
+2026-07-21 16:42:49 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 16:42:49 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=3ms | write_job=0ms | total=3ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:42:49 | SCALE | === START 889524-A.jpg ===
+2026-07-21 16:42:49 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-21 16:42:49 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-21 16:42:49 | SCALE | 1c_sel_crop | step=221ms | cum=222ms
+2026-07-21 16:42:49 | SCALE | 1b_hanger_list | step=2ms | cum=224ms
+2026-07-21 16:42:49 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 16:43:05 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=11169ms views=149ms json=1ms total=14165ms
+2026-07-21 16:43:06 | PS_AI | 889524-A | wait | ok | waited=16103ms | polls=50
+2026-07-21 16:43:06 | PS_AI | 889524-A | waitOnly | ok | wait=16103ms | drawing=889524 | brand=14k | total=16334ms
+2026-07-21 16:43:06 | SCALE | 2_wait_AI | step=16336ms | cum=16560ms
+2026-07-21 16:43:08 | SCALE | 3_dialog | step=2316ms | cum=18876ms
+2026-07-21 16:43:08 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 221ms (cum 222ms) | 1b_hanger_list: 2ms (cum 224ms) | 2_wait_AI: 16336ms (cum 16560ms) | 3_dialog: 2316ms (cum 18876ms) | TOTAL: 18877ms
+2026-07-21 16:43:19 | PS_AI | 889524-A | phase=queue | START
+2026-07-21 16:43:19 | PS_AI | 889524-A | queue | mode=job_link | check=0ms | resolve=2ms | write_job=0ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:43:19 | SCALE | === START 889524-A.jpg ===
+2026-07-21 16:43:19 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-21 16:43:19 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-21 16:43:19 | SCALE | 1c_sel_crop | step=213ms | cum=215ms
+2026-07-21 16:43:19 | SCALE | 1b_hanger_list | step=2ms | cum=217ms
+2026-07-21 16:43:19 | PS_AI | 889524-A | phase=waitOnly | START
+2026-07-21 16:43:35 | DETECTOR | 889524-A | mode=original send=1767x1176 lm=11109ms views=148ms json=1ms total=14037ms
+2026-07-21 16:43:35 | PS_AI | 889524-A | wait | ok | waited=16008ms | polls=51
+2026-07-21 16:43:35 | PS_AI | 889524-A | waitOnly | ok | wait=16008ms | drawing=889524 | brand=14k | total=16231ms
+2026-07-21 16:43:35 | SCALE | 2_wait_AI | step=16233ms | cum=16450ms
+2026-07-21 16:43:57 | SCALE | 3_dialog | step=22183ms | cum=38633ms
+2026-07-21 16:43:57 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 213ms (cum 215ms) | 1b_hanger_list: 2ms (cum 217ms) | 2_wait_AI: 16233ms (cum 16450ms) | 3_dialog: 22183ms (cum 38633ms) | TOTAL: 38633ms
+2026-07-22 09:06:43 | PS_AI | 889972-MOD | phase=queue | START
+2026-07-22 09:06:43 | PS_AI | 889972-MOD | queue | mode=job_link | check=0ms | resolve=53ms | write_job=0ms | total=53ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\889972-MOD.jpg
+2026-07-22 09:06:43 | SCALE | === START 889972-MOD.jpg ===
+2026-07-22 09:06:43 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 09:06:43 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 09:06:44 | SCALE | 1c_sel_crop | step=279ms | cum=279ms
+2026-07-22 09:06:44 | SCALE | 1b_hanger_list | step=0ms | cum=279ms
+2026-07-22 09:06:44 | PS_AI | 889972-MOD | phase=waitOnly | START
+2026-07-22 09:07:06 | DETECTOR | 889972-MOD | mode=original send=1790x1195 lm=12835ms views=257ms json=1ms total=20079ms
+2026-07-22 09:07:06 | PS_AI | 889972-MOD | wait | ok | waited=22275ms | polls=73
+2026-07-22 09:07:06 | PS_AI | 889972-MOD | waitOnly | ok | wait=22275ms | drawing=889972 | brand=14k | total=22499ms
+2026-07-22 09:07:06 | SCALE | 2_wait_AI | step=22503ms | cum=22782ms
+2026-07-22 09:07:27 | SCALE | 3_dialog | step=21086ms | cum=43868ms
+2026-07-22 09:07:27 | SCALE | 4_calc_scale | step=0ms | cum=43868ms
+2026-07-22 09:07:27 | PS_AI | 889972-MOD | phase=copyOnly | START
+2026-07-22 09:07:27 | PS_AI | 889972-MOD | sheet | drawing=889972 | metal=14K | brand=14k
+2026-07-22 09:07:29 | PS_AI | 889972-MOD | copy | views=7 | read_json=0ms | cptl=1252ms | total=1263ms
+2026-07-22 09:07:29 | PS_AI | 889972-MOD | copyOnly | views=7 | total=1263ms
+2026-07-22 09:07:29 | SCALE | 5_copy_AI | step=1274ms | cum=45142ms
+2026-07-22 09:07:29 | SCALE | 6_resolution_200 | step=132ms | cum=45274ms
+2026-07-22 09:07:29 | SCALE | 7_collect_views | step=10ms | cum=45284ms
+2026-07-22 09:07:29 | SCALE | 8_group_scale | step=376ms | cum=45660ms
+2026-07-22 09:07:29 | SCALE | 9_fill_bg | step=84ms | cum=45744ms
+2026-07-22 09:07:30 | SCALE | 10_ungroup_views | step=300ms | cum=46044ms
+2026-07-22 09:07:30 | SCALE | 11_zoom | step=496ms | cum=46540ms
+2026-07-22 09:07:30 | SCALE | DONE | AI queue=53ms wait=22275ms copy=1263ms mode=job_link
+2026-07-22 09:07:30 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 0ms (cum 0ms) || 1c_sel_crop: 279ms (cum 279ms) || 1b_hanger_list: 0ms (cum 279ms) || 2_wait_AI: 22503ms (cum 22782ms) || 3_dialog: 21086ms (cum 43868ms) || 4_calc_scale: 0ms (cum 43868ms) || 5_copy_AI: 1274ms (cum 45142ms) || 6_resolution_200: 132ms (cum 45274ms) || 7_collect_views: 10ms (cum 45284ms) || 8_group_scale: 376ms (cum 45660ms) || 9_fill_bg: 84ms (cum 45744ms) || 10_ungroup_views: 300ms (cum 46044ms) || 11_zoom: 496ms (cum 46540ms) || TOTAL: 46542ms
+2026-07-22 09:07:30 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 09:07:44 | PS_AI | 889972-MOD | phase=queue | START
+2026-07-22 09:07:45 | PS_AI | 889972-MOD | queue | mode=job_link | check=5ms | resolve=100ms | write_job=0ms | total=105ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\889972-MOD.jpg
+2026-07-22 09:07:45 | SCALE | === START 889972-MOD.jpg ===
+2026-07-22 09:07:45 | SCALE | 0_queue_AI | step=5ms | cum=5ms
+2026-07-22 09:07:45 | SCALE | 1_selection | step=0ms | cum=5ms
+2026-07-22 09:07:45 | SCALE | 1c_sel_crop | step=248ms | cum=253ms
+2026-07-22 09:07:45 | SCALE | 1b_hanger_list | step=5ms | cum=258ms
+2026-07-22 09:07:45 | PS_AI | 889972-MOD | phase=waitOnly | START
+2026-07-22 09:08:00 | DETECTOR | 889972-MOD | mode=original send=1790x1195 lm=10824ms views=157ms json=1ms total=13699ms
+2026-07-22 09:08:00 | PS_AI | 889972-MOD | wait | ok | waited=15656ms | polls=51
+2026-07-22 09:08:01 | PS_AI | 889972-MOD | waitOnly | ok | wait=15656ms | drawing=889972 | brand=14k | total=15873ms
+2026-07-22 09:08:01 | SCALE | 2_wait_AI | step=15873ms | cum=16131ms
+2026-07-22 09:09:26 | SCALE | 3_dialog | step=85551ms | cum=101682ms
+2026-07-22 09:09:26 | SCALE | CANCEL dialog | 0_queue_AI: 5ms (cum 5ms) | 1_selection: 0ms (cum 5ms) | 1c_sel_crop: 248ms (cum 253ms) | 1b_hanger_list: 5ms (cum 258ms) | 2_wait_AI: 15873ms (cum 16131ms) | 3_dialog: 85551ms (cum 101682ms) | TOTAL: 101684ms
+2026-07-22 09:11:57 | PS_AI | 889972-MOD | phase=queue | START
+2026-07-22 09:11:58 | PS_AI | 889972-MOD | queue | mode=job_link | check=0ms | resolve=522ms | write_job=0ms | total=522ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\889972-MOD.jpg
+2026-07-22 09:11:58 | SCALE | === START 889972-MOD.jpg ===
+2026-07-22 09:11:58 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 09:11:58 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-22 09:11:58 | SCALE | 1c_sel_crop | step=233ms | cum=234ms
+2026-07-22 09:11:58 | SCALE | 1b_hanger_list | step=2ms | cum=236ms
+2026-07-22 09:11:58 | PS_AI | 889972-MOD | phase=waitOnly | START
+2026-07-22 09:12:17 | DETECTOR | 889972-MOD | mode=original send=1790x1195 lm=14480ms views=254ms json=0ms total=17484ms
+2026-07-22 09:12:17 | PS_AI | 889972-MOD | wait | ok | waited=19527ms | polls=64
+2026-07-22 09:12:18 | PS_AI | 889972-MOD | waitOnly | ok | wait=19527ms | drawing=889972 | brand=14k | total=19742ms
+2026-07-22 09:12:18 | SCALE | 2_wait_AI | step=19744ms | cum=19980ms
+2026-07-22 09:12:31 | SCALE | 3_dialog | step=13729ms | cum=33709ms
+2026-07-22 09:12:31 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 233ms (cum 234ms) | 1b_hanger_list: 2ms (cum 236ms) | 2_wait_AI: 19744ms (cum 19980ms) | 3_dialog: 13729ms (cum 33709ms) | TOTAL: 33709ms
+2026-07-22 09:13:39 | PS_AI | 889972-MOD | phase=queue | START
+2026-07-22 09:13:39 | PS_AI | 889972-MOD | queue | mode=job_link | check=1ms | resolve=95ms | write_job=0ms | total=96ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\889972-MOD.jpg
+2026-07-22 09:13:39 | SCALE | === START 889972-MOD.jpg ===
+2026-07-22 09:13:39 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 09:13:39 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-22 09:13:39 | SCALE | 1c_sel_crop | step=241ms | cum=242ms
+2026-07-22 09:13:39 | SCALE | 1b_hanger_list | step=2ms | cum=244ms
+2026-07-22 09:13:39 | PS_AI | 889972-MOD | phase=waitOnly | START
+2026-07-22 09:13:55 | DETECTOR | 889972-MOD | mode=original send=1790x1195 lm=11097ms views=161ms json=1ms total=14080ms
+2026-07-22 09:13:56 | PS_AI | 889972-MOD | wait | ok | waited=16171ms | polls=53
+2026-07-22 09:13:56 | PS_AI | 889972-MOD | waitOnly | ok | wait=16171ms | drawing=889972 | brand=14k | total=16392ms
+2026-07-22 09:13:56 | SCALE | 2_wait_AI | step=16395ms | cum=16639ms
+2026-07-22 09:14:02 | SCALE | 3_dialog | step=6658ms | cum=23297ms
+2026-07-22 09:14:02 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 241ms (cum 242ms) | 1b_hanger_list: 2ms (cum 244ms) | 2_wait_AI: 16395ms (cum 16639ms) | 3_dialog: 6658ms (cum 23297ms) | TOTAL: 23297ms
+2026-07-22 09:14:13 | PS_AI | 889972-MOD | phase=queue | START
+2026-07-22 09:14:13 | PS_AI | 889972-MOD | queue | mode=job_link | check=0ms | resolve=161ms | write_job=1ms | total=162ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\889972-MOD.jpg
+2026-07-22 09:14:13 | SCALE | === START 889972-MOD.jpg ===
+2026-07-22 09:14:13 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 09:14:13 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-22 09:14:13 | SCALE | 1c_sel_crop | step=273ms | cum=274ms
+2026-07-22 09:14:13 | SCALE | 1b_hanger_list | step=2ms | cum=276ms
+2026-07-22 09:14:13 | PS_AI | 889972-MOD | phase=waitOnly | START
+2026-07-22 09:14:29 | DETECTOR | 889972-MOD | mode=original send=1790x1195 lm=11028ms views=162ms json=1ms total=14002ms
+2026-07-22 09:14:29 | PS_AI | 889972-MOD | wait | ok | waited=16147ms | polls=53
+2026-07-22 09:14:30 | PS_AI | 889972-MOD | waitOnly | ok | wait=16147ms | drawing=889972 | brand=14k | total=16367ms
+2026-07-22 09:14:30 | SCALE | 2_wait_AI | step=16370ms | cum=16646ms
+2026-07-22 09:14:33 | SCALE | 3_dialog | step=3184ms | cum=19830ms
+2026-07-22 09:14:33 | SCALE | 4_calc_scale | step=0ms | cum=19830ms
+2026-07-22 09:14:33 | PS_AI | 889972-MOD | phase=copyOnly | START
+2026-07-22 09:14:33 | PS_AI | 889972-MOD | sheet | drawing=889972 | metal=14K | brand=14k
+2026-07-22 09:14:34 | PS_AI | 889972-MOD | copy | views=7 | read_json=0ms | cptl=964ms | total=971ms
+2026-07-22 09:14:34 | PS_AI | 889972-MOD | copyOnly | views=7 | total=973ms
+2026-07-22 09:14:34 | SCALE | 5_copy_AI | step=980ms | cum=20810ms
+2026-07-22 09:14:34 | SCALE | 6_resolution_200 | step=112ms | cum=20922ms
+2026-07-22 09:14:34 | SCALE | 7_collect_views | step=12ms | cum=20934ms
+2026-07-22 09:14:34 | SCALE | 8_group_scale | step=510ms | cum=21444ms
+2026-07-22 09:14:35 | SCALE | 9_fill_bg | step=102ms | cum=21546ms
+2026-07-22 09:14:35 | SCALE | 10_ungroup_views | step=465ms | cum=22011ms
+2026-07-22 09:14:36 | SCALE | 11_zoom | step=480ms | cum=22491ms
+2026-07-22 09:14:36 | SCALE | DONE | AI queue=162ms wait=16147ms copy=971ms mode=job_link
+2026-07-22 09:14:36 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 1ms (cum 1ms) || 1c_sel_crop: 273ms (cum 274ms) || 1b_hanger_list: 2ms (cum 276ms) || 2_wait_AI: 16370ms (cum 16646ms) || 3_dialog: 3184ms (cum 19830ms) || 4_calc_scale: 0ms (cum 19830ms) || 5_copy_AI: 980ms (cum 20810ms) || 6_resolution_200: 112ms (cum 20922ms) || 7_collect_views: 12ms (cum 20934ms) || 8_group_scale: 510ms (cum 21444ms) || 9_fill_bg: 102ms (cum 21546ms) || 10_ungroup_views: 465ms (cum 22011ms) || 11_zoom: 480ms (cum 22491ms) || TOTAL: 22492ms
+2026-07-22 09:14:36 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 09:18:06 | PS_AI | 889971-MOD | phase=queue | START
+2026-07-22 09:18:07 | PS_AI | 889971-MOD | queue | mode=job_link | check=0ms | resolve=117ms | write_job=0ms | total=117ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\889971-MOD.jpg
+2026-07-22 09:18:07 | SCALE | === START 889971-MOD.jpg ===
+2026-07-22 09:18:07 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 09:18:07 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-22 09:18:07 | SCALE | 1c_sel_crop | step=250ms | cum=251ms
+2026-07-22 09:18:07 | SCALE | 1b_hanger_list | step=2ms | cum=253ms
+2026-07-22 09:18:07 | PS_AI | 889971-MOD | phase=waitOnly | START
+2026-07-22 09:18:25 | DETECTOR | 889971-MOD | mode=original send=1781x1187 lm=12900ms views=386ms json=1ms total=16153ms
+2026-07-22 09:18:25 | PS_AI | 889971-MOD | wait | ok | waited=18280ms | polls=60
+2026-07-22 09:18:25 | PS_AI | 889971-MOD | waitOnly | ok | wait=18280ms | drawing=889971 | brand=14k | total=18499ms
+2026-07-22 09:18:25 | SCALE | 2_wait_AI | step=18501ms | cum=18754ms
+2026-07-22 09:18:30 | SCALE | 3_dialog | step=4879ms | cum=23633ms
+2026-07-22 09:18:30 | SCALE | 4_calc_scale | step=2ms | cum=23635ms
+2026-07-22 09:18:30 | PS_AI | 889971-MOD | phase=copyOnly | START
+2026-07-22 09:18:30 | PS_AI | 889971-MOD | sheet | drawing=889971 | metal=14K | brand=14k
+2026-07-22 09:18:31 | PS_AI | 889971-MOD | copy | views=7 | read_json=0ms | cptl=921ms | total=937ms
+2026-07-22 09:18:31 | PS_AI | 889971-MOD | copyOnly | views=7 | total=937ms
+2026-07-22 09:18:31 | SCALE | 5_copy_AI | step=939ms | cum=24574ms
+2026-07-22 09:18:31 | SCALE | 6_resolution_200 | step=130ms | cum=24704ms
+2026-07-22 09:18:31 | SCALE | 7_collect_views | step=13ms | cum=24717ms
+2026-07-22 09:18:32 | SCALE | 8_group_scale | step=525ms | cum=25242ms
+2026-07-22 09:18:32 | SCALE | 9_fill_bg | step=107ms | cum=25349ms
+2026-07-22 09:18:32 | SCALE | 10_ungroup_views | step=490ms | cum=25839ms
+2026-07-22 09:18:33 | SCALE | 11_zoom | step=455ms | cum=26294ms
+2026-07-22 09:18:33 | SCALE | DONE | AI queue=118ms wait=18280ms copy=937ms mode=job_link
+2026-07-22 09:18:33 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 0ms (cum 1ms) || 1c_sel_crop: 250ms (cum 251ms) || 1b_hanger_list: 2ms (cum 253ms) || 2_wait_AI: 18501ms (cum 18754ms) || 3_dialog: 4879ms (cum 23633ms) || 4_calc_scale: 2ms (cum 23635ms) || 5_copy_AI: 939ms (cum 24574ms) || 6_resolution_200: 130ms (cum 24704ms) || 7_collect_views: 13ms (cum 24717ms) || 8_group_scale: 525ms (cum 25242ms) || 9_fill_bg: 107ms (cum 25349ms) || 10_ungroup_views: 490ms (cum 25839ms) || 11_zoom: 455ms (cum 26294ms) || TOTAL: 26296ms
+2026-07-22 09:18:33 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 10:53:21 | PS_AI | 889972-MOD | phase=queue | START
+2026-07-22 10:53:22 | PS_AI | 889972-MOD | queue | mode=export_jpg | check=0ms | resolve=723ms | export=166ms | total=889ms
+2026-07-22 10:53:22 | SCALE | === START 889972-MOD.jpg ===
+2026-07-22 10:53:22 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 10:53:22 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 10:53:22 | SCALE | 1c_sel_crop | step=247ms | cum=249ms
+2026-07-22 10:53:22 | SCALE | 1b_hanger_list | step=1ms | cum=250ms
+2026-07-22 10:53:22 | PS_AI | 889972-MOD | phase=waitOnly | START
+2026-07-22 10:53:41 | DETECTOR | 889972-MOD | mode=original send=1790x1195 lm=13438ms views=217ms json=2ms total=16538ms
+2026-07-22 10:53:41 | PS_AI | 889972-MOD | wait | ok | waited=18644ms | polls=61
+2026-07-22 10:53:41 | PS_AI | 889972-MOD | waitOnly | ok | wait=18644ms | drawing=889972 | brand=14k | total=18872ms
+2026-07-22 10:53:41 | SCALE | 2_wait_AI | step=18876ms | cum=19126ms
+2026-07-22 10:53:41 | SCALE | 3_dialog | step=2ms | cum=19128ms
+2026-07-22 10:53:41 | SCALE | 4_calc_scale | step=1ms | cum=19129ms
+2026-07-22 10:53:41 | PS_AI | 889972-MOD | phase=copyOnly | START
+2026-07-22 10:53:41 | PS_AI | 889972-MOD | sheet | drawing=889972 | metal=14K | brand=14k
+2026-07-22 10:53:42 | PS_AI | 889972-MOD | copy | views=7 | read_json=0ms | cptl=879ms | total=913ms
+2026-07-22 10:53:42 | PS_AI | 889972-MOD | copyOnly | views=7 | total=914ms
+2026-07-22 10:53:42 | SCALE | 5_copy_AI | step=917ms | cum=20046ms
+2026-07-22 10:53:42 | SCALE | 6_resolution_200 | step=147ms | cum=20193ms
+2026-07-22 10:53:42 | SCALE | 7_collect_views | step=15ms | cum=20208ms
+2026-07-22 10:53:43 | SCALE | 8_group_scale | step=544ms | cum=20752ms
+2026-07-22 10:53:43 | SCALE | 9_fill_bg | step=99ms | cum=20851ms
+2026-07-22 10:53:43 | SCALE | 10_ungroup_views | step=438ms | cum=21289ms
+2026-07-22 10:53:44 | SCALE | 11_zoom | step=520ms | cum=21809ms
+2026-07-22 10:53:44 | SCALE | DONE | AI queue=889ms wait=18644ms copy=913ms mode=export_jpg
+2026-07-22 10:53:44 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 1ms (cum 2ms) || 1c_sel_crop: 247ms (cum 249ms) || 1b_hanger_list: 1ms (cum 250ms) || 2_wait_AI: 18876ms (cum 19126ms) || 3_dialog: 2ms (cum 19128ms) || 4_calc_scale: 1ms (cum 19129ms) || 5_copy_AI: 917ms (cum 20046ms) || 6_resolution_200: 147ms (cum 20193ms) || 7_collect_views: 15ms (cum 20208ms) || 8_group_scale: 544ms (cum 20752ms) || 9_fill_bg: 99ms (cum 20851ms) || 10_ungroup_views: 438ms (cum 21289ms) || 11_zoom: 520ms (cum 21809ms) || TOTAL: 21810ms
+2026-07-22 10:53:44 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 10:54:17 | PS_AI | 889972-MOD | phase=queue | START
+2026-07-22 10:54:17 | PS_AI | 889972-MOD | queue | mode=export_jpg | check=0ms | resolve=75ms | export=182ms | total=257ms
+2026-07-22 10:54:17 | SCALE | === START 889972-MOD.jpg ===
+2026-07-22 10:54:17 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 10:54:17 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 10:54:17 | SCALE | 1c_sel_crop | step=228ms | cum=230ms
+2026-07-22 10:54:17 | SCALE | 1b_hanger_list | step=2ms | cum=232ms
+2026-07-22 10:54:17 | PS_AI | 889972-MOD | phase=waitOnly | START
+2026-07-22 10:54:35 | DETECTOR | 889972-MOD | mode=original send=1790x1195 lm=13136ms views=168ms json=1ms total=16052ms
+2026-07-22 10:54:35 | PS_AI | 889972-MOD | wait | ok | waited=18022ms | polls=59
+2026-07-22 10:54:36 | PS_AI | 889972-MOD | waitOnly | ok | wait=18022ms | drawing=889972 | brand=14k | total=18243ms
+2026-07-22 10:54:36 | SCALE | 2_wait_AI | step=18245ms | cum=18477ms
+2026-07-22 10:54:36 | SCALE | 3_dialog | step=130ms | cum=18607ms
+2026-07-22 10:54:36 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 228ms (cum 230ms) | 1b_hanger_list: 2ms (cum 232ms) | 2_wait_AI: 18245ms (cum 18477ms) | 3_dialog: 130ms (cum 18607ms) | TOTAL: 18608ms
+2026-07-22 11:28:05 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:28:05 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=117ms | write_job=1ms | total=118ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:28:05 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:28:05 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:28:05 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-22 11:28:05 | SCALE | 1c_sel_crop | step=225ms | cum=226ms
+2026-07-22 11:28:05 | SCALE | 1b_hanger_list | step=2ms | cum=228ms
+2026-07-22 11:28:05 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:28:23 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=18008ms | polls=59
+2026-07-22 11:28:23 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=12966ms views=187ms json=2ms total=16046ms
+2026-07-22 11:28:23 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=18008ms | drawing=889751 | brand=silver | total=18223ms
+2026-07-22 11:28:23 | SCALE | 2_wait_AI | step=18226ms | cum=18454ms
+2026-07-22 11:28:45 | SCALE | 3_dialog | step=21527ms | cum=39981ms
+2026-07-22 11:28:45 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 0ms (cum 1ms) | 1c_sel_crop: 225ms (cum 226ms) | 1b_hanger_list: 2ms (cum 228ms) | 2_wait_AI: 18226ms (cum 18454ms) | 3_dialog: 21527ms (cum 39981ms) | TOTAL: 39981ms
+2026-07-22 11:44:28 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:44:29 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=196ms | write_job=0ms | total=199ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:44:29 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:44:29 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:44:29 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 11:44:29 | SCALE | 1c_sel_crop | step=279ms | cum=281ms
+2026-07-22 11:44:29 | SCALE | 1b_hanger_list | step=1ms | cum=282ms
+2026-07-22 11:44:29 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:44:45 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11038ms views=158ms json=1ms total=14090ms
+2026-07-22 11:44:45 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16168ms | polls=53
+2026-07-22 11:44:45 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16168ms | drawing=889751 | brand=silver | total=16387ms
+2026-07-22 11:44:45 | SCALE | 2_wait_AI | step=16390ms | cum=16672ms
+2026-07-22 11:44:50 | SCALE | 3_dialog | step=5159ms | cum=21831ms
+2026-07-22 11:44:50 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 279ms (cum 281ms) | 1b_hanger_list: 1ms (cum 282ms) | 2_wait_AI: 16390ms (cum 16672ms) | 3_dialog: 5159ms (cum 21831ms) | TOTAL: 21831ms
+2026-07-22 11:50:39 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:50:40 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=579ms | write_job=0ms | total=579ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:50:40 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:50:40 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:50:40 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 11:50:40 | SCALE | 1c_sel_crop | step=260ms | cum=262ms
+2026-07-22 11:50:40 | SCALE | 1b_hanger_list | step=2ms | cum=264ms
+2026-07-22 11:50:40 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:50:56 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11239ms views=167ms json=1ms total=14310ms
+2026-07-22 11:50:56 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16199ms | polls=53
+2026-07-22 11:50:56 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16199ms | drawing=889751 | brand=silver | total=16425ms
+2026-07-22 11:50:56 | SCALE | 2_wait_AI | step=16427ms | cum=16691ms
+2026-07-22 11:51:06 | SCALE | 3_dialog | step=9961ms | cum=26652ms
+2026-07-22 11:51:06 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 260ms (cum 262ms) | 1b_hanger_list: 2ms (cum 264ms) | 2_wait_AI: 16427ms (cum 16691ms) | 3_dialog: 9961ms (cum 26652ms) | TOTAL: 26652ms
+2026-07-22 11:51:13 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:51:13 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=2ms | resolve=123ms | write_job=2ms | total=127ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:51:13 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:51:13 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:51:13 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-22 11:51:13 | SCALE | 1c_sel_crop | step=261ms | cum=262ms
+2026-07-22 11:51:13 | SCALE | 1b_hanger_list | step=2ms | cum=264ms
+2026-07-22 11:51:13 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:51:29 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=10864ms views=161ms json=1ms total=13819ms
+2026-07-22 11:51:29 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=15861ms | polls=52
+2026-07-22 11:51:29 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=15861ms | drawing=889751 | brand=silver | total=16084ms
+2026-07-22 11:51:29 | SCALE | 2_wait_AI | step=16088ms | cum=16352ms
+2026-07-22 11:51:58 | SCALE | 3_dialog | step=29420ms | cum=45772ms
+2026-07-22 11:51:58 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 0ms (cum 1ms) | 1c_sel_crop: 261ms (cum 262ms) | 1b_hanger_list: 2ms (cum 264ms) | 2_wait_AI: 16088ms (cum 16352ms) | 3_dialog: 29420ms (cum 45772ms) | TOTAL: 45774ms
+2026-07-22 11:52:06 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:52:06 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=1ms | resolve=192ms | write_job=1ms | total=194ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:52:06 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:52:06 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:52:06 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 11:52:06 | SCALE | 1c_sel_crop | step=247ms | cum=249ms
+2026-07-22 11:52:06 | SCALE | 1b_hanger_list | step=2ms | cum=251ms
+2026-07-22 11:52:06 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:52:22 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11083ms views=165ms json=1ms total=14036ms
+2026-07-22 11:52:22 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16165ms | polls=53
+2026-07-22 11:52:22 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16165ms | drawing=889751 | brand=silver | total=16388ms
+2026-07-22 11:52:22 | SCALE | 2_wait_AI | step=16389ms | cum=16640ms
+2026-07-22 11:52:37 | SCALE | 3_dialog | step=14149ms | cum=30789ms
+2026-07-22 11:52:37 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 247ms (cum 249ms) | 1b_hanger_list: 2ms (cum 251ms) | 2_wait_AI: 16389ms (cum 16640ms) | 3_dialog: 14149ms (cum 30789ms) | TOTAL: 30789ms
+2026-07-22 11:54:02 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:54:03 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=177ms | write_job=0ms | total=177ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:54:03 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:54:03 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 11:54:03 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-22 11:54:03 | SCALE | 1c_sel_crop | step=238ms | cum=239ms
+2026-07-22 11:54:03 | SCALE | 1b_hanger_list | step=2ms | cum=241ms
+2026-07-22 11:54:03 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:54:19 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16184ms | polls=53
+7ms views=166ms json=1ms total=14232ms
+2026-07-22 11:54:19 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16184ms | drawing=889751 | brand=silver | total=16406ms
+2026-07-22 11:54:19 | SCALE | 2_wait_AI | step=16409ms | cum=16650ms
+2026-07-22 11:54:22 | SCALE | 3_dialog | step=3122ms | cum=19772ms
+2026-07-22 11:54:22 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 238ms (cum 239ms) | 1b_hanger_list: 2ms (cum 241ms) | 2_wait_AI: 16409ms (cum 16650ms) | 3_dialog: 3122ms (cum 19772ms) | TOTAL: 19772ms
+2026-07-22 11:54:43 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:54:44 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=133ms | write_job=0ms | total=133ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:54:44 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:54:44 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 11:54:44 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-22 11:54:44 | SCALE | 1c_sel_crop | step=235ms | cum=236ms
+2026-07-22 11:54:44 | SCALE | 1b_hanger_list | step=2ms | cum=238ms
+2026-07-22 11:54:44 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:55:00 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11056ms views=152ms json=4ms total=14084ms
+2026-07-22 11:55:00 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16167ms | polls=53
+2026-07-22 11:55:00 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16167ms | drawing=889751 | brand=silver | total=16396ms
+2026-07-22 11:55:00 | SCALE | 2_wait_AI | step=16398ms | cum=16636ms
+2026-07-22 11:55:02 | SCALE | 3_dialog | step=1946ms | cum=18582ms
+2026-07-22 11:55:02 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 235ms (cum 236ms) | 1b_hanger_list: 2ms (cum 238ms) | 2_wait_AI: 16398ms (cum 16636ms) | 3_dialog: 1946ms (cum 18582ms) | TOTAL: 18583ms
+2026-07-22 11:55:06 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:55:06 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=129ms | write_job=1ms | total=131ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:55:06 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:55:06 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:55:06 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 11:55:07 | SCALE | 1c_sel_crop | step=238ms | cum=240ms
+2026-07-22 11:55:07 | SCALE | 1b_hanger_list | step=1ms | cum=241ms
+2026-07-22 11:55:07 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:55:23 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11287ms views=157ms json=1ms total=14273ms
+2026-07-22 11:55:23 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16162ms | polls=53
+2026-07-22 11:55:23 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16162ms | drawing=889751 | brand=silver | total=16380ms
+2026-07-22 11:55:23 | SCALE | 2_wait_AI | step=16383ms | cum=16624ms
+2026-07-22 11:55:25 | SCALE | 3_dialog | step=1895ms | cum=18519ms
+2026-07-22 11:55:25 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 238ms (cum 240ms) | 1b_hanger_list: 1ms (cum 241ms) | 2_wait_AI: 16383ms (cum 16624ms) | 3_dialog: 1895ms (cum 18519ms) | TOTAL: 18521ms
+2026-07-22 11:55:37 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:55:37 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=2ms | resolve=134ms | write_job=0ms | total=136ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:55:37 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:55:37 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:55:37 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-22 11:55:38 | SCALE | 1c_sel_crop | step=199ms | cum=200ms
+2026-07-22 11:55:38 | SCALE | 1b_hanger_list | step=2ms | cum=202ms
+2026-07-22 11:55:38 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:55:54 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11037ms views=157ms json=1ms total=14046ms
+2026-07-22 11:55:54 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16179ms | polls=53
+2026-07-22 11:55:54 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16179ms | drawing=889751 | brand=silver | total=16404ms
+2026-07-22 11:55:54 | SCALE | 2_wait_AI | step=16408ms | cum=16610ms
+2026-07-22 11:55:59 | SCALE | 3_dialog | step=5380ms | cum=21990ms
+2026-07-22 11:55:59 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 0ms (cum 1ms) | 1c_sel_crop: 199ms (cum 200ms) | 1b_hanger_list: 2ms (cum 202ms) | 2_wait_AI: 16408ms (cum 16610ms) | 3_dialog: 5380ms (cum 21990ms) | TOTAL: 21990ms
+2026-07-22 11:56:12 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:56:12 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=1ms | resolve=144ms | write_job=1ms | total=146ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:56:12 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:56:12 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:56:12 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 11:56:12 | SCALE | 1c_sel_crop | step=201ms | cum=203ms
+2026-07-22 11:56:12 | SCALE | 1b_hanger_list | step=2ms | cum=205ms
+2026-07-22 11:56:12 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:56:28 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11030ms views=142ms json=1ms total=14043ms
+2026-07-22 11:56:28 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16168ms | polls=53
+2026-07-22 11:56:28 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16168ms | drawing=889751 | brand=silver | total=16393ms
+2026-07-22 11:56:28 | SCALE | 2_wait_AI | step=16396ms | cum=16601ms
+2026-07-22 11:57:05 | SCALE | 3_dialog | step=36041ms | cum=52642ms
+2026-07-22 11:57:05 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 201ms (cum 203ms) | 1b_hanger_list: 2ms (cum 205ms) | 2_wait_AI: 16396ms (cum 16601ms) | 3_dialog: 36041ms (cum 52642ms) | TOTAL: 52642ms
+2026-07-22 11:57:13 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:57:13 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=176ms | write_job=1ms | total=178ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:57:13 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:57:13 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 11:57:13 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-22 11:57:13 | SCALE | 1c_sel_crop | step=225ms | cum=226ms
+2026-07-22 11:57:13 | SCALE | 1b_hanger_list | step=2ms | cum=228ms
+2026-07-22 11:57:13 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:57:30 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11290ms views=209ms json=0ms total=14524ms
+2026-07-22 11:57:30 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16473ms | polls=54
+2026-07-22 11:57:30 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16473ms | drawing=889751 | brand=silver | total=16694ms
+2026-07-22 11:57:30 | SCALE | 2_wait_AI | step=16696ms | cum=16924ms
+2026-07-22 11:57:37 | SCALE | 3_dialog | step=7447ms | cum=24371ms
+2026-07-22 11:57:37 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 225ms (cum 226ms) | 1b_hanger_list: 2ms (cum 228ms) | 2_wait_AI: 16696ms (cum 16924ms) | 3_dialog: 7447ms (cum 24371ms) | TOTAL: 24371ms
+2026-07-22 11:58:14 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:58:14 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=123ms | write_job=1ms | total=124ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:58:14 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:58:14 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:58:14 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 11:58:14 | SCALE | 1c_sel_crop | step=206ms | cum=208ms
+2026-07-22 11:58:14 | SCALE | 1b_hanger_list | step=2ms | cum=210ms
+2026-07-22 11:58:14 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:58:30 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=10942ms views=155ms json=1ms total=13859ms
+2026-07-22 11:58:30 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16171ms | polls=53
+2026-07-22 11:58:31 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16171ms | drawing=889751 | brand=silver | total=16395ms
+2026-07-22 11:58:31 | SCALE | 2_wait_AI | step=16397ms | cum=16607ms
+2026-07-22 11:59:00 | SCALE | 3_dialog | step=29652ms | cum=46259ms
+2026-07-22 11:59:00 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 206ms (cum 208ms) | 1b_hanger_list: 2ms (cum 210ms) | 2_wait_AI: 16397ms (cum 16607ms) | 3_dialog: 29652ms (cum 46259ms) | TOTAL: 46259ms
+2026-07-22 11:59:00 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:59:01 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=104ms | write_job=1ms | total=105ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:59:01 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:59:01 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 11:59:01 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-22 11:59:01 | SCALE | 1c_sel_crop | step=265ms | cum=266ms
+2026-07-22 11:59:01 | SCALE | 1b_hanger_list | step=1ms | cum=267ms
+2026-07-22 11:59:01 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:59:18 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=10943ms views=213ms json=1ms total=15716ms
+2026-07-22 11:59:19 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=17679ms | polls=58
+2026-07-22 11:59:19 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=17679ms | drawing=889751 | brand=silver | total=17901ms
+2026-07-22 11:59:19 | SCALE | 2_wait_AI | step=17904ms | cum=18171ms
+2026-07-22 11:59:28 | SCALE | 3_dialog | step=8955ms | cum=27126ms
+2026-07-22 11:59:28 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 0ms (cum 1ms) | 1c_sel_crop: 265ms (cum 266ms) | 1b_hanger_list: 1ms (cum 267ms) | 2_wait_AI: 17904ms (cum 18171ms) | 3_dialog: 8955ms (cum 27126ms) | TOTAL: 27128ms
+2026-07-22 11:59:34 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-22 11:59:34 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=120ms | write_job=1ms | total=121ms | path=M:\departments\Share\2D (HandDrawing)\22.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-22 11:59:34 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-22 11:59:34 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 11:59:34 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-22 11:59:34 | SCALE | 1c_sel_crop | step=266ms | cum=267ms
+2026-07-22 11:59:34 | SCALE | 1b_hanger_list | step=2ms | cum=269ms
+2026-07-22 11:59:34 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-22 11:59:53 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11624ms views=153ms json=1ms total=16535ms
+2026-07-22 11:59:53 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=18602ms | polls=61
+2026-07-22 11:59:53 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=18602ms | drawing=889751 | brand=silver | total=18824ms
+2026-07-22 11:59:53 | SCALE | 2_wait_AI | step=18828ms | cum=19097ms
+2026-07-22 12:46:26 | SCALE | 3_dialog | step=2792475ms | cum=2811572ms
+2026-07-22 12:46:26 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 266ms (cum 267ms) | 1b_hanger_list: 2ms (cum 269ms) | 2_wait_AI: 18828ms (cum 19097ms) | 3_dialog: 2792475ms (cum 2811572ms) | TOTAL: 2811587ms
+2026-07-22 12:47:41 | PS_AI | 889060 A | phase=queue | START
+2026-07-22 12:47:41 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=2ms | write_job=0ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-22 12:47:41 | SCALE | === START 889060 A.jpg ===
+2026-07-22 12:47:41 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 12:47:41 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-22 12:47:42 | SCALE | 1c_sel_crop | step=278ms | cum=280ms
+2026-07-22 12:47:42 | SCALE | 1b_hanger_list | step=2ms | cum=282ms
+2026-07-22 12:47:42 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-22 12:48:02 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=12891ms views=142ms json=1ms total=17996ms
+2026-07-22 12:48:02 | PS_AI | 889060 A | wait | ok | waited=19805ms | polls=65
+2026-07-22 12:48:02 | PS_AI | 889060 A | waitOnly | ok | wait=19805ms | drawing=889060 | brand=14k | total=20029ms
+2026-07-22 12:48:02 | SCALE | 2_wait_AI | step=20031ms | cum=20313ms
+2026-07-22 12:48:49 | SCALE | 3_dialog | step=47082ms | cum=67395ms
+2026-07-22 12:48:49 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 1ms (cum 2ms) | 1c_sel_crop: 278ms (cum 280ms) | 1b_hanger_list: 2ms (cum 282ms) | 2_wait_AI: 20031ms (cum 20313ms) | 3_dialog: 47082ms (cum 67395ms) | TOTAL: 67396ms
+2026-07-22 12:48:50 | PS_AI | 889060 A | phase=queue | START
+2026-07-22 12:48:50 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-22 12:48:50 | SCALE | === START 889060 A.jpg ===
+2026-07-22 12:48:50 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 12:48:50 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 12:48:50 | SCALE | 1c_sel_crop | step=219ms | cum=219ms
+2026-07-22 12:48:50 | SCALE | 1b_hanger_list | step=0ms | cum=219ms
+2026-07-22 12:48:50 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-22 12:49:06 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=11422ms views=129ms json=1ms total=14379ms
+2026-07-22 12:49:06 | PS_AI | 889060 A | wait | ok | waited=16655ms | polls=54
+2026-07-22 12:49:07 | PS_AI | 889060 A | waitOnly | ok | wait=16655ms | drawing=889060 | brand=14k | total=16878ms
+2026-07-22 12:49:07 | SCALE | 2_wait_AI | step=16883ms | cum=17102ms
+2026-07-22 12:49:14 | SCALE | 3_dialog | step=7391ms | cum=24493ms
+2026-07-22 12:49:14 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 219ms (cum 219ms) | 1b_hanger_list: 0ms (cum 219ms) | 2_wait_AI: 16883ms (cum 17102ms) | 3_dialog: 7391ms (cum 24493ms) | TOTAL: 24501ms
+2026-07-22 12:49:24 | PS_AI | 889060 A | phase=queue | START
+2026-07-22 12:49:24 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=2ms | write_job=0ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-22 12:49:24 | SCALE | === START 889060 A.jpg ===
+2026-07-22 12:49:24 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-22 12:49:24 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-22 12:49:25 | SCALE | 1c_sel_crop | step=212ms | cum=213ms
+2026-07-22 12:49:25 | SCALE | 1b_hanger_list | step=2ms | cum=215ms
+2026-07-22 12:49:25 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-22 12:49:40 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=10846ms views=139ms json=1ms total=13849ms
+2026-07-22 12:49:40 | PS_AI | 889060 A | wait | ok | waited=15872ms | polls=52
+2026-07-22 12:49:41 | PS_AI | 889060 A | waitOnly | ok | wait=15872ms | drawing=889060 | brand=14k | total=16099ms
+2026-07-22 12:49:41 | SCALE | 2_wait_AI | step=16102ms | cum=16317ms
+2026-07-22 12:49:46 | SCALE | 3_dialog | step=5505ms | cum=21822ms
+2026-07-22 12:49:46 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 0ms (cum 1ms) | 1c_sel_crop: 212ms (cum 213ms) | 1b_hanger_list: 2ms (cum 215ms) | 2_wait_AI: 16102ms (cum 16317ms) | 3_dialog: 5505ms (cum 21822ms) | TOTAL: 21824ms
+2026-07-22 12:50:26 | PS_AI | 889060 A | phase=queue | START
+2026-07-22 12:50:26 | PS_AI | 889060 A | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-22 12:50:26 | SCALE | === START 889060 A.jpg ===
+2026-07-22 12:50:26 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 12:50:26 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 12:50:26 | SCALE | 1c_sel_crop | step=202ms | cum=202ms
+2026-07-22 12:50:26 | SCALE | 1b_hanger_list | step=0ms | cum=202ms
+2026-07-22 12:50:26 | PS_AI | 889060 A | phase=waitOnly | START
+2026-07-22 12:50:42 | DETECTOR | 889060 A | mode=original send=1765x1176 lm=11157ms views=145ms json=1ms total=13957ms
+2026-07-22 12:50:42 | PS_AI | 889060 A | wait | ok | waited=15988ms | polls=48
+2026-07-22 12:50:42 | PS_AI | 889060 A | waitOnly | ok | wait=15988ms | drawing=889060 | brand=14k | total=16224ms
+2026-07-22 12:50:42 | SCALE | 2_wait_AI | step=16224ms | cum=16426ms
+2026-07-22 12:50:54 | SCALE | 3_dialog | step=12109ms | cum=28535ms
+2026-07-22 12:50:54 | SCALE | 4_calc_scale | step=0ms | cum=28535ms
+2026-07-22 12:50:54 | PS_AI | 889060 A | phase=copyOnly | START
+2026-07-22 12:50:54 | PS_AI | 889060 A | sheet | drawing=889060 | metal=14K | brand=14k
+2026-07-22 12:50:55 | PS_AI | 889060 A | copy | views=7 | read_json=0ms | cptl=845ms | total=874ms
+2026-07-22 12:50:55 | PS_AI | 889060 A | copyOnly | views=7 | total=874ms
+2026-07-22 12:50:55 | SCALE | 5_copy_AI | step=874ms | cum=29409ms
+2026-07-22 12:50:55 | SCALE | 6_resolution_200 | step=159ms | cum=29568ms
+2026-07-22 12:50:55 | SCALE | 7_collect_views | step=10ms | cum=29578ms
+2026-07-22 12:50:56 | SCALE | 8_group_scale | step=403ms | cum=29981ms
+2026-07-22 12:50:56 | SCALE | 9_fill_bg | step=71ms | cum=30052ms
+2026-07-22 12:50:56 | SCALE | 10_ungroup_views | step=283ms | cum=30335ms
+2026-07-22 12:50:57 | SCALE | 11_zoom | step=484ms | cum=30819ms
+2026-07-22 12:50:57 | SCALE | DONE | AI queue=?ms wait=15988ms copy=874ms mode=job_link
+2026-07-22 12:50:57 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 0ms (cum 0ms) || 1c_sel_crop: 202ms (cum 202ms) || 1b_hanger_list: 0ms (cum 202ms) || 2_wait_AI: 16224ms (cum 16426ms) || 3_dialog: 12109ms (cum 28535ms) || 4_calc_scale: 0ms (cum 28535ms) || 5_copy_AI: 874ms (cum 29409ms) || 6_resolution_200: 159ms (cum 29568ms) || 7_collect_views: 10ms (cum 29578ms) || 8_group_scale: 403ms (cum 29981ms) || 9_fill_bg: 71ms (cum 30052ms) || 10_ungroup_views: 283ms (cum 30335ms) || 11_zoom: 484ms (cum 30819ms) || TOTAL: 30820ms
+2026-07-22 12:50:57 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 12:53:33 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 12:53:33 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=2ms | write_job=0ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 12:53:33 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 12:53:33 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 12:53:33 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-22 12:53:33 | SCALE | 1c_sel_crop | step=215ms | cum=216ms
+2026-07-22 12:53:33 | SCALE | 1b_hanger_list | step=2ms | cum=218ms
+2026-07-22 12:53:33 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 12:53:44 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=6243ms views=28ms json=0ms total=9077ms
+2026-07-22 12:53:44 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=11057ms | polls=36
+2026-07-22 12:53:45 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=11057ms | drawing=888800 | brand=silver | total=11302ms
+2026-07-22 12:53:45 | SCALE | 2_wait_AI | step=11304ms | cum=11522ms
+2026-07-22 13:00:09 | SCALE | 3_dialog | step=384099ms | cum=395621ms
+2026-07-22 13:00:09 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 215ms (cum 216ms) | 1b_hanger_list: 2ms (cum 218ms) | 2_wait_AI: 11304ms (cum 11522ms) | 3_dialog: 384099ms (cum 395621ms) | TOTAL: 395621ms
+2026-07-22 13:00:48 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 13:00:48 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=15ms | write_job=1ms | total=16ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 13:00:48 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 13:00:48 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 13:00:48 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 13:00:48 | SCALE | 1c_sel_crop | step=193ms | cum=193ms
+2026-07-22 13:00:48 | SCALE | 1b_hanger_list | step=2ms | cum=195ms
+2026-07-22 13:00:48 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 13:00:58 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=5043ms views=32ms json=1ms total=7797ms
+2026-07-22 13:00:58 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=9830ms | polls=32
+2026-07-22 13:00:58 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=9830ms | drawing=888800 | brand=silver | total=10055ms
+2026-07-22 13:00:58 | SCALE | 2_wait_AI | step=10059ms | cum=10254ms
+2026-07-22 13:01:08 | SCALE | 3_dialog | step=9405ms | cum=19659ms
+2026-07-22 13:01:08 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 193ms (cum 193ms) | 1b_hanger_list: 2ms (cum 195ms) | 2_wait_AI: 10059ms (cum 10254ms) | 3_dialog: 9405ms (cum 19659ms) | TOTAL: 19659ms
+2026-07-22 13:01:12 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 13:01:12 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 13:01:12 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 13:01:12 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 13:01:12 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 13:01:12 | SCALE | 1c_sel_crop | step=207ms | cum=207ms
+2026-07-22 13:01:12 | SCALE | 1b_hanger_list | step=0ms | cum=207ms
+2026-07-22 13:01:12 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 13:01:22 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=4952ms views=27ms json=0ms total=7557ms
+2026-07-22 13:01:22 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=9795ms | polls=32
+2026-07-22 13:01:22 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=9795ms | drawing=888800 | brand=silver | total=10016ms
+2026-07-22 13:01:22 | SCALE | 2_wait_AI | step=10019ms | cum=10226ms
+2026-07-22 13:01:35 | SCALE | 3_dialog | step=12671ms | cum=22897ms
+2026-07-22 13:01:35 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 207ms (cum 207ms) | 1b_hanger_list: 0ms (cum 207ms) | 2_wait_AI: 10019ms (cum 10226ms) | 3_dialog: 12671ms (cum 22897ms) | TOTAL: 22897ms
+2026-07-22 13:01:42 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 13:01:42 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=2ms | write_job=0ms | total=2ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 13:01:42 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 13:01:42 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 13:01:42 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 13:01:42 | SCALE | 1c_sel_crop | step=201ms | cum=201ms
+2026-07-22 13:01:42 | SCALE | 1b_hanger_list | step=2ms | cum=203ms
+2026-07-22 13:01:42 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 13:01:54 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=7026ms views=29ms json=1ms total=9602ms
+2026-07-22 13:01:54 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=11645ms | polls=38
+2026-07-22 13:01:54 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=11645ms | drawing=888800 | brand=silver | total=11869ms
+2026-07-22 13:01:54 | SCALE | 2_wait_AI | step=11872ms | cum=12075ms
+2026-07-22 13:01:55 | SCALE | 3_dialog | step=1054ms | cum=13129ms
+2026-07-22 13:01:55 | SCALE | 4_calc_scale | step=1ms | cum=13130ms
+2026-07-22 13:01:55 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=copyOnly | START
+2026-07-22 13:01:55 | PS_AI | DF27.COMP017.12_DI_07072026 | sheet | drawing=888800 | metal=925 | brand=silver
+2026-07-22 13:01:56 | PS_AI | DF27.COMP017.12_DI_07072026 | copy | views=2 | read_json=0ms | cptl=179ms | total=197ms
+2026-07-22 13:01:56 | PS_AI | DF27.COMP017.12_DI_07072026 | copyOnly | views=2 | total=198ms
+2026-07-22 13:01:56 | SCALE | 5_copy_AI | step=201ms | cum=13331ms
+2026-07-22 13:01:56 | SCALE | 6_resolution_200 | step=71ms | cum=13402ms
+2026-07-22 13:01:56 | SCALE | 7_collect_views | step=3ms | cum=13405ms
+2026-07-22 13:01:56 | SCALE | 8_group_scale | step=146ms | cum=13551ms
+2026-07-22 13:01:56 | SCALE | 9_fill_bg | step=65ms | cum=13616ms
+2026-07-22 13:01:56 | SCALE | 10_ungroup_views | step=128ms | cum=13744ms
+2026-07-22 13:01:56 | SCALE | 11_zoom | step=452ms | cum=14196ms
+2026-07-22 13:01:56 | SCALE | DONE | AI queue=2ms wait=11645ms copy=197ms mode=job_link
+2026-07-22 13:01:56 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 0ms (cum 0ms) || 1c_sel_crop: 201ms (cum 201ms) || 1b_hanger_list: 2ms (cum 203ms) || 2_wait_AI: 11872ms (cum 12075ms) || 3_dialog: 1054ms (cum 13129ms) || 4_calc_scale: 1ms (cum 13130ms) || 5_copy_AI: 201ms (cum 13331ms) || 6_resolution_200: 71ms (cum 13402ms) || 7_collect_views: 3ms (cum 13405ms) || 8_group_scale: 146ms (cum 13551ms) || 9_fill_bg: 65ms (cum 13616ms) || 10_ungroup_views: 128ms (cum 13744ms) || 11_zoom: 452ms (cum 14196ms) || TOTAL: 14196ms
+2026-07-22 13:01:56 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 13:02:21 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 13:02:21 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 13:02:21 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 13:02:21 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 13:02:21 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 13:02:21 | SCALE | 1c_sel_crop | step=210ms | cum=210ms
+2026-07-22 13:02:21 | SCALE | 1b_hanger_list | step=9ms | cum=219ms
+2026-07-22 13:02:21 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 13:02:38 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=12596ms views=85ms json=4ms total=15488ms
+2026-07-22 13:02:38 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=17522ms | polls=56
+2026-07-22 13:02:39 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=17522ms | drawing=888800 | brand=silver | total=17743ms
+2026-07-22 13:02:39 | SCALE | 2_wait_AI | step=17744ms | cum=17963ms
+2026-07-22 13:02:40 | SCALE | 3_dialog | step=1095ms | cum=19058ms
+2026-07-22 13:02:40 | SCALE | 4_calc_scale | step=0ms | cum=19058ms
+2026-07-22 13:02:40 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=copyOnly | START
+2026-07-22 13:02:40 | PS_AI | DF27.COMP017.12_DI_07072026 | sheet | drawing=888800 | metal=925 | brand=silver
+2026-07-22 13:02:41 | PS_AI | DF27.COMP017.12_DI_07072026 | copy | views=7 | read_json=0ms | cptl=816ms | total=824ms
+2026-07-22 13:02:41 | PS_AI | DF27.COMP017.12_DI_07072026 | copyOnly | views=7 | total=827ms
+2026-07-22 13:02:41 | SCALE | 5_copy_AI | step=830ms | cum=19888ms
+2026-07-22 13:02:41 | SCALE | 6_resolution_200 | step=129ms | cum=20017ms
+2026-07-22 13:02:41 | SCALE | 7_collect_views | step=19ms | cum=20036ms
+2026-07-22 13:02:41 | SCALE | 8_group_scale | step=420ms | cum=20456ms
+2026-07-22 13:02:41 | SCALE | 9_fill_bg | step=93ms | cum=20549ms
+2026-07-22 13:02:42 | SCALE | 10_ungroup_views | step=334ms | cum=20883ms
+2026-07-22 13:02:42 | SCALE | 11_zoom | step=452ms | cum=21335ms
+2026-07-22 13:02:42 | SCALE | DONE | AI queue=?ms wait=17522ms copy=824ms mode=job_link
+2026-07-22 13:02:42 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 0ms (cum 0ms) || 1c_sel_crop: 210ms (cum 210ms) || 1b_hanger_list: 9ms (cum 219ms) || 2_wait_AI: 17744ms (cum 17963ms) || 3_dialog: 1095ms (cum 19058ms) || 4_calc_scale: 0ms (cum 19058ms) || 5_copy_AI: 830ms (cum 19888ms) || 6_resolution_200: 129ms (cum 20017ms) || 7_collect_views: 19ms (cum 20036ms) || 8_group_scale: 420ms (cum 20456ms) || 9_fill_bg: 93ms (cum 20549ms) || 10_ungroup_views: 334ms (cum 20883ms) || 11_zoom: 452ms (cum 21335ms) || TOTAL: 21336ms
+2026-07-22 13:02:42 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 13:03:36 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 13:03:36 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=4ms | write_job=0ms | total=4ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 13:03:36 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 13:03:36 | SCALE | 0_queue_AI | step=3ms | cum=3ms
+2026-07-22 13:03:36 | SCALE | 1_selection | step=0ms | cum=3ms
+2026-07-22 13:03:36 | SCALE | 1c_sel_crop | step=202ms | cum=205ms
+2026-07-22 13:03:36 | SCALE | 1b_hanger_list | step=0ms | cum=205ms
+2026-07-22 13:03:36 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 13:03:51 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=10768ms views=79ms json=1ms total=13573ms
+2026-07-22 13:03:52 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=15849ms | polls=50
+2026-07-22 13:03:52 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=15849ms | drawing=888800 | brand=silver | total=16071ms
+2026-07-22 13:03:52 | SCALE | 2_wait_AI | step=16072ms | cum=16277ms
+2026-07-22 13:03:53 | SCALE | 3_dialog | step=1117ms | cum=17394ms
+2026-07-22 13:03:53 | SCALE | 4_calc_scale | step=1ms | cum=17395ms
+2026-07-22 13:03:53 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=copyOnly | START
+2026-07-22 13:03:53 | PS_AI | DF27.COMP017.12_DI_07072026 | sheet | drawing=888800 | metal=925 | brand=silver
+2026-07-22 13:03:54 | PS_AI | DF27.COMP017.12_DI_07072026 | copy | views=7 | read_json=0ms | cptl=954ms | total=965ms
+2026-07-22 13:03:54 | PS_AI | DF27.COMP017.12_DI_07072026 | copyOnly | views=7 | total=965ms
+2026-07-22 13:03:54 | SCALE | 5_copy_AI | step=968ms | cum=18363ms
+2026-07-22 13:03:54 | SCALE | 6_resolution_200 | step=165ms | cum=18528ms
+2026-07-22 13:03:54 | SCALE | 7_collect_views | step=15ms | cum=18543ms
+2026-07-22 13:03:55 | SCALE | 8_group_scale | step=519ms | cum=19062ms
+2026-07-22 13:03:55 | SCALE | 9_fill_bg | step=119ms | cum=19181ms
+2026-07-22 13:03:55 | SCALE | 10_ungroup_views | step=420ms | cum=19601ms
+2026-07-22 13:03:56 | SCALE | 11_zoom | step=445ms | cum=20046ms
+2026-07-22 13:03:56 | SCALE | DONE | AI queue=4ms wait=15849ms copy=965ms mode=job_link
+2026-07-22 13:03:56 | SCALE | 0_queue_AI: 3ms (cum 3ms) || 1_selection: 0ms (cum 3ms) || 1c_sel_crop: 202ms (cum 205ms) || 1b_hanger_list: 0ms (cum 205ms) || 2_wait_AI: 16072ms (cum 16277ms) || 3_dialog: 1117ms (cum 17394ms) || 4_calc_scale: 1ms (cum 17395ms) || 5_copy_AI: 968ms (cum 18363ms) || 6_resolution_200: 165ms (cum 18528ms) || 7_collect_views: 15ms (cum 18543ms) || 8_group_scale: 519ms (cum 19062ms) || 9_fill_bg: 119ms (cum 19181ms) || 10_ungroup_views: 420ms (cum 19601ms) || 11_zoom: 445ms (cum 20046ms) || TOTAL: 20048ms
+2026-07-22 13:03:56 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 13:04:51 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 13:04:51 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=0ms | write_job=0ms | total=0ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 13:04:51 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 13:04:51 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 13:04:51 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 13:04:52 | SCALE | 1c_sel_crop | step=214ms | cum=214ms
+2026-07-22 13:04:52 | SCALE | 1b_hanger_list | step=0ms | cum=214ms
+2026-07-22 13:04:52 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 13:05:01 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=5058ms views=30ms json=1ms total=7829ms
+2026-07-22 13:05:02 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=10024ms | polls=32
+2026-07-22 13:05:02 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=10024ms | drawing=888800 | brand=silver | total=10243ms
+2026-07-22 13:05:02 | SCALE | 2_wait_AI | step=10258ms | cum=10472ms
+2026-07-22 13:05:05 | SCALE | 3_dialog | step=3052ms | cum=13524ms
+2026-07-22 13:05:05 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 214ms (cum 214ms) | 1b_hanger_list: 0ms (cum 214ms) | 2_wait_AI: 10258ms (cum 10472ms) | 3_dialog: 3052ms (cum 13524ms) | TOTAL: 13526ms
+2026-07-22 13:05:07 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 13:05:07 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=4ms | write_job=0ms | total=4ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 13:05:07 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 13:05:07 | SCALE | 0_queue_AI | step=2ms | cum=2ms
+2026-07-22 13:05:07 | SCALE | 1_selection | step=2ms | cum=4ms
+2026-07-22 13:05:07 | SCALE | 1c_sel_crop | step=229ms | cum=233ms
+2026-07-22 13:05:07 | SCALE | 1b_hanger_list | step=0ms | cum=233ms
+2026-07-22 13:05:07 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 13:05:16 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=4988ms views=31ms json=1ms total=7554ms
+2026-07-22 13:05:17 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=9617ms | polls=31
+2026-07-22 13:05:17 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=9617ms | drawing=888800 | brand=silver | total=9846ms
+2026-07-22 13:05:17 | SCALE | 2_wait_AI | step=9850ms | cum=10083ms
+2026-07-22 13:05:18 | SCALE | 3_dialog | step=1058ms | cum=11141ms
+2026-07-22 13:05:18 | SCALE | 4_calc_scale | step=1ms | cum=11142ms
+2026-07-22 13:05:18 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=copyOnly | START
+2026-07-22 13:05:18 | PS_AI | DF27.COMP017.12_DI_07072026 | sheet | drawing=888800 | metal=925 | brand=silver
+2026-07-22 13:05:18 | PS_AI | DF27.COMP017.12_DI_07072026 | copy | views=2 | read_json=0ms | cptl=219ms | total=229ms
+2026-07-22 13:05:18 | PS_AI | DF27.COMP017.12_DI_07072026 | copyOnly | views=2 | total=230ms
+2026-07-22 13:05:18 | SCALE | 5_copy_AI | step=233ms | cum=11375ms
+2026-07-22 13:05:18 | SCALE | 6_resolution_200 | step=89ms | cum=11464ms
+2026-07-22 13:05:18 | SCALE | 7_collect_views | step=3ms | cum=11467ms
+2026-07-22 13:05:18 | SCALE | 8_group_scale | step=208ms | cum=11675ms
+2026-07-22 13:05:18 | SCALE | 9_fill_bg | step=100ms | cum=11775ms
+2026-07-22 13:05:19 | SCALE | 10_ungroup_views | step=172ms | cum=11947ms
+2026-07-22 13:05:19 | SCALE | 11_zoom | step=457ms | cum=12404ms
+2026-07-22 13:05:19 | SCALE | DONE | AI queue=4ms wait=9617ms copy=229ms mode=job_link
+2026-07-22 13:05:19 | SCALE | 0_queue_AI: 2ms (cum 2ms) || 1_selection: 2ms (cum 4ms) || 1c_sel_crop: 229ms (cum 233ms) || 1b_hanger_list: 0ms (cum 233ms) || 2_wait_AI: 9850ms (cum 10083ms) || 3_dialog: 1058ms (cum 11141ms) || 4_calc_scale: 1ms (cum 11142ms) || 5_copy_AI: 233ms (cum 11375ms) || 6_resolution_200: 89ms (cum 11464ms) || 7_collect_views: 3ms (cum 11467ms) || 8_group_scale: 208ms (cum 11675ms) || 9_fill_bg: 100ms (cum 11775ms) || 10_ungroup_views: 172ms (cum 11947ms) || 11_zoom: 457ms (cum 12404ms) || TOTAL: 12406ms
+2026-07-22 13:05:19 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-22 13:09:41 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=queue | START
+2026-07-22 13:09:41 | PS_AI | DF27.COMP017.12_DI_07072026 | queue | mode=job_link | check=0ms | resolve=10ms | write_job=0ms | total=10ms | path=D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\DF27.COMP017.12_DI_07072026.jpg
+2026-07-22 13:09:41 | SCALE | === START DF27.COMP017.12_DI_07072026.jpg ===
+2026-07-22 13:09:41 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-22 13:09:41 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-22 13:09:41 | SCALE | 1c_sel_crop | step=253ms | cum=253ms
+2026-07-22 13:09:41 | SCALE | 1b_hanger_list | step=4ms | cum=257ms
+2026-07-22 13:09:41 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=waitOnly | START
+2026-07-22 13:09:53 | DETECTOR | DF27.COMP017.12_DI_07072026 | mode=original send=1365x907 lm=7089ms views=25ms json=4ms total=9673ms
+2026-07-22 13:09:53 | PS_AI | DF27.COMP017.12_DI_07072026 | wait | ok | waited=11634ms | polls=38
+2026-07-22 13:09:53 | PS_AI | DF27.COMP017.12_DI_07072026 | waitOnly | ok | wait=11634ms | drawing=888800 | brand=silver | total=11856ms
+2026-07-22 13:09:53 | SCALE | 2_wait_AI | step=11856ms | cum=12113ms
+2026-07-22 13:09:54 | SCALE | 3_dialog | step=1070ms | cum=13183ms
+2026-07-22 13:09:54 | SCALE | 4_calc_scale | step=1ms | cum=13184ms
+2026-07-22 13:09:54 | PS_AI | DF27.COMP017.12_DI_07072026 | phase=copyOnly | START
+2026-07-22 13:09:54 | PS_AI | DF27.COMP017.12_DI_07072026 | sheet | drawing=888800 | metal=925 | brand=silver
+2026-07-22 13:09:55 | PS_AI | DF27.COMP017.12_DI_07072026 | copy | views=2 | read_json=0ms | cptl=264ms | total=276ms
+2026-07-22 13:09:55 | PS_AI | DF27.COMP017.12_DI_07072026 | copyOnly | views=2 | total=277ms
+2026-07-22 13:09:55 | SCALE | 5_copy_AI | step=279ms | cum=13463ms
+2026-07-22 13:09:55 | SCALE | 6_resolution_200 | step=97ms | cum=13560ms
+2026-07-22 13:09:55 | SCALE | 7_collect_views | step=2ms | cum=13562ms
+2026-07-22 13:09:55 | SCALE | 8_group_scale | step=227ms | cum=13789ms
+2026-07-22 13:09:55 | SCALE | 9_fill_bg | step=111ms | cum=13900ms
+2026-07-22 13:09:55 | SCALE | 10_ungroup_views | step=186ms | cum=14086ms
+2026-07-22 13:09:56 | SCALE | 11_zoom | step=452ms | cum=14538ms
+2026-07-22 13:09:56 | SCALE | DONE | AI queue=10ms wait=11634ms copy=276ms mode=job_link
+2026-07-22 13:09:56 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 0ms (cum 0ms) || 1c_sel_crop: 253ms (cum 253ms) || 1b_hanger_list: 4ms (cum 257ms) || 2_wait_AI: 11856ms (cum 12113ms) || 3_dialog: 1070ms (cum 13183ms) || 4_calc_scale: 1ms (cum 13184ms) || 5_copy_AI: 279ms (cum 13463ms) || 6_resolution_200: 97ms (cum 13560ms) || 7_collect_views: 2ms (cum 13562ms) || 8_group_scale: 227ms (cum 13789ms) || 9_fill_bg: 111ms (cum 13900ms) || 10_ungroup_views: 186ms (cum 14086ms) || 11_zoom: 452ms (cum 14538ms) || TOTAL: 14539ms
+2026-07-22 13:09:56 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-23 14:30:11 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:30:12 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=119ms | write_job=0ms | total=119ms | path=M:\departments\Share\2D (HandDrawing)\23.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-23 14:30:12 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-23 14:30:12 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-23 14:30:12 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-23 14:30:12 | SCALE | 1c_sel_crop | step=313ms | cum=313ms
+2026-07-23 14:30:12 | SCALE | 1b_hanger_list | step=2ms | cum=315ms
+2026-07-23 14:30:12 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-23 14:31:53 | DETECTOR | DF27.COMP072_DI_06202026__sel_crop | mode=original send=144x194 lm=26185ms views=79ms json=1ms total=33742ms
+2026-07-23 14:33:14 | PS_AI | DF27.COMP072_DI_06202026 | wait | TIMEOUT 180s
+2026-07-23 14:33:36 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:33:37 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=576ms | write_job=4ms | total=580ms | path=M:\departments\Share\2D (HandDrawing)\23.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-23 14:33:37 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-23 14:33:37 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-23 14:33:37 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-23 14:33:37 | SCALE | 1c_sel_crop | step=246ms | cum=246ms
+2026-07-23 14:33:37 | SCALE | 1b_hanger_list | step=0ms | cum=246ms
+2026-07-23 14:33:37 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-23 14:34:10 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=26691ms views=231ms json=1ms total=31488ms
+2026-07-23 14:34:11 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=33515ms | polls=110
+2026-07-23 14:34:11 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=33515ms | drawing=889751 | brand=silver | total=33730ms
+2026-07-23 14:34:11 | SCALE | 2_wait_AI | step=33730ms | cum=33976ms
+2026-07-23 14:34:25 | SCALE | 3_dialog | step=14482ms | cum=48458ms
+2026-07-23 14:34:25 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 0ms (cum 0ms) | 1c_sel_crop: 246ms (cum 246ms) | 1b_hanger_list: 0ms (cum 246ms) | 2_wait_AI: 33730ms (cum 33976ms) | 3_dialog: 14482ms (cum 48458ms) | TOTAL: 48458ms
+2026-07-23 14:34:48 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:34:48 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=123ms | write_job=0ms | total=123ms | path=M:\departments\Share\2D (HandDrawing)\23.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-23 14:34:48 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-23 14:34:48 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-23 14:34:48 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-23 14:34:49 | SCALE | 1c_sel_crop | step=250ms | cum=250ms
+2026-07-23 14:34:49 | SCALE | 1b_hanger_list | step=0ms | cum=250ms
+2026-07-23 14:34:49 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-23 14:37:50 | PS_AI | DF27.COMP072_DI_06202026 | wait | TIMEOUT 180s
+2026-07-23 14:37:53 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:37:53 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-23 14:37:53 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:37:57 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:37:58 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=1ms | resolve=170ms | write_job=0ms | total=171ms | path=M:\departments\Share\2D (HandDrawing)\23.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-23 14:37:58 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-23 14:37:58 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-23 14:37:58 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-23 14:37:58 | SCALE | 1c_sel_crop | step=239ms | cum=240ms
+2026-07-23 14:37:58 | SCALE | 1b_hanger_list | step=2ms | cum=242ms
+2026-07-23 14:37:58 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-23 14:38:16 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=13231ms views=179ms json=1ms total=16596ms
+2026-07-23 14:38:16 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=18592ms | polls=61
+2026-07-23 14:38:17 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=18592ms | drawing=889751 | brand=silver | total=18804ms
+2026-07-23 14:38:17 | SCALE | 2_wait_AI | step=18807ms | cum=19049ms
+2026-07-23 14:38:24 | SCALE | 3_dialog | step=7026ms | cum=26075ms
+2026-07-23 14:38:24 | SCALE | CANCEL dialog | 0_queue_AI: 0ms (cum 0ms) | 1_selection: 1ms (cum 1ms) | 1c_sel_crop: 239ms (cum 240ms) | 1b_hanger_list: 2ms (cum 242ms) | 2_wait_AI: 18807ms (cum 19049ms) | 3_dialog: 7026ms (cum 26075ms) | TOTAL: 26075ms
+2026-07-23 14:39:48 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:39:48 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=113ms | write_job=0ms | total=114ms | path=M:\departments\Share\2D (HandDrawing)\23.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-23 14:39:48 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-23 14:39:48 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-23 14:39:48 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-23 14:39:48 | SCALE | 1c_sel_crop | step=256ms | cum=257ms
+2026-07-23 14:39:48 | SCALE | 1b_hanger_list | step=1ms | cum=258ms
+2026-07-23 14:39:48 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-23 14:40:05 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11538ms views=165ms json=1ms total=14645ms
+2026-07-23 14:40:05 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16768ms | polls=55
+2026-07-23 14:40:05 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16768ms | drawing=889751 | brand=silver | total=16986ms
+2026-07-23 14:40:05 | SCALE | 2_wait_AI | step=16988ms | cum=17246ms
+2026-07-23 14:40:10 | SCALE | 3_dialog | step=4984ms | cum=22230ms
+2026-07-23 14:40:10 | SCALE | CANCEL dialog | 0_queue_AI: 1ms (cum 1ms) | 1_selection: 0ms (cum 1ms) | 1c_sel_crop: 256ms (cum 257ms) | 1b_hanger_list: 1ms (cum 258ms) | 2_wait_AI: 16988ms (cum 17246ms) | 3_dialog: 4984ms (cum 22230ms) | TOTAL: 22239ms
+2026-07-23 14:40:32 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:40:32 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=0ms | resolve=122ms | write_job=0ms | total=122ms | path=M:\departments\Share\2D (HandDrawing)\23.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-23 14:40:32 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-23 14:40:32 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-23 14:40:32 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-23 14:40:32 | SCALE | 1c_sel_crop | step=261ms | cum=262ms
+2026-07-23 14:40:32 | SCALE | 1b_hanger_list | step=2ms | cum=264ms
+2026-07-23 14:40:32 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-23 14:40:49 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11522ms views=160ms json=1ms total=14591ms
+2026-07-23 14:40:49 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16764ms | polls=55
+2026-07-23 14:40:49 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16764ms | drawing=889751 | brand=silver | total=16983ms
+2026-07-23 14:40:49 | SCALE | 2_wait_AI | step=16986ms | cum=17250ms
+2026-07-23 14:40:50 | SCALE | 3_dialog | step=1080ms | cum=18330ms
+2026-07-23 14:40:50 | SCALE | 4_calc_scale | step=1ms | cum=18331ms
+2026-07-23 14:40:50 | PS_AI | DF27.COMP072_DI_06202026 | phase=copyOnly | START
+2026-07-23 14:40:50 | PS_AI | DF27.COMP072_DI_06202026 | sheet | drawing=889751 | metal=925 | brand=silver
+2026-07-23 14:40:51 | PS_AI | DF27.COMP072_DI_06202026 | copy | views=7 | read_json=0ms | cptl=963ms | total=983ms
+2026-07-23 14:40:51 | PS_AI | DF27.COMP072_DI_06202026 | copyOnly | views=7 | total=985ms
+2026-07-23 14:40:51 | SCALE | 5_copy_AI | step=987ms | cum=19318ms
+2026-07-23 14:40:52 | SCALE | 6_resolution_200 | step=282ms | cum=19600ms
+2026-07-23 14:40:52 | SCALE | 7_collect_views | step=9ms | cum=19609ms
+2026-07-23 14:40:52 | SCALE | 8_group_scale | step=437ms | cum=20046ms
+2026-07-23 14:40:52 | SCALE | 9_fill_bg | step=92ms | cum=20138ms
+2026-07-23 14:40:53 | SCALE | 10_ungroup_views | step=332ms | cum=20470ms
+2026-07-23 14:40:53 | SCALE | 11_zoom | step=491ms | cum=20961ms
+2026-07-23 14:40:53 | SCALE | DONE | AI queue=122ms wait=16764ms copy=983ms mode=job_link
+2026-07-23 14:40:53 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 1ms (cum 1ms) || 1c_sel_crop: 261ms (cum 262ms) || 1b_hanger_list: 2ms (cum 264ms) || 2_wait_AI: 16986ms (cum 17250ms) || 3_dialog: 1080ms (cum 18330ms) || 4_calc_scale: 1ms (cum 18331ms) || 5_copy_AI: 987ms (cum 19318ms) || 6_resolution_200: 282ms (cum 19600ms) || 7_collect_views: 9ms (cum 19609ms) || 8_group_scale: 437ms (cum 20046ms) || 9_fill_bg: 92ms (cum 20138ms) || 10_ungroup_views: 332ms (cum 20470ms) || 11_zoom: 491ms (cum 20961ms) || TOTAL: 20963ms
+2026-07-23 14:40:53 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-23 14:42:52 | PS_AI | DF27.COMP072_DI_06202026 | phase=queue | START
+2026-07-23 14:42:53 | PS_AI | DF27.COMP072_DI_06202026 | queue | mode=job_link | check=6ms | resolve=211ms | write_job=1ms | total=218ms | path=M:\departments\Share\2D (HandDrawing)\23.07\Scale 3D\KS\Finish\DF27.COMP072_DI_06202026.jpg
+2026-07-23 14:42:53 | SCALE | === START DF27.COMP072_DI_06202026.jpg ===
+2026-07-23 14:42:53 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-23 14:42:53 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-23 14:42:53 | SCALE | 1c_sel_crop | step=296ms | cum=297ms
+2026-07-23 14:42:53 | SCALE | 1b_hanger_list | step=1ms | cum=298ms
+2026-07-23 14:42:53 | PS_AI | DF27.COMP072_DI_06202026 | phase=waitOnly | START
+2026-07-23 14:43:10 | DETECTOR | DF27.COMP072_DI_06202026 | mode=original send=1734x1158 lm=11630ms views=162ms json=1ms total=14854ms
+2026-07-23 14:43:10 | PS_AI | DF27.COMP072_DI_06202026 | wait | ok | waited=16761ms | polls=55
+2026-07-23 14:43:10 | PS_AI | DF27.COMP072_DI_06202026 | waitOnly | ok | wait=16761ms | drawing=889751 | brand=silver | total=16976ms
+2026-07-23 14:43:10 | SCALE | 2_wait_AI | step=16978ms | cum=17276ms
+2026-07-23 14:43:11 | SCALE | 3_dialog | step=1056ms | cum=18332ms
+2026-07-23 14:43:11 | SCALE | 4_calc_scale | step=0ms | cum=18332ms
+2026-07-23 14:43:11 | PS_AI | DF27.COMP072_DI_06202026 | phase=copyOnly | START
+2026-07-23 14:43:11 | PS_AI | DF27.COMP072_DI_06202026 | sheet | drawing=889751 | metal=925 | brand=silver
+2026-07-23 14:43:12 | PS_AI | DF27.COMP072_DI_06202026 | copy | views=7 | read_json=0ms | cptl=928ms | total=947ms
+2026-07-23 14:43:12 | PS_AI | DF27.COMP072_DI_06202026 | copyOnly | views=7 | total=948ms
+2026-07-23 14:43:12 | SCALE | 5_copy_AI | step=951ms | cum=19283ms
+2026-07-23 14:43:12 | SCALE | 6_resolution_200 | step=239ms | cum=19522ms
+2026-07-23 14:43:12 | SCALE | 7_collect_views | step=15ms | cum=19537ms
+2026-07-23 14:43:13 | SCALE | 8_group_scale | step=457ms | cum=19994ms
+2026-07-23 14:43:13 | SCALE | 9_fill_bg | step=85ms | cum=20079ms
+2026-07-23 14:43:13 | SCALE | 10_ungroup_views | step=414ms | cum=20493ms
+2026-07-23 14:43:14 | SCALE | 11_zoom | step=483ms | cum=20976ms
+2026-07-23 14:43:14 | SCALE | DONE | AI queue=218ms wait=16761ms copy=947ms mode=job_link
+2026-07-23 14:43:14 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 0ms (cum 1ms) || 1c_sel_crop: 296ms (cum 297ms) || 1b_hanger_list: 1ms (cum 298ms) || 2_wait_AI: 16978ms (cum 17276ms) || 3_dialog: 1056ms (cum 18332ms) || 4_calc_scale: 0ms (cum 18332ms) || 5_copy_AI: 951ms (cum 19283ms) || 6_resolution_200: 239ms (cum 19522ms) || 7_collect_views: 15ms (cum 19537ms) || 8_group_scale: 457ms (cum 19994ms) || 9_fill_bg: 85ms (cum 20079ms) || 10_ungroup_views: 414ms (cum 20493ms) || 11_zoom: 483ms (cum 20976ms) || TOTAL: 20977ms
+2026-07-23 14:43:14 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-24 09:44:03 | PS_AI | Untitled-2 | phase=queue | START
+2026-07-24 09:44:03 | SCALE | === START Untitled-2 ===
+2026-07-24 09:44:03 | PS_AI | Untitled-2 | phase=queue | START
+2026-07-25 10:15:54 | PS_AI | 888802 | phase=queue | START
+2026-07-25 10:15:54 | SCALE | === START 888802.jpg ===
+2026-07-25 10:15:54 | PS_AI | 888802 | phase=queue | START
+2026-07-25 10:19:52 | PS_AI | 888802 | phase=queue | START
+2026-07-25 10:19:53 | PS_AI | 888802 | queue | mode=job_link | check=0ms | resolve=1250ms | write_job=0ms | total=1250ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 10:19:53 | SCALE | === START 888802.jpg ===
+2026-07-25 10:19:53 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 10:19:53 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-25 10:19:53 | SCALE | 1c_sel_crop | step=295ms | cum=297ms
+2026-07-25 10:19:53 | SCALE | 1b_hanger_list | step=6ms | cum=303ms
+2026-07-25 10:19:53 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 10:20:15 | DETECTOR | 888802 | mode=original send=1363x908 lm=13034ms views=184ms json=1ms total=19466ms
+2026-07-25 10:20:15 | PS_AI | 888802 | wait | ok | waited=21571ms | polls=71
+2026-07-25 10:20:15 | PS_AI | 888802 | waitOnly | ok | wait=21571ms | drawing=888802 | brand=14k | total=21790ms
+2026-07-25 10:20:15 | SCALE | 2_wait_AI | step=21791ms | cum=22094ms
+2026-07-25 10:20:16 | SCALE | 3_dialog | step=1045ms | cum=23139ms
+2026-07-25 10:20:16 | SCALE | 4_calc_scale | step=0ms | cum=23139ms
+2026-07-25 10:20:16 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 10:20:16 | PS_AI | 888802 | sheet | drawing=888802 | metal=14K | brand=14k
+2026-07-25 10:20:17 | PS_AI | 888802 | copy | views=7 | read_json=0ms | cptl=971ms | total=984ms
+2026-07-25 10:20:17 | PS_AI | 888802 | copyOnly | views=7 | total=985ms
+2026-07-25 10:20:17 | SCALE | 5_copy_AI | step=988ms | cum=24127ms
+2026-07-25 10:20:17 | SCALE | 6_resolution_200 | step=109ms | cum=24236ms
+2026-07-25 10:20:17 | SCALE | 7_collect_views | step=14ms | cum=24250ms
+2026-07-25 10:20:18 | SCALE | 8_group_scale | step=488ms | cum=24738ms
+2026-07-25 10:20:18 | SCALE | 9_fill_bg | step=114ms | cum=24852ms
+2026-07-25 10:20:18 | SCALE | 10_ungroup_views | step=469ms | cum=25321ms
+2026-07-25 10:20:19 | SCALE | 11_zoom | step=439ms | cum=25760ms
+2026-07-25 10:20:19 | SCALE | DONE | AI queue=1251ms wait=21571ms copy=984ms mode=job_link
+2026-07-25 10:20:19 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 1ms (cum 2ms) || 1c_sel_crop: 295ms (cum 297ms) || 1b_hanger_list: 6ms (cum 303ms) || 2_wait_AI: 21791ms (cum 22094ms) || 3_dialog: 1045ms (cum 23139ms) || 4_calc_scale: 0ms (cum 23139ms) || 5_copy_AI: 988ms (cum 24127ms) || 6_resolution_200: 109ms (cum 24236ms) || 7_collect_views: 14ms (cum 24250ms) || 8_group_scale: 488ms (cum 24738ms) || 9_fill_bg: 114ms (cum 24852ms) || 10_ungroup_views: 469ms (cum 25321ms) || 11_zoom: 439ms (cum 25760ms) || TOTAL: 25761ms
+2026-07-25 10:20:19 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 10:44:10 | PS_AI | 888802 | phase=queue | START
+2026-07-25 10:44:13 | PS_AI | 888802 | queue | mode=job_link | check=0ms | resolve=2286ms | write_job=0ms | total=2286ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 10:44:13 | SCALE | === START 888802.jpg ===
+2026-07-25 10:44:13 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-25 10:44:13 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-25 10:44:13 | SCALE | 1c_sel_crop | step=327ms | cum=328ms
+2026-07-25 10:44:13 | SCALE | 1b_hanger_list | step=3ms | cum=331ms
+2026-07-25 10:44:13 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 10:44:29 | DETECTOR | 888802 | mode=original send=1363x908 lm=11200ms views=104ms json=1ms total=14068ms
+2026-07-25 10:44:29 | PS_AI | 888802 | wait | ok | waited=16187ms | polls=53
+2026-07-25 10:44:29 | PS_AI | 888802 | waitOnly | ok | wait=16187ms | drawing=888800 | brand=silver | total=16405ms
+2026-07-25 10:44:29 | SCALE | 2_wait_AI | step=16408ms | cum=16739ms
+2026-07-25 10:44:30 | SCALE | 3_dialog | step=1061ms | cum=17800ms
+2026-07-25 10:44:30 | SCALE | 4_calc_scale | step=0ms | cum=17800ms
+2026-07-25 10:44:30 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 10:44:30 | PS_AI | 888802 | sheet | drawing=888800 | metal=925 | brand=silver
+2026-07-25 10:44:31 | PS_AI | 888802 | copy | views=6 | read_json=0ms | cptl=945ms | total=960ms
+2026-07-25 10:44:31 | PS_AI | 888802 | copyOnly | views=6 | total=960ms
+2026-07-25 10:44:31 | SCALE | 5_copy_AI | step=963ms | cum=18763ms
+2026-07-25 10:44:31 | SCALE | 6_resolution_200 | step=107ms | cum=18870ms
+2026-07-25 10:44:31 | SCALE | 7_collect_views | step=15ms | cum=18885ms
+2026-07-25 10:44:32 | SCALE | 8_group_scale | step=463ms | cum=19348ms
+2026-07-25 10:44:32 | SCALE | 9_fill_bg | step=148ms | cum=19496ms
+2026-07-25 10:44:33 | SCALE | 10_ungroup_views | step=417ms | cum=19913ms
+2026-07-25 10:44:33 | SCALE | 11_zoom | step=489ms | cum=20402ms
+2026-07-25 10:44:33 | SCALE | DONE | AI queue=2286ms wait=16187ms copy=960ms mode=job_link
+2026-07-25 10:44:33 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 1ms (cum 1ms) || 1c_sel_crop: 327ms (cum 328ms) || 1b_hanger_list: 3ms (cum 331ms) || 2_wait_AI: 16408ms (cum 16739ms) || 3_dialog: 1061ms (cum 17800ms) || 4_calc_scale: 0ms (cum 17800ms) || 5_copy_AI: 963ms (cum 18763ms) || 6_resolution_200: 107ms (cum 18870ms) || 7_collect_views: 15ms (cum 18885ms) || 8_group_scale: 463ms (cum 19348ms) || 9_fill_bg: 148ms (cum 19496ms) || 10_ungroup_views: 417ms (cum 19913ms) || 11_zoom: 489ms (cum 20402ms) || TOTAL: 20403ms
+2026-07-25 10:44:33 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 10:44:57 | PS_AI | 888802 | phase=queue | START
+2026-07-25 10:44:57 | PS_AI | 888802 | queue | mode=job_link | check=0ms | resolve=119ms | write_job=0ms | total=119ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 10:44:57 | SCALE | === START 888802.jpg ===
+2026-07-25 10:44:57 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-25 10:44:57 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-25 10:44:57 | SCALE | 1c_sel_crop | step=290ms | cum=291ms
+2026-07-25 10:44:57 | SCALE | 1b_hanger_list | step=2ms | cum=293ms
+2026-07-25 10:44:57 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 10:48:01 | PS_AI | 888802 | wait | TIMEOUT 180s
+2026-07-25 11:05:32 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:05:48 | SCALE | === START 888802.jpg ===
+2026-07-25 11:05:48 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:08:41 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:08:44 | PS_AI | 888802 | queue | mode=job_link | check=697ms | resolve=2500ms | write_job=1ms | total=3198ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:08:44 | SCALE | === START 888802.jpg ===
+2026-07-25 11:08:44 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:08:44 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-25 11:08:44 | SCALE | 1c_sel_crop | step=341ms | cum=343ms
+2026-07-25 11:08:44 | SCALE | 1b_hanger_list | step=2ms | cum=345ms
+2026-07-25 11:08:44 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:09:02 | DETECTOR | 888802 | mode=original send=1363x908 lm=12762ms views=186ms json=1ms total=15983ms
+2026-07-25 11:09:02 | PS_AI | 888802 | wait | ok | waited=18015ms | polls=59
+2026-07-25 11:09:03 | PS_AI | 888802 | waitOnly | ok | wait=18015ms | drawing=888802 | brand=14k | total=18231ms
+2026-07-25 11:09:03 | SCALE | 2_wait_AI | step=18234ms | cum=18579ms
+2026-07-25 11:09:04 | SCALE | 3_dialog | step=1064ms | cum=19643ms
+2026-07-25 11:09:04 | SCALE | 4_calc_scale | step=1ms | cum=19644ms
+2026-07-25 11:09:04 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 11:09:04 | PS_AI | 888802 | sheet | drawing=888802 | metal=14K | brand=14k
+2026-07-25 11:09:05 | PS_AI | 888802 | copy | views=7 | read_json=0ms | cptl=1093ms | total=1108ms
+2026-07-25 11:09:05 | PS_AI | 888802 | copyOnly | views=7 | total=1109ms
+2026-07-25 11:09:05 | SCALE | 5_copy_AI | step=1112ms | cum=20756ms
+2026-07-25 11:09:05 | SCALE | 6_resolution_200 | step=131ms | cum=20887ms
+2026-07-25 11:09:05 | SCALE | 7_collect_views | step=15ms | cum=20902ms
+2026-07-25 11:09:05 | SCALE | 8_group_scale | step=484ms | cum=21386ms
+2026-07-25 11:09:05 | SCALE | 9_fill_bg | step=134ms | cum=21520ms
+2026-07-25 11:09:06 | SCALE | 10_ungroup_views | step=428ms | cum=21948ms
+2026-07-25 11:09:06 | SCALE | 11_zoom | step=290ms | cum=22238ms
+2026-07-25 11:09:06 | SCALE | DONE | AI queue=3198ms wait=18015ms copy=1108ms mode=job_link
+2026-07-25 11:09:06 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 1ms (cum 2ms) || 1c_sel_crop: 341ms (cum 343ms) || 1b_hanger_list: 2ms (cum 345ms) || 2_wait_AI: 18234ms (cum 18579ms) || 3_dialog: 1064ms (cum 19643ms) || 4_calc_scale: 1ms (cum 19644ms) || 5_copy_AI: 1112ms (cum 20756ms) || 6_resolution_200: 131ms (cum 20887ms) || 7_collect_views: 15ms (cum 20902ms) || 8_group_scale: 484ms (cum 21386ms) || 9_fill_bg: 134ms (cum 21520ms) || 10_ungroup_views: 428ms (cum 21948ms) || 11_zoom: 290ms (cum 22238ms) || TOTAL: 22239ms
+2026-07-25 11:09:06 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 11:10:28 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:10:28 | PS_AI | 888802 | queue | mode=job_link | check=0ms | resolve=299ms | write_job=0ms | total=299ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:10:28 | SCALE | === START 888802.jpg ===
+2026-07-25 11:10:28 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:10:28 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-25 11:10:28 | SCALE | 1c_sel_crop | step=356ms | cum=358ms
+2026-07-25 11:10:28 | SCALE | 1b_hanger_list | step=2ms | cum=360ms
+2026-07-25 11:10:28 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:10:44 | DETECTOR | 888802 | mode=original send=1363x908 lm=11093ms views=96ms json=0ms total=14244ms
+2026-07-25 11:10:45 | PS_AI | 888802 | wait | ok | waited=16175ms | polls=53
+2026-07-25 11:10:45 | PS_AI | 888802 | waitOnly | ok | wait=16175ms | drawing=888802 | brand=14k | total=16389ms
+2026-07-25 11:10:45 | SCALE | 2_wait_AI | step=16392ms | cum=16752ms
+2026-07-25 11:10:46 | SCALE | 3_dialog | step=1081ms | cum=17833ms
+2026-07-25 11:10:46 | SCALE | 4_calc_scale | step=0ms | cum=17833ms
+2026-07-25 11:10:46 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 11:10:46 | PS_AI | 888802 | sheet | drawing=888802 | metal=14K | brand=14k
+2026-07-25 11:10:47 | PS_AI | 888802 | copy | views=7 | read_json=0ms | cptl=1193ms | total=1209ms
+2026-07-25 11:10:47 | PS_AI | 888802 | copyOnly | views=7 | total=1209ms
+2026-07-25 11:10:47 | SCALE | 5_copy_AI | step=1212ms | cum=19045ms
+2026-07-25 11:10:47 | SCALE | 6_resolution_200 | step=112ms | cum=19157ms
+2026-07-25 11:10:47 | SCALE | 7_collect_views | step=15ms | cum=19172ms
+2026-07-25 11:10:48 | SCALE | 8_group_scale | step=529ms | cum=19701ms
+2026-07-25 11:10:48 | SCALE | 9_fill_bg | step=141ms | cum=19842ms
+2026-07-25 11:10:48 | SCALE | 10_ungroup_views | step=500ms | cum=20342ms
+2026-07-25 11:10:49 | SCALE | 11_zoom | step=457ms | cum=20799ms
+2026-07-25 11:10:49 | SCALE | DONE | AI queue=299ms wait=16175ms copy=1209ms mode=job_link
+2026-07-25 11:10:49 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 1ms (cum 2ms) || 1c_sel_crop: 356ms (cum 358ms) || 1b_hanger_list: 2ms (cum 360ms) || 2_wait_AI: 16392ms (cum 16752ms) || 3_dialog: 1081ms (cum 17833ms) || 4_calc_scale: 0ms (cum 17833ms) || 5_copy_AI: 1212ms (cum 19045ms) || 6_resolution_200: 112ms (cum 19157ms) || 7_collect_views: 15ms (cum 19172ms) || 8_group_scale: 529ms (cum 19701ms) || 9_fill_bg: 141ms (cum 19842ms) || 10_ungroup_views: 500ms (cum 20342ms) || 11_zoom: 457ms (cum 20799ms) || TOTAL: 20800ms
+2026-07-25 11:10:49 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 11:12:29 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:12:30 | PS_AI | 888802 | queue | mode=job_link | check=730ms | resolve=1025ms | write_job=1ms | total=1756ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:12:30 | SCALE | === START 888802.jpg ===
+2026-07-25 11:12:30 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:12:30 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-25 11:12:31 | SCALE | 1c_sel_crop | step=322ms | cum=324ms
+2026-07-25 11:12:31 | SCALE | 1b_hanger_list | step=1ms | cum=325ms
+2026-07-25 11:12:31 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:12:53 | DETECTOR | 888802 | mode=original send=1363x908 lm=17090ms views=140ms json=1ms total=20261ms
+2026-07-25 11:12:53 | PS_AI | 888802 | wait | ok | waited=22092ms | polls=72
+2026-07-25 11:12:53 | PS_AI | 888802 | waitOnly | ok | wait=22092ms | drawing=888802 | brand=14k | total=22306ms
+2026-07-25 11:12:53 | SCALE | 2_wait_AI | step=22310ms | cum=22635ms
+2026-07-25 11:12:54 | SCALE | 3_dialog | step=1065ms | cum=23700ms
+2026-07-25 11:12:54 | SCALE | 4_calc_scale | step=0ms | cum=23700ms
+2026-07-25 11:12:54 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 11:12:54 | PS_AI | 888802 | sheet | drawing=888802 | metal=14K | brand=14k
+2026-07-25 11:12:55 | PS_AI | 888802 | copy | views=7 | read_json=0ms | cptl=1088ms | total=1101ms
+2026-07-25 11:12:55 | PS_AI | 888802 | copyOnly | views=7 | total=1101ms
+2026-07-25 11:12:55 | SCALE | 5_copy_AI | step=1104ms | cum=24804ms
+2026-07-25 11:12:55 | SCALE | 6_resolution_200 | step=119ms | cum=24923ms
+2026-07-25 11:12:55 | SCALE | 7_collect_views | step=14ms | cum=24937ms
+2026-07-25 11:12:56 | SCALE | 8_group_scale | step=601ms | cum=25538ms
+2026-07-25 11:12:56 | SCALE | 9_fill_bg | step=142ms | cum=25680ms
+2026-07-25 11:12:56 | SCALE | 10_ungroup_views | step=465ms | cum=26145ms
+2026-07-25 11:12:57 | SCALE | 11_zoom | step=460ms | cum=26605ms
+2026-07-25 11:12:57 | SCALE | DONE | AI queue=1756ms wait=22092ms copy=1101ms mode=job_link
+2026-07-25 11:12:57 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 1ms (cum 2ms) || 1c_sel_crop: 322ms (cum 324ms) || 1b_hanger_list: 1ms (cum 325ms) || 2_wait_AI: 22310ms (cum 22635ms) || 3_dialog: 1065ms (cum 23700ms) || 4_calc_scale: 0ms (cum 23700ms) || 5_copy_AI: 1104ms (cum 24804ms) || 6_resolution_200: 119ms (cum 24923ms) || 7_collect_views: 14ms (cum 24937ms) || 8_group_scale: 601ms (cum 25538ms) || 9_fill_bg: 142ms (cum 25680ms) || 10_ungroup_views: 465ms (cum 26145ms) || 11_zoom: 460ms (cum 26605ms) || TOTAL: 26606ms
+2026-07-25 11:12:57 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 11:14:57 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:14:58 | PS_AI | 888802 | queue | mode=job_link | check=0ms | resolve=1069ms | write_job=0ms | total=1069ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:14:58 | SCALE | === START 888802.jpg ===
+2026-07-25 11:14:58 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:14:58 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-25 11:14:58 | SCALE | 1c_sel_crop | step=298ms | cum=299ms
+2026-07-25 11:14:58 | SCALE | 1b_hanger_list | step=1ms | cum=300ms
+2026-07-25 11:14:58 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:15:14 | DETECTOR | 888802 | mode=original send=1363x908 lm=11078ms views=85ms json=1ms total=13982ms
+2026-07-25 11:15:14 | PS_AI | 888802 | wait | ok | waited=15867ms | polls=52
+2026-07-25 11:15:15 | PS_AI | 888802 | waitOnly | ok | wait=15867ms | drawing=888802 | brand=14k | total=16082ms
+2026-07-25 11:15:15 | SCALE | 2_wait_AI | step=16086ms | cum=16386ms
+2026-07-25 11:15:16 | SCALE | 3_dialog | step=1053ms | cum=17439ms
+2026-07-25 11:15:16 | SCALE | 4_calc_scale | step=1ms | cum=17440ms
+2026-07-25 11:15:16 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 11:15:16 | PS_AI | 888802 | sheet | drawing=888802 | metal=14K | brand=14k
+2026-07-25 11:15:17 | PS_AI | 888802 | copy | views=7 | read_json=0ms | cptl=1059ms | total=1073ms
+2026-07-25 11:15:17 | PS_AI | 888802 | copyOnly | views=7 | total=1073ms
+2026-07-25 11:15:17 | SCALE | 5_copy_AI | step=1075ms | cum=18515ms
+2026-07-25 11:15:17 | SCALE | 6_resolution_200 | step=101ms | cum=18616ms
+2026-07-25 11:15:17 | SCALE | 7_collect_views | step=17ms | cum=18633ms
+2026-07-25 11:15:17 | SCALE | 8_group_scale | step=492ms | cum=19125ms
+2026-07-25 11:15:17 | SCALE | 9_fill_bg | step=140ms | cum=19265ms
+2026-07-25 11:15:18 | SCALE | 10_ungroup_views | step=481ms | cum=19746ms
+2026-07-25 11:15:18 | SCALE | 11_zoom | step=497ms | cum=20243ms
+2026-07-25 11:15:18 | SCALE | DONE | AI queue=1069ms wait=15867ms copy=1073ms mode=job_link
+2026-07-25 11:15:18 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 0ms (cum 1ms) || 1c_sel_crop: 298ms (cum 299ms) || 1b_hanger_list: 1ms (cum 300ms) || 2_wait_AI: 16086ms (cum 16386ms) || 3_dialog: 1053ms (cum 17439ms) || 4_calc_scale: 1ms (cum 17440ms) || 5_copy_AI: 1075ms (cum 18515ms) || 6_resolution_200: 101ms (cum 18616ms) || 7_collect_views: 17ms (cum 18633ms) || 8_group_scale: 492ms (cum 19125ms) || 9_fill_bg: 140ms (cum 19265ms) || 10_ungroup_views: 481ms (cum 19746ms) || 11_zoom: 497ms (cum 20243ms) || TOTAL: 20244ms
+2026-07-25 11:15:18 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 11:15:43 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:15:43 | PS_AI | 888802 | queue | mode=job_link | check=0ms | resolve=137ms | write_job=0ms | total=137ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:15:43 | SCALE | === START 888802.jpg ===
+2026-07-25 11:15:43 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-25 11:15:43 | SCALE | 1_selection | step=0ms | cum=0ms
+2026-07-25 11:15:43 | SCALE | 1c_sel_crop | step=244ms | cum=244ms
+2026-07-25 11:15:43 | SCALE | 1b_hanger_list | step=0ms | cum=244ms
+2026-07-25 11:15:43 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:16:40 | DETECTOR | 888802 | mode=original send=1363x908 lm=11799ms views=109ms json=0ms total=14989ms
+2026-07-25 11:16:40 | PS_AI | 888802 | wait | ok | waited=57098ms | polls=188
+2026-07-25 11:16:40 | PS_AI | 888802 | waitOnly | ok | wait=57098ms | drawing=888802 | brand=14k | total=57313ms
+2026-07-25 11:16:40 | SCALE | 2_wait_AI | step=57314ms | cum=57558ms
+2026-07-25 11:16:42 | SCALE | 3_dialog | step=1081ms | cum=58639ms
+2026-07-25 11:16:42 | SCALE | 4_calc_scale | step=1ms | cum=58640ms
+2026-07-25 11:16:42 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 11:16:42 | PS_AI | 888802 | sheet | drawing=888802 | metal=14K | brand=14k
+2026-07-25 11:16:43 | PS_AI | 888802 | copy | views=7 | read_json=0ms | cptl=1153ms | total=1167ms
+2026-07-25 11:16:43 | PS_AI | 888802 | copyOnly | views=7 | total=1167ms
+2026-07-25 11:16:43 | SCALE | 5_copy_AI | step=1169ms | cum=59809ms
+2026-07-25 11:16:43 | SCALE | 6_resolution_200 | step=114ms | cum=59923ms
+2026-07-25 11:16:43 | SCALE | 7_collect_views | step=15ms | cum=59938ms
+2026-07-25 11:16:43 | SCALE | 8_group_scale | step=599ms | cum=60537ms
+2026-07-25 11:16:44 | SCALE | 9_fill_bg | step=159ms | cum=60696ms
+2026-07-25 11:16:44 | SCALE | 10_ungroup_views | step=533ms | cum=61229ms
+2026-07-25 11:16:45 | SCALE | 11_zoom | step=474ms | cum=61703ms
+2026-07-25 11:16:45 | SCALE | DONE | AI queue=137ms wait=57098ms copy=1167ms mode=job_link
+2026-07-25 11:16:45 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 0ms (cum 0ms) || 1c_sel_crop: 244ms (cum 244ms) || 1b_hanger_list: 0ms (cum 244ms) || 2_wait_AI: 57314ms (cum 57558ms) || 3_dialog: 1081ms (cum 58639ms) || 4_calc_scale: 1ms (cum 58640ms) || 5_copy_AI: 1169ms (cum 59809ms) || 6_resolution_200: 114ms (cum 59923ms) || 7_collect_views: 15ms (cum 59938ms) || 8_group_scale: 599ms (cum 60537ms) || 9_fill_bg: 159ms (cum 60696ms) || 10_ungroup_views: 533ms (cum 61229ms) || 11_zoom: 474ms (cum 61703ms) || TOTAL: 61705ms
+2026-07-25 11:16:45 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 11:18:31 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:18:32 | PS_AI | 888802 | queue | mode=job_link | check=733ms | resolve=1012ms | write_job=0ms | total=1745ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:18:32 | SCALE | === START 888802.jpg ===
+2026-07-25 11:18:32 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:18:32 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-25 11:18:33 | SCALE | 1c_sel_crop | step=310ms | cum=312ms
+2026-07-25 11:18:33 | SCALE | 1b_hanger_list | step=2ms | cum=314ms
+2026-07-25 11:18:33 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:18:36 | PS_AI | 888802 | wait | ABORT | detector_stopped | t=9 | elapsed=3117ms
+2026-07-25 11:18:54 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:18:55 | PS_AI | 888802 | queue | mode=job_link | check=746ms | resolve=152ms | write_job=0ms | total=898ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:18:55 | SCALE | === START 888802.jpg ===
+2026-07-25 11:18:55 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-25 11:18:55 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-25 11:18:55 | SCALE | 1c_sel_crop | step=229ms | cum=230ms
+2026-07-25 11:18:55 | SCALE | 1b_hanger_list | step=2ms | cum=232ms
+2026-07-25 11:18:55 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:18:58 | PS_AI | 888802 | wait | ABORT | detector_stopped | t=9 | elapsed=3128ms
+2026-07-25 11:19:03 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:19:04 | PS_AI | 888802 | queue | mode=job_link | check=743ms | resolve=121ms | write_job=5ms | total=869ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:19:04 | SCALE | === START 888802.jpg ===
+2026-07-25 11:19:04 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:19:04 | SCALE | 1_selection | step=2ms | cum=3ms
+2026-07-25 11:19:04 | SCALE | 1c_sel_crop | step=351ms | cum=354ms
+2026-07-25 11:19:04 | SCALE | 1b_hanger_list | step=2ms | cum=356ms
+2026-07-25 11:19:04 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:19:08 | PS_AI | 888802 | wait | ABORT | detector_stopped | t=9 | elapsed=3171ms
+2026-07-25 11:19:48 | DETECTOR | 888802 | mode=original send=1363x908 lm=12807ms views=124ms json=2ms total=15899ms
+2026-07-25 11:22:39 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:22:46 | PS_AI | 888802 | queue | mode=job_link | check=4914ms | resolve=1477ms | write_job=0ms | total=6392ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:22:46 | SCALE | === START 888802.jpg ===
+2026-07-25 11:22:46 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:22:46 | SCALE | 1_selection | step=2ms | cum=3ms
+2026-07-25 11:22:46 | SCALE | 1c_sel_crop | step=456ms | cum=459ms
+2026-07-25 11:22:46 | SCALE | 1b_hanger_list | step=2ms | cum=461ms
+2026-07-25 11:22:46 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:22:49 | PS_AI | 888802 | wait | ABORT | detector_stopped | t=9 | elapsed=3140ms
+2026-07-25 11:23:02 | DETECTOR | 888802 | mode=original send=1363x908 lm=11057ms views=79ms json=1ms total=13977ms
+2026-07-25 11:27:13 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:27:24 | SCALE | === START 888802.jpg ===
+2026-07-25 11:27:24 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:28:38 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:28:49 | SCALE | === START 888802.jpg ===
+2026-07-25 11:28:49 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:32:20 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:32:21 | PS_AI | 888802 | queue | mode=job_link | check=0ms | resolve=198ms | write_job=1ms | total=200ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:32:21 | SCALE | === START 888802.jpg ===
+2026-07-25 11:32:21 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:32:21 | SCALE | 1_selection | step=0ms | cum=1ms
+2026-07-25 11:32:21 | SCALE | 1c_sel_crop | step=251ms | cum=252ms
+2026-07-25 11:32:21 | SCALE | 1b_hanger_list | step=1ms | cum=253ms
+2026-07-25 11:32:21 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:33:44 | PS_AI | 888802 | wait | ABORT | detector_stopped | t=269 | elapsed=82941ms
+2026-07-25 11:33:54 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:33:55 | PS_AI | 888802 | queue | mode=job_link | check=1323ms | resolve=187ms | write_job=0ms | total=1510ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:33:55 | SCALE | === START 888802.jpg ===
+2026-07-25 11:33:55 | SCALE | 0_queue_AI | step=0ms | cum=0ms
+2026-07-25 11:33:55 | SCALE | 1_selection | step=1ms | cum=1ms
+2026-07-25 11:33:55 | SCALE | 1c_sel_crop | step=331ms | cum=332ms
+2026-07-25 11:33:55 | SCALE | 1b_hanger_list | step=2ms | cum=334ms
+2026-07-25 11:33:55 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:34:14 | DETECTOR | 888802 | mode=original send=1363x908 lm=12537ms views=184ms json=0ms total=17053ms
+2026-07-25 11:34:14 | PS_AI | 888802 | wait | ok | waited=18862ms | polls=62
+2026-07-25 11:34:14 | PS_AI | 888802 | waitOnly | ok | wait=18862ms | drawing=888802 | brand=14k | total=19077ms
+2026-07-25 11:34:14 | SCALE | 2_wait_AI | step=19079ms | cum=19413ms
+2026-07-25 11:34:16 | SCALE | 3_dialog | step=1070ms | cum=20483ms
+2026-07-25 11:34:16 | SCALE | 4_calc_scale | step=0ms | cum=20483ms
+2026-07-25 11:34:16 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 11:34:16 | PS_AI | 888802 | sheet | drawing=888802 | metal=14K | brand=14k
+2026-07-25 11:34:17 | PS_AI | 888802 | copy | views=7 | read_json=0ms | cptl=961ms | total=982ms
+2026-07-25 11:34:17 | PS_AI | 888802 | copyOnly | views=7 | total=982ms
+2026-07-25 11:34:17 | SCALE | 5_copy_AI | step=986ms | cum=21469ms
+2026-07-25 11:34:17 | SCALE | 6_resolution_200 | step=151ms | cum=21620ms
+2026-07-25 11:34:17 | SCALE | 7_collect_views | step=15ms | cum=21635ms
+2026-07-25 11:34:17 | SCALE | 8_group_scale | step=441ms | cum=22076ms
+2026-07-25 11:34:17 | SCALE | 9_fill_bg | step=122ms | cum=22198ms
+2026-07-25 11:34:18 | SCALE | 10_ungroup_views | step=383ms | cum=22581ms
+2026-07-25 11:34:18 | SCALE | 11_zoom | step=488ms | cum=23069ms
+2026-07-25 11:34:18 | SCALE | DONE | AI queue=1511ms wait=18862ms copy=981ms mode=job_link
+2026-07-25 11:34:18 | SCALE | 0_queue_AI: 0ms (cum 0ms) || 1_selection: 1ms (cum 1ms) || 1c_sel_crop: 331ms (cum 332ms) || 1b_hanger_list: 2ms (cum 334ms) || 2_wait_AI: 19079ms (cum 19413ms) || 3_dialog: 1070ms (cum 20483ms) || 4_calc_scale: 0ms (cum 20483ms) || 5_copy_AI: 986ms (cum 21469ms) || 6_resolution_200: 151ms (cum 21620ms) || 7_collect_views: 15ms (cum 21635ms) || 8_group_scale: 441ms (cum 22076ms) || 9_fill_bg: 122ms (cum 22198ms) || 10_ungroup_views: 383ms (cum 22581ms) || 11_zoom: 488ms (cum 23069ms) || TOTAL: 23072ms
+2026-07-25 11:34:18 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 11:43:34 | PS_AI | 888802 | phase=queue | START
+2026-07-25 11:43:37 | PS_AI | 888802 | queue | mode=job_link | check=1336ms | resolve=2199ms | write_job=0ms | total=3535ms | path=M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+2026-07-25 11:43:37 | SCALE | === START 888802.jpg ===
+2026-07-25 11:43:37 | SCALE | 0_queue_AI | step=1ms | cum=1ms
+2026-07-25 11:43:37 | SCALE | 1_selection | step=1ms | cum=2ms
+2026-07-25 11:43:38 | SCALE | 1c_sel_crop | step=232ms | cum=234ms
+2026-07-25 11:43:38 | SCALE | 1b_hanger_list | step=2ms | cum=236ms
+2026-07-25 11:43:38 | PS_AI | 888802 | phase=waitOnly | START
+2026-07-25 11:43:54 | DETECTOR | 888802 | mode=original send=1363x908 lm=11203ms views=114ms json=1ms total=14219ms
+2026-07-25 11:43:54 | PS_AI | 888802 | wait | ok | waited=16176ms | polls=53
+2026-07-25 11:43:54 | PS_AI | 888802 | waitOnly | ok | wait=16176ms | drawing=888802 | brand=14k | total=16395ms
+2026-07-25 11:43:54 | SCALE | 2_wait_AI | step=16398ms | cum=16634ms
+2026-07-25 11:43:55 | SCALE | 3_dialog | step=1087ms | cum=17721ms
+2026-07-25 11:43:55 | SCALE | 4_calc_scale | step=1ms | cum=17722ms
+2026-07-25 11:43:55 | PS_AI | 888802 | phase=copyOnly | START
+2026-07-25 11:43:55 | PS_AI | 888802 | sheet | drawing=888802 | metal=14K | brand=14k
+2026-07-25 11:43:56 | PS_AI | 888802 | copy | views=7 | read_json=1ms | cptl=1033ms | total=1047ms
+2026-07-25 11:43:56 | PS_AI | 888802 | copyOnly | views=7 | total=1048ms
+2026-07-25 11:43:56 | SCALE | 5_copy_AI | step=1050ms | cum=18772ms
+2026-07-25 11:43:56 | SCALE | 6_resolution_200 | step=126ms | cum=18898ms
+2026-07-25 11:43:56 | SCALE | 7_collect_views | step=14ms | cum=18912ms
+2026-07-25 11:43:57 | SCALE | 8_group_scale | step=491ms | cum=19403ms
+2026-07-25 11:43:57 | SCALE | 9_fill_bg | step=124ms | cum=19527ms
+2026-07-25 11:43:57 | SCALE | 10_ungroup_views | step=436ms | cum=19963ms
+2026-07-25 11:43:58 | SCALE | 11_zoom | step=439ms | cum=20402ms
+2026-07-25 11:43:58 | SCALE | DONE | AI queue=3540ms wait=16176ms copy=1047ms mode=job_link
+2026-07-25 11:43:58 | SCALE | 0_queue_AI: 1ms (cum 1ms) || 1_selection: 1ms (cum 2ms) || 1c_sel_crop: 232ms (cum 234ms) || 1b_hanger_list: 2ms (cum 236ms) || 2_wait_AI: 16398ms (cum 16634ms) || 3_dialog: 1087ms (cum 17721ms) || 4_calc_scale: 1ms (cum 17722ms) || 5_copy_AI: 1050ms (cum 18772ms) || 6_resolution_200: 126ms (cum 18898ms) || 7_collect_views: 14ms (cum 18912ms) || 8_group_scale: 491ms (cum 19403ms) || 9_fill_bg: 124ms (cum 19527ms) || 10_ungroup_views: 436ms (cum 19963ms) || 11_zoom: 439ms (cum 20402ms) || TOTAL: 20404ms
+2026-07-25 11:43:58 | SCALE | SUMMARY_FILE written: d:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\cache\last_run_timing.txt
+2026-07-25 13:42:15 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=2862ms
+2026-07-25 13:43:02 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=2362ms
+2026-07-25 13:45:21 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=6ms
+2026-07-25 13:45:56 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=6ms
+2026-07-25 13:47:43 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=8ms
+2026-07-25 13:47:52 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=7ms
+2026-07-25 13:48:05 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=7ms
+2026-07-25 13:52:25 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=8ms
+2026-07-25 13:52:52 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=10ms
+2026-07-25 13:54:03 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=6ms
+2026-07-25 13:55:10 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=7ms
+2026-07-25 13:59:00 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=9ms
+2026-07-25 13:59:55 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=0ms total=7ms
+2026-07-25 14:01:10 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=6ms
+2026-07-25 14:01:20 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=6ms
+2026-07-25 14:01:32 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=6ms
+2026-07-25 14:12:39 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=9ms
+2026-07-25 14:13:21 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=6ms
+2026-07-25 14:18:05 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=8ms
+2026-07-25 14:23:37 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=28ms
+2026-07-25 14:25:45 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=27ms
+2026-07-25 14:29:43 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=926ms
+2026-07-25 14:44:47 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=26ms
+2026-07-25 14:53:34 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=32ms
+2026-07-25 15:00:08 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=30ms
+2026-07-25 15:06:15 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=31ms
+2026-07-25 15:08:13 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=24ms
+2026-07-25 15:08:26 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=23ms
+2026-07-25 16:09:58 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=29ms
+2026-07-25 16:11:37 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=28ms

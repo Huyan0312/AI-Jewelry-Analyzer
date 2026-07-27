@@ -1,0 +1,51 @@
+=== TIMING RUN ===
+time: 2026-07-25 11:43:58
+doc:  888802.jpg
+
+--- SCALE steps ---
+0_queue_AI: 1ms (cum 1ms)
+1_selection: 1ms (cum 2ms)
+1c_sel_crop: 232ms (cum 234ms)
+1b_hanger_list: 2ms (cum 236ms)
+2_wait_AI: 16398ms (cum 16634ms)
+3_dialog: 1087ms (cum 17721ms)
+4_calc_scale: 1ms (cum 17722ms)
+5_copy_AI: 1050ms (cum 18772ms)
+6_resolution_200: 126ms (cum 18898ms)
+7_collect_views: 14ms (cum 18912ms)
+8_group_scale: 491ms (cum 19403ms)
+9_fill_bg: 124ms (cum 19527ms)
+10_ungroup_views: 436ms (cum 19963ms)
+11_zoom: 439ms (cum 20402ms)
+TOTAL: 20405ms
+
+--- AI (PS) ---
+AI queue=3540ms wait=16176ms copy=1047ms mode=job_link
+wait_polls=53
+views_copied=7
+
+--- DETECTOR (last_detector_timing.json) ---
+{
+  "base_name": "888802",
+  "image": "M:\\departments\\Share\\2D (HandDrawing)\\24.07\\Scale 3D\\KS\\Finish\\OLD\\888802.jpg",
+  "model": "qwen/qwen3-vl-4b",
+  "ms": {
+    "resize_ms": 0.0,
+    "encode_ms": 0.0,
+    "jpeg_bytes": 0,
+    "b64_kb": 0,
+    "send_w": 1363,
+    "send_h": 908,
+    "lm_all_views_ms": 11203.483199991751,
+    "process_views_ms": 114.14959997637197,
+    "dimension_ms": 2785.9779999707825,
+    "save_json_ms": 0.5403999821282923,
+    "move_ms": 0,
+    "total_ms": 14219.114699983038
+  },
+  "views": 7,
+  "ts": "2026-07-25 11:43:54",
+  "mode": "original_file_like_gui"
+}
+
+(Chi tiet theo dong: timing_log.txt)

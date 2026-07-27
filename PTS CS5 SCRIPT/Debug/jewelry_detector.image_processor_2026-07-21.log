@@ -1,0 +1,672 @@
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [441, 94, 882, 612]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [530, 153, 794, 553]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Center pixel: [662, 353]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.884
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 99, 900, 632]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 99, 900, 632]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x533 trim_left=30 trim_top=4 trim_right=15 trim_bottom=0 content_retained=98.8% success=True
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [502, 201, 865, 570] | AI bbox gốc: [530,153,794,553]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [502, 201, 865, 570]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_front_result.jpg
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.04s
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [882, 94, 1324, 612]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [971, 153, 1236, 553]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Center pixel: [1103, 353]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.884
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined: [865, 99, 1341, 632]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [865, 99, 1341, 632]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x533 trim_left=23 trim_top=4 trim_right=22 trim_bottom=0 content_retained=99.5% success=True
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [970, 158, 1243, 564] | AI bbox gốc: [971,153,1236,553]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [970, 158, 1243, 564]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_left_result.jpg
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1324, 94, 1765, 612]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1412, 153, 1677, 553]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Center pixel: [1544, 353]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined: [1306, 73, 1765, 632]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1306, 73, 1765, 632]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x559 trim_left=16 trim_top=30 trim_right=10 trim_bottom=0 content_retained=99.8% success=True
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1462, 312, 1712, 540] | AI bbox gốc: [1412,153,1677,553]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1462, 312, 1712, 540]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_top_result.jpg
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [441, 612, 882, 1152]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [530, 670, 794, 1082]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Center pixel: [662, 876]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 590, 900, 1174]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 590, 900, 1174]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x584 trim_left=30 trim_top=45 trim_right=15 trim_bottom=8 content_retained=99.3% success=True
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [485, 728, 830, 1105] | AI bbox gốc: [530,670,794,1082]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [485, 728, 830, 1105]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_back_result.jpg
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [882, 612, 1324, 1152]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [971, 670, 1236, 1082]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Center pixel: [1103, 876]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined: [865, 590, 1341, 1174]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [865, 590, 1341, 1174]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x584 trim_left=23 trim_top=45 trim_right=22 trim_bottom=8 content_retained=98.9% success=True
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [972, 674, 1256, 1091] | AI bbox gốc: [971,670,1236,1082]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [972, 674, 1256, 1091]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_right_result.jpg
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1324, 612, 1765, 1152]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1412, 670, 1677, 1082]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Center pixel: [1544, 876]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined: [1306, 590, 1765, 1174]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1306, 590, 1765, 1174]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x584 trim_left=16 trim_top=45 trim_right=10 trim_bottom=8 content_retained=99.7% success=True
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1465, 750, 1698, 965] | AI bbox gốc: [1412,670,1677,1082]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1465, 750, 1698, 965]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_bottom_result.jpg
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [0, 612, 441, 1152]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [88, 670, 353, 1082]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Center pixel: [221, 876]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined: [0, 590, 459, 1174]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [0, 590, 459, 1174]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x584 trim_left=9 trim_top=98 trim_right=8 trim_bottom=8 content_retained=94.8% success=True
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [23, 688, 447, 1156] | AI bbox gốc: [88,688,353,1082]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [23, 688, 447, 1156]
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_perspective_result.jpg
+2026-07-21 16:25:14 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [441, 94, 882, 612]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [530, 153, 794, 553]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Center pixel: [662, 353]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.884
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 99, 900, 632]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 99, 900, 632]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x533 trim_left=30 trim_top=4 trim_right=15 trim_bottom=0 content_retained=98.8% success=True
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [502, 201, 865, 570] | AI bbox gốc: [530,153,794,553]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [502, 201, 865, 570]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_front_result.jpg
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.04s
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [882, 94, 1324, 612]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [971, 153, 1236, 553]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Center pixel: [1103, 353]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.884
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined: [865, 99, 1341, 632]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [865, 99, 1341, 632]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x533 trim_left=23 trim_top=4 trim_right=22 trim_bottom=0 content_retained=99.5% success=True
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [970, 158, 1243, 564] | AI bbox gốc: [971,153,1236,553]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [970, 158, 1243, 564]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_left_result.jpg
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [882, 612, 1324, 1152]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [971, 670, 1236, 1082]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Center pixel: [1103, 876]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined: [865, 590, 1341, 1174]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [865, 590, 1341, 1174]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x584 trim_left=23 trim_top=45 trim_right=22 trim_bottom=8 content_retained=98.9% success=True
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [972, 674, 1256, 1091] | AI bbox gốc: [971,670,1236,1082]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [972, 674, 1256, 1091]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_right_result.jpg
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1324, 94, 1765, 612]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1412, 153, 1677, 553]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Center pixel: [1544, 353]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined: [1306, 73, 1765, 632]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1306, 73, 1765, 632]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x559 trim_left=16 trim_top=30 trim_right=10 trim_bottom=0 content_retained=99.8% success=True
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1462, 312, 1712, 540] | AI bbox gốc: [1412,153,1677,553]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1462, 312, 1712, 540]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_top_result.jpg
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1324, 612, 1765, 1152]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1412, 670, 1677, 1082]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Center pixel: [1544, 876]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined: [1306, 590, 1765, 1174]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1306, 590, 1765, 1174]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x584 trim_left=16 trim_top=45 trim_right=10 trim_bottom=8 content_retained=99.7% success=True
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1465, 750, 1698, 965] | AI bbox gốc: [1412,670,1677,1082]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1465, 750, 1698, 965]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_bottom_result.jpg
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [441, 612, 882, 1152]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [530, 670, 794, 1082]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Center pixel: [662, 876]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 590, 900, 1174]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 590, 900, 1174]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x584 trim_left=30 trim_top=45 trim_right=15 trim_bottom=8 content_retained=99.3% success=True
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [485, 728, 830, 1105] | AI bbox gốc: [530,670,794,1082]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [485, 728, 830, 1105]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_back_result.jpg
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [0, 612, 441, 1152]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [88, 670, 353, 1082]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Center pixel: [221, 876]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined: [0, 590, 459, 1174]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [0, 590, 459, 1174]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x584 trim_left=9 trim_top=98 trim_right=8 trim_bottom=8 content_retained=94.8% success=True
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [23, 688, 447, 1156] | AI bbox gốc: [88,688,353,1082]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [23, 688, 447, 1156]
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_perspective_result.jpg
+2026-07-21 16:29:36 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [441, 94, 882, 612]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [530, 153, 794, 553]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Center pixel: [662, 353]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.884
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 99, 900, 632]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 99, 900, 632]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x533 trim_left=30 trim_top=4 trim_right=15 trim_bottom=0 content_retained=98.8% success=True
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [502, 201, 865, 570] | AI bbox gốc: [530,153,794,553]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [502, 201, 865, 570]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_front_result.jpg
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.04s
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [882, 94, 1324, 612]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [971, 153, 1236, 553]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Center pixel: [1103, 353]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.884
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined: [865, 99, 1341, 632]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [865, 99, 1341, 632]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x533 trim_left=23 trim_top=4 trim_right=22 trim_bottom=0 content_retained=99.5% success=True
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [970, 158, 1243, 564] | AI bbox gốc: [971,153,1236,553]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [970, 158, 1243, 564]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_left_result.jpg
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1324, 94, 1765, 612]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1412, 153, 1677, 553]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Center pixel: [1544, 353]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined: [1306, 73, 1765, 632]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1306, 73, 1765, 632]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x559 trim_left=16 trim_top=30 trim_right=10 trim_bottom=0 content_retained=99.8% success=True
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1462, 312, 1712, 540] | AI bbox gốc: [1412,153,1677,553]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1462, 312, 1712, 540]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_top_result.jpg
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [441, 612, 882, 1152]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [530, 670, 794, 1082]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Center pixel: [662, 876]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 590, 900, 1174]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 590, 900, 1174]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x584 trim_left=30 trim_top=45 trim_right=15 trim_bottom=8 content_retained=99.3% success=True
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [485, 728, 830, 1105] | AI bbox gốc: [530,670,794,1082]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [485, 728, 830, 1105]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_back_result.jpg
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [882, 612, 1324, 1152]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [971, 670, 1236, 1082]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Center pixel: [1103, 876]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined: [865, 590, 1341, 1174]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [865, 590, 1341, 1174]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x584 trim_left=23 trim_top=45 trim_right=22 trim_bottom=8 content_retained=98.9% success=True
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [972, 674, 1256, 1091] | AI bbox gốc: [971,670,1236,1082]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [972, 674, 1256, 1091]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_right_result.jpg
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1324, 612, 1765, 1152]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1412, 670, 1677, 1082]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Center pixel: [1544, 876]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined: [1306, 590, 1765, 1174]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1306, 590, 1765, 1174]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x584 trim_left=16 trim_top=45 trim_right=10 trim_bottom=8 content_retained=99.7% success=True
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1465, 750, 1698, 965] | AI bbox gốc: [1412,670,1677,1082]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1465, 750, 1698, 965]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_bottom_result.jpg
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [0, 612, 441, 1152]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [53, 670, 388, 1082]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Center pixel: [221, 876]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined: [0, 590, 459, 1174]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [0, 590, 459, 1174]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x584 trim_left=9 trim_top=98 trim_right=8 trim_bottom=8 content_retained=94.8% success=True
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [23, 688, 447, 1156] | AI bbox gốc: [53,688,388,1082]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [23, 688, 447, 1156]
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_perspective_result.jpg
+2026-07-21 16:31:55 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [441, 94, 882, 612]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [530, 153, 794, 553]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Center pixel: [662, 353]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.884
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 99, 900, 632]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 99, 900, 632]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x533 trim_left=30 trim_top=4 trim_right=15 trim_bottom=0 content_retained=98.8% success=True
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [502, 201, 865, 570] | AI bbox gốc: [530,153,794,553]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [502, 201, 865, 570]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_front_result.jpg
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [882, 94, 1324, 612]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [971, 153, 1236, 553]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Center pixel: [1103, 353]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.884
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined: [865, 99, 1341, 632]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [865, 99, 1341, 632]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x533 trim_left=23 trim_top=4 trim_right=22 trim_bottom=0 content_retained=99.5% success=True
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [970, 158, 1243, 564] | AI bbox gốc: [971,153,1236,553]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [970, 158, 1243, 564]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_left_result.jpg
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1324, 94, 1765, 612]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1412, 153, 1677, 553]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Center pixel: [1544, 353]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined: [1306, 73, 1765, 632]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1306, 73, 1765, 632]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x559 trim_left=16 trim_top=30 trim_right=10 trim_bottom=0 content_retained=99.8% success=True
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1462, 312, 1712, 540] | AI bbox gốc: [1412,153,1677,553]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1462, 312, 1712, 540]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_top_result.jpg
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [441, 612, 882, 1152]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [530, 670, 794, 1082]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Center pixel: [662, 876]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 590, 900, 1174]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 590, 900, 1174]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x584 trim_left=30 trim_top=45 trim_right=15 trim_bottom=8 content_retained=99.3% success=True
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [485, 728, 830, 1105] | AI bbox gốc: [530,670,794,1082]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [485, 728, 830, 1105]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_back_result.jpg
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [882, 612, 1324, 1152]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [971, 670, 1236, 1082]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Center pixel: [1103, 876]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined: [865, 590, 1341, 1174]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [865, 590, 1341, 1174]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=476x584 trim_left=23 trim_top=45 trim_right=22 trim_bottom=8 content_retained=98.9% success=True
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [972, 674, 1256, 1091] | AI bbox gốc: [971,670,1236,1082]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [972, 674, 1256, 1091]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_right_result.jpg
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1324, 612, 1765, 1152]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1412, 670, 1677, 1082]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Center pixel: [1544, 876]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined: [1306, 590, 1765, 1174]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1306, 590, 1765, 1174]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x584 trim_left=16 trim_top=45 trim_right=10 trim_bottom=8 content_retained=99.7% success=True
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1465, 750, 1698, 965] | AI bbox gốc: [1412,670,1677,1082]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1465, 750, 1698, 965]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_bottom_result.jpg
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1765 x 1176 px
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [0, 612, 441, 1152]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [88, 670, 353, 1082]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Center pixel: [221, 876]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.890
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined: [0, 590, 459, 1174]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [0, 590, 459, 1174]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x584 trim_left=9 trim_top=98 trim_right=8 trim_bottom=8 content_retained=94.8% success=True
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [23, 688, 447, 1156] | AI bbox gốc: [88,688,353,1082]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [23, 688, 447, 1156]
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889060 A_perspective_result.jpg
+2026-07-21 16:32:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [442, 106, 884, 623]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [565, 153, 795, 553]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Center pixel: [680, 353]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.857
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 85, 901, 644]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 85, 901, 644]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x559 trim_left=31 trim_top=20 trim_right=14 trim_bottom=8 content_retained=97.7% success=True
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [566, 198, 864, 577] | AI bbox gốc: [565,153,795,553]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [566, 198, 864, 577]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_front_result.jpg
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [884, 106, 1325, 623]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1025, 153, 1202, 553]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Center pixel: [1113, 353]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.857
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined: [866, 85, 1343, 644]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [866, 85, 1343, 644]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x559 trim_left=24 trim_top=20 trim_right=20 trim_bottom=8 content_retained=99.6% success=True
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1035, 226, 1190, 606] | AI bbox gốc: [1025,153,1202,553]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1035, 226, 1190, 606]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_left_result.jpg
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1325, 106, 1767, 623]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1449, 153, 1661, 553]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Center pixel: [1555, 353]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.891
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined: [1308, 85, 1767, 644]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1308, 85, 1767, 644]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x559 trim_left=18 trim_top=20 trim_right=8 trim_bottom=8 content_retained=99.8% success=True
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1401, 293, 1647, 438] | AI bbox gốc: [1449,153,1661,553]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1401, 293, 1647, 438]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_top_result.jpg
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [442, 623, 884, 1141]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [565, 670, 795, 1070]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Center pixel: [680, 870]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 603, 901, 1161]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 603, 901, 1161]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x558 trim_left=31 trim_top=36 trim_right=14 trim_bottom=0 content_retained=99.6% success=True
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [474, 693, 788, 1075] | AI bbox gốc: [565,670,795,1070]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [474, 693, 788, 1075]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_back_result.jpg
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [884, 623, 1325, 1141]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1025, 670, 1202, 1070]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Center pixel: [1113, 870]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined: [866, 603, 1343, 1161]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [866, 603, 1343, 1161]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x558 trim_left=24 trim_top=36 trim_right=20 trim_bottom=0 content_retained=98.2% success=True
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1038, 709, 1181, 1061] | AI bbox gốc: [1025,670,1202,1070]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1038, 709, 1181, 1061]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_right_result.jpg
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1325, 623, 1767, 1141]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1449, 670, 1661, 1070]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Center pixel: [1555, 870]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.892
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined: [1308, 603, 1767, 1161]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1308, 603, 1767, 1161]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x558 trim_left=18 trim_top=36 trim_right=8 trim_bottom=0 content_retained=99.7% success=True
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1436, 806, 1665, 930] | AI bbox gốc: [1449,670,1661,1070]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1436, 806, 1665, 930]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_bottom_result.jpg
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [0, 623, 442, 1141]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [53, 706, 318, 1058]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Center pixel: [186, 882]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.892
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined: [0, 603, 459, 1161]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [0, 603, 459, 1161]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x558 trim_left=10 trim_top=80 trim_right=7 trim_bottom=0 content_retained=93.7% success=True
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [68, 731, 356, 1080] | AI bbox gốc: [53,706,318,1058]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [68, 731, 356, 1080]
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_perspective_result.jpg
+2026-07-21 16:33:18 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [442, 106, 884, 623]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [565, 153, 795, 553]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Center pixel: [680, 353]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.857
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 85, 901, 644]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 85, 901, 644]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x559 trim_left=31 trim_top=20 trim_right=14 trim_bottom=8 content_retained=97.7% success=True
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [566, 198, 864, 577] | AI bbox gốc: [565,153,795,553]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [566, 198, 864, 577]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_front_result.jpg
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [884, 106, 1325, 623]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1025, 153, 1202, 553]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Center pixel: [1113, 353]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.857
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined: [866, 85, 1343, 644]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [866, 85, 1343, 644]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x559 trim_left=24 trim_top=20 trim_right=20 trim_bottom=8 content_retained=99.6% success=True
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1035, 226, 1190, 606] | AI bbox gốc: [1025,153,1202,553]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1035, 226, 1190, 606]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_left_result.jpg
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1325, 106, 1767, 623]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1449, 153, 1661, 553]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Center pixel: [1555, 353]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.891
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined: [1308, 85, 1767, 644]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1308, 85, 1767, 644]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x559 trim_left=18 trim_top=20 trim_right=8 trim_bottom=8 content_retained=99.8% success=True
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1401, 293, 1647, 438] | AI bbox gốc: [1449,153,1661,553]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1401, 293, 1647, 438]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_top_result.jpg
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [442, 623, 884, 1141]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [565, 670, 795, 1070]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Center pixel: [680, 870]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 603, 901, 1161]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 603, 901, 1161]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x558 trim_left=31 trim_top=36 trim_right=14 trim_bottom=0 content_retained=99.6% success=True
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [474, 693, 788, 1075] | AI bbox gốc: [565,670,795,1070]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [474, 693, 788, 1075]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_back_result.jpg
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [884, 623, 1325, 1141]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1025, 670, 1202, 1070]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Center pixel: [1113, 870]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined: [866, 603, 1343, 1161]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [866, 603, 1343, 1161]
+2026-07-21 16:42:26 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x558 trim_left=24 trim_top=36 trim_right=20 trim_bottom=0 content_retained=98.2% success=True
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1038, 709, 1181, 1061] | AI bbox gốc: [1025,670,1202,1070]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1038, 709, 1181, 1061]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_right_result.jpg
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1325, 623, 1767, 1141]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1449, 670, 1661, 1070]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Center pixel: [1555, 870]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.892
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Panel refined: [1308, 603, 1767, 1161]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1308, 603, 1767, 1161]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x558 trim_left=18 trim_top=36 trim_right=8 trim_bottom=0 content_retained=99.7% success=True
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1436, 806, 1665, 930] | AI bbox gốc: [1449,670,1661,1070]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1436, 806, 1665, 930]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_bottom_result.jpg
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [0, 623, 442, 1141]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [53, 706, 318, 1058]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Center pixel: [186, 882]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.892
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Panel refined: [0, 603, 459, 1161]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [0, 603, 459, 1161]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x558 trim_left=10 trim_top=80 trim_right=7 trim_bottom=0 content_retained=93.7% success=True
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [68, 731, 356, 1080] | AI bbox gốc: [53,706,318,1058]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [68, 731, 356, 1080]
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_perspective_result.jpg
+2026-07-21 16:42:27 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:02 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [442, 106, 884, 623]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [565, 153, 795, 553]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Center pixel: [680, 353]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.857
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 85, 901, 644]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 85, 901, 644]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x559 trim_left=31 trim_top=20 trim_right=14 trim_bottom=8 content_retained=97.7% success=True
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [566, 198, 864, 577] | AI bbox gốc: [565,153,795,553]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [566, 198, 864, 577]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_front_result.jpg
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [884, 106, 1325, 623]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1025, 153, 1202, 553]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Center pixel: [1113, 353]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.857
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined: [866, 85, 1343, 644]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [866, 85, 1343, 644]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x559 trim_left=24 trim_top=20 trim_right=20 trim_bottom=8 content_retained=99.6% success=True
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1035, 226, 1190, 606] | AI bbox gốc: [1025,153,1202,553]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1035, 226, 1190, 606]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_left_result.jpg
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1325, 106, 1767, 623]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1449, 153, 1661, 553]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Center pixel: [1555, 353]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.891
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined: [1308, 85, 1767, 644]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1308, 85, 1767, 644]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x559 trim_left=18 trim_top=20 trim_right=8 trim_bottom=8 content_retained=99.8% success=True
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1401, 293, 1647, 438] | AI bbox gốc: [1449,153,1661,553]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1401, 293, 1647, 438]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_top_result.jpg
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [442, 623, 884, 1141]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [565, 670, 795, 1070]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Center pixel: [680, 870]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 603, 901, 1161]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 603, 901, 1161]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x558 trim_left=31 trim_top=36 trim_right=14 trim_bottom=0 content_retained=99.6% success=True
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [474, 693, 788, 1075] | AI bbox gốc: [565,670,795,1070]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [474, 693, 788, 1075]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_back_result.jpg
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [884, 623, 1325, 1141]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1025, 670, 1202, 1070]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Center pixel: [1113, 870]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined: [866, 603, 1343, 1161]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [866, 603, 1343, 1161]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x558 trim_left=24 trim_top=36 trim_right=20 trim_bottom=0 content_retained=98.2% success=True
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1038, 709, 1181, 1061] | AI bbox gốc: [1025,670,1202,1070]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1038, 709, 1181, 1061]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_right_result.jpg
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1325, 623, 1767, 1141]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1449, 670, 1661, 1070]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Center pixel: [1555, 870]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.892
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined: [1308, 603, 1767, 1161]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1308, 603, 1767, 1161]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x558 trim_left=18 trim_top=36 trim_right=8 trim_bottom=0 content_retained=99.7% success=True
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1436, 806, 1665, 930] | AI bbox gốc: [1449,670,1661,1070]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1436, 806, 1665, 930]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_bottom_result.jpg
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [0, 623, 442, 1141]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [53, 706, 318, 1058]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Center pixel: [186, 882]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.892
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined: [0, 603, 459, 1161]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [0, 603, 459, 1161]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x558 trim_left=10 trim_top=80 trim_right=7 trim_bottom=0 content_retained=93.7% success=True
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [68, 731, 356, 1080] | AI bbox gốc: [53,706,318,1058]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [68, 731, 356, 1080]
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_perspective_result.jpg
+2026-07-21 16:43:03 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [442, 106, 884, 623]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [565, 165, 795, 564]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Center pixel: [680, 365]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.857
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 85, 901, 644]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 85, 901, 644]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x559 trim_left=31 trim_top=20 trim_right=14 trim_bottom=8 content_retained=97.7% success=True
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [566, 198, 864, 577] | AI bbox gốc: [565,165,795,564]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [566, 198, 864, 577]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_front_result.jpg
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [884, 106, 1325, 623]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1025, 165, 1202, 564]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Center pixel: [1113, 365]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.857
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined: [866, 85, 1343, 644]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [866, 85, 1343, 644]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x559 trim_left=24 trim_top=20 trim_right=20 trim_bottom=8 content_retained=99.6% success=True
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1035, 226, 1190, 606] | AI bbox gốc: [1025,165,1202,564]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1035, 226, 1190, 606]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_left_result.jpg
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1325, 106, 1767, 623]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1449, 165, 1661, 564]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Center pixel: [1555, 365]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.891
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined: [1308, 85, 1767, 644]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1308, 85, 1767, 644]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x559 trim_left=18 trim_top=20 trim_right=8 trim_bottom=8 content_retained=99.8% success=True
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1401, 293, 1647, 438] | AI bbox gốc: [1449,165,1661,564]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1401, 293, 1647, 438]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_top_result.jpg
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [442, 623, 884, 1141]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [565, 682, 795, 1094]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Center pixel: [680, 888]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined: [424, 603, 901, 1161]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [424, 603, 901, 1161]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x558 trim_left=31 trim_top=36 trim_right=14 trim_bottom=0 content_retained=99.6% success=True
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [474, 693, 788, 1075] | AI bbox gốc: [565,682,795,1094]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [474, 693, 788, 1075]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_back_result.jpg
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [884, 623, 1325, 1141]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1025, 682, 1202, 1094]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Center pixel: [1113, 888]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.859
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined: [866, 603, 1343, 1161]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [866, 603, 1343, 1161]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=477x558 trim_left=24 trim_top=36 trim_right=20 trim_bottom=0 content_retained=98.2% success=True
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1038, 709, 1181, 1061] | AI bbox gốc: [1025,682,1202,1094]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1038, 709, 1181, 1061]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_right_result.jpg
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [1325, 623, 1767, 1141]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [1449, 682, 1661, 1094]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Center pixel: [1555, 888]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.892
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined: [1308, 603, 1767, 1161]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [1308, 603, 1767, 1161]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x558 trim_left=18 trim_top=36 trim_right=8 trim_bottom=0 content_retained=99.7% success=True
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [1436, 806, 1665, 930] | AI bbox gốc: [1449,682,1661,1094]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [1436, 806, 1665, 930]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_bottom_result.jpg
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Kích thước ảnh: 1767 x 1176 px
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel pixel (AI): [0, 623, 442, 1141]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object pixel (AI): [53, 764, 336, 1058]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Center pixel: [194, 911]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | OpenCV panel refine IoU = 0.892
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined: [0, 603, 459, 1161]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Panel refined (OpenCV): [0, 603, 459, 1161]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Clean panel crop: raw_size=459x558 trim_left=10 trim_top=80 trim_right=7 trim_bottom=0 content_retained=93.7% success=True
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Trimmed Object (ảnh gốc): [68, 731, 356, 1080] | AI bbox gốc: [53,764,336,1058]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Object refined (OpenCV Trim): [68, 731, 356, 1080]
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Đã lưu ảnh kết quả: 889524-A_perspective_result.jpg
+2026-07-21 16:43:32 | INFO     | jewelry_detector.image_processor | Tổng thời gian xử lý: 0.02s

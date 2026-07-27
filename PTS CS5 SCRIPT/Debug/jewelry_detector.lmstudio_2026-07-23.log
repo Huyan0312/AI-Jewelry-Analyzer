@@ -1,0 +1,96 @@
+2026-07-23 14:30:15 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026.jpg' tới model 'google/gemma-4-12b-qat' để phân tích ALL VIEWS
+2026-07-23 14:30:15 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 48ms | ~832 KB b64
+2026-07-23 14:30:15 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:31:17 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 62027ms | status=200
+2026-07-23 14:31:17 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-23 14:31:17 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 62076ms
+2026-07-23 14:31:17 | WARNING  | jewelry_detector.lmstudio | Không parse được views từ response của model.
+2026-07-23 14:31:19 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026__sel_crop.jpg' tới model 'google/gemma-4-12b-qat' để phân tích ALL VIEWS
+2026-07-23 14:31:19 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 0ms | ~39 KB b64
+2026-07-23 14:31:19 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:31:45 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 26184ms | status=200
+2026-07-23 14:31:45 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-23 14:31:45 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 26184ms
+2026-07-23 14:31:45 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=None metal=None brand=NONE weight=None | views=7
+2026-07-23 14:31:49 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'google/gemma-4-12b-qat' de doc H/W/RD...
+2026-07-23 14:31:49 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-23 14:31:49 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-23 14:31:53 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 3855ms | status=200
+2026-07-23 14:31:53 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=0.0 dir=W conf=low | total=3855ms
+2026-07-23 14:33:39 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026.jpg' tới model 'google/gemma-4-12b-qat' để phân tích ALL VIEWS
+2026-07-23 14:33:39 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 60ms | ~832 KB b64
+2026-07-23 14:33:39 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:34:06 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 26630ms | status=200
+2026-07-23 14:34:06 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-23 14:34:06 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 26690ms
+2026-07-23 14:34:06 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889751 metal=925 brand=silver weight=0.27 gr | views=7
+2026-07-23 14:34:07 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'google/gemma-4-12b-qat' de doc H/W/RD...
+2026-07-23 14:34:07 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-23 14:34:07 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-23 14:34:10 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 3792ms | status=200
+2026-07-23 14:34:10 | INFO     | jewelry_detector.lmstudio | [DIMENSION] H=0 W=6.7 → direction suy ra: W
+2026-07-23 14:34:10 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=6.7 H=0.0 dir=W conf=high | total=3792ms
+2026-07-23 14:34:51 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-23 14:34:51 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 48ms | ~832 KB b64
+2026-07-23 14:34:51 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:34:53 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 2223ms | status=400
+2026-07-23 14:34:53 | ERROR    | jewelry_detector.lmstudio | API trả lỗi 400: {"error":"Engine protocol predict request returned 400: {\"error\":{\"code\":400,\"message\":\"request (3562 tokens) exceeds the available context size (3328 tokens), try increasing it\",\"type\":\"exceed_context_size_error\",\"n_prompt_tokens\":3562,\"n_ctx\":3328}}"}
+2026-07-23 14:34:55 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026__sel_crop.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-23 14:34:55 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 0ms | ~39 KB b64
+2026-07-23 14:34:55 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:34:59 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 3583ms | status=200
+2026-07-23 14:34:59 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-23 14:34:59 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 3583ms
+2026-07-23 14:34:59 | WARNING  | jewelry_detector.lmstudio | Không parse được views từ response của model.
+2026-07-23 14:38:00 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-23 14:38:00 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 70ms | ~832 KB b64
+2026-07-23 14:38:00 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:38:13 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13161ms | status=200
+2026-07-23 14:38:13 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-23 14:38:13 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13231ms
+2026-07-23 14:38:13 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889751 metal=925 brand=silver weight=0.27 gr | views=7
+2026-07-23 14:38:13 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-23 14:38:13 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-23 14:38:13 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-23 14:38:16 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2996ms | status=200
+2026-07-23 14:38:16 | INFO     | jewelry_detector.lmstudio | [DIMENSION] H=0 W=6.7 → direction suy ra: W
+2026-07-23 14:38:16 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=6.7 H=0.0 dir=W conf=high | total=2997ms
+2026-07-23 14:39:50 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-23 14:39:51 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 147ms | ~832 KB b64
+2026-07-23 14:39:51 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:40:02 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11390ms | status=200
+2026-07-23 14:40:02 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-23 14:40:02 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11537ms
+2026-07-23 14:40:02 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889751 metal=925 brand=silver weight=0.27 gr | views=7
+2026-07-23 14:40:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-23 14:40:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-23 14:40:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-23 14:40:05 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2859ms | status=200
+2026-07-23 14:40:05 | INFO     | jewelry_detector.lmstudio | [DIMENSION] H=0 W=6.7 → direction suy ra: W
+2026-07-23 14:40:05 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=6.7 H=0.0 dir=W conf=high | total=2859ms
+2026-07-23 14:40:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-23 14:40:34 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 59ms | ~832 KB b64
+2026-07-23 14:40:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:40:46 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11463ms | status=200
+2026-07-23 14:40:46 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-23 14:40:46 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11522ms
+2026-07-23 14:40:46 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889751 metal=925 brand=silver weight=0.27 gr | views=7
+2026-07-23 14:40:46 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-23 14:40:46 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-23 14:40:46 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-23 14:40:49 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2873ms | status=200
+2026-07-23 14:40:49 | INFO     | jewelry_detector.lmstudio | [DIMENSION] H=0 W=6.7 → direction suy ra: W
+2026-07-23 14:40:49 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=6.7 H=0.0 dir=W conf=high | total=2873ms
+2026-07-23 14:42:55 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'DF27.COMP072_DI_06202026.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-23 14:42:55 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 48ms | ~832 KB b64
+2026-07-23 14:42:55 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-23 14:43:07 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11581ms | status=200
+2026-07-23 14:43:07 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-23 14:43:07 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11629ms
+2026-07-23 14:43:07 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889751 metal=925 brand=silver weight=0.27 gr | views=7
+2026-07-23 14:43:07 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-23 14:43:07 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-23 14:43:07 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-23 14:43:10 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2969ms | status=200
+2026-07-23 14:43:10 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=11.2 → direction suy ra: H
+2026-07-23 14:43:10 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=11.2 dir=H conf=high | total=2969ms

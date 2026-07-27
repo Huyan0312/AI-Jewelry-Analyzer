@@ -1,0 +1,351 @@
+2026-07-21 16:24:22 | INFO     | headless_detector | TEST: Debug folder log check OK
+2026-07-21 16:24:51 | INFO     | headless_detector | [Headless Detector] PID 10336 - Dang theo doi: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input
+2026-07-21 16:24:51 | INFO     | headless_detector | Nhan Ctrl+C de thoat.
+2026-07-21 16:24:55 | INFO     | headless_detector | Nhan job: 889060 A.job.json
+2026-07-21 16:24:57 | INFO     | headless_detector | [TIMING] get_active_model: 2029ms | qwen/qwen3-vl-4b
+2026-07-21 16:24:57 | INFO     | headless_detector | [TIMING] Nhan job 889060 A.job.json | base=889060 A | doi_trong_hang~2211ms
+2026-07-21 16:24:57 | INFO     | headless_detector | [DIMENSION] Auto-detected sel_crop: 889060 A__sel_crop.jpg
+2026-07-21 16:24:57 | INFO     | headless_detector | ==================================================
+2026-07-21 16:24:57 | INFO     | headless_detector | Xu ly anh: 889060 A.jpg
+2026-07-21 16:24:57 | INFO     | headless_detector | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:24:57 | INFO     | headless_detector | Su dung model: qwen/qwen3-vl-4b
+2026-07-21 16:24:57 | INFO     | headless_detector | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+2026-07-21 16:24:58 | INFO     | headless_detector | Gui LM kich thuoc goc: 1765x1176
+2026-07-21 16:25:12 | INFO     | headless_detector | [TIMING] LM ALL VIEWS (encode goc+HTTP): 13695ms
+2026-07-21 16:25:12 | INFO     | headless_detector | Nhan dien thanh cong 7 views | drawing=889060 metal=14K brand=14k
+2026-07-21 16:25:14 | INFO     | headless_detector |   Dang xu ly FRONT...
+2026-07-21 16:25:14 | INFO     | headless_detector |   FRONT: obj=[502, 201, 865, 570] | 40ms
+2026-07-21 16:25:14 | INFO     | headless_detector |   Dang xu ly LEFT...
+2026-07-21 16:25:14 | INFO     | headless_detector |   LEFT: obj=[970, 158, 1243, 564] | 19ms
+2026-07-21 16:25:14 | INFO     | headless_detector |   Dang xu ly TOP...
+2026-07-21 16:25:14 | INFO     | headless_detector |   TOP: obj=[1462, 312, 1712, 540] | 23ms
+2026-07-21 16:25:14 | INFO     | headless_detector |   Dang xu ly BACK...
+2026-07-21 16:25:14 | INFO     | headless_detector |   BACK: obj=[485, 728, 830, 1105] | 23ms
+2026-07-21 16:25:14 | INFO     | headless_detector |   Dang xu ly RIGHT...
+2026-07-21 16:25:14 | INFO     | headless_detector |   RIGHT: obj=[972, 674, 1256, 1091] | 20ms
+2026-07-21 16:25:14 | INFO     | headless_detector |   Dang xu ly BOTTOM...
+2026-07-21 16:25:14 | INFO     | headless_detector |   BOTTOM: obj=[1465, 750, 1698, 965] | 20ms
+2026-07-21 16:25:14 | INFO     | headless_detector |   Dang xu ly PERSPECTIVE...
+2026-07-21 16:25:14 | INFO     | headless_detector |   PERSPECTIVE: obj=[23, 688, 447, 1156] | 19ms
+2026-07-21 16:25:14 | INFO     | headless_detector | [TIMING] process 7 views (bbox/refine): 164ms
+2026-07-21 16:25:14 | INFO     | headless_detector | [DIMENSION] Dung selection crop: 889060 A__sel_crop.jpg (19KB)
+2026-07-21 16:25:17 | INFO     | headless_detector | [TIMING] AI lan 2 (selection crop): 2599ms
+2026-07-21 16:25:17 | INFO     | headless_detector | Da luu JSON: 889060 A_all_views_result.json
+2026-07-21 16:25:17 | INFO     | headless_detector | [TIMING] save JSON: 1ms
+2026-07-21 16:25:17 | INFO     | headless_detector | Giu nguyen file goc: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:25:17 | INFO     | headless_detector | --------------------------------------------------
+2026-07-21 16:25:17 | INFO     | headless_detector | [TIMING SUMMARY] 889060 A
+2026-07-21 16:25:17 | INFO     | headless_detector |   0. payload           : original 1765x1176 (giong GUI)
+2026-07-21 16:25:17 | INFO     | headless_detector |   1. prepare           : 0ms (encode trong LM client)
+2026-07-21 16:25:17 | INFO     | headless_detector |   2. LM ALL VIEWS     : 13695ms  << thuong la bottleneck
+2026-07-21 16:25:17 | INFO     | headless_detector |   3. process views    : 164ms
+2026-07-21 16:25:17 | INFO     | headless_detector |   4. save JSON        : 1ms
+2026-07-21 16:25:17 | INFO     | headless_detector |   5. move source      : 0ms
+2026-07-21 16:25:17 | INFO     | headless_detector |   TOTAL Detector     : 19331ms (19.33s)
+2026-07-21 16:25:17 | INFO     | headless_detector | ==================================================
+2026-07-21 16:25:17 | INFO     | headless_detector | [TIMING] process_job wall: 19333ms
+2026-07-21 16:29:19 | INFO     | headless_detector | [Headless Detector] PID 10324 - Dang theo doi: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input
+2026-07-21 16:29:19 | INFO     | headless_detector | Nhan Ctrl+C de thoat.
+2026-07-21 16:29:20 | INFO     | headless_detector | Nhan job: 889060 A.job.json
+2026-07-21 16:29:23 | INFO     | headless_detector | [TIMING] get_active_model: 2082ms | qwen/qwen3-vl-4b
+2026-07-21 16:29:23 | INFO     | headless_detector | [TIMING] Nhan job 889060 A.job.json | base=889060 A | doi_trong_hang~2226ms
+2026-07-21 16:29:23 | INFO     | headless_detector | [DIMENSION] Auto-detected sel_crop: 889060 A__sel_crop.jpg
+2026-07-21 16:29:23 | INFO     | headless_detector | ==================================================
+2026-07-21 16:29:23 | INFO     | headless_detector | Xu ly anh: 889060 A.jpg
+2026-07-21 16:29:23 | INFO     | headless_detector | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:29:23 | INFO     | headless_detector | Su dung model: qwen/qwen3-vl-4b
+2026-07-21 16:29:23 | INFO     | headless_detector | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+2026-07-21 16:29:23 | INFO     | headless_detector | Gui LM kich thuoc goc: 1765x1176
+2026-07-21 16:29:36 | INFO     | headless_detector | [TIMING] LM ALL VIEWS (encode goc+HTTP): 13250ms
+2026-07-21 16:29:36 | INFO     | headless_detector | Nhan dien thanh cong 7 views | drawing=889060 metal=14K brand=14k
+2026-07-21 16:29:36 | INFO     | headless_detector |   Dang xu ly FRONT...
+2026-07-21 16:29:36 | INFO     | headless_detector |   FRONT: obj=[502, 201, 865, 570] | 38ms
+2026-07-21 16:29:36 | INFO     | headless_detector |   Dang xu ly LEFT...
+2026-07-21 16:29:36 | INFO     | headless_detector |   LEFT: obj=[970, 158, 1243, 564] | 19ms
+2026-07-21 16:29:36 | INFO     | headless_detector |   Dang xu ly RIGHT...
+2026-07-21 16:29:36 | INFO     | headless_detector |   RIGHT: obj=[972, 674, 1256, 1091] | 22ms
+2026-07-21 16:29:36 | INFO     | headless_detector |   Dang xu ly TOP...
+2026-07-21 16:29:36 | INFO     | headless_detector |   TOP: obj=[1462, 312, 1712, 540] | 18ms
+2026-07-21 16:29:36 | INFO     | headless_detector |   Dang xu ly BOTTOM...
+2026-07-21 16:29:36 | INFO     | headless_detector |   BOTTOM: obj=[1465, 750, 1698, 965] | 19ms
+2026-07-21 16:29:36 | INFO     | headless_detector |   Dang xu ly BACK...
+2026-07-21 16:29:36 | INFO     | headless_detector |   BACK: obj=[485, 728, 830, 1105] | 21ms
+2026-07-21 16:29:36 | INFO     | headless_detector |   Dang xu ly PERSPECTIVE...
+2026-07-21 16:29:36 | INFO     | headless_detector |   PERSPECTIVE: obj=[23, 688, 447, 1156] | 20ms
+2026-07-21 16:29:36 | INFO     | headless_detector | [TIMING] process 7 views (bbox/refine): 157ms
+2026-07-21 16:29:36 | INFO     | headless_detector | [DIMENSION] Dung selection crop: 889060 A__sel_crop.jpg (52KB)
+2026-07-21 16:29:39 | INFO     | headless_detector | [TIMING] AI lan 2 (selection crop): 2776ms
+2026-07-21 16:29:39 | INFO     | headless_detector | Da luu JSON: 889060 A_all_views_result.json
+2026-07-21 16:29:39 | INFO     | headless_detector | [TIMING] save JSON: 1ms
+2026-07-21 16:29:39 | INFO     | headless_detector | Giu nguyen file goc: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:29:39 | INFO     | headless_detector | --------------------------------------------------
+2026-07-21 16:29:39 | INFO     | headless_detector | [TIMING SUMMARY] 889060 A
+2026-07-21 16:29:39 | INFO     | headless_detector |   0. payload           : original 1765x1176 (giong GUI)
+2026-07-21 16:29:39 | INFO     | headless_detector |   1. prepare           : 0ms (encode trong LM client)
+2026-07-21 16:29:39 | INFO     | headless_detector |   2. LM ALL VIEWS     : 13250ms  << thuong la bottleneck
+2026-07-21 16:29:39 | INFO     | headless_detector |   3. process views    : 157ms
+2026-07-21 16:29:39 | INFO     | headless_detector |   4. save JSON        : 1ms
+2026-07-21 16:29:39 | INFO     | headless_detector |   5. move source      : 0ms
+2026-07-21 16:29:39 | INFO     | headless_detector |   TOTAL Detector     : 16271ms (16.27s)
+2026-07-21 16:29:39 | INFO     | headless_detector | ==================================================
+2026-07-21 16:29:39 | INFO     | headless_detector | [TIMING] process_job wall: 16272ms
+2026-07-21 16:31:40 | INFO     | headless_detector | [Headless Detector] PID 3212 - Dang theo doi: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input
+2026-07-21 16:31:40 | INFO     | headless_detector | Nhan Ctrl+C de thoat.
+2026-07-21 16:31:42 | INFO     | headless_detector | Nhan job: 889060 A.job.json
+2026-07-21 16:31:44 | INFO     | headless_detector | [TIMING] get_active_model: 2048ms | qwen/qwen3-vl-4b
+2026-07-21 16:31:44 | INFO     | headless_detector | [TIMING] Nhan job 889060 A.job.json | base=889060 A | doi_trong_hang~2068ms
+2026-07-21 16:31:44 | INFO     | headless_detector | [DIMENSION] Auto-detected sel_crop: 889060 A__sel_crop.jpg
+2026-07-21 16:31:44 | INFO     | headless_detector | ==================================================
+2026-07-21 16:31:44 | INFO     | headless_detector | Xu ly anh: 889060 A.jpg
+2026-07-21 16:31:44 | INFO     | headless_detector | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:31:44 | INFO     | headless_detector | Su dung model: qwen/qwen3-vl-4b
+2026-07-21 16:31:44 | INFO     | headless_detector | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+2026-07-21 16:31:44 | INFO     | headless_detector | Gui LM kich thuoc goc: 1765x1176
+2026-07-21 16:31:55 | INFO     | headless_detector | [TIMING] LM ALL VIEWS (encode goc+HTTP): 10975ms
+2026-07-21 16:31:55 | INFO     | headless_detector | Nhan dien thanh cong 7 views | drawing=889060 metal=14K brand=14k
+2026-07-21 16:31:55 | INFO     | headless_detector |   Dang xu ly FRONT...
+2026-07-21 16:31:55 | INFO     | headless_detector |   FRONT: obj=[502, 201, 865, 570] | 40ms
+2026-07-21 16:31:55 | INFO     | headless_detector |   Dang xu ly LEFT...
+2026-07-21 16:31:55 | INFO     | headless_detector |   LEFT: obj=[970, 158, 1243, 564] | 22ms
+2026-07-21 16:31:55 | INFO     | headless_detector |   Dang xu ly TOP...
+2026-07-21 16:31:55 | INFO     | headless_detector |   TOP: obj=[1462, 312, 1712, 540] | 20ms
+2026-07-21 16:31:55 | INFO     | headless_detector |   Dang xu ly BACK...
+2026-07-21 16:31:55 | INFO     | headless_detector |   BACK: obj=[485, 728, 830, 1105] | 22ms
+2026-07-21 16:31:55 | INFO     | headless_detector |   Dang xu ly RIGHT...
+2026-07-21 16:31:55 | INFO     | headless_detector |   RIGHT: obj=[972, 674, 1256, 1091] | 21ms
+2026-07-21 16:31:55 | INFO     | headless_detector |   Dang xu ly BOTTOM...
+2026-07-21 16:31:55 | INFO     | headless_detector |   BOTTOM: obj=[1465, 750, 1698, 965] | 21ms
+2026-07-21 16:31:55 | INFO     | headless_detector |   Dang xu ly PERSPECTIVE...
+2026-07-21 16:31:55 | INFO     | headless_detector |   PERSPECTIVE: obj=[23, 688, 447, 1156] | 22ms
+2026-07-21 16:31:55 | INFO     | headless_detector | [TIMING] process 7 views (bbox/refine): 168ms
+2026-07-21 16:31:55 | INFO     | headless_detector | [DIMENSION] Dung selection crop: 889060 A__sel_crop.jpg (53KB)
+2026-07-21 16:31:58 | INFO     | headless_detector | [TIMING] AI lan 2 (selection crop): 2784ms
+2026-07-21 16:31:58 | INFO     | headless_detector | Da luu JSON: 889060 A_all_views_result.json
+2026-07-21 16:31:58 | INFO     | headless_detector | [TIMING] save JSON: 1ms
+2026-07-21 16:31:58 | INFO     | headless_detector | Giu nguyen file goc: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:31:58 | INFO     | headless_detector | --------------------------------------------------
+2026-07-21 16:31:58 | INFO     | headless_detector | [TIMING SUMMARY] 889060 A
+2026-07-21 16:31:58 | INFO     | headless_detector |   0. payload           : original 1765x1176 (giong GUI)
+2026-07-21 16:31:58 | INFO     | headless_detector |   1. prepare           : 0ms (encode trong LM client)
+2026-07-21 16:31:58 | INFO     | headless_detector |   2. LM ALL VIEWS     : 10975ms  << thuong la bottleneck
+2026-07-21 16:31:58 | INFO     | headless_detector |   3. process views    : 168ms
+2026-07-21 16:31:58 | INFO     | headless_detector |   4. save JSON        : 1ms
+2026-07-21 16:31:58 | INFO     | headless_detector |   5. move source      : 0ms
+2026-07-21 16:31:58 | INFO     | headless_detector |   TOTAL Detector     : 14047ms (14.05s)
+2026-07-21 16:31:58 | INFO     | headless_detector | ==================================================
+2026-07-21 16:31:58 | INFO     | headless_detector | [TIMING] process_job wall: 14049ms
+2026-07-21 16:32:13 | INFO     | headless_detector | Nhan job: 889060 A.job.json
+2026-07-21 16:32:15 | INFO     | headless_detector | [TIMING] get_active_model: 2063ms | qwen/qwen3-vl-4b
+2026-07-21 16:32:15 | INFO     | headless_detector | [TIMING] Nhan job 889060 A.job.json | base=889060 A | doi_trong_hang~2076ms
+2026-07-21 16:32:15 | INFO     | headless_detector | [DIMENSION] Auto-detected sel_crop: 889060 A__sel_crop.jpg
+2026-07-21 16:32:15 | INFO     | headless_detector | ==================================================
+2026-07-21 16:32:15 | INFO     | headless_detector | Xu ly anh: 889060 A.jpg
+2026-07-21 16:32:15 | INFO     | headless_detector | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:32:15 | INFO     | headless_detector | Su dung model: qwen/qwen3-vl-4b
+2026-07-21 16:32:15 | INFO     | headless_detector | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+2026-07-21 16:32:15 | INFO     | headless_detector | Gui LM kich thuoc goc: 1765x1176
+2026-07-21 16:32:26 | INFO     | headless_detector | [TIMING] LM ALL VIEWS (encode goc+HTTP): 11069ms
+2026-07-21 16:32:26 | INFO     | headless_detector | Nhan dien thanh cong 7 views | drawing=889060 metal=14K brand=14k
+2026-07-21 16:32:26 | INFO     | headless_detector |   Dang xu ly FRONT...
+2026-07-21 16:32:26 | INFO     | headless_detector |   FRONT: obj=[502, 201, 865, 570] | 20ms
+2026-07-21 16:32:26 | INFO     | headless_detector |   Dang xu ly LEFT...
+2026-07-21 16:32:26 | INFO     | headless_detector |   LEFT: obj=[970, 158, 1243, 564] | 20ms
+2026-07-21 16:32:26 | INFO     | headless_detector |   Dang xu ly TOP...
+2026-07-21 16:32:26 | INFO     | headless_detector |   TOP: obj=[1462, 312, 1712, 540] | 18ms
+2026-07-21 16:32:26 | INFO     | headless_detector |   Dang xu ly BACK...
+2026-07-21 16:32:26 | INFO     | headless_detector |   BACK: obj=[485, 728, 830, 1105] | 20ms
+2026-07-21 16:32:26 | INFO     | headless_detector |   Dang xu ly RIGHT...
+2026-07-21 16:32:26 | INFO     | headless_detector |   RIGHT: obj=[972, 674, 1256, 1091] | 19ms
+2026-07-21 16:32:26 | INFO     | headless_detector |   Dang xu ly BOTTOM...
+2026-07-21 16:32:26 | INFO     | headless_detector |   BOTTOM: obj=[1465, 750, 1698, 965] | 19ms
+2026-07-21 16:32:26 | INFO     | headless_detector |   Dang xu ly PERSPECTIVE...
+2026-07-21 16:32:26 | INFO     | headless_detector |   PERSPECTIVE: obj=[23, 688, 447, 1156] | 19ms
+2026-07-21 16:32:26 | INFO     | headless_detector | [TIMING] process 7 views (bbox/refine): 136ms
+2026-07-21 16:32:26 | INFO     | headless_detector | [DIMENSION] Dung selection crop: 889060 A__sel_crop.jpg (36KB)
+2026-07-21 16:32:29 | INFO     | headless_detector | [TIMING] AI lan 2 (selection crop): 2777ms
+2026-07-21 16:32:29 | INFO     | headless_detector | Da luu JSON: 889060 A_all_views_result.json
+2026-07-21 16:32:29 | INFO     | headless_detector | [TIMING] save JSON: 1ms
+2026-07-21 16:32:29 | INFO     | headless_detector | Giu nguyen file goc: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889060 A.jpg
+2026-07-21 16:32:29 | INFO     | headless_detector | --------------------------------------------------
+2026-07-21 16:32:29 | INFO     | headless_detector | [TIMING SUMMARY] 889060 A
+2026-07-21 16:32:29 | INFO     | headless_detector |   0. payload           : original 1765x1176 (giong GUI)
+2026-07-21 16:32:29 | INFO     | headless_detector |   1. prepare           : 0ms (encode trong LM client)
+2026-07-21 16:32:29 | INFO     | headless_detector |   2. LM ALL VIEWS     : 11069ms  << thuong la bottleneck
+2026-07-21 16:32:29 | INFO     | headless_detector |   3. process views    : 136ms
+2026-07-21 16:32:29 | INFO     | headless_detector |   4. save JSON        : 1ms
+2026-07-21 16:32:29 | INFO     | headless_detector |   5. move source      : 0ms
+2026-07-21 16:32:29 | INFO     | headless_detector |   TOTAL Detector     : 13985ms (13.98s)
+2026-07-21 16:32:29 | INFO     | headless_detector | ==================================================
+2026-07-21 16:32:29 | INFO     | headless_detector | [TIMING] process_job wall: 13987ms
+2026-07-21 16:33:03 | INFO     | headless_detector | Nhan job: 889524-A.job.json
+2026-07-21 16:33:05 | INFO     | headless_detector | [TIMING] get_active_model: 2047ms | qwen/qwen3-vl-4b
+2026-07-21 16:33:05 | INFO     | headless_detector | [TIMING] Nhan job 889524-A.job.json | base=889524-A | doi_trong_hang~2183ms
+2026-07-21 16:33:05 | INFO     | headless_detector | [DIMENSION] Auto-detected sel_crop: 889524-A__sel_crop.jpg
+2026-07-21 16:33:05 | INFO     | headless_detector | ==================================================
+2026-07-21 16:33:05 | INFO     | headless_detector | Xu ly anh: 889524-A.jpg
+2026-07-21 16:33:05 | INFO     | headless_detector | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:33:05 | INFO     | headless_detector | Su dung model: qwen/qwen3-vl-4b
+2026-07-21 16:33:05 | INFO     | headless_detector | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+2026-07-21 16:33:05 | INFO     | headless_detector | Gui LM kich thuoc goc: 1767x1176
+2026-07-21 16:33:18 | INFO     | headless_detector | [TIMING] LM ALL VIEWS (encode goc+HTTP): 12715ms
+2026-07-21 16:33:18 | INFO     | headless_detector | Nhan dien thanh cong 7 views | drawing=889524 metal=14K brand=14k
+2026-07-21 16:33:18 | INFO     | headless_detector |   Dang xu ly FRONT...
+2026-07-21 16:33:18 | INFO     | headless_detector |   FRONT: obj=[566, 198, 864, 577] | 22ms
+2026-07-21 16:33:18 | INFO     | headless_detector |   Dang xu ly LEFT...
+2026-07-21 16:33:18 | INFO     | headless_detector |   LEFT: obj=[1035, 226, 1190, 606] | 21ms
+2026-07-21 16:33:18 | INFO     | headless_detector |   Dang xu ly TOP...
+2026-07-21 16:33:18 | INFO     | headless_detector |   TOP: obj=[1401, 293, 1647, 438] | 19ms
+2026-07-21 16:33:18 | INFO     | headless_detector |   Dang xu ly BACK...
+2026-07-21 16:33:18 | INFO     | headless_detector |   BACK: obj=[474, 693, 788, 1075] | 18ms
+2026-07-21 16:33:18 | INFO     | headless_detector |   Dang xu ly RIGHT...
+2026-07-21 16:33:18 | INFO     | headless_detector |   RIGHT: obj=[1038, 709, 1181, 1061] | 18ms
+2026-07-21 16:33:18 | INFO     | headless_detector |   Dang xu ly BOTTOM...
+2026-07-21 16:33:18 | INFO     | headless_detector |   BOTTOM: obj=[1436, 806, 1665, 930] | 18ms
+2026-07-21 16:33:18 | INFO     | headless_detector |   Dang xu ly PERSPECTIVE...
+2026-07-21 16:33:18 | INFO     | headless_detector |   PERSPECTIVE: obj=[68, 731, 356, 1080] | 19ms
+2026-07-21 16:33:18 | INFO     | headless_detector | [TIMING] process 7 views (bbox/refine): 135ms
+2026-07-21 16:33:18 | INFO     | headless_detector | [DIMENSION] Dung selection crop: 889524-A__sel_crop.jpg (41KB)
+2026-07-21 16:33:21 | INFO     | headless_detector | [TIMING] AI lan 2 (selection crop): 2862ms
+2026-07-21 16:33:21 | INFO     | headless_detector | Da luu JSON: 889524-A_all_views_result.json
+2026-07-21 16:33:21 | INFO     | headless_detector | [TIMING] save JSON: 1ms
+2026-07-21 16:33:21 | INFO     | headless_detector | Giu nguyen file goc: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:33:21 | INFO     | headless_detector | --------------------------------------------------
+2026-07-21 16:33:21 | INFO     | headless_detector | [TIMING SUMMARY] 889524-A
+2026-07-21 16:33:21 | INFO     | headless_detector |   0. payload           : original 1767x1176 (giong GUI)
+2026-07-21 16:33:21 | INFO     | headless_detector |   1. prepare           : 0ms (encode trong LM client)
+2026-07-21 16:33:21 | INFO     | headless_detector |   2. LM ALL VIEWS     : 12715ms  << thuong la bottleneck
+2026-07-21 16:33:21 | INFO     | headless_detector |   3. process views    : 135ms
+2026-07-21 16:33:21 | INFO     | headless_detector |   4. save JSON        : 1ms
+2026-07-21 16:33:21 | INFO     | headless_detector |   5. move source      : 0ms
+2026-07-21 16:33:21 | INFO     | headless_detector |   TOTAL Detector     : 15715ms (15.72s)
+2026-07-21 16:33:21 | INFO     | headless_detector | ==================================================
+2026-07-21 16:33:21 | INFO     | headless_detector | [TIMING] process_job wall: 15717ms
+2026-07-21 16:42:14 | INFO     | headless_detector | Nhan job: 889524-A.job.json
+2026-07-21 16:42:16 | INFO     | headless_detector | [TIMING] get_active_model: 2048ms | qwen/qwen3-vl-4b
+2026-07-21 16:42:16 | INFO     | headless_detector | [TIMING] Nhan job 889524-A.job.json | base=889524-A | doi_trong_hang~2193ms
+2026-07-21 16:42:16 | INFO     | headless_detector | [DIMENSION] Auto-detected sel_crop: 889524-A__sel_crop.jpg
+2026-07-21 16:42:16 | INFO     | headless_detector | ==================================================
+2026-07-21 16:42:16 | INFO     | headless_detector | Xu ly anh: 889524-A.jpg
+2026-07-21 16:42:16 | INFO     | headless_detector | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:42:16 | INFO     | headless_detector | Su dung model: qwen/qwen3-vl-4b
+2026-07-21 16:42:16 | INFO     | headless_detector | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+2026-07-21 16:42:16 | INFO     | headless_detector | Gui LM kich thuoc goc: 1767x1176
+2026-07-21 16:42:26 | INFO     | headless_detector | [TIMING] LM ALL VIEWS (encode goc+HTTP): 10698ms
+2026-07-21 16:42:26 | INFO     | headless_detector | Nhan dien thanh cong 7 views | drawing=889524 metal=14K brand=14k
+2026-07-21 16:42:26 | INFO     | headless_detector |   Dang xu ly FRONT...
+2026-07-21 16:42:26 | INFO     | headless_detector |   FRONT: obj=[566, 198, 864, 577] | 21ms
+2026-07-21 16:42:26 | INFO     | headless_detector |   Dang xu ly LEFT...
+2026-07-21 16:42:26 | INFO     | headless_detector |   LEFT: obj=[1035, 226, 1190, 606] | 22ms
+2026-07-21 16:42:26 | INFO     | headless_detector |   Dang xu ly TOP...
+2026-07-21 16:42:26 | INFO     | headless_detector |   TOP: obj=[1401, 293, 1647, 438] | 21ms
+2026-07-21 16:42:26 | INFO     | headless_detector |   Dang xu ly BACK...
+2026-07-21 16:42:26 | INFO     | headless_detector |   BACK: obj=[474, 693, 788, 1075] | 21ms
+2026-07-21 16:42:26 | INFO     | headless_detector |   Dang xu ly RIGHT...
+2026-07-21 16:42:27 | INFO     | headless_detector |   RIGHT: obj=[1038, 709, 1181, 1061] | 21ms
+2026-07-21 16:42:27 | INFO     | headless_detector |   Dang xu ly BOTTOM...
+2026-07-21 16:42:27 | INFO     | headless_detector |   BOTTOM: obj=[1436, 806, 1665, 930] | 21ms
+2026-07-21 16:42:27 | INFO     | headless_detector |   Dang xu ly PERSPECTIVE...
+2026-07-21 16:42:27 | INFO     | headless_detector |   PERSPECTIVE: obj=[68, 731, 356, 1080] | 21ms
+2026-07-21 16:42:27 | INFO     | headless_detector | [TIMING] process 7 views (bbox/refine): 149ms
+2026-07-21 16:42:27 | INFO     | headless_detector | [DIMENSION] Dung selection crop: 889524-A__sel_crop.jpg (42KB)
+2026-07-21 16:42:29 | INFO     | headless_detector | [TIMING] AI lan 2 (selection crop): 2792ms
+2026-07-21 16:42:29 | INFO     | headless_detector | Da luu JSON: 889524-A_all_views_result.json
+2026-07-21 16:42:29 | INFO     | headless_detector | [TIMING] save JSON: 1ms
+2026-07-21 16:42:29 | INFO     | headless_detector | Giu nguyen file goc: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:42:29 | INFO     | headless_detector | --------------------------------------------------
+2026-07-21 16:42:29 | INFO     | headless_detector | [TIMING SUMMARY] 889524-A
+2026-07-21 16:42:29 | INFO     | headless_detector |   0. payload           : original 1767x1176 (giong GUI)
+2026-07-21 16:42:29 | INFO     | headless_detector |   1. prepare           : 0ms (encode trong LM client)
+2026-07-21 16:42:29 | INFO     | headless_detector |   2. LM ALL VIEWS     : 10698ms  << thuong la bottleneck
+2026-07-21 16:42:29 | INFO     | headless_detector |   3. process views    : 149ms
+2026-07-21 16:42:29 | INFO     | headless_detector |   4. save JSON        : 1ms
+2026-07-21 16:42:29 | INFO     | headless_detector |   5. move source      : 0ms
+2026-07-21 16:42:29 | INFO     | headless_detector |   TOTAL Detector     : 13642ms (13.64s)
+2026-07-21 16:42:29 | INFO     | headless_detector | ==================================================
+2026-07-21 16:42:29 | INFO     | headless_detector | [TIMING] process_job wall: 13644ms
+2026-07-21 16:42:49 | INFO     | headless_detector | Nhan job: 889524-A.job.json
+2026-07-21 16:42:51 | INFO     | headless_detector | [TIMING] get_active_model: 2036ms | qwen/qwen3-vl-4b
+2026-07-21 16:42:51 | INFO     | headless_detector | [TIMING] Nhan job 889524-A.job.json | base=889524-A | doi_trong_hang~2074ms
+2026-07-21 16:42:51 | INFO     | headless_detector | [DIMENSION] Auto-detected sel_crop: 889524-A__sel_crop.jpg
+2026-07-21 16:42:51 | INFO     | headless_detector | ==================================================
+2026-07-21 16:42:51 | INFO     | headless_detector | Xu ly anh: 889524-A.jpg
+2026-07-21 16:42:51 | INFO     | headless_detector | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:42:51 | INFO     | headless_detector | Su dung model: qwen/qwen3-vl-4b
+2026-07-21 16:42:51 | INFO     | headless_detector | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+2026-07-21 16:42:51 | INFO     | headless_detector | Gui LM kich thuoc goc: 1767x1176
+2026-07-21 16:43:02 | INFO     | headless_detector | [TIMING] LM ALL VIEWS (encode goc+HTTP): 11169ms
+2026-07-21 16:43:02 | INFO     | headless_detector | Nhan dien thanh cong 7 views | drawing=889524 metal=14K brand=14k
+2026-07-21 16:43:02 | INFO     | headless_detector |   Dang xu ly FRONT...
+2026-07-21 16:43:03 | INFO     | headless_detector |   FRONT: obj=[566, 198, 864, 577] | 23ms
+2026-07-21 16:43:03 | INFO     | headless_detector |   Dang xu ly LEFT...
+2026-07-21 16:43:03 | INFO     | headless_detector |   LEFT: obj=[1035, 226, 1190, 606] | 22ms
+2026-07-21 16:43:03 | INFO     | headless_detector |   Dang xu ly TOP...
+2026-07-21 16:43:03 | INFO     | headless_detector |   TOP: obj=[1401, 293, 1647, 438] | 20ms
+2026-07-21 16:43:03 | INFO     | headless_detector |   Dang xu ly BACK...
+2026-07-21 16:43:03 | INFO     | headless_detector |   BACK: obj=[474, 693, 788, 1075] | 21ms
+2026-07-21 16:43:03 | INFO     | headless_detector |   Dang xu ly RIGHT...
+2026-07-21 16:43:03 | INFO     | headless_detector |   RIGHT: obj=[1038, 709, 1181, 1061] | 21ms
+2026-07-21 16:43:03 | INFO     | headless_detector |   Dang xu ly BOTTOM...
+2026-07-21 16:43:03 | INFO     | headless_detector |   BOTTOM: obj=[1436, 806, 1665, 930] | 20ms
+2026-07-21 16:43:03 | INFO     | headless_detector |   Dang xu ly PERSPECTIVE...
+2026-07-21 16:43:03 | INFO     | headless_detector |   PERSPECTIVE: obj=[68, 731, 356, 1080] | 21ms
+2026-07-21 16:43:03 | INFO     | headless_detector | [TIMING] process 7 views (bbox/refine): 149ms
+2026-07-21 16:43:03 | INFO     | headless_detector | [DIMENSION] Dung selection crop: 889524-A__sel_crop.jpg (31KB)
+2026-07-21 16:43:05 | INFO     | headless_detector | [TIMING] AI lan 2 (selection crop): 2843ms
+2026-07-21 16:43:05 | INFO     | headless_detector | Da luu JSON: 889524-A_all_views_result.json
+2026-07-21 16:43:05 | INFO     | headless_detector | [TIMING] save JSON: 1ms
+2026-07-21 16:43:05 | INFO     | headless_detector | Giu nguyen file goc: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:43:05 | INFO     | headless_detector | --------------------------------------------------
+2026-07-21 16:43:05 | INFO     | headless_detector | [TIMING SUMMARY] 889524-A
+2026-07-21 16:43:05 | INFO     | headless_detector |   0. payload           : original 1767x1176 (giong GUI)
+2026-07-21 16:43:05 | INFO     | headless_detector |   1. prepare           : 0ms (encode trong LM client)
+2026-07-21 16:43:05 | INFO     | headless_detector |   2. LM ALL VIEWS     : 11169ms  << thuong la bottleneck
+2026-07-21 16:43:05 | INFO     | headless_detector |   3. process views    : 149ms
+2026-07-21 16:43:05 | INFO     | headless_detector |   4. save JSON        : 1ms
+2026-07-21 16:43:05 | INFO     | headless_detector |   5. move source      : 0ms
+2026-07-21 16:43:05 | INFO     | headless_detector |   TOTAL Detector     : 14165ms (14.16s)
+2026-07-21 16:43:05 | INFO     | headless_detector | ==================================================
+2026-07-21 16:43:05 | INFO     | headless_detector | [TIMING] process_job wall: 14166ms
+2026-07-21 16:43:19 | INFO     | headless_detector | Nhan job: 889524-A.job.json
+2026-07-21 16:43:21 | INFO     | headless_detector | [TIMING] get_active_model: 2048ms | qwen/qwen3-vl-4b
+2026-07-21 16:43:21 | INFO     | headless_detector | [TIMING] Nhan job 889524-A.job.json | base=889524-A | doi_trong_hang~2077ms
+2026-07-21 16:43:21 | INFO     | headless_detector | [DIMENSION] Auto-detected sel_crop: 889524-A__sel_crop.jpg
+2026-07-21 16:43:21 | INFO     | headless_detector | ==================================================
+2026-07-21 16:43:21 | INFO     | headless_detector | Xu ly anh: 889524-A.jpg
+2026-07-21 16:43:21 | INFO     | headless_detector | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:43:21 | INFO     | headless_detector | Su dung model: qwen/qwen3-vl-4b
+2026-07-21 16:43:21 | INFO     | headless_detector | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+2026-07-21 16:43:21 | INFO     | headless_detector | Gui LM kich thuoc goc: 1767x1176
+2026-07-21 16:43:32 | INFO     | headless_detector | [TIMING] LM ALL VIEWS (encode goc+HTTP): 11109ms
+2026-07-21 16:43:32 | INFO     | headless_detector | Nhan dien thanh cong 7 views | drawing=889524 metal=14K brand=14k
+2026-07-21 16:43:32 | INFO     | headless_detector |   Dang xu ly FRONT...
+2026-07-21 16:43:32 | INFO     | headless_detector |   FRONT: obj=[566, 198, 864, 577] | 21ms
+2026-07-21 16:43:32 | INFO     | headless_detector |   Dang xu ly LEFT...
+2026-07-21 16:43:32 | INFO     | headless_detector |   LEFT: obj=[1035, 226, 1190, 606] | 22ms
+2026-07-21 16:43:32 | INFO     | headless_detector |   Dang xu ly TOP...
+2026-07-21 16:43:32 | INFO     | headless_detector |   TOP: obj=[1401, 293, 1647, 438] | 21ms
+2026-07-21 16:43:32 | INFO     | headless_detector |   Dang xu ly BACK...
+2026-07-21 16:43:32 | INFO     | headless_detector |   BACK: obj=[474, 693, 788, 1075] | 21ms
+2026-07-21 16:43:32 | INFO     | headless_detector |   Dang xu ly RIGHT...
+2026-07-21 16:43:32 | INFO     | headless_detector |   RIGHT: obj=[1038, 709, 1181, 1061] | 21ms
+2026-07-21 16:43:32 | INFO     | headless_detector |   Dang xu ly BOTTOM...
+2026-07-21 16:43:32 | INFO     | headless_detector |   BOTTOM: obj=[1436, 806, 1665, 930] | 21ms
+2026-07-21 16:43:32 | INFO     | headless_detector |   Dang xu ly PERSPECTIVE...
+2026-07-21 16:43:32 | INFO     | headless_detector |   PERSPECTIVE: obj=[68, 731, 356, 1080] | 21ms
+2026-07-21 16:43:32 | INFO     | headless_detector | [TIMING] process 7 views (bbox/refine): 148ms
+2026-07-21 16:43:32 | INFO     | headless_detector | [DIMENSION] Dung selection crop: 889524-A__sel_crop.jpg (16KB)
+2026-07-21 16:43:35 | INFO     | headless_detector | [TIMING] AI lan 2 (selection crop): 2777ms
+2026-07-21 16:43:35 | INFO     | headless_detector | Da luu JSON: 889524-A_all_views_result.json
+2026-07-21 16:43:35 | INFO     | headless_detector | [TIMING] save JSON: 1ms
+2026-07-21 16:43:35 | INFO     | headless_detector | Giu nguyen file goc: D:\CODE\Agent\AutoNhanDangAnh\Scale 3D\KS\889524-A.jpg
+2026-07-21 16:43:35 | INFO     | headless_detector | --------------------------------------------------
+2026-07-21 16:43:35 | INFO     | headless_detector | [TIMING SUMMARY] 889524-A
+2026-07-21 16:43:35 | INFO     | headless_detector |   0. payload           : original 1767x1176 (giong GUI)
+2026-07-21 16:43:35 | INFO     | headless_detector |   1. prepare           : 0ms (encode trong LM client)
+2026-07-21 16:43:35 | INFO     | headless_detector |   2. LM ALL VIEWS     : 11109ms  << thuong la bottleneck
+2026-07-21 16:43:35 | INFO     | headless_detector |   3. process views    : 148ms
+2026-07-21 16:43:35 | INFO     | headless_detector |   4. save JSON        : 1ms
+2026-07-21 16:43:35 | INFO     | headless_detector |   5. move source      : 0ms
+2026-07-21 16:43:35 | INFO     | headless_detector |   TOTAL Detector     : 14037ms (14.04s)
+2026-07-21 16:43:35 | INFO     | headless_detector | ==================================================
+2026-07-21 16:43:35 | INFO     | headless_detector | [TIMING] process_job wall: 14039ms

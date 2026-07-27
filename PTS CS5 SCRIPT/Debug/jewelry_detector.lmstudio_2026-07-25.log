@@ -1,0 +1,1307 @@
+2026-07-25 10:19:56 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 10:19:56 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 7ms | ~230 KB b64
+2026-07-25 10:19:56 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 10:20:09 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13026ms | status=200
+2026-07-25 10:20:09 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 10:20:09 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13033ms
+2026-07-25 10:20:09 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 10:20:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 10:20:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 10:20:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 10:20:15 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2895ms | status=200
+2026-07-25 10:20:15 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 10:20:15 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2895ms
+2026-07-25 10:44:15 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'google/gemma-4-e2b' để phân tích ALL VIEWS
+2026-07-25 10:44:15 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 7ms | ~230 KB b64
+2026-07-25 10:44:15 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 10:44:26 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11193ms | status=200
+2026-07-25 10:44:26 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 10:44:26 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11200ms
+2026-07-25 10:44:26 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888800 metal=925 brand=silver weight=0.53 gr | views=7
+2026-07-25 10:44:26 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'google/gemma-4-e2b' de doc H/W/RD...
+2026-07-25 10:44:26 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 10:44:26 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 10:44:29 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2708ms | status=200
+2026-07-25 10:44:29 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 10:44:29 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2709ms
+2026-07-25 10:44:59 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'google/gemma-4-e2b' để phân tích ALL VIEWS
+2026-07-25 10:44:59 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 10:44:59 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 10:45:01 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 2154ms | status=400
+2026-07-25 10:45:01 | ERROR    | jewelry_detector.lmstudio | API trả lỗi 400: {"error":"Model unloaded by user or API request."}
+2026-07-25 10:45:03 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802__sel_crop.jpg' tới model 'zai-org/glm-4.6v-flash' để phân tích ALL VIEWS
+2026-07-25 10:45:03 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 0ms | ~36 KB b64
+2026-07-25 10:45:03 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 10:45:07 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 3780ms | status=400
+2026-07-25 10:45:07 | ERROR    | jewelry_detector.lmstudio | API trả lỗi 400: {
+    "error": {
+        "message": "Failed to load model \"zai-org/glm-4.6v-flash\". Error: Engine protocol startup was aborted.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": null
+    }
+}
+2026-07-25 11:08:46 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:08:46 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:08:46 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:08:59 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12755ms | status=200
+2026-07-25 11:08:59 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:08:59 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12762ms
+2026-07-25 11:08:59 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:08:59 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:08:59 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:08:59 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:09:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2761ms | status=200
+2026-07-25 11:09:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:09:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2761ms
+2026-07-25 11:10:30 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:10:30 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:10:30 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:10:42 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11087ms | status=200
+2026-07-25 11:10:42 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:10:42 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11093ms
+2026-07-25 11:10:42 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:10:42 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:10:42 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:10:42 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:10:44 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2769ms | status=200
+2026-07-25 11:10:44 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:10:44 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2769ms
+2026-07-25 11:12:32 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:12:32 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:12:32 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:12:50 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 17083ms | status=200
+2026-07-25 11:12:50 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:12:50 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 17090ms
+2026-07-25 11:12:50 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:12:50 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:12:50 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:12:50 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:12:53 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2860ms | status=200
+2026-07-25 11:12:53 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:12:53 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2860ms
+2026-07-25 11:15:00 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:15:00 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:15:00 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:15:11 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11071ms | status=200
+2026-07-25 11:15:11 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:15:11 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11078ms
+2026-07-25 11:15:11 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:15:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:15:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:15:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:15:14 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2770ms | status=200
+2026-07-25 11:15:14 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:15:14 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2771ms
+2026-07-25 11:16:25 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:16:25 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:16:25 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:16:37 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11792ms | status=200
+2026-07-25 11:16:37 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:16:37 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11798ms
+2026-07-25 11:16:37 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:16:37 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:16:37 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:16:37 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:16:40 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2863ms | status=200
+2026-07-25 11:16:40 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:16:40 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2863ms
+2026-07-25 11:18:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:18:34 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:18:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:18:44 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 9649ms | status=400
+2026-07-25 11:18:44 | ERROR    | jewelry_detector.lmstudio | API trả lỗi 400: {"error":"Model unloaded by user or API request."}
+2026-07-25 11:18:46 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802__sel_crop.jpg' tới model 'zai-org/glm-4.6v-flash' để phân tích ALL VIEWS
+2026-07-25 11:18:46 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 0ms | ~36 KB b64
+2026-07-25 11:18:46 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:19:30 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 43456ms | status=400
+2026-07-25 11:19:30 | ERROR    | jewelry_detector.lmstudio | API trả lỗi 400: {"error":"terminated"}
+2026-07-25 11:19:32 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:19:32 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 7ms | ~230 KB b64
+2026-07-25 11:19:32 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:19:44 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12800ms | status=200
+2026-07-25 11:19:44 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:19:44 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12807ms
+2026-07-25 11:19:44 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:19:45 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:19:45 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:19:45 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:19:48 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2942ms | status=200
+2026-07-25 11:19:48 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:19:48 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2942ms
+2026-07-25 11:22:48 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:22:48 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:22:48 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:22:59 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11050ms | status=200
+2026-07-25 11:22:59 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:22:59 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11057ms
+2026-07-25 11:22:59 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:22:59 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:22:59 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:22:59 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:23:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2808ms | status=200
+2026-07-25 11:23:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:23:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2808ms
+2026-07-25 11:33:01 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'zai-org/glm-4.6v-flash' để phân tích ALL VIEWS
+2026-07-25 11:33:01 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:33:01 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:33:07 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 6155ms | status=400
+2026-07-25 11:33:07 | ERROR    | jewelry_detector.lmstudio | API trả lỗi 400: {
+    "error": {
+        "message": "Failed to load model \"zai-org/glm-4.6v-flash\". Error: Engine protocol startup was aborted.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": null
+    }
+}
+2026-07-25 11:33:10 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802__sel_crop.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:33:10 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 0ms | ~36 KB b64
+2026-07-25 11:33:10 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:33:57 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:33:57 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:33:57 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:34:10 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12529ms | status=200
+2026-07-25 11:34:10 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:34:10 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12536ms
+2026-07-25 11:34:10 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:34:11 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:34:11 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:34:11 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:34:14 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 3033ms | status=200
+2026-07-25 11:34:14 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:34:14 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=3034ms
+2026-07-25 11:38:32 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:38:32 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~230 KB b64
+2026-07-25 11:38:32 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:38:43 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11034ms | status=200
+2026-07-25 11:38:43 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:38:43 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11035ms
+2026-07-25 11:38:43 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:41:21 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:41:21 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~230 KB b64
+2026-07-25 11:41:21 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:41:32 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11796ms | status=200
+2026-07-25 11:41:32 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:41:32 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11798ms
+2026-07-25 11:41:32 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:42:56 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:42:56 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~230 KB b64
+2026-07-25 11:42:56 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:43:08 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11488ms | status=200
+2026-07-25 11:43:08 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:43:08 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11490ms
+2026-07-25 11:43:08 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:43:40 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:43:40 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 6ms | ~230 KB b64
+2026-07-25 11:43:40 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:43:51 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11197ms | status=200
+2026-07-25 11:43:51 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:43:51 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11203ms
+2026-07-25 11:43:51 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:43:51 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+2026-07-25 11:43:51 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 11:43:51 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 11:43:54 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2785ms | status=200
+2026-07-25 11:43:54 | INFO     | jewelry_detector.lmstudio | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+2026-07-25 11:43:54 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2786ms
+2026-07-25 11:45:10 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:45:10 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~230 KB b64
+2026-07-25 11:45:10 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:45:26 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 16690ms | status=200
+2026-07-25 11:45:26 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:45:26 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 16691ms
+2026-07-25 11:45:26 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:46:18 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:46:18 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~230 KB b64
+2026-07-25 11:46:18 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:46:30 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11360ms | status=200
+2026-07-25 11:46:30 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:46:30 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11361ms
+2026-07-25 11:46:30 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:47:02 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:47:02 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~230 KB b64
+2026-07-25 11:47:02 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:47:13 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 10860ms | status=200
+2026-07-25 11:47:13 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:47:13 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 10861ms
+2026-07-25 11:47:13 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:47:31 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:47:31 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~230 KB b64
+2026-07-25 11:47:31 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:47:42 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11361ms | status=200
+2026-07-25 11:47:42 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:47:42 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11362ms
+2026-07-25 11:47:42 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+2026-07-25 11:50:42 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889485.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:50:42 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~187 KB b64
+2026-07-25 11:50:42 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:50:55 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12539ms | status=200
+2026-07-25 11:50:55 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:50:55 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12541ms
+2026-07-25 11:50:55 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889485 metal=14K brand=14k weight=0.48g(X2) | views=7
+2026-07-25 11:50:55 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 A.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:50:55 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~253 KB b64
+2026-07-25 11:50:55 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:51:09 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13891ms | status=200
+2026-07-25 11:51:09 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:51:09 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13893ms
+2026-07-25 11:51:09 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.28g | views=7
+2026-07-25 11:51:09 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 B+F.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:51:09 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~249 KB b64
+2026-07-25 11:51:09 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:51:23 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13812ms | status=200
+2026-07-25 11:51:23 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:51:23 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13813ms
+2026-07-25 11:51:23 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.41g | views=7
+2026-07-25 11:51:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 C+E.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:51:23 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~251 KB b64
+2026-07-25 11:51:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:51:37 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13819ms | status=200
+2026-07-25 11:51:37 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:51:37 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13820ms
+2026-07-25 11:51:37 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.45g | views=7
+2026-07-25 11:51:37 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 D.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:51:37 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~247 KB b64
+2026-07-25 11:51:37 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:51:51 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13792ms | status=200
+2026-07-25 11:51:51 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:51:51 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13793ms
+2026-07-25 11:51:51 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.59g | views=7
+2026-07-25 11:51:51 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889488.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:51:51 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~165 KB b64
+2026-07-25 11:51:51 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:52:03 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12377ms | status=200
+2026-07-25 11:52:03 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:52:03 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12378ms
+2026-07-25 11:52:03 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889488 metal=14K brand=14k weight=0.34g(X2) | views=7
+2026-07-25 11:52:03 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889524-A.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:52:03 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~616 KB b64
+2026-07-25 11:52:03 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:52:17 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 14017ms | status=200
+2026-07-25 11:52:17 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:52:17 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 14019ms
+2026-07-25 11:52:17 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889524 metal=14K brand=14k weight=1.48g | views=7
+2026-07-25 11:52:18 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889525.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:52:18 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~593 KB b64
+2026-07-25 11:52:18 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:52:32 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13815ms | status=200
+2026-07-25 11:52:32 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:52:32 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13817ms
+2026-07-25 11:52:32 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889525 metal=14K brand=14k weight=2.66g x 2 | views=7
+2026-07-25 11:52:32 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889526-S52.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:52:32 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~561 KB b64
+2026-07-25 11:52:32 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:52:46 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13677ms | status=200
+2026-07-25 11:52:46 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:52:46 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13679ms
+2026-07-25 11:52:46 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889256 metal=14K brand=14k weight=3.04g | views=7
+2026-07-25 11:52:46 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'FINE23.COMP40_DI_12142022.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:52:46 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~697 KB b64
+2026-07-25 11:52:46 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:53:00 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13957ms | status=200
+2026-07-25 11:53:00 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:53:00 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13959ms
+2026-07-25 11:53:00 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=878289 metal=925 brand=silver weight=0.07 gr | views=7
+2026-07-25 11:58:28 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889485.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:58:28 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~187 KB b64
+2026-07-25 11:58:28 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:58:40 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12792ms | status=200
+2026-07-25 11:58:40 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:58:40 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12793ms
+2026-07-25 11:58:40 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889485 metal=14K brand=14k weight=0.48g(X2) | views=7
+2026-07-25 11:58:41 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 A.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:58:41 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~253 KB b64
+2026-07-25 11:58:41 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:58:59 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 18479ms | status=200
+2026-07-25 11:58:59 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:58:59 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 18481ms
+2026-07-25 11:58:59 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.28g | views=7
+2026-07-25 11:58:59 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 B+F.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:58:59 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~249 KB b64
+2026-07-25 11:58:59 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:59:13 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13436ms | status=200
+2026-07-25 11:59:13 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:59:13 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13437ms
+2026-07-25 11:59:13 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.41g | views=7
+2026-07-25 11:59:13 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 C+E.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:59:13 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~251 KB b64
+2026-07-25 11:59:13 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:59:26 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13081ms | status=200
+2026-07-25 11:59:26 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:59:26 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13083ms
+2026-07-25 11:59:26 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.45g | views=7
+2026-07-25 11:59:26 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 D.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:59:26 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~247 KB b64
+2026-07-25 11:59:26 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:59:40 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13305ms | status=200
+2026-07-25 11:59:40 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:59:40 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13307ms
+2026-07-25 11:59:40 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.59g | views=7
+2026-07-25 11:59:40 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889488.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:59:40 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~165 KB b64
+2026-07-25 11:59:40 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 11:59:52 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12100ms | status=200
+2026-07-25 11:59:52 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 11:59:52 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12102ms
+2026-07-25 11:59:52 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889488 metal=14K brand=14k weight=0.34g | views=7
+2026-07-25 11:59:52 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889524-A.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 11:59:52 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~616 KB b64
+2026-07-25 11:59:52 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:00:09 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 17030ms | status=200
+2026-07-25 12:00:09 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:00:09 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 17032ms
+2026-07-25 12:00:09 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889524 metal=14K brand=14k weight=1.48g | views=7
+2026-07-25 12:00:09 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889525.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:00:09 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~593 KB b64
+2026-07-25 12:00:09 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:00:22 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13143ms | status=200
+2026-07-25 12:00:22 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:00:22 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13145ms
+2026-07-25 12:00:22 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889525 metal=14K brand=14k weight=2.66g x 2 | views=7
+2026-07-25 12:00:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889526-S52.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:00:23 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~561 KB b64
+2026-07-25 12:00:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:00:36 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13184ms | status=200
+2026-07-25 12:00:36 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:00:36 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13187ms
+2026-07-25 12:00:36 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889256 metal=14K brand=14k weight=3.04g | views=7
+2026-07-25 12:00:36 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'FINE23.COMP40_DI_12142022.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:00:36 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~697 KB b64
+2026-07-25 12:00:36 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:00:50 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13576ms | status=200
+2026-07-25 12:00:50 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:00:50 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13579ms
+2026-07-25 12:00:50 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=878289 metal=925 brand=silver weight=0.07 gr | views=7
+2026-07-25 12:18:37 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889485.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:18:37 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~187 KB b64
+2026-07-25 12:18:37 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:18:50 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12914ms | status=200
+2026-07-25 12:18:50 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:18:50 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12916ms
+2026-07-25 12:18:50 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889485 metal=14K brand=14k weight=0.48g(X2) | views=7
+2026-07-25 12:18:50 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 A.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:18:50 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~253 KB b64
+2026-07-25 12:18:50 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:19:09 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 19365ms | status=200
+2026-07-25 12:19:09 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:19:09 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 19367ms
+2026-07-25 12:19:09 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.28g | views=7
+2026-07-25 12:19:10 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 B+F.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:19:10 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~249 KB b64
+2026-07-25 12:19:10 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:19:23 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13123ms | status=200
+2026-07-25 12:19:23 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:19:23 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13125ms
+2026-07-25 12:19:23 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.41g | views=7
+2026-07-25 12:19:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 C+E.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:19:23 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~251 KB b64
+2026-07-25 12:19:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:19:36 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13015ms | status=200
+2026-07-25 12:19:36 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:19:36 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13017ms
+2026-07-25 12:19:36 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.45g | views=7
+2026-07-25 12:19:36 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 D.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:19:36 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~247 KB b64
+2026-07-25 12:19:36 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:19:49 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13141ms | status=200
+2026-07-25 12:19:49 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:19:49 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13143ms
+2026-07-25 12:19:49 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.59g | views=7
+2026-07-25 12:19:50 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889488.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:19:50 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~165 KB b64
+2026-07-25 12:19:50 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:20:02 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12264ms | status=200
+2026-07-25 12:20:02 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:20:02 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12266ms
+2026-07-25 12:20:02 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889488 metal=14K brand=14k weight=0.34g | views=7
+2026-07-25 12:20:02 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889524-A.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:20:02 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 5ms | ~616 KB b64
+2026-07-25 12:20:02 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:20:22 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 19982ms | status=200
+2026-07-25 12:20:22 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:20:22 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 19987ms
+2026-07-25 12:20:22 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889524 metal=14K brand=14k weight=1.48g | views=7
+2026-07-25 12:20:22 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889525.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:20:22 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~593 KB b64
+2026-07-25 12:20:22 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:20:36 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13348ms | status=200
+2026-07-25 12:20:36 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:20:36 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13351ms
+2026-07-25 12:20:36 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889525 metal=14K brand=14k weight=2.66g x 2 | views=7
+2026-07-25 12:20:36 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889526-S52.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:20:36 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~561 KB b64
+2026-07-25 12:20:36 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:20:49 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13219ms | status=200
+2026-07-25 12:20:49 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:20:49 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13222ms
+2026-07-25 12:20:49 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889256 metal=14K brand=14k weight=3.04g | views=7
+2026-07-25 12:20:49 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'FINE23.COMP40_DI_12142022.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 12:20:49 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 7ms | ~697 KB b64
+2026-07-25 12:20:49 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 12:21:03 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13646ms | status=200
+2026-07-25 12:21:03 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 12:21:03 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13653ms
+2026-07-25 12:21:03 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=878289 metal=925 brand=silver weight=0.07 gr | views=7
+2026-07-25 13:02:20 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889485.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:02:20 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~187 KB b64
+2026-07-25 13:02:20 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:02:34 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13393ms | status=200
+2026-07-25 13:02:34 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:02:34 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13394ms
+2026-07-25 13:02:34 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889485 metal=14K brand=14k weight=0.48g(X2) | views=7
+2026-07-25 13:02:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 A.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:02:34 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~253 KB b64
+2026-07-25 13:02:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:02:46 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 11917ms | status=200
+2026-07-25 13:02:46 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:02:46 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 11919ms
+2026-07-25 13:02:46 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.28g | views=7
+2026-07-25 13:02:46 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 B+F.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:02:46 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~249 KB b64
+2026-07-25 13:02:46 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:03:00 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13457ms | status=200
+2026-07-25 13:03:00 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:03:00 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13458ms
+2026-07-25 13:03:00 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.41g | views=7
+2026-07-25 13:03:00 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 C+E.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:03:00 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~251 KB b64
+2026-07-25 13:03:00 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:03:13 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13464ms | status=200
+2026-07-25 13:03:13 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:03:13 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13466ms
+2026-07-25 13:03:13 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.45g | views=7
+2026-07-25 13:03:14 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889486 D.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:03:14 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 3ms | ~247 KB b64
+2026-07-25 13:03:14 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:03:27 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13818ms | status=200
+2026-07-25 13:03:27 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:03:27 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13822ms
+2026-07-25 13:03:27 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889486 metal=14K brand=14k weight=0.59g | views=7
+2026-07-25 13:03:28 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889488.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:03:28 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 1ms | ~165 KB b64
+2026-07-25 13:03:28 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:03:40 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 12780ms | status=200
+2026-07-25 13:03:40 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:03:40 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 12781ms
+2026-07-25 13:03:40 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889488 metal=14K brand=14k weight=0.34g(X2) | views=7
+2026-07-25 13:03:41 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889524-A.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:03:41 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 4ms | ~616 KB b64
+2026-07-25 13:03:41 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:04:00 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 19678ms | status=200
+2026-07-25 13:04:00 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:04:00 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 19682ms
+2026-07-25 13:04:00 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889524 metal=14K brand=14k weight=1.48g | views=7
+2026-07-25 13:04:00 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889525.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:04:00 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~593 KB b64
+2026-07-25 13:04:00 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:04:14 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13453ms | status=200
+2026-07-25 13:04:14 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:04:14 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13456ms
+2026-07-25 13:04:14 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889525 metal=14K brand=14k weight=2.66g x 2 | views=7
+2026-07-25 13:04:14 | INFO     | jewelry_detector.lmstudio | Gửi ảnh '889526-S52.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:04:14 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 2ms | ~561 KB b64
+2026-07-25 13:04:14 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:04:28 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13415ms | status=200
+2026-07-25 13:04:28 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:04:28 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13418ms
+2026-07-25 13:04:28 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=889256 metal=14K brand=14k weight=3.04g | views=7
+2026-07-25 13:04:28 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'FINE23.COMP40_DI_12142022.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+2026-07-25 13:04:28 | INFO     | jewelry_detector.lmstudio | [TIMING] base64 encode: 3ms | ~697 KB b64
+2026-07-25 13:04:28 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:04:42 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 13883ms | status=200
+2026-07-25 13:04:42 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:04:42 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 13886ms
+2026-07-25 13:04:42 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=878289 metal=925 brand=silver weight=0.07 gr | views=7
+2026-07-25 13:26:43 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:26:43 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:26:43 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:26:43 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:26:43 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 1ms
+2026-07-25 13:26:43 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2ms
+2026-07-25 13:26:43 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2004ms
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=1
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:26:45 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:26:45 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:26:45 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:29:32 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:29:32 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:29:32 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:29:32 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:29:32 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 1ms
+2026-07-25 13:29:32 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2ms
+2026-07-25 13:29:32 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:29:34 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] panel_bbox: phải có đúng 4 phần tử', '[FRONT] object_bbox: phải có đúng 4 phần tử', '[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 1ms
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2004ms
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=1
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:29:34 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:29:34 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:29:34 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:29:34 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:29:34 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:35:46 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:35:46 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:35:46 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:35:46 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:35:46 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 1ms
+2026-07-25 13:35:46 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2ms
+2026-07-25 13:35:46 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:35:48 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] panel_bbox: phải có đúng 4 phần tử', '[FRONT] object_bbox: phải có đúng 4 phần tử', '[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 1ms
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2004ms
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=1
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:35:48 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:35:48 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:35:48 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:35:48 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:35:48 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:42:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'test-model' de doc H/W/RD...
+2026-07-25 13:42:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 13:42:12 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 13:42:15 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2852ms | status=200
+2026-07-25 13:42:15 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=0.0 dir=W conf=low | total=2852ms
+2026-07-25 13:42:15 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:42:15 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:42:15 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:42:15 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:42:15 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:42:15 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:42:15 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:42:17 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:42:17 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:42:17 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:42:17 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:42:17 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:42:18 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:42:18 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:42:18 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:42:18 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:42:18 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:42:18 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:43:00 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Gui crop 'in-memory-crop' toi model 'test-model' de doc H/W/RD...
+2026-07-25 13:43:00 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] encode: 0ms
+2026-07-25 13:43:00 | INFO     | jewelry_detector.lmstudio | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+2026-07-25 13:43:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION][TIMING] HTTP lần 1: 2355ms | status=200
+2026-07-25 13:43:02 | INFO     | jewelry_detector.lmstudio | [DIMENSION] OK: W=0.0 H=0.0 dir=W conf=low | total=2356ms
+2026-07-25 13:43:02 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:43:02 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:43:02 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:43:02 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:43:02 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:43:02 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:43:02 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:43:04 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:43:04 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:43:04 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:43:04 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:43:04 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:43:04 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:43:04 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:43:04 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:45:21 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:45:21 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:45:21 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:45:21 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:45:21 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:45:21 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:45:21 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:45:23 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:45:23 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:45:23 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:45:23 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:45:23 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:45:23 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:45:23 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:45:23 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:45:56 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:45:56 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:45:56 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:45:56 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:45:56 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:45:56 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:45:56 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:45:58 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:45:58 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:45:58 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:45:58 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:45:58 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:45:58 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:45:58 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:45:58 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:47:43 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:47:43 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:47:43 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:47:43 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:47:43 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:47:43 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:47:43 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:47:45 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:47:45 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:47:45 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:47:45 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:47:45 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:47:45 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:47:45 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:47:45 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:47:52 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:47:52 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:47:52 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:47:52 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:47:52 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:47:52 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:47:52 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:47:54 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:47:54 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:47:54 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:47:54 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:47:54 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:47:54 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:47:54 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:47:54 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:48:05 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:48:05 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:48:05 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:48:05 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:48:05 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:48:05 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:48:05 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:48:07 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:48:07 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:48:07 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:48:07 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:48:07 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:48:07 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:48:07 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:48:07 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:52:25 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:52:25 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:52:25 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:52:25 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:52:25 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:52:25 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:52:25 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:52:27 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:52:27 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:52:27 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:52:27 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:52:27 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:52:27 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:52:27 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:52:27 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:52:52 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:52:52 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:52:52 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:52:52 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:52:52 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:52:52 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:52:52 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:52:54 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:52:54 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:52:54 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:52:54 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:52:54 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:52:54 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:52:54 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:52:54 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:53:26 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:53:26 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:53:26 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:53:26 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:53:26 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:53:26 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:53:26 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:53:28 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:53:28 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:53:28 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:53:28 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:53:28 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:53:28 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:53:28 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:53:28 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:53:43 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:53:43 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:53:43 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:53:43 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:53:43 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:53:43 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:53:43 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:53:45 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:53:45 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:53:45 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:53:45 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:53:45 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:53:45 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:53:45 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:53:45 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:54:03 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:54:03 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:54:03 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:54:03 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:54:03 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:54:03 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:54:03 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:54:05 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:54:05 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:54:05 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:54:05 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:54:05 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:54:05 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:54:05 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:54:05 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:55:11 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:55:11 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:55:11 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:55:11 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:55:11 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:55:11 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:55:11 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:55:13 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:55:13 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:55:13 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:55:13 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:55:13 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:55:13 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:55:13 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:55:13 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:59:00 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:59:00 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:59:00 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:59:00 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:59:00 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:59:00 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:59:00 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:59:02 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:59:02 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:59:02 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:59:02 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:59:02 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:59:02 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:59:02 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:59:02 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:59:55 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:59:55 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:59:55 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:59:55 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 13:59:55 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:59:55 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:59:55 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 13:59:57 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 13:59:57 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:59:57 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:59:57 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 13:59:57 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 13:59:57 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 13:59:57 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 13:59:57 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:10 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:01:10 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:01:10 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:10 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 14:01:10 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:10 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:01:10 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:12 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:01:12 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:12 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:01:12 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:12 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:01:13 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 14:01:13 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:13 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:20 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:01:20 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:01:20 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:20 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 14:01:20 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:20 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:01:20 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:22 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:01:22 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:22 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:01:22 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:22 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:01:22 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 14:01:22 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:22 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:32 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:01:32 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:01:32 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:32 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 14:01:32 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:32 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:01:32 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:01:34 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:01:34 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:34 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:01:34 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:01:34 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:01:35 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 14:01:35 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:01:35 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:12:39 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:12:39 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:12:39 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:12:39 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 14:12:39 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:12:39 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:12:39 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:12:41 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:12:41 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:12:41 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:12:41 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:12:41 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:12:42 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 14:12:42 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:12:42 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:13:21 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:13:21 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:13:21 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:13:21 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 14:13:21 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:13:21 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:13:21 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:13:23 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:13:23 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:13:23 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:13:23 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:13:23 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:13:23 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 14:13:23 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:13:23 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:18:05 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:18:05 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:18:05 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:18:05 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not JSON at all!
+2026-07-25 14:18:05 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:18:05 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:18:05 | WARNING  | jewelry_detector.lmstudio | Lần 1: Không parse được views từ response của model.
+2026-07-25 14:18:07 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 2)...
+2026-07-25 14:18:07 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:18:07 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:18:07 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 2002ms
+2026-07-25 14:18:07 | INFO     | jewelry_detector.lmstudio | Sheet meta: drawing=999000 (999000) metal=None brand=NONE weight=None | views=7
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' để phân tích ALL VIEWS
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Đang gửi request ALL VIEWS (lần 1)...
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | [TIMING] LM Studio HTTP: 0ms | status=200
+2026-07-25 14:18:08 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | [TIMING] parse JSON response: 0ms
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | [TIMING] ALL VIEWS (encode+HTTP+parse): 1ms
+2026-07-25 14:18:08 | WARNING  | jewelry_detector.lmstudio | Lần 1: All-views response vi phạm schema validation: ["Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:18:08 | ERROR    | jewelry_detector.lmstudio | Không thể kết nối đến LM Studio. Kiểm tra LM Studio đã bật Local Server chưa?
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:18:08 | WARNING  | jewelry_detector.lmstudio | Lần 1: Single-view response không đạt schema validation: ['object_bbox: phải có đúng 4 phần tử', 'object_center: phải có đúng 2 phần tử']
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Gửi ảnh 'small.png' tới model 'test-model' tại http://localhost:1234/v1/chat/completions
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Đang gửi request (lần 1)...
+2026-07-25 14:18:08 | INFO     | jewelry_detector.lmstudio | Model phản hồi thành công.
+2026-07-25 14:18:08 | ERROR    | jewelry_detector.lmstudio | Không thể parse JSON từ response:
+Not a json at all!
+2026-07-25 14:18:08 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]
+2026-07-25 14:18:08 | WARNING  | jewelry_detector.lmstudio | Validation schema 7 views có lỗi/cảnh báo: ['[FRONT] object_center: phải có đúng 2 phần tử', "Thiếu các view: ['BACK', 'BOTTOM', 'LEFT', 'PERSPECTIVE', 'RIGHT', 'TOP']"]

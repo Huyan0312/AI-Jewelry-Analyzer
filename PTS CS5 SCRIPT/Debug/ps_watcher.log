@@ -1,0 +1,2859 @@
+11:05:35 [INFO] ========================================================
+11:05:35 [INFO] PS Watcher -- 2026-07-25 11:05:35
+11:05:35 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:05:35 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:05:35 [INFO] Model   : qwen/qwen3-vl-4b
+11:05:35 [INFO] ========================================================
+11:05:35 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:05:35 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:05:35 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:05:49 [INFO] ========================================================
+11:05:49 [INFO] PS Watcher -- 2026-07-25 11:05:49
+11:05:49 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:05:49 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:05:49 [INFO] Model   : qwen/qwen3-vl-4b
+11:05:49 [INFO] ========================================================
+11:05:49 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:08:41 [INFO] ========================================================
+11:08:41 [INFO] PS Watcher -- 2026-07-25 11:08:41
+11:08:41 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:08:41 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:08:41 [INFO] Model   : qwen/qwen3-vl-4b
+11:08:41 [INFO] ========================================================
+11:08:41 [INFO] [LOADING] Đang khởi động Detector ...
+11:08:41 [INFO] [Detector] Khởi động -- PID 6192
+11:08:41 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:08:41 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:08:41 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:12:29 [INFO] ========================================================
+11:12:29 [INFO] PS Watcher -- 2026-07-25 11:12:29
+11:12:29 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:12:29 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:12:29 [INFO] Model   : qwen/qwen3-vl-4b
+11:12:29 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:12:29 [INFO] ========================================================
+11:12:29 [INFO] [LOADING] Đang khởi động Detector ...
+11:12:29 [INFO] [Detector] Khởi động -- PID 22464
+11:12:29 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:12:29 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:12:29 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:16:23 [INFO] ========================================================
+11:16:23 [INFO] PS Watcher -- 2026-07-25 11:16:23
+11:16:23 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\python.exe
+11:16:23 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:16:23 [INFO] Model   : qwen/qwen3-vl-4b
+11:16:23 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:16:23 [INFO] ========================================================
+11:16:23 [INFO] [LOADING] Đang khởi động Detector ...
+11:16:23 [INFO] [Detector] Khởi động -- PID 1636
+11:16:23 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:16:23 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:16:23 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:18:06 [INFO] ========================================================
+11:18:06 [INFO] PS Watcher -- 2026-07-25 11:18:06
+11:18:06 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\python.exe
+11:18:06 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:18:06 [INFO] Model   : qwen/qwen3-vl-4b
+11:18:06 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:18:06 [INFO] ========================================================
+11:18:06 [INFO] [LOADING] Đang khởi động Detector ...
+11:18:06 [INFO] [Detector] Khởi động -- PID 7572
+11:18:06 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:18:06 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:18:06 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:18:06 [INFO] [DET] 11:18:06 | INFO     | Headless Detector da chay. Thoat.
+11:18:06 [INFO] [Detector] Process kết thúc.
+11:18:10 [INFO] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:18:10 [INFO] [LOADING] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:18:10 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:18:10 [INFO] [LOADING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:18:10 [INFO] [RUNNING] Detector đang chạy -- theo dõi Photoshop
+11:18:11 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:18:16 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:18:16 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:18:16 [INFO] [Detector] Khởi động -- PID 11288
+11:18:16 [INFO] [DET] 11:18:16 | INFO     | Headless Detector da chay. Thoat.
+11:18:16 [INFO] [Detector] Process kết thúc.
+11:18:21 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:18:21 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:18:21 [INFO] [Detector] Khởi động -- PID 16764
+11:18:21 [INFO] [DET] 11:18:21 | INFO     | Headless Detector da chay. Thoat.
+11:18:21 [INFO] [Detector] Process kết thúc.
+11:18:23 [INFO] [Menu] Người dùng thoát.
+11:18:23 [INFO] [PSWatcher] Đã thoát.
+11:18:31 [INFO] ========================================================
+11:18:31 [INFO] PS Watcher -- 2026-07-25 11:18:31
+11:18:31 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:18:31 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:18:31 [INFO] Model   : qwen/qwen3-vl-4b
+11:18:31 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:18:31 [INFO] ========================================================
+11:18:31 [INFO] [LOADING] Đang khởi động Detector ...
+11:18:31 [INFO] [Detector] Khởi động -- PID 21848
+11:18:31 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:18:31 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:18:31 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:18:31 [INFO] [DET] 11:18:31 | INFO     | Headless Detector da chay. Thoat.
+11:18:31 [INFO] [Detector] Process kết thúc.
+11:18:35 [INFO] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:18:35 [INFO] [LOADING] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:18:35 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:18:35 [INFO] [LOADING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:18:35 [INFO] [RUNNING] Detector đang chạy -- theo dõi Photoshop
+11:18:36 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:18:41 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:18:41 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:18:41 [INFO] [Detector] Khởi động -- PID 26844
+11:18:41 [INFO] [DET] 11:18:41 | INFO     | Headless Detector da chay. Thoat.
+11:18:41 [INFO] [Detector] Process kết thúc.
+11:18:46 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:18:46 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:18:46 [INFO] [Detector] Khởi động -- PID 12024
+11:18:46 [INFO] [DET] 11:18:46 | INFO     | Headless Detector da chay. Thoat.
+11:18:46 [INFO] [Detector] Process kết thúc.
+11:18:50 [INFO] [Menu] Người dùng thoát.
+11:18:50 [INFO] [PSWatcher] Đã thoát.
+11:18:55 [INFO] ========================================================
+11:18:55 [INFO] PS Watcher -- 2026-07-25 11:18:55
+11:18:55 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:18:55 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:18:55 [INFO] Model   : qwen/qwen3-vl-4b
+11:18:55 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:18:55 [INFO] ========================================================
+11:18:55 [INFO] [LOADING] Đang khởi động Detector ...
+11:18:55 [INFO] [Detector] Khởi động -- PID 468
+11:18:55 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:18:55 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:18:55 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:18:55 [INFO] [DET] 11:18:55 | INFO     | Headless Detector da chay. Thoat.
+11:18:55 [INFO] [Detector] Process kết thúc.
+11:18:59 [INFO] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:18:59 [INFO] [LOADING] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:18:59 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:18:59 [INFO] [LOADING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:18:59 [INFO] [RUNNING] Detector đang chạy -- theo dõi Photoshop
+11:19:00 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:19:04 [INFO] ========================================================
+11:19:04 [INFO] PS Watcher -- 2026-07-25 11:19:04
+11:19:04 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:19:04 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:19:04 [INFO] Model   : qwen/qwen3-vl-4b
+11:19:04 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:19:04 [INFO] ========================================================
+11:19:04 [INFO] [LOADING] Đang khởi động Detector ...
+11:19:04 [INFO] [Detector] Khởi động -- PID 26008
+11:19:04 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:19:04 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:19:04 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:19:04 [INFO] [DET] 11:19:04 | INFO     | Headless Detector da chay. Thoat.
+11:19:04 [INFO] [Detector] Process kết thúc.
+11:19:05 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:19:05 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:19:05 [INFO] [Detector] Khởi động -- PID 12256
+11:19:05 [INFO] [DET] 11:19:05 | INFO     | Headless Detector da chay. Thoat.
+11:19:05 [INFO] [Detector] Process kết thúc.
+11:19:08 [INFO] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:19:08 [INFO] [LOADING] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:19:08 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:19:08 [INFO] [LOADING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:19:08 [INFO] [RUNNING] Detector đang chạy -- theo dõi Photoshop
+11:19:09 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:19:10 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:19:10 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:19:10 [INFO] [Detector] Khởi động -- PID 16352
+11:19:10 [INFO] [DET] 11:19:10 | INFO     | Headless Detector da chay. Thoat.
+11:19:10 [INFO] [Detector] Process kết thúc.
+11:19:13 [INFO] [Menu] Người dùng thoát.
+11:19:13 [INFO] [PSWatcher] Đã thoát.
+11:19:14 [INFO] [Menu] Người dùng thoát.
+11:19:14 [INFO] [PSWatcher] Đã thoát.
+11:22:40 [INFO] ========================================================
+11:22:40 [INFO] PS Watcher -- 2026-07-25 11:22:40
+11:22:40 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:22:40 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:22:40 [INFO] Model   : qwen/qwen3-vl-4b
+11:22:40 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:22:40 [INFO] ========================================================
+11:22:40 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:22:40 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:22:40 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:22:44 [INFO] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:22:44 [INFO] [LOADING] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:22:44 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:22:44 [INFO] [LOADING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:22:44 [INFO] [LOADING] Đang khởi động Detector ...
+11:22:44 [INFO] [Detector] Khởi động -- PID 24656
+11:22:44 [INFO] [RUNNING] Detector đang chạy -- model sẵn sàng
+11:22:44 [INFO] [DET] 11:22:44 | INFO     | Headless Detector da chay. Thoat.
+11:22:44 [INFO] [Detector] Process kết thúc.
+11:22:45 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:22:50 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:22:50 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:22:50 [INFO] [Detector] Khởi động -- PID 8288
+11:22:50 [INFO] [DET] 11:22:50 | INFO     | Headless Detector da chay. Thoat.
+11:22:50 [INFO] [Detector] Process kết thúc.
+11:22:55 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:22:55 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:22:55 [INFO] [Detector] Khởi động -- PID 18752
+11:22:55 [INFO] [DET] 11:22:55 | INFO     | Headless Detector da chay. Thoat.
+11:22:55 [INFO] [Detector] Process kết thúc.
+11:23:00 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:00 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:00 [INFO] [Detector] Khởi động -- PID 6388
+11:23:00 [INFO] [DET] 11:23:00 | INFO     | Headless Detector da chay. Thoat.
+11:23:00 [INFO] [Detector] Process kết thúc.
+11:23:05 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:05 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:05 [INFO] [Detector] Khởi động -- PID 13596
+11:23:05 [INFO] [DET] 11:23:05 | INFO     | Headless Detector da chay. Thoat.
+11:23:05 [INFO] [Detector] Process kết thúc.
+11:23:10 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:10 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:10 [INFO] [Detector] Khởi động -- PID 14860
+11:23:12 [INFO] [DET] 11:23:12 | INFO     | Headless Detector da chay. Thoat.
+11:23:12 [INFO] [Detector] Process kết thúc.
+11:23:15 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:15 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:15 [INFO] [Detector] Khởi động -- PID 14176
+11:23:16 [INFO] [DET] 11:23:16 | INFO     | Headless Detector da chay. Thoat.
+11:23:16 [INFO] [Detector] Process kết thúc.
+11:23:20 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:20 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:20 [INFO] [Detector] Khởi động -- PID 21772
+11:23:21 [INFO] [DET] 11:23:21 | INFO     | Headless Detector da chay. Thoat.
+11:23:21 [INFO] [Detector] Process kết thúc.
+11:23:25 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:25 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:25 [INFO] [Detector] Khởi động -- PID 13976
+11:23:26 [INFO] [DET] 11:23:26 | INFO     | Headless Detector da chay. Thoat.
+11:23:26 [INFO] [Detector] Process kết thúc.
+11:23:30 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:30 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:30 [INFO] [Detector] Khởi động -- PID 17688
+11:23:31 [INFO] [DET] 11:23:31 | INFO     | Headless Detector da chay. Thoat.
+11:23:31 [INFO] [Detector] Process kết thúc.
+11:23:35 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:35 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:35 [INFO] [Detector] Khởi động -- PID 22064
+11:23:36 [INFO] [DET] 11:23:36 | INFO     | Headless Detector da chay. Thoat.
+11:23:36 [INFO] [Detector] Process kết thúc.
+11:23:40 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:40 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:41 [INFO] [Detector] Khởi động -- PID 16980
+11:23:41 [INFO] [DET] 11:23:41 | INFO     | Headless Detector da chay. Thoat.
+11:23:41 [INFO] [Detector] Process kết thúc.
+11:23:46 [WARNING] [Watcher] Detector đã dừng -- khởi lại ...
+11:23:46 [INFO] [WARNING] Detector ngừng -- khởi lại ...
+11:23:46 [INFO] [Detector] Khởi động -- PID 21464
+11:23:46 [INFO] [DET] 11:23:46 | INFO     | Headless Detector da chay. Thoat.
+11:23:46 [INFO] [Detector] Process kết thúc.
+11:23:48 [INFO] [Menu] Người dùng thoát.
+11:23:48 [INFO] [PSWatcher] Đã thoát.
+11:27:15 [INFO] ========================================================
+11:27:15 [INFO] PS Watcher -- 2026-07-25 11:27:15
+11:27:15 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:27:15 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:27:15 [INFO] Model   : qwen/qwen3-vl-4b
+11:27:15 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:27:15 [INFO] ========================================================
+11:27:15 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:27:15 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:27:15 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:27:19 [INFO] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:27:19 [INFO] [LOADING] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:27:19 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:27:19 [INFO] [LOADING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:27:19 [INFO] [LOADING] Đang khởi động Detector ...
+11:27:19 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:27:19 [INFO] [Detector] Khởi động -- PID 18540
+11:27:19 [INFO] [DET] 11:27:19 | INFO     | Headless Detector da chay. Thoat.
+11:27:19 [INFO] [Detector] Process kết thúc.
+11:27:21 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:27:21 [INFO] [WARNING] Detector chưa khởi động được
+11:27:22 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:27:24 [INFO] ========================================================
+11:27:24 [INFO] PS Watcher -- 2026-07-25 11:27:24
+11:27:24 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:27:24 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:27:24 [INFO] Model   : qwen/qwen3-vl-4b
+11:27:24 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:27:24 [INFO] ========================================================
+11:27:24 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:27:24 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:27:24 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:27:27 [WARNING] [Watcher] Detector dừng -- thử lại lần 1/3
+11:27:27 [INFO] [WARNING] Detector ngừng -- thử lại 1/3 ...
+11:27:27 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:27:27 [INFO] [Detector] Khởi động -- PID 2480
+11:27:27 [INFO] [DET] 11:27:27 | INFO     | Headless Detector da chay. Thoat.
+11:27:27 [INFO] [Detector] Process kết thúc.
+11:27:28 [INFO] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:27:28 [INFO] [LOADING] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:27:28 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:27:28 [INFO] [LOADING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:27:28 [INFO] [LOADING] Đang khởi động Detector ...
+11:27:28 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:27:28 [INFO] [Detector] Khởi động -- PID 14476
+11:27:29 [INFO] [DET] 11:27:29 | INFO     | Headless Detector da chay. Thoat.
+11:27:29 [INFO] [Detector] Process kết thúc.
+11:27:29 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:27:30 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:27:30 [INFO] [WARNING] Detector chưa khởi động được
+11:27:31 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:27:34 [WARNING] [Watcher] Detector dừng -- thử lại lần 2/3
+11:27:34 [INFO] [WARNING] Detector ngừng -- thử lại 2/3 ...
+11:27:34 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:27:34 [INFO] [Detector] Khởi động -- PID 9528
+11:27:34 [INFO] [DET] 11:27:34 | INFO     | Headless Detector da chay. Thoat.
+11:27:34 [INFO] [Detector] Process kết thúc.
+11:27:36 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:27:36 [WARNING] [Watcher] Detector dừng -- thử lại lần 1/3
+11:27:36 [INFO] [WARNING] Detector ngừng -- thử lại 1/3 ...
+11:27:36 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:27:36 [INFO] [Detector] Khởi động -- PID 9316
+11:27:36 [INFO] [DET] 11:27:36 | INFO     | Headless Detector da chay. Thoat.
+11:27:36 [INFO] [Detector] Process kết thúc.
+11:27:38 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:27:41 [WARNING] [Watcher] Detector dừng -- thử lại lần 3/3
+11:27:41 [INFO] [WARNING] Detector ngừng -- thử lại 3/3 ...
+11:27:41 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:27:41 [INFO] [Detector] Khởi động -- PID 26840
+11:27:41 [INFO] [DET] 11:27:41 | INFO     | Headless Detector da chay. Thoat.
+11:27:41 [INFO] [Detector] Process kết thúc.
+11:27:43 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:27:43 [WARNING] [Watcher] Detector dừng -- thử lại lần 2/3
+11:27:43 [INFO] [WARNING] Detector ngừng -- thử lại 2/3 ...
+11:27:43 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:27:43 [INFO] [Detector] Khởi động -- PID 13844
+11:27:44 [INFO] [DET] 11:27:44 | INFO     | Headless Detector da chay. Thoat.
+11:27:44 [INFO] [Detector] Process kết thúc.
+11:27:45 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:27:46 [INFO] [Menu] Người dùng thoát.
+11:27:46 [INFO] [PSWatcher] Đã thoát.
+11:27:47 [INFO] [Menu] Người dùng thoát.
+11:27:47 [INFO] [PSWatcher] Đã thoát.
+11:28:39 [INFO] ========================================================
+11:28:39 [INFO] PS Watcher -- 2026-07-25 11:28:39
+11:28:39 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:28:39 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:28:39 [INFO] Model   : qwen/qwen3-vl-4b
+11:28:39 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:28:39 [INFO] ========================================================
+11:28:39 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:28:39 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:28:39 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:28:43 [INFO] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:28:43 [INFO] [LOADING] Models đang load: ['qwen/qwen3-vl-4b', 'zai-org/glm-4.6v-flash', 'qwen/qwen3-vl-8b', 'qwen/qwen3.5-9b', 'nvidia/nemotron-3-nano-4b', 'google/gemma-4-e2b', 'google/gemma-4-12b-qat', 'google/gemma-4-e4b', 'text-embedding-nomic-embed-text-v1.5']
+11:28:43 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:28:43 [INFO] [LOADING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng.
+11:28:43 [INFO] [LOADING] Đang khởi động Detector ...
+11:28:43 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:28:43 [INFO] [Detector] Khởi động -- PID 2196
+11:28:43 [INFO] [DET] 11:28:43 | INFO     | Headless Detector da chay. Thoat.
+11:28:43 [INFO] [Detector] Process kết thúc.
+11:28:45 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:28:45 [INFO] [WARNING] Detector chưa khởi động được
+11:28:46 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:28:50 [INFO] ps_watcher đã đang chạy (instance khác). Thoát.
+11:28:51 [WARNING] [Watcher] Detector dừng -- thử lại lần 1/3
+11:28:51 [INFO] [WARNING] Detector ngừng -- thử lại 1/3 ...
+11:28:51 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:28:51 [INFO] [Detector] Khởi động -- PID 2480
+11:28:51 [INFO] [DET] 11:28:51 | INFO     | Headless Detector da chay. Thoat.
+11:28:51 [INFO] [Detector] Process kết thúc.
+11:28:53 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:28:58 [WARNING] [Watcher] Detector dừng -- thử lại lần 2/3
+11:28:58 [INFO] [WARNING] Detector ngừng -- thử lại 2/3 ...
+11:28:58 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:28:58 [INFO] [Detector] Khởi động -- PID 24420
+11:28:58 [INFO] [DET] 11:28:58 | INFO     | Headless Detector da chay. Thoat.
+11:28:58 [INFO] [Detector] Process kết thúc.
+11:29:00 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:29:05 [WARNING] [Watcher] Detector dừng -- thử lại lần 3/3
+11:29:05 [INFO] [WARNING] Detector ngừng -- thử lại 3/3 ...
+11:29:05 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:29:05 [INFO] [Detector] Khởi động -- PID 16592
+11:29:05 [INFO] [DET] 11:29:05 | INFO     | Headless Detector da chay. Thoat.
+11:29:05 [INFO] [Detector] Process kết thúc.
+11:29:07 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:29:12 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:17 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:22 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:27 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:32 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:37 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:42 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:47 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:50 [INFO] [LOADING] Đang khởi lại Detector ...
+11:29:51 [WARNING] [Detector] Lỗi xóa lock cũ: [Errno 13] Permission denied
+11:29:51 [INFO] [Detector] Khởi động -- PID 24172
+11:29:51 [INFO] [DET] 11:29:51 | INFO     | Headless Detector da chay. Thoat.
+11:29:51 [INFO] [Detector] Process kết thúc.
+11:29:53 [ERROR] [Detector] Process thoát ngay sau khi khởi động!
+11:29:53 [INFO] [ERROR] Khởi lại thất bại
+11:29:53 [INFO] [ERROR] Detector lỗi liên tục (3 lần) -- cần khởi lại thủ công
+11:29:53 [INFO] [Menu] Người dùng thoát.
+11:29:53 [INFO] [PSWatcher] Đã thoát.
+11:31:18 [INFO] ========================================================
+11:31:18 [INFO] PS Watcher -- 2026-07-25 11:31:18
+11:31:18 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:31:18 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:31:18 [INFO] Model   : qwen/qwen3-vl-4b
+11:31:18 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:31:18 [INFO] ========================================================
+11:31:18 [INFO] [LOADING] Đang kiểm tra LM Studio ...
+11:31:18 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:31:18 [INFO] [LOADING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:31:47 [INFO] ========================================================
+11:31:47 [INFO] PS Watcher -- 2026-07-25 11:31:47
+11:31:47 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:31:47 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:31:47 [INFO] Model   : qwen/qwen3-vl-4b
+11:31:47 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:31:47 [INFO] ========================================================
+11:31:47 [INFO] [LOADING] Đang khởi động Detector ...
+11:31:47 [INFO] [Detector] Khởi động -- PID 25740
+11:31:47 [INFO] [DET] 11:31:47 | INFO     | [Headless Detector] PID 25740 - Dang theo doi: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input
+11:31:47 [INFO] [DET] 11:31:47 | INFO     | Nhan Ctrl+C de thoat.
+11:31:48 [INFO] [RUNNING] Detector đang chạy -- kiểm tra model...
+11:31:48 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:31:48 [INFO] [RUNNING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:32:58 [INFO] ========================================================
+11:32:58 [INFO] PS Watcher -- 2026-07-25 11:32:58
+11:32:58 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\python.exe
+11:32:58 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:32:58 [INFO] Model   : qwen/qwen3-vl-4b
+11:32:58 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:32:58 [INFO] ========================================================
+11:32:58 [INFO] [LOADING] Đang khởi động Detector ...
+11:32:59 [INFO] [Detector] Khởi động -- PID 10756
+11:32:59 [INFO] [DET] 11:32:59 | INFO     | [Headless Detector] PID 10756 - Dang theo doi: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input
+11:32:59 [INFO] [DET] 11:32:59 | INFO     | Nhan Ctrl+C de thoat.
+11:32:59 [INFO] [DET] 11:32:59 | INFO     | Nhan job: 888802.job.json
+11:32:59 [INFO] [RUNNING] Detector đang chạy -- kiểm tra model...
+11:32:59 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:32:59 [INFO] [RUNNING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:32:59 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | [TIMING] get_active_model: 2045ms | zai-org/glm-4.6v-flash
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | [TIMING] Nhan job 888802.job.json | base=888802 | doi_trong_hang~40327ms
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | [DIMENSION] Auto-detected sel_crop: 888802__sel_crop.jpg
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | ==================================================
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | Xu ly anh: 888802.jpg
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | Duong dan: M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | Su dung model: zai-org/glm-4.6v-flash
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | Gui LM kich thuoc goc: 1363x908
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | Gửi ảnh '888802.jpg' tới model 'zai-org/glm-4.6v-flash' để phân tích ALL VIEWS
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | [TIMING] base64 encode: 6ms | ~230 KB b64
+11:33:01 [INFO] [DET] 11:33:01 | INFO     | Đang gửi request ALL VIEWS (lần 1)...
+11:33:03 [INFO] Models đang load trong VRAM: (none)
+11:33:03 [INFO] [RUNNING] Models đang load trong VRAM: (none)
+11:33:03 [INFO] Đang kích hoạt load model 'qwen/qwen3-vl-4b' vào LM Studio ...
+11:33:03 [INFO] [RUNNING] Đang kích hoạt load model 'qwen/qwen3-vl-4b' vào LM Studio ...
+11:33:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:33:07 [INFO] [DET] 11:33:07 | INFO     | [TIMING] LM Studio HTTP: 6155ms | status=400
+11:33:07 [INFO] [DET] 11:33:07 | ERROR    | API trả lỗi 400: {
+11:33:07 [INFO] [DET]     "error": {
+11:33:07 [INFO] [DET]         "message": "Failed to load model \"zai-org/glm-4.6v-flash\". Error: Engine protocol startup was aborted.",
+11:33:07 [INFO] [DET]         "type": "invalid_request_error",
+11:33:07 [INFO] [DET]         "param": "model",
+11:33:07 [INFO] [DET]         "code": null
+11:33:07 [INFO] [DET]     }
+11:33:07 [INFO] [DET] }
+11:33:07 [INFO] [DET] 11:33:07 | INFO     | [TIMING] LM ALL VIEWS (encode goc+HTTP): 6163ms
+11:33:07 [INFO] [DET] 11:33:07 | ERROR    | Phan tich that bai: API trả lỗi 400: {
+11:33:07 [INFO] [DET]     "error": {
+11:33:07 [INFO] [DET]         "message": "Failed to load model \"zai-org/glm-4.6v-flash\". Error: Engine protocol startup was aborted.",
+11:33:07 [INFO] [DET]         "type": "invalid_request_error",
+11:33:07 [INFO] [DET]         "param": "model",
+11:33:07 [INFO] [DET]         "code": null
+11:33:07 [INFO] [DET]     }
+11:33:07 [INFO] [DET] }
+11:33:07 [INFO] [DET] 11:33:07 | INFO     | [TIMING] process_job wall: 6223ms
+11:33:09 [INFO] [DET] 11:33:09 | INFO     | ==================================================
+11:33:09 [INFO] [DET] 11:33:09 | INFO     | Xu ly anh: 888802__sel_crop.jpg
+11:33:09 [INFO] [DET] 11:33:09 | INFO     | Duong dan: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input\_processing\888802__sel_crop.jpg
+11:33:09 [INFO] [DET] 11:33:09 | INFO     | Su dung model: qwen/qwen3-vl-4b
+11:33:09 [INFO] [DET] 11:33:09 | INFO     | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+11:33:10 [INFO] [DET] 11:33:10 | INFO     | Gui LM kich thuoc goc: 139x162
+11:33:10 [INFO] [DET] 11:33:10 | INFO     | Gửi ảnh '888802__sel_crop.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+11:33:10 [INFO] [DET] 11:33:10 | INFO     | [TIMING] base64 encode: 0ms | ~36 KB b64
+11:33:10 [INFO] [DET] 11:33:10 | INFO     | Đang gửi request ALL VIEWS (lần 1)...
+11:33:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:33:26 [INFO] ========================================================
+11:33:26 [INFO] PS Watcher -- 2026-07-25 11:33:26
+11:33:26 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\python.exe
+11:33:26 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:33:26 [INFO] Model   : qwen/qwen3-vl-4b
+11:33:26 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:33:26 [INFO] ========================================================
+11:33:26 [INFO] [LOADING] Đang khởi động Detector ...
+11:33:26 [INFO] [Detector] Khởi động -- PID 24236
+11:33:26 [INFO] [DET] 11:33:26 | INFO     | [Headless Detector] PID 24236 - Dang theo doi: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input
+11:33:26 [INFO] [DET] 11:33:26 | INFO     | Nhan Ctrl+C de thoat.
+11:33:26 [INFO] [RUNNING] Detector đang chạy -- kiểm tra model...
+11:33:26 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:33:26 [INFO] [RUNNING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:33:27 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:33:30 [INFO] Models đang load trong VRAM: (none)
+11:33:30 [INFO] [RUNNING] Models đang load trong VRAM: (none)
+11:33:30 [INFO] Đang kích hoạt load model 'qwen/qwen3-vl-4b' vào LM Studio ...
+11:33:30 [INFO] [RUNNING] Đang kích hoạt load model 'qwen/qwen3-vl-4b' vào LM Studio ...
+11:33:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:33:36 [INFO] Model đã load thành công!
+11:33:36 [INFO] [RUNNING] Model đã load thành công!
+11:33:36 [INFO] [RUNNING] Detector đang chạy -- model sẵn sàng
+11:33:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:33:41 [INFO] [Menu] Người dùng thoát.
+11:33:41 [INFO] [Detector] Đã dừng.
+11:33:41 [INFO] [Detector] Process kết thúc.
+11:33:41 [INFO] [PSWatcher] Đã thoát.
+11:33:54 [INFO] ========================================================
+11:33:54 [INFO] PS Watcher -- 2026-07-25 11:33:54
+11:33:54 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:33:54 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:33:54 [INFO] Model   : qwen/qwen3-vl-4b
+11:33:54 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:33:54 [INFO] ========================================================
+11:33:54 [INFO] [LOADING] Đang khởi động Detector ...
+11:33:54 [INFO] [Detector] Khởi động -- PID 11316
+11:33:54 [INFO] [DET] 11:33:54 | INFO     | [Headless Detector] PID 11316 - Dang theo doi: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input
+11:33:54 [INFO] [DET] 11:33:54 | INFO     | Nhan Ctrl+C de thoat.
+11:33:55 [INFO] [RUNNING] Detector đang chạy -- kiểm tra model...
+11:33:55 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:33:55 [INFO] [RUNNING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:33:55 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:33:55 [INFO] [DET] 11:33:55 | INFO     | Nhan job: 888802.job.json
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | [TIMING] get_active_model: 2070ms | qwen/qwen3-vl-4b
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | [TIMING] Nhan job 888802.job.json | base=888802 | doi_trong_hang~2173ms
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | [DIMENSION] Auto-detected sel_crop: 888802__sel_crop.jpg
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | ==================================================
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | Xu ly anh: 888802.jpg
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | Duong dan: M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | Su dung model: qwen/qwen3-vl-4b
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | Gui LM kich thuoc goc: 1363x908
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | [TIMING] base64 encode: 6ms | ~230 KB b64
+11:33:57 [INFO] [DET] 11:33:57 | INFO     | Đang gửi request ALL VIEWS (lần 1)...
+11:33:59 [INFO] Models đang load trong VRAM: ['qwen/qwen3-vl-4b']
+11:33:59 [INFO] [RUNNING] Models đang load trong VRAM: ['qwen/qwen3-vl-4b']
+11:33:59 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng trong VRAM.
+11:33:59 [INFO] [RUNNING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng trong VRAM.
+11:33:59 [INFO] [RUNNING] Detector đang chạy -- model sẵn sàng
+11:34:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:10 [INFO] [DET] 11:34:10 | INFO     | [TIMING] LM Studio HTTP: 12529ms | status=200
+11:34:10 [INFO] [DET] 11:34:10 | INFO     | [TIMING] parse JSON response: 0ms
+11:34:10 [INFO] [DET] 11:34:10 | INFO     | [TIMING] ALL VIEWS (encode+HTTP+parse): 12536ms
+11:34:10 [INFO] [DET] 11:34:10 | INFO     | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+11:34:10 [INFO] [DET] 11:34:10 | INFO     | [TIMING] LM ALL VIEWS (encode goc+HTTP): 12537ms
+11:34:10 [INFO] [DET] 11:34:10 | INFO     | Nhan dien thanh cong 7 views | drawing=888802 metal=14K brand=14k
+11:34:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   Dang xu ly FRONT...
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel pixel (AI): [354, 73, 682, 454]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object pixel (AI): [375, 91, 661, 431]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Center pixel: [518, 262]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | OpenCV panel refine IoU = 0.880
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined: [341, 77, 695, 469]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined (OpenCV): [341, 77, 695, 469]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Clean panel crop: raw_size=354x392 trim_left=11 trim_top=4 trim_right=10 trim_bottom=0 content_retained=99.2% success=True
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Trimmed Object (ảnh gốc): [360, 186, 680, 421] | AI bbox gốc: [375,91,661,431]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object refined (OpenCV Trim): [360, 186, 680, 421]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Đã lưu ảnh kết quả: 888802_front_result.jpg
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Tổng thời gian xử lý: 0.09s
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   FRONT: obj=[360, 186, 680, 421] | 95ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   Dang xu ly LEFT...
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel pixel (AI): [682, 73, 1009, 454]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object pixel (AI): [702, 91, 995, 431]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Center pixel: [849, 262]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | OpenCV panel refine IoU = 0.880
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined: [668, 77, 1022, 469]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined (OpenCV): [668, 77, 1022, 469]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Clean panel crop: raw_size=354x392 trim_left=21 trim_top=4 trim_right=0 trim_bottom=0 content_retained=99.7% success=True
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Trimmed Object (ảnh gốc): [762, 178, 912, 409] | AI bbox gốc: [702,91,995,431]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object refined (OpenCV Trim): [762, 178, 912, 409]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Đã lưu ảnh kết quả: 888802_left_result.jpg
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Tổng thời gian xử lý: 0.01s
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   LEFT: obj=[762, 178, 912, 409] | 14ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   Dang xu ly TOP...
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel pixel (AI): [1009, 73, 1336, 454]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object pixel (AI): [1029, 91, 1322, 431]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Center pixel: [1176, 262]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | OpenCV panel refine IoU = 0.882
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined: [996, 77, 1349, 469]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined (OpenCV): [996, 77, 1349, 469]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Clean panel crop: raw_size=353x392 trim_left=31 trim_top=4 trim_right=0 trim_bottom=0 content_retained=100.0% success=True
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Trimmed Object (ảnh gốc): [1054, 249, 1285, 377] | AI bbox gốc: [1029,91,1322,431]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object refined (OpenCV Trim): [1054, 249, 1285, 377]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Đã lưu ảnh kết quả: 888802_top_result.jpg
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Tổng thời gian xử lý: 0.01s
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   TOP: obj=[1054, 249, 1285, 377] | 13ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   Dang xu ly BACK...
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel pixel (AI): [354, 454, 682, 890]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object pixel (AI): [375, 477, 661, 867]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Center pixel: [518, 672]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | OpenCV panel refine IoU = 0.857
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined: [341, 437, 695, 907]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined (OpenCV): [341, 437, 695, 907]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Clean panel crop: raw_size=354x470 trim_left=11 trim_top=58 trim_right=10 trim_bottom=2 content_retained=99.8% success=True
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Trimmed Object (ảnh gốc): [369, 552, 672, 787] | AI bbox gốc: [375,495,661,867]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object refined (OpenCV Trim): [369, 552, 672, 787]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Đã lưu ảnh kết quả: 888802_back_result.jpg
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Tổng thời gian xử lý: 0.01s
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   BACK: obj=[369, 552, 672, 787] | 14ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   Dang xu ly RIGHT...
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel pixel (AI): [682, 454, 1009, 890]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object pixel (AI): [702, 477, 995, 867]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Center pixel: [849, 672]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | OpenCV panel refine IoU = 0.857
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined: [668, 437, 1022, 907]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined (OpenCV): [668, 437, 1022, 907]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Clean panel crop: raw_size=354x470 trim_left=21 trim_top=58 trim_right=0 trim_bottom=2 content_retained=100.0% success=True
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Trimmed Object (ảnh gốc): [796, 558, 933, 791] | AI bbox gốc: [702,495,995,867]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object refined (OpenCV Trim): [796, 558, 933, 791]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Đã lưu ảnh kết quả: 888802_right_result.jpg
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Tổng thời gian xử lý: 0.01s
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   RIGHT: obj=[796, 558, 933, 791] | 14ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   Dang xu ly BOTTOM...
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel pixel (AI): [1009, 454, 1336, 890]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object pixel (AI): [1029, 477, 1322, 867]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Center pixel: [1176, 672]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | OpenCV panel refine IoU = 0.859
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined: [996, 437, 1349, 907]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined (OpenCV): [996, 437, 1349, 907]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Clean panel crop: raw_size=353x470 trim_left=31 trim_top=58 trim_right=0 trim_bottom=2 content_retained=100.0% success=True
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Trimmed Object (ảnh gốc): [1067, 678, 1298, 790] | AI bbox gốc: [1029,495,1322,867]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object refined (OpenCV Trim): [1067, 678, 1298, 790]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Đã lưu ảnh kết quả: 888802_bottom_result.jpg
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Tổng thời gian xử lý: 0.01s
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   BOTTOM: obj=[1067, 678, 1298, 790] | 15ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   Dang xu ly PERSPECTIVE...
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel pixel (AI): [0, 454, 354, 890]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object pixel (AI): [27, 499, 327, 817]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Center pixel: [177, 658]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | OpenCV panel refine IoU = 0.891
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined: [0, 437, 369, 907]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Panel refined (OpenCV): [0, 437, 369, 907]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Clean panel crop: raw_size=369x470 trim_left=5 trim_top=47 trim_right=22 trim_bottom=2 content_retained=92.7% success=True
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Trimmed Object (ảnh gốc): [30, 517, 322, 772] | AI bbox gốc: [27,499,327,817]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Object refined (OpenCV Trim): [30, 517, 322, 772]
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Đã lưu ảnh kết quả: 888802_perspective_result.jpg
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | Tổng thời gian xử lý: 0.02s
+11:34:11 [INFO] [DET] 11:34:11 | INFO     |   PERSPECTIVE: obj=[30, 517, 322, 772] | 19ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | [TIMING] process 7 views (bbox/refine): 184ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | [DIMENSION] Dung selection crop: 888802__sel_crop.jpg (27KB)
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | [DIMENSION][TIMING] encode: 0ms
+11:34:11 [INFO] [DET] 11:34:11 | INFO     | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | [DIMENSION][TIMING] HTTP lần 1: 3033ms | status=200
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=3034ms
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | [TIMING] AI lan 2 (selection crop): 3034ms
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | Da luu JSON: 888802_all_views_result.json
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | [TIMING] save JSON: 0ms
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | Giu nguyen file goc: M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | --------------------------------------------------
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | [TIMING SUMMARY] 888802
+11:34:14 [INFO] [DET] 11:34:14 | INFO     |   0. payload           : original 1363x908 (giong GUI)
+11:34:14 [INFO] [DET] 11:34:14 | INFO     |   1. prepare           : 0ms (encode trong LM client)
+11:34:14 [INFO] [DET] 11:34:14 | INFO     |   2. LM ALL VIEWS     : 12537ms  << thuong la bottleneck
+11:34:14 [INFO] [DET] 11:34:14 | INFO     |   3. process views    : 184ms
+11:34:14 [INFO] [DET] 11:34:14 | INFO     |   4. save JSON        : 0ms
+11:34:14 [INFO] [DET] 11:34:14 | INFO     |   5. move source      : 0ms
+11:34:14 [INFO] [DET] 11:34:14 | INFO     |   TOTAL Detector     : 17053ms (17.05s)
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | ==================================================
+11:34:14 [INFO] [DET] 11:34:14 | INFO     | [TIMING] process_job wall: 17055ms
+11:34:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:34:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:35:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:36:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:37:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:38:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:39:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:40:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:40:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:40:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:40:15 [INFO] [Menu] Người dùng thoát.
+11:40:15 [INFO] [Detector] Đã dừng.
+11:40:15 [INFO] [Detector] Process kết thúc.
+11:40:15 [INFO] [PSWatcher] Đã thoát.
+11:43:34 [INFO] ========================================================
+11:43:34 [INFO] PS Watcher -- 2026-07-25 11:43:34
+11:43:34 [INFO] Python  : C:\Users\pvhan\AppData\Local\Programs\Python\Python314\pythonw.exe
+11:43:34 [INFO] Base    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT
+11:43:34 [INFO] Model   : qwen/qwen3-vl-4b
+11:43:34 [INFO] Icon    : D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\app_icon.png
+11:43:34 [INFO] ========================================================
+11:43:34 [INFO] [LOADING] Đang khởi động Detector ...
+11:43:34 [INFO] [Detector] Khởi động -- PID 21728
+11:43:35 [INFO] [DET] 11:43:35 | INFO     | [Headless Detector] PID 21728 - Dang theo doi: D:\CODE\Agent\AutoNhanDangAnh\PTS CS5 SCRIPT\input
+11:43:35 [INFO] [DET] 11:43:35 | INFO     | Nhan Ctrl+C de thoat.
+11:43:35 [INFO] [RUNNING] Detector đang chạy -- kiểm tra model...
+11:43:35 [INFO] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:43:35 [INFO] [RUNNING] Kiểm tra LM Studio tại http://localhost:1234 ...
+11:43:35 [INFO] [Watcher] Bắt đầu theo dõi Photoshop (mỗi 5s)
+11:43:37 [INFO] [DET] 11:43:37 | INFO     | Nhan job: 888802.job.json
+11:43:39 [INFO] Models đang load trong VRAM: ['qwen/qwen3-vl-4b']
+11:43:39 [INFO] [RUNNING] Models đang load trong VRAM: ['qwen/qwen3-vl-4b']
+11:43:39 [INFO] Model 'qwen/qwen3-vl-4b' đã sẵn sàng trong VRAM.
+11:43:39 [INFO] [RUNNING] Model 'qwen/qwen3-vl-4b' đã sẵn sàng trong VRAM.
+11:43:39 [INFO] [RUNNING] Detector đang chạy -- model sẵn sàng
+11:43:39 [INFO] [DET] 11:43:39 | INFO     | [TIMING] get_active_model: 2071ms | qwen/qwen3-vl-4b
+11:43:39 [INFO] [DET] 11:43:39 | INFO     | [TIMING] Nhan job 888802.job.json | base=888802 | doi_trong_hang~2142ms
+11:43:39 [INFO] [DET] 11:43:39 | INFO     | [DIMENSION] Auto-detected sel_crop: 888802__sel_crop.jpg
+11:43:39 [INFO] [DET] 11:43:39 | INFO     | ==================================================
+11:43:39 [INFO] [DET] 11:43:39 | INFO     | Xu ly anh: 888802.jpg
+11:43:39 [INFO] [DET] 11:43:39 | INFO     | Duong dan: M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+11:43:39 [INFO] [DET] 11:43:39 | INFO     | Su dung model: qwen/qwen3-vl-4b
+11:43:39 [INFO] [DET] 11:43:39 | INFO     | [TIMING] mode=original_file (giong GUI jewelry_front_detector)
+11:43:40 [INFO] [DET] 11:43:40 | INFO     | Gui LM kich thuoc goc: 1363x908
+11:43:40 [INFO] [DET] 11:43:40 | INFO     | Gửi ảnh '888802.jpg' tới model 'qwen/qwen3-vl-4b' để phân tích ALL VIEWS
+11:43:40 [INFO] [DET] 11:43:40 | INFO     | [TIMING] base64 encode: 6ms | ~230 KB b64
+11:43:40 [INFO] [DET] 11:43:40 | INFO     | Đang gửi request ALL VIEWS (lần 1)...
+11:43:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:43:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:43:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [TIMING] LM Studio HTTP: 11197ms | status=200
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [TIMING] parse JSON response: 0ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [TIMING] ALL VIEWS (encode+HTTP+parse): 11203ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Sheet meta: drawing=888802 metal=14K brand=14k weight=0.53 gr | views=7
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [TIMING] LM ALL VIEWS (encode goc+HTTP): 11203ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Nhan dien thanh cong 7 views | drawing=888802 metal=14K brand=14k
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   Dang xu ly FRONT...
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel pixel (AI): [354, 73, 682, 454]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object pixel (AI): [382, 91, 654, 418]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Center pixel: [518, 254]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | OpenCV panel refine IoU = 0.880
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined: [341, 77, 695, 469]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined (OpenCV): [341, 77, 695, 469]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Clean panel crop: raw_size=354x392 trim_left=11 trim_top=4 trim_right=10 trim_bottom=0 content_retained=99.2% success=True
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Trimmed Object (ảnh gốc): [360, 186, 680, 421] | AI bbox gốc: [382,91,654,418]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object refined (OpenCV Trim): [360, 186, 680, 421]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Đã lưu ảnh kết quả: 888802_front_result.jpg
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Tổng thời gian xử lý: 0.05s
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   FRONT: obj=[360, 186, 680, 421] | 48ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   Dang xu ly LEFT...
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel pixel (AI): [682, 73, 1009, 454]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object pixel (AI): [709, 91, 981, 418]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Center pixel: [845, 254]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | OpenCV panel refine IoU = 0.880
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined: [668, 77, 1022, 469]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined (OpenCV): [668, 77, 1022, 469]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Clean panel crop: raw_size=354x392 trim_left=21 trim_top=4 trim_right=0 trim_bottom=0 content_retained=99.7% success=True
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Trimmed Object (ảnh gốc): [762, 178, 912, 409] | AI bbox gốc: [709,91,981,418]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object refined (OpenCV Trim): [762, 178, 912, 409]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Đã lưu ảnh kết quả: 888802_left_result.jpg
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Tổng thời gian xử lý: 0.01s
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   LEFT: obj=[762, 178, 912, 409] | 12ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   Dang xu ly TOP...
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel pixel (AI): [1009, 73, 1336, 454]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object pixel (AI): [1036, 91, 1308, 418]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Center pixel: [1172, 254]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | OpenCV panel refine IoU = 0.882
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined: [996, 77, 1349, 469]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined (OpenCV): [996, 77, 1349, 469]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Clean panel crop: raw_size=353x392 trim_left=31 trim_top=4 trim_right=0 trim_bottom=0 content_retained=100.0% success=True
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Trimmed Object (ảnh gốc): [1054, 249, 1285, 377] | AI bbox gốc: [1036,91,1308,418]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object refined (OpenCV Trim): [1054, 249, 1285, 377]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Đã lưu ảnh kết quả: 888802_top_result.jpg
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Tổng thời gian xử lý: 0.01s
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   TOP: obj=[1054, 249, 1285, 377] | 11ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   Dang xu ly BACK...
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel pixel (AI): [354, 454, 682, 726]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object pixel (AI): [382, 472, 654, 708]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Center pixel: [518, 590]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | OpenCV panel refine IoU = 0.856
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined: [341, 443, 695, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined (OpenCV): [341, 443, 695, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Clean panel crop: raw_size=354x294 trim_left=11 trim_top=52 trim_right=10 trim_bottom=0 content_retained=99.7% success=True
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Trimmed Object (ảnh gốc): [369, 552, 667, 737] | AI bbox gốc: [382,495,654,708]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object refined (OpenCV Trim): [369, 552, 667, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Đã lưu ảnh kết quả: 888802_back_result.jpg
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Tổng thời gian xử lý: 0.01s
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   BACK: obj=[369, 552, 667, 737] | 10ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   Dang xu ly RIGHT...
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel pixel (AI): [682, 454, 1009, 726]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object pixel (AI): [709, 472, 981, 708]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Center pixel: [845, 590]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | OpenCV panel refine IoU = 0.856
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined: [668, 443, 1022, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined (OpenCV): [668, 443, 1022, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Clean panel crop: raw_size=354x294 trim_left=21 trim_top=52 trim_right=0 trim_bottom=0 content_retained=100.0% success=True
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Trimmed Object (ảnh gốc): [796, 558, 933, 737] | AI bbox gốc: [709,495,981,708]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object refined (OpenCV Trim): [796, 558, 933, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Đã lưu ảnh kết quả: 888802_right_result.jpg
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Tổng thời gian xử lý: 0.01s
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   RIGHT: obj=[796, 558, 933, 737] | 11ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   Dang xu ly BOTTOM...
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel pixel (AI): [1009, 454, 1336, 726]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object pixel (AI): [1036, 472, 1308, 708]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Center pixel: [1172, 590]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | OpenCV panel refine IoU = 0.859
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined: [996, 443, 1349, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel refined (OpenCV): [996, 443, 1349, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Clean panel crop: raw_size=353x294 trim_left=31 trim_top=52 trim_right=0 trim_bottom=0 content_retained=100.0% success=True
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Trimmed Object (ảnh gốc): [1067, 678, 1298, 737] | AI bbox gốc: [1036,495,1308,708]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object refined (OpenCV Trim): [1067, 678, 1298, 737]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Đã lưu ảnh kết quả: 888802_bottom_result.jpg
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Tổng thời gian xử lý: 0.01s
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   BOTTOM: obj=[1067, 678, 1298, 737] | 12ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   Dang xu ly PERSPECTIVE...
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Kích thước ảnh: 1363 x 908 px
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Panel pixel (AI): [0, 499, 354, 908]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object pixel (AI): [27, 518, 327, 872]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Center pixel: [177, 695]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Object refined (OpenCV Trim): [97, 585, 248, 766]
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Đã lưu ảnh kết quả: 888802_perspective_result.jpg
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | Tổng thời gian xử lý: 0.01s
+11:43:51 [INFO] [DET] 11:43:51 | INFO     |   PERSPECTIVE: obj=[97, 585, 248, 766] | 10ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [TIMING] process 7 views (bbox/refine): 114ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [DIMENSION] Dung selection crop: 888802__sel_crop.jpg (27KB)
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [DIMENSION] Gui crop 'in-memory-crop' toi model 'qwen/qwen3-vl-4b' de doc H/W/RD...
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [DIMENSION][TIMING] encode: 0ms
+11:43:51 [INFO] [DET] 11:43:51 | INFO     | [DIMENSION] Dung prompt tong quat (khong ro direction tu selection)
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | [DIMENSION][TIMING] HTTP lần 1: 2785ms | status=200
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | [DIMENSION] W=0 H=8.2 → direction suy ra: H
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | [DIMENSION] OK: W=0.0 H=8.2 dir=H conf=high | total=2786ms
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | [TIMING] AI lan 2 (selection crop): 2786ms
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | Da luu JSON: 888802_all_views_result.json
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | [TIMING] save JSON: 1ms
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | Giu nguyen file goc: M:\departments\Share\2D (HandDrawing)\24.07\Scale 3D\KS\Finish\OLD\888802.jpg
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | --------------------------------------------------
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | [TIMING SUMMARY] 888802
+11:43:54 [INFO] [DET] 11:43:54 | INFO     |   0. payload           : original 1363x908 (giong GUI)
+11:43:54 [INFO] [DET] 11:43:54 | INFO     |   1. prepare           : 0ms (encode trong LM client)
+11:43:54 [INFO] [DET] 11:43:54 | INFO     |   2. LM ALL VIEWS     : 11203ms  << thuong la bottleneck
+11:43:54 [INFO] [DET] 11:43:54 | INFO     |   3. process views    : 114ms
+11:43:54 [INFO] [DET] 11:43:54 | INFO     |   4. save JSON        : 1ms
+11:43:54 [INFO] [DET] 11:43:54 | INFO     |   5. move source      : 0ms
+11:43:54 [INFO] [DET] 11:43:54 | INFO     |   TOTAL Detector     : 14219ms (14.22s)
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | ==================================================
+11:43:54 [INFO] [DET] 11:43:54 | INFO     | [TIMING] process_job wall: 14221ms
+11:43:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:44:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:45:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:46:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:47:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:48:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:49:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:50:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:51:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:52:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:53:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:54:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:55:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:56:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:57:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:58:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+11:59:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:00:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:01:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:02:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:03:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:04:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:05:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:06:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:07:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:08:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:09:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:10:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:11:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:12:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:13:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:14:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:15:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:16:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:17:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:18:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:19:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:20:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:21:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:22:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:23:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:24:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:25:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:26:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:27:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:28:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:29:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:30:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:31:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:32:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:33:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:34:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:35:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:36:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:37:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:38:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:39:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:40:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:41:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:42:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:43:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:44:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:45:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:46:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:47:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:48:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:49:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:50:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:51:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:52:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:53:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:54:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:55:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:56:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:57:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:58:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+12:59:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:00:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:01:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:02:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:03:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:04:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:05:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:06:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:07:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:08:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:09:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:10:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:11:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:12:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:13:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:14:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:15:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:16:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:17:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:18:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:19:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:20:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:21:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:22:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:23:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:24:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:25:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:26:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:27:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:28:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:29:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:30:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:31:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:32:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:33:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:34:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:35:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:36:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:37:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:38:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:39:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:40:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:41:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:42:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:43:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:44:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:45:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:46:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:47:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:48:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:49:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:50:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:51:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:52:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:04 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:09 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:14 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:19 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:24 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:29 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:34 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:39 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:44 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:49 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:54 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:53:59 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:54:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:55:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:56:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:57:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:58:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+13:59:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:00:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:01:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:35 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:40 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:45 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:50 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:02:55 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:00 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:05 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:10 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:15 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:20 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:25 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:30 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:03:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:04:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:05:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:06:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:07:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:08:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:09:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:10:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:11:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:51 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:12:56 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:01 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:06 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:11 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:16 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:21 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:26 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:31 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:36 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:41 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:46 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:13:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:14:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:15:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:16:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:17:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:18:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:19:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:20:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:21:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:32 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:37 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:42 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:47 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:52 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:22:57 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:02 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:07 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:12 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:17 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:22 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:27 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:23:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:24:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:33 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:38 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:43 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:48 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:53 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:25:58 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:26:03 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:26:08 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:26:13 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:26:18 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:26:23 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:26:28 [INFO] [RUNNING] Đang chạy -- Photoshop mở
+14:26:30 [INFO] [Menu] Người dùng thoát.
+14:26:30 [INFO] [Detector] Đã dừng.
+14:26:30 [INFO] [Detector] Process kết thúc.
+14:26:30 [INFO] [PSWatcher] Đã thoát.

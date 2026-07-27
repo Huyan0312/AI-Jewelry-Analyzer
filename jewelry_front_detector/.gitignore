@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime output
+logs/*.log
+output/*
+!output/.gitkeep
+!output/clear_results.bat
+output/.preview/
+output/debug/
+
+# Input samples (giữ thư mục, bỏ ảnh thử)
+input/*
+!input/.gitkeep

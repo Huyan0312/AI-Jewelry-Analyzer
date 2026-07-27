@@ -1,0 +1,189 @@
+{
+  "sheet": {
+    "drawing_number": "889972",
+    "metal": "14K",
+    "brand": "14k",
+    "metal_weight": "3.12g",
+    "front_width_mm": 0.0,
+    "front_height_mm": 11.8,
+    "scale_direction": "H",
+    "dim_confidence": "high"
+  },
+  "views": [
+    {
+      "view_name": "FRONT",
+      "image_size": {
+        "width": 1790,
+        "height": 1195
+      },
+      "pixel": {
+        "panel_bbox": [
+          439,
+          101,
+          913,
+          642
+        ],
+        "object_bbox": [
+          463,
+          219,
+          902,
+          525
+        ],
+        "object_center": [
+          676,
+          353
+        ]
+      }
+    },
+    {
+      "view_name": "LEFT",
+      "image_size": {
+        "width": 1790,
+        "height": 1195
+      },
+      "pixel": {
+        "panel_bbox": [
+          877,
+          101,
+          1351,
+          642
+        ],
+        "object_bbox": [
+          1034,
+          217,
+          1188,
+          527
+        ],
+        "object_center": [
+          1114,
+          353
+        ]
+      }
+    },
+    {
+      "view_name": "TOP",
+      "image_size": {
+        "width": 1790,
+        "height": 1195
+      },
+      "pixel": {
+        "panel_bbox": [
+          1316,
+          75,
+          1790,
+          642
+        ],
+        "object_bbox": [
+          1348,
+          294,
+          1764,
+          428
+        ],
+        "object_center": [
+          1553,
+          353
+        ]
+      }
+    },
+    {
+      "view_name": "BACK",
+      "image_size": {
+        "width": 1790,
+        "height": 1195
+      },
+      "pixel": {
+        "panel_bbox": [
+          439,
+          599,
+          913,
+          1193
+        ],
+        "object_bbox": [
+          480,
+          774,
+          881,
+          1057
+        ],
+        "object_center": [
+          676,
+          902
+        ]
+      }
+    },
+    {
+      "view_name": "RIGHT",
+      "image_size": {
+        "width": 1790,
+        "height": 1195
+      },
+      "pixel": {
+        "panel_bbox": [
+          877,
+          599,
+          1351,
+          1193
+        ],
+        "object_bbox": [
+          1060,
+          714,
+          1208,
+          1042
+        ],
+        "object_center": [
+          1114,
+          902
+        ]
+      }
+    },
+    {
+      "view_name": "BOTTOM",
+      "image_size": {
+        "width": 1790,
+        "height": 1195
+      },
+      "pixel": {
+        "panel_bbox": [
+          1316,
+          599,
+          1790,
+          1193
+        ],
+        "object_bbox": [
+          1339,
+          818,
+          1782,
+          962
+        ],
+        "object_center": [
+          1553,
+          902
+        ]
+      }
+    },
+    {
+      "view_name": "PERSPECTIVE",
+      "image_size": {
+        "width": 1790,
+        "height": 1195
+      },
+      "pixel": {
+        "panel_bbox": [
+          0,
+          599,
+          475,
+          1193
+        ],
+        "object_bbox": [
+          43,
+          790,
+          423,
+          1003
+        ],
+        "object_center": [
+          228,
+          866
+        ]
+      }
+    }
+  ]
+}

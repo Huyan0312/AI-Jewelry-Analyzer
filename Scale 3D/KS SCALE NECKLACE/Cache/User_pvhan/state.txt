@@ -1,0 +1,5 @@
+check=true
+drawing=888802
+brand=14k
+hanger=NONE
+chain=NONE

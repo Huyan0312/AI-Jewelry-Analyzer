@@ -1,0 +1,64 @@
+{
+  "sheet": {
+    "drawing_number": "888800",
+    "metal": "925",
+    "brand": "silver",
+    "metal_weight": "0.53 gr",
+    "front_width_mm": 6.3,
+    "front_height_mm": 0.0,
+    "scale_direction": "W",
+    "dim_confidence": "high"
+  },
+  "views": [
+    {
+      "view_name": "FRONT",
+      "image_size": {
+        "width": 1365,
+        "height": 907
+      },
+      "pixel": {
+        "panel_bbox": [
+          356,
+          61,
+          695,
+          483
+        ],
+        "object_bbox": [
+          367,
+          95,
+          635,
+          437
+        ],
+        "object_center": [
+          526,
+          269
+        ]
+      }
+    },
+    {
+      "view_name": "LEFT",
+      "image_size": {
+        "width": 1365,
+        "height": 907
+      },
+      "pixel": {
+        "panel_bbox": [
+          670,
+          61,
+          1009,
+          483
+        ],
+        "object_bbox": [
+          723,
+          113,
+          952,
+          439
+        ],
+        "object_center": [
+          839,
+          269
+        ]
+      }
+    }
+  ]
+}
