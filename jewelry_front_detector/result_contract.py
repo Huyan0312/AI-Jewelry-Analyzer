@@ -29,7 +29,12 @@ def nonempty_file(path_value) -> bool:
 def view_saved_ok(result: dict) -> bool:
     validation = result.get("validation", {})
     crop_file = result.get("output_files", {}).get("object_image")
-    return bool(validation.get("valid", False) and nonempty_file(crop_file))
+    quality_ok = validation.get("quality_valid", True)
+    return bool(
+        validation.get("valid", False)
+        and quality_ok
+        and nonempty_file(crop_file)
+    )
 
 
 def build_all_views_result(
@@ -110,6 +115,10 @@ def make_batch_view(result: dict) -> dict:
         "final_bbox": bbox,
         "refine_success": bool(opencv.get("object_refine_success", False)),
         "fallback_reason": object_meta.get("fallback_reason"),
+        "quality_valid": bool(
+            result.get("validation", {}).get("quality_valid", True)
+        ),
+        "quality_validation": dict(result.get("quality_validation", {})),
         "crop_size": crop_size,
         "crop_file": result.get("output_files", {}).get("object_image"),
         "validation": result.get("validation", {}),

@@ -11,9 +11,10 @@
 // Silent: $.global.ksScaleSilentAI = true
 // ============================================================
 
-var BASE_PY_DIR  = "d:\\CODE\\Agent\\AutoNhanDangAnh\\PTS CS5 SCRIPT";
+var PROJECT_ROOT = new File($.fileName).parent;
+var BASE_PY_DIR  = PROJECT_ROOT.fsName + "\\PTS CS5 SCRIPT";
 var INPUT_DIR    = BASE_PY_DIR + "\\input";
-var OUTPUT_DIR   = BASE_PY_DIR + "\\output";
+var OUTPUT_DIR   = PROJECT_ROOT.fsName + "\\Scale 3D\\KS";
 var TIMING_LOG   = BASE_PY_DIR + "\\cache\\timing_log.txt";
 var TIMEOUT_SEC  = 180;
 var POLL_MS      = 300;
@@ -501,6 +502,41 @@ function deselectAll() {
     }
 }
 
+function unitToPixels(value) {
+    try { return value.as("px"); } catch (e) {}
+    return parseFloat(value);
+}
+
+function pasteCleanedObjectFile(doc, imagePath, x1, y1) {
+    var cleanFile = new File(imagePath);
+    if (!cleanFile.exists) return false;
+
+    var cleanDoc = null;
+    try {
+        cleanDoc = app.open(cleanFile);
+        app.activeDocument = cleanDoc;
+        cleanDoc.selection.selectAll();
+        cleanDoc.selection.copy(true);
+        cleanDoc.close(SaveOptions.DONOTSAVECHANGES);
+        cleanDoc = null;
+
+        app.activeDocument = doc;
+        doc.paste();
+        var pastedLayer = doc.activeLayer;
+        var bounds = pastedLayer.bounds;
+        var currentLeft = unitToPixels(bounds[0]);
+        var currentTop = unitToPixels(bounds[1]);
+        pastedLayer.translate(x1 - currentLeft, y1 - currentTop);
+        return true;
+    } catch (e) {
+        try {
+            if (cleanDoc) cleanDoc.close(SaveOptions.DONOTSAVECHANGES);
+        } catch (closeError) {}
+        try { app.activeDocument = doc; } catch (activateError) {}
+        return false;
+    }
+}
+
 function copyViewsFromJSON(doc, jsonFile) {
     var t0 = nowMs();
     jsonFile.open("r");
@@ -566,11 +602,39 @@ function copyViewsFromJSON(doc, jsonFile) {
             if (isNaN(x1) || isNaN(y1) || isNaN(x2) || isNaN(y2)) continue;
             if (x2 <= x1 || y2 <= y1) continue;
 
-            setSelectionRect(x1, y1, x2, y2);
-            if (!activateBackground(doc)) {
-                throw new Error("Khong tim thay Background.");
+            var hasQualityContract = (
+                viewData.validation &&
+                typeof viewData.validation.quality_valid !== "undefined"
+            );
+            var qualityValid = !hasQualityContract || viewData.validation.quality_valid === true;
+            if (!qualityValid) {
+                appendTimingLog(baseName + " | skip " + targetView + " | quality_invalid");
+                continue;
             }
-            executeAction(charIDToTypeID("CpTL"), undefined, DialogModes.NO);
+
+            var cleanedImage = null;
+            if (viewData.output_files && viewData.output_files.object_image) {
+                cleanedImage = viewData.output_files.object_image;
+            }
+
+            var copiedCleaned = false;
+            if (cleanedImage) {
+                copiedCleaned = pasteCleanedObjectFile(doc, cleanedImage, x1, y1);
+            }
+
+            if (!copiedCleaned) {
+                if (hasQualityContract) {
+                    appendTimingLog(baseName + " | skip " + targetView + " | clean_file_missing");
+                    continue;
+                }
+                // Tương thích JSON cũ chưa có cleaned crop/quality contract.
+                setSelectionRect(x1, y1, x2, y2);
+                if (!activateBackground(doc)) {
+                    throw new Error("Khong tim thay Background.");
+                }
+                executeAction(charIDToTypeID("CpTL"), undefined, DialogModes.NO);
+            }
+
             try { doc.activeLayer.name = "View " + (copied + 1); } catch (e) {}
             deselectAll();
             copied++;

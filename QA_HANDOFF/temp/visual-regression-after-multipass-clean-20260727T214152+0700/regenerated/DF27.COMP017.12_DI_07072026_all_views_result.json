@@ -1,0 +1,396 @@
+{
+  "status": "FAILED",
+  "sheet": {
+    "drawing_number": "888800",
+    "metal": "925",
+    "brand": "silver",
+    "metal_weight": "0.53 gr",
+    "coordinate_scale": 1000
+  },
+  "views": [
+    {
+      "view": "FRONT",
+      "ai_bbox": [
+        410,
+        104,
+        642,
+        431
+      ],
+      "final_bbox": [
+        368,
+        82,
+        648,
+        450
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "FRONT",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 3758,
+        "red_pixels_after": 3758,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        280,
+        368
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\visual-regression-after-multipass-clean-20260727T214152+0700\\regenerated\\DF27.COMP017.12_DI_07072026_front_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "FRONT"
+    },
+    {
+      "view": "LEFT",
+      "ai_bbox": [
+        734,
+        104,
+        955,
+        431
+      ],
+      "final_bbox": [
+        710,
+        100,
+        965,
+        452
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "LEFT",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 2739,
+        "red_pixels_after": 2739,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        255,
+        352
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\visual-regression-after-multipass-clean-20260727T214152+0700\\regenerated\\DF27.COMP017.12_DI_07072026_left_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "LEFT"
+    },
+    {
+      "view": "TOP",
+      "ai_bbox": [
+        1051,
+        104,
+        1272,
+        431
+      ],
+      "final_bbox": [
+        1029,
+        222,
+        1302,
+        418
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "TOP",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 2649,
+        "red_pixels_after": 2649,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        273,
+        196
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\visual-regression-after-multipass-clean-20260727T214152+0700\\regenerated\\DF27.COMP017.12_DI_07072026_top_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "TOP"
+    },
+    {
+      "view": "BACK",
+      "ai_bbox": [
+        410,
+        488,
+        642,
+        884
+      ],
+      "final_bbox": [
+        381,
+        496,
+        659,
+        864
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "BACK",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 4227,
+        "red_pixels_after": 4227,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        278,
+        368
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\visual-regression-after-multipass-clean-20260727T214152+0700\\regenerated\\DF27.COMP017.12_DI_07072026_back_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "BACK"
+    },
+    {
+      "view": "RIGHT",
+      "ai_bbox": [
+        734,
+        488,
+        955,
+        884
+      ],
+      "final_bbox": [
+        760,
+        510,
+        996,
+        864
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "RIGHT",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 2864,
+        "red_pixels_after": 2864,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        236,
+        354
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\visual-regression-after-multipass-clean-20260727T214152+0700\\regenerated\\DF27.COMP017.12_DI_07072026_right_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "RIGHT"
+    },
+    {
+      "view": "BOTTOM",
+      "ai_bbox": [
+        1051,
+        488,
+        1272,
+        884
+      ],
+      "final_bbox": [
+        1031,
+        496,
+        1304,
+        827
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "BOTTOM",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 2461,
+        "red_pixels_after": 2461,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        273,
+        331
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\visual-regression-after-multipass-clean-20260727T214152+0700\\regenerated\\DF27.COMP017.12_DI_07072026_bottom_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "BOTTOM"
+    },
+    {
+      "view": "PERSPECTIVE",
+      "ai_bbox": [
+        61,
+        590,
+        341,
+        884
+      ],
+      "final_bbox": [
+        91,
+        688,
+        238,
+        888
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "PERSPECTIVE",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 2,
+        "red_pixels_after": 2,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        147,
+        200
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\visual-regression-after-multipass-clean-20260727T214152+0700\\regenerated\\DF27.COMP017.12_DI_07072026_perspective_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "PERSPECTIVE"
+    }
+  ],
+  "validation": {
+    "valid": false,
+    "views_expected": 7,
+    "views_received": 7,
+    "views_saved": 0,
+    "missing_views": [],
+    "duplicate_views": [],
+    "unknown_views": [],
+    "failed_views": [
+      "FRONT",
+      "LEFT",
+      "TOP",
+      "BACK",
+      "RIGHT",
+      "BOTTOM",
+      "PERSPECTIVE"
+    ]
+  },
+  "raw_response": "{\n  \"drawing_number\": \"888800\",\n  \"metal\": \"925\",\n  \"brand\": \"silver\",\n  \"metal_weight\": \"0.53 gr\",\n  \"coordinate_scale\": 1000,\n  \"views\": [\n    {\n      \"view\": \"FRONT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [278, 94, 496, 503],\n      \"object_bbox\": [300, 115, 470, 475],\n      \"object_center\": [385, 295]\n    },\n    {\n      \"view\": \"LEFT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [506, 94, 724, 503],\n      \"object_bbox\": [538, 115, 700, 475],\n      \"object_center\": [619, 295]\n    },\n    {\n      \"view\": \"TOP\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [738, 94, 956, 503],\n      \"object_bbox\": [770, 115, 932, 475],\n      \"object_center\": [851, 295]\n    },\n    {\n      \"view\": \"BACK\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [278, 516, 496, 993],\n      \"object_bbox\": [300, 538, 470, 975],\n      \"object_center\": [385, 757]\n    },\n    {\n      \"view\": \"RIGHT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [506, 516, 724, 993],\n      \"object_bbox\": [538, 538, 700, 975],\n      \"object_center\": [619, 757]\n    },\n    {\n      \"view\": \"BOTTOM\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [738, 516, 956, 993],\n      \"object_bbox\": [770, 538, 932, 975],\n      \"object_center\": [851, 757]\n    },\n    {\n      \"view\": \"PERSPECTIVE\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [24, 630, 278, 993],\n      \"object_bbox\": [45, 650, 250, 975],\n      \"object_center\": [147, 813]\n    }\n  ]\n}",
+  "output_files": {}
+}

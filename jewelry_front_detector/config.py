@@ -12,7 +12,7 @@ from pathlib import Path
 # =============================================================================
 BASE_DIR = Path(__file__).parent.resolve()
 INPUT_DIR = Path(os.environ.get("JEWELRY_INPUT_DIR", BASE_DIR / "input")).expanduser().resolve()
-OUTPUT_DIR = Path(os.environ.get("JEWELRY_OUTPUT_DIR", BASE_DIR / "output")).expanduser().resolve()
+OUTPUT_DIR = Path(os.environ.get("JEWELRY_OUTPUT_DIR", BASE_DIR.parent / "Scale 3D" / "KS")).expanduser().resolve()
 LOGS_DIR = Path(os.environ.get("JEWELRY_LOGS_DIR", BASE_DIR / "logs")).expanduser().resolve()
 AUTO_TEST_DIR = Path(
     os.environ.get("JEWELRY_AUTO_TEST_DIR", OUTPUT_DIR / "AutoTest")
@@ -82,6 +82,20 @@ OBJECT_MIN_IOU_THRESHOLD: float = 0.30
 OBJECT_MAX_CENTER_DISTANCE_RATIO: float = 0.25
 OBJECT_MIN_AREA_RATIO: float = 0.30
 OBJECT_MAX_AREA_RATIO: float = 2.50
+
+# Làm sạch trực tiếp file object crop cuối. Bước refine phía trên chỉ dùng mask
+# để tìm bbox nên không đủ để xóa nhãn view/đường bảng khỏi pixel ảnh gốc.
+ENABLE_FINAL_CROP_CLEAN: bool = True
+FINAL_CLEAN_GRAY_MAX_SATURATION: int = 70
+FINAL_CLEAN_GRAY_MIN_VALUE: int = 20
+FINAL_CLEAN_GRAY_MAX_VALUE: int = 245
+FINAL_CLEAN_LABEL_BAND_RATIO: float = 0.18
+FINAL_CLEAN_LABEL_LEFT_RATIO: float = 0.75
+FINAL_CLEAN_EDGE_LINE_BAND_RATIO: float = 0.10
+FINAL_CLEAN_MIN_LINE_LENGTH_RATIO: float = 0.35
+FINAL_CLEAN_MAX_LINE_THICKNESS_RATIO: float = 0.025
+FINAL_CLEAN_MAX_PASSES: int = 3
+FINAL_QUALITY_MIN_RED_RETAINED_RATIO: float = 0.995
 
 # Perspective refine: "bbox_only" giữ pixel ảnh gốc, "masked_object" áp mask nền trắng
 PERSPECTIVE_OUTPUT_MODE: str = "bbox_only"

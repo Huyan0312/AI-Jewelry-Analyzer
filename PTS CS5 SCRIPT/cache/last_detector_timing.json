@@ -1,6 +1,6 @@
 {
   "base_name": "test_sample",
-  "image": "C:\\Users\\pvhan\\AppData\\Local\\Temp\\tmpxg78ob55\\test_sample.png",
+  "image": "C:\\Users\\anpha\\AppData\\Local\\Temp\\tmp8ifnti9f\\test_sample.png",
   "model": "test-model",
   "ms": {
     "resize_ms": 0.0,
@@ -9,14 +9,14 @@
     "b64_kb": 0,
     "send_w": 100,
     "send_h": 100,
-    "lm_all_views_ms": 0.01829996472224593,
-    "process_views_ms": 0.06659998325631022,
-    "dimension_ms": 0.027799978852272034,
-    "save_json_ms": 0.5213000113144517,
+    "lm_all_views_ms": 0.02409999979136046,
+    "process_views_ms": 0.7930000001579174,
+    "dimension_ms": 0.025400000595254824,
+    "save_json_ms": 0.6836000002294895,
     "move_ms": 0,
-    "total_ms": 28.35039998171851
+    "total_ms": 14.619300000049407
   },
   "views": 7,
-  "ts": "2026-07-25 16:11:37",
+  "ts": "2026-07-27 21:44:35",
   "mode": "original_file_like_gui"
 }

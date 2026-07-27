@@ -20,7 +20,7 @@ from logger_utils import get_logger
 # Thiết lập thư mục
 BASE_DIR = Path(__file__).parent.resolve()
 INPUT_DIR  = BASE_DIR / "input"
-OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR = BASE_DIR.parent / "Scale 3D" / "KS"
 PROCESSING_DIR = INPUT_DIR / "_processing"
 FAILED_DIR = PROCESSING_DIR / "_failed"
 LOCK_FILE = BASE_DIR / ".detector.lock"
@@ -166,44 +166,55 @@ def process_image(
     import bbox_utils as bu
     from config import ENABLE_OPENCV_REFINE
 
-    orig_save = ip.save_cv2_image
-    ip.save_cv2_image = _noop_save
     all_results = []
     t0 = time.perf_counter()
-    try:
-        for item in parsed_json_list:
-            view_name = item.get("view", "UNKNOWN")
-            t_view = time.perf_counter()
-            logger.info(f"  Dang xu ly {view_name}...")
+    for item in parsed_json_list:
+        view_name = item.get("view", "UNKNOWN")
+        t_view = time.perf_counter()
+        logger.info(f"  Dang xu ly {view_name}...")
 
-            scale_type, multiplier = bu.detect_coordinate_scale(item)
-            if multiplier != 1.0:
-                item = bu.rescale_response_coords(item, multiplier)
+        scale_type, multiplier = bu.detect_coordinate_scale(item)
+        if multiplier != 1.0:
+            item = bu.rescale_response_coords(item, multiplier)
 
-            result = ip.process_image(
-                img_path,
-                item,
-                model_name,
-                scale_type,
-                enable_refine=ENABLE_OPENCV_REFINE,
-                target_view=view_name,
-                save_json=False
-            )
+        result = ip.process_image(
+            img_path,
+            item,
+            model_name,
+            scale_type,
+            enable_refine=ENABLE_OPENCV_REFINE,
+            target_view=view_name,
+            save_json=False,
+            output_dir=OUTPUT_DIR,
+        )
 
-            pixel = result.get("pixel", {})
-            all_results.append({
-                "view_name": view_name,
-                "image_size": result.get("image_size", {}),
-                "pixel": {
-                    "panel_bbox":   pixel.get("refined_panel_bbox") or pixel.get("ai_panel_bbox", []),
-                    "object_bbox":  pixel.get("refined_object_bbox") or pixel.get("ai_object_bbox", []),
-                    "object_center": pixel.get("object_center", []),
-                }
-            })
-            view_ms = (time.perf_counter() - t_view) * 1000
-            logger.info(f"  {view_name}: obj={all_results[-1]['pixel']['object_bbox']} | {view_ms:.0f}ms")
-    finally:
-        ip.save_cv2_image = orig_save
+        pixel = result.get("pixel", {})
+        all_results.append({
+            "view_name": view_name,
+            "image_size": result.get("image_size", {}),
+            "pixel": {
+                "panel_bbox": pixel.get("refined_panel_bbox")
+                or pixel.get("ai_panel_bbox", []),
+                "object_bbox": pixel.get("refined_object_bbox")
+                or pixel.get("ai_object_bbox", []),
+                "object_center": pixel.get("object_center", []),
+            },
+            "output_files": {
+                "object_image": result.get("output_files", {}).get(
+                    "object_image"
+                ),
+            },
+            "clean_object": result.get("clean_object", {}),
+            "quality_validation": result.get("quality_validation", {}),
+            "validation": result.get("validation", {}),
+        })
+        view_ms = (time.perf_counter() - t_view) * 1000
+        logger.info(
+            f"  {view_name}: "
+            f"obj={all_results[-1]['pixel']['object_bbox']} "
+            f"quality={all_results[-1]['validation'].get('quality_valid')} "
+            f"| {view_ms:.0f}ms"
+        )
 
     timing["process_views_ms"] = (time.perf_counter() - t0) * 1000
     logger.info(f"[TIMING] process {len(all_results)} views (bbox/refine): {timing['process_views_ms']:.0f}ms")
@@ -339,10 +350,33 @@ def process_image(
         sheet_out["scale_direction"] = front_dims.get("scale_direction")
         sheet_out["dim_confidence"]  = front_dims.get("confidence")
 
-    # Format moi: { sheet, views } — AI_AutoDetect van doc duoc (va format cu array)
+    valid_view_count = sum(
+        1
+        for view_result in all_results
+        if view_result.get("validation", {}).get("valid", False)
+        and view_result.get("validation", {}).get("quality_valid", False)
+        and view_result.get("output_files", {}).get("object_image")
+        and Path(view_result["output_files"]["object_image"]).is_file()
+    )
+    batch_status = (
+        "SUCCESS"
+        if len(all_results) == 7 and valid_view_count == 7
+        else "PARTIAL"
+        if valid_view_count > 0
+        else "FAILED"
+    )
+
+    # Format mới: kèm cleaned crop + quality để Photoshop chỉ copy output sạch.
     payload_out = {
+        "status": batch_status,
         "sheet": sheet_out,
         "views": all_results,
+        "validation": {
+            "valid": batch_status == "SUCCESS",
+            "views_expected": 7,
+            "views_received": len(all_results),
+            "views_valid": valid_view_count,
+        },
     }
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(payload_out, f, ensure_ascii=False, indent=2)

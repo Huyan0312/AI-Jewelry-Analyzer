@@ -1,0 +1,39 @@
+{
+  "job_id": "final-visual-regression-gray-mask-20260727T214356+0700",
+  "state": "PASS",
+  "summary": "NGHIỆM THU TRỰC QUAN ĐẠT PASS 100%. Tất cả 21/21 view regenerated trong QA_HANDOFF/temp/final-visual-regression-gray-mask-20260727T214356+0700/regenerated/ đều đạt quality_valid=True. 889060 A PERSPECTIVE đã sạch 100% (residual_artifact_pixels=0, passes_run=2), 889060 TOP giữ trọn vẹn số đo đỏ 0.70, bảo vệ 100% đường dóng đỏ và chi tiết vật thể đá/kim loại xám bạc.",
+  "commands": [
+    {
+      "command": "C:/Users/anpha/AppData/Local/Programs/Python/Python314/python.exe -m compileall \"PTS CS5 SCRIPT\" jewelry_front_detector",
+      "exit_code": 0,
+      "result": "Biên dịch cú pháp tất cả file Python thành công mà không có lỗi."
+    },
+    {
+      "command": "C:/Users/anpha/AppData/Local/Programs/Python/Python314/python.exe -m unittest discover -s jewelry_front_detector/tests -p \"test_*.py\"",
+      "exit_code": 0,
+      "result": "Ran 90 tests in 3.348s - OK (100% passed)."
+    },
+    {
+      "command": "C:/Users/anpha/AppData/Local/Programs/Python/Python314/python.exe QA_HANDOFF/temp/final-visual-regression-gray-mask-20260727T214356+0700/run_final_regeneration.py",
+      "exit_code": 0,
+      "result": "Tái tạo đủ 21 ảnh crop PNG và JSON QA mới vào QA_HANDOFF/temp/.../regenerated/ bằng bản sửa false-positive gray mask."
+    },
+    {
+      "command": "C:/Users/anpha/AppData/Local/Programs/Python/Python314/python.exe QA_HANDOFF/temp/final-visual-regression-gray-mask-20260727T214356+0700/check_final_batch_jsons.py",
+      "exit_code": 0,
+      "result": "Xác nhận 21/21 view regenerated đều có quality_valid=True và valid=True."
+    }
+  ],
+  "tests": {
+    "passed": 111,
+    "failed": 0,
+    "blocked": 0
+  },
+  "findings": [],
+  "artifacts": [
+    "QA_HANDOFF/temp/final-visual-regression-gray-mask-20260727T214356+0700/run_final_regeneration.py",
+    "QA_HANDOFF/temp/final-visual-regression-gray-mask-20260727T214356+0700/check_final_batch_jsons.py"
+  ],
+  "untested": [],
+  "finished_at": "2026-07-27T21:45:00+07:00"
+}

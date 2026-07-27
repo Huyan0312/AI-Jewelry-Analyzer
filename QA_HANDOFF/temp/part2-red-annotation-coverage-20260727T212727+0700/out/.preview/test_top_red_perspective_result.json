@@ -1,0 +1,185 @@
+{
+  "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\test_top_red.png",
+  "image_size": {
+    "width": 600,
+    "height": 600
+  },
+  "model": "test_model",
+  "coordinate_input_type": "NORMALIZED_1000",
+  "processing_time_sec": 0.01,
+  "normalized": {
+    "panel_bbox": [
+      50,
+      50,
+      550,
+      550
+    ],
+    "object_bbox": [
+      200,
+      200,
+      400,
+      400
+    ],
+    "object_center": [
+      300,
+      300
+    ]
+  },
+  "pixel": {
+    "ai_panel_bbox": [
+      30,
+      30,
+      330,
+      330
+    ],
+    "refined_panel_bbox": [
+      30,
+      30,
+      330,
+      330
+    ],
+    "ai_object_bbox": [
+      120,
+      120,
+      240,
+      240
+    ],
+    "refined_object_bbox": [
+      84,
+      84,
+      166,
+      166
+    ],
+    "object_center": [
+      180,
+      180
+    ]
+  },
+  "opencv": {
+    "panel_refine_success": false,
+    "object_refine_success": true,
+    "panel_meta": {
+      "attempted": false,
+      "success": false,
+      "method": "none",
+      "ai_bbox": [
+        30.0,
+        30.0,
+        330.0,
+        330.0
+      ],
+      "candidate_bbox": null,
+      "final_bbox": [
+        30.0,
+        30.0,
+        330.0,
+        330.0
+      ],
+      "iou_with_ai": 0.0,
+      "center_distance_ratio": 0.0,
+      "area_ratio": null,
+      "thresholds": {
+        "min_iou": 0.35,
+        "max_center_distance_ratio": 0.25,
+        "prefilter_max_center_distance_ratio": 0.5,
+        "min_contour_area": 1000
+      },
+      "fallback_reason": "perspective_special_handling"
+    },
+    "object_meta": {
+      "attempted": true,
+      "success": true,
+      "method": "perspective_opencv",
+      "mode": "bbox_only",
+      "bbox": [
+        84.0,
+        84.0,
+        166.0,
+        166.0
+      ],
+      "ai_bbox": [
+        120.0,
+        120.0,
+        240.0,
+        240.0
+      ],
+      "candidate_bbox": [
+        84.0,
+        84.0,
+        166.0,
+        166.0
+      ],
+      "final_bbox": [
+        84.0,
+        84.0,
+        166.0,
+        166.0
+      ],
+      "mask_available": true,
+      "mask_applied": false,
+      "selected_components": 1,
+      "removed_red_pixels": 24,
+      "removed_text_grid_pixels": 0,
+      "iou_with_ai": 0.05625,
+      "center_distance_ratio": 0.4583333333333333,
+      "area_ratio": 0.1736111111111111,
+      "thresholds": {
+        "min_component_area": 200,
+        "min_iou": 0.05,
+        "max_center_distance_ratio": 0.5,
+        "min_area_ratio": 0.02,
+        "max_area_ratio": 2.5,
+        "padding_px": 16,
+        "morph_kernel_size": 7
+      },
+      "fallback_reason": null,
+      "included_red_annotation_pixels": 24
+    }
+  },
+  "clean_panel": {},
+  "clean_object": {
+    "attempted": true,
+    "success": true,
+    "changed": false,
+    "view": "PERSPECTIVE",
+    "removed_label_pixels": 0,
+    "removed_grid_pixels": 0,
+    "removed_total_pixels": 0,
+    "protected_red_pixels": 2700,
+    "fallback_reason": null
+  },
+  "red_annotation_expansion": {
+    "attempted": false,
+    "success": false,
+    "expanded": false,
+    "annotation_pixels": 0,
+    "annotation_bbox": null,
+    "bbox_before": [
+      84.0,
+      84.0,
+      166.0,
+      166.0
+    ],
+    "bbox_after": [
+      84.0,
+      84.0,
+      166.0,
+      166.0
+    ],
+    "fallback_reason": null
+  },
+  "output_files": {
+    "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\out\\.preview\\test_top_red_perspective_result.jpg",
+    "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\out\\.preview\\test_top_red_perspective_panel.png",
+    "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\out\\test_top_red_perspective_object.png",
+    "json": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\out\\.preview\\test_top_red_perspective_result.json"
+  },
+  "validation": {
+    "valid": true,
+    "warnings": [],
+    "ai_bbox_valid": true,
+    "refined_panel_bbox_valid": true,
+    "refined_object_bbox_valid": true,
+    "object_crop_valid": true
+  }
+}

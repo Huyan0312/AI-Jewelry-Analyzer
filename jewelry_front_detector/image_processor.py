@@ -37,6 +37,17 @@ from config import (
     OBJECT_MIN_AREA_RATIO,
     OBJECT_MAX_AREA_RATIO,
     OBJECT_MIN_CONTOUR_AREA,
+    ENABLE_FINAL_CROP_CLEAN,
+    FINAL_CLEAN_GRAY_MAX_SATURATION,
+    FINAL_CLEAN_GRAY_MIN_VALUE,
+    FINAL_CLEAN_GRAY_MAX_VALUE,
+    FINAL_CLEAN_LABEL_BAND_RATIO,
+    FINAL_CLEAN_LABEL_LEFT_RATIO,
+    FINAL_CLEAN_EDGE_LINE_BAND_RATIO,
+    FINAL_CLEAN_MIN_LINE_LENGTH_RATIO,
+    FINAL_CLEAN_MAX_LINE_THICKNESS_RATIO,
+    FINAL_CLEAN_MAX_PASSES,
+    FINAL_QUALITY_MIN_RED_RETAINED_RATIO,
     PERSPECTIVE_OUTPUT_MODE,
     PERSPECTIVE_SEARCH_EXPAND_RATIO,
     PERSPECTIVE_MIN_COMPONENT_AREA,
@@ -1121,6 +1132,388 @@ def refine_perspective_object_opencv(
 
 
 # =============================================================================
+# LÀM SẠCH PIXEL ẢNH OBJECT CUỐI
+# =============================================================================
+
+def clean_final_object_crop(
+    object_crop_bgr: np.ndarray,
+    target_view: str,
+) -> Tuple[np.ndarray, dict]:
+    """
+    Xóa nhãn view xám/đen và đường bảng sát mép khỏi pixel crop cuối.
+
+    Các mask trong bước refine chỉ phục vụ tìm bbox. Hàm này chủ động áp mask
+    lên ảnh output, đồng thời khóa bảo vệ toàn bộ pixel đỏ để không làm mất
+    đường dóng, mũi tên và số đo kích thước.
+    """
+    info = {
+        "attempted": True,
+        "success": False,
+        "changed": False,
+        "view": str(target_view or "UNKNOWN").upper(),
+        "removed_label_pixels": 0,
+        "removed_grid_pixels": 0,
+        "removed_total_pixels": 0,
+        "protected_red_pixels": 0,
+        "fallback_reason": None,
+    }
+
+    if not isinstance(object_crop_bgr, np.ndarray) or object_crop_bgr.size == 0:
+        info["fallback_reason"] = "object_crop_empty"
+        return object_crop_bgr, info
+
+    height, width = object_crop_bgr.shape[:2]
+    if width < 20 or height < 20:
+        info["fallback_reason"] = "object_crop_too_small"
+        return object_crop_bgr.copy(), info
+
+    hsv = cv2.cvtColor(object_crop_bgr, cv2.COLOR_BGR2HSV)
+    saturation = hsv[:, :, 1]
+    value = hsv[:, :, 2]
+
+    red_low = cv2.inRange(
+        hsv,
+        (0, PERSPECTIVE_RED_MIN_SATURATION, PERSPECTIVE_RED_MIN_VALUE),
+        (PERSPECTIVE_RED_LOW_HUE_MAX, 255, 255),
+    )
+    red_high = cv2.inRange(
+        hsv,
+        (
+            PERSPECTIVE_RED_HIGH_HUE_MIN,
+            PERSPECTIVE_RED_MIN_SATURATION,
+            PERSPECTIVE_RED_MIN_VALUE,
+        ),
+        (180, 255, 255),
+    )
+    red_protect = cv2.bitwise_or(red_low, red_high)
+    red_protect = cv2.dilate(
+        red_protect,
+        cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3)),
+        iterations=1,
+    )
+    info["protected_red_pixels"] = int(cv2.countNonZero(red_protect))
+
+    gray_artifact_pixels = (
+        (saturation <= FINAL_CLEAN_GRAY_MAX_SATURATION)
+        & (value >= FINAL_CLEAN_GRAY_MIN_VALUE)
+        & (value <= FINAL_CLEAN_GRAY_MAX_VALUE)
+    ).astype(np.uint8) * 255
+
+    # Nhãn view luôn nằm sát mép trên-trái; riêng PERSPECTIVE thường nằm sát
+    # mép dưới-trái. Chỉ xóa component dạng glyph chạm vùng mép để tránh xóa
+    # nhầm đá/kim loại màu bạc ở giữa crop.
+    label_mask = np.zeros((height, width), dtype=np.uint8)
+    component_count, labels, stats, _ = cv2.connectedComponentsWithStats(
+        gray_artifact_pixels,
+        connectivity=8,
+    )
+    label_band = max(10, int(round(height * FINAL_CLEAN_LABEL_BAND_RATIO)))
+    left_limit = max(10, int(round(width * FINAL_CLEAN_LABEL_LEFT_RATIO)))
+    edge_touch = max(5, int(round(height * 0.04)))
+    max_glyph_width = max(12, int(round(width * 0.20)))
+    max_glyph_height = max(12, int(round(height * 0.16)))
+    max_glyph_area = max(80, int(round(width * height * 0.015)))
+
+    for label in range(1, component_count):
+        x = int(stats[label, cv2.CC_STAT_LEFT])
+        y = int(stats[label, cv2.CC_STAT_TOP])
+        glyph_width = int(stats[label, cv2.CC_STAT_WIDTH])
+        glyph_height = int(stats[label, cv2.CC_STAT_HEIGHT])
+        area = int(stats[label, cv2.CC_STAT_AREA])
+
+        if x >= left_limit:
+            continue
+        if (
+            glyph_width > max_glyph_width
+            or glyph_height > max_glyph_height
+            or area > max_glyph_area
+        ):
+            continue
+
+        touches_top_label_band = y <= edge_touch and y + glyph_height <= label_band
+        touches_bottom_label_band = (
+            y + glyph_height >= height - edge_touch
+            and y >= height - label_band
+        )
+        if touches_top_label_band or touches_bottom_label_band:
+            label_mask[labels == label] = 255
+
+    # Tách các đường dài, mảnh và chỉ nhận đường nằm trong dải sát bốn mép.
+    min_horizontal_length = max(
+        12,
+        int(round(width * FINAL_CLEAN_MIN_LINE_LENGTH_RATIO)),
+    )
+    min_vertical_length = max(
+        12,
+        int(round(height * FINAL_CLEAN_MIN_LINE_LENGTH_RATIO)),
+    )
+    horizontal_kernel = cv2.getStructuringElement(
+        cv2.MORPH_RECT,
+        (min_horizontal_length, 1),
+    )
+    vertical_kernel = cv2.getStructuringElement(
+        cv2.MORPH_RECT,
+        (1, min_vertical_length),
+    )
+    horizontal_lines = cv2.morphologyEx(
+        gray_artifact_pixels,
+        cv2.MORPH_OPEN,
+        horizontal_kernel,
+    )
+    vertical_lines = cv2.morphologyEx(
+        gray_artifact_pixels,
+        cv2.MORPH_OPEN,
+        vertical_kernel,
+    )
+    grid_mask = np.zeros((height, width), dtype=np.uint8)
+    edge_x = max(5, int(round(width * FINAL_CLEAN_EDGE_LINE_BAND_RATIO)))
+    edge_y = max(5, int(round(height * FINAL_CLEAN_EDGE_LINE_BAND_RATIO)))
+    max_horizontal_thickness = max(
+        3,
+        int(round(height * FINAL_CLEAN_MAX_LINE_THICKNESS_RATIO)),
+    )
+    max_vertical_thickness = max(
+        3,
+        int(round(width * FINAL_CLEAN_MAX_LINE_THICKNESS_RATIO)),
+    )
+
+    horizontal_contours, _ = cv2.findContours(
+        horizontal_lines,
+        cv2.RETR_EXTERNAL,
+        cv2.CHAIN_APPROX_SIMPLE,
+    )
+    for contour in horizontal_contours:
+        x, y, line_width, line_height = cv2.boundingRect(contour)
+        is_edge_line = y <= edge_y or y + line_height >= height - edge_y
+        if (
+            is_edge_line
+            and line_width >= min_horizontal_length
+            and line_height <= max_horizontal_thickness
+        ):
+            cv2.drawContours(grid_mask, [contour], -1, 255, thickness=-1)
+
+    vertical_contours, _ = cv2.findContours(
+        vertical_lines,
+        cv2.RETR_EXTERNAL,
+        cv2.CHAIN_APPROX_SIMPLE,
+    )
+    for contour in vertical_contours:
+        x, y, line_width, line_height = cv2.boundingRect(contour)
+        is_edge_line = x <= edge_x or x + line_width >= width - edge_x
+        if (
+            is_edge_line
+            and line_height >= min_vertical_length
+            and line_width <= max_vertical_thickness
+        ):
+            cv2.drawContours(grid_mask, [contour], -1, 255, thickness=-1)
+
+    label_mask = cv2.dilate(
+        label_mask,
+        cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3)),
+        iterations=1,
+    )
+    grid_mask = cv2.dilate(
+        grid_mask,
+        cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)),
+        iterations=1,
+    )
+    label_mask = cv2.subtract(label_mask, red_protect)
+    grid_mask = cv2.subtract(grid_mask, red_protect)
+    artifact_mask = cv2.bitwise_or(label_mask, grid_mask)
+    # Dilation có thể phủ sang pixel nền trắng lân cận. Chỉ tính/xóa pixel
+    # thực sự thuộc phổ xám/đen; nếu không second-pass sẽ báo residual giả dù
+    # ảnh đã sạch hoàn toàn (đã gặp 14px ở 889060 A PERSPECTIVE).
+    artifact_mask = cv2.bitwise_and(artifact_mask, gray_artifact_pixels)
+    label_mask = cv2.bitwise_and(label_mask, gray_artifact_pixels)
+    grid_mask = cv2.bitwise_and(grid_mask, gray_artifact_pixels)
+
+    info["removed_label_pixels"] = int(cv2.countNonZero(label_mask))
+    info["removed_grid_pixels"] = int(cv2.countNonZero(grid_mask))
+    info["removed_total_pixels"] = int(cv2.countNonZero(artifact_mask))
+    info["changed"] = info["removed_total_pixels"] > 0
+    info["success"] = True
+
+    cleaned = object_crop_bgr.copy()
+    cleaned[artifact_mask > 0] = (
+        PERSPECTIVE_BACKGROUND_VALUE,
+        PERSPECTIVE_BACKGROUND_VALUE,
+        PERSPECTIVE_BACKGROUND_VALUE,
+    )
+    return cleaned, info
+
+
+def clean_final_object_crop_until_stable(
+    object_crop_bgr: np.ndarray,
+    target_view: str,
+) -> Tuple[np.ndarray, dict]:
+    """Lặp clean hữu hạn để xóa nốt viền anti-alias còn lại sau pass đầu."""
+    current = object_crop_bgr.copy()
+    aggregate = {
+        "attempted": True,
+        "success": False,
+        "changed": False,
+        "view": str(target_view or "UNKNOWN").upper(),
+        "passes_run": 0,
+        "removed_label_pixels": 0,
+        "removed_grid_pixels": 0,
+        "removed_total_pixels": 0,
+        "protected_red_pixels": 0,
+        "fallback_reason": None,
+        "passes": [],
+    }
+
+    max_passes = max(1, int(FINAL_CLEAN_MAX_PASSES))
+    for pass_index in range(max_passes):
+        current, pass_info = clean_final_object_crop(current, target_view)
+        pass_public = dict(pass_info)
+        pass_public["pass"] = pass_index + 1
+        aggregate["passes"].append(pass_public)
+        aggregate["passes_run"] = pass_index + 1
+        aggregate["removed_label_pixels"] += int(
+            pass_info.get("removed_label_pixels", 0)
+        )
+        aggregate["removed_grid_pixels"] += int(
+            pass_info.get("removed_grid_pixels", 0)
+        )
+        aggregate["removed_total_pixels"] += int(
+            pass_info.get("removed_total_pixels", 0)
+        )
+        aggregate["protected_red_pixels"] = max(
+            aggregate["protected_red_pixels"],
+            int(pass_info.get("protected_red_pixels", 0)),
+        )
+
+        if not pass_info.get("success", False):
+            aggregate["fallback_reason"] = pass_info.get("fallback_reason")
+            return current, aggregate
+        if not pass_info.get("changed", False):
+            aggregate["success"] = True
+            aggregate["changed"] = aggregate["removed_total_pixels"] > 0
+            return current, aggregate
+
+    # Hết số pass vẫn trả ảnh đã clean; quality validator độc lập sẽ từ chối
+    # nếu còn artifact, vì vậy không có trường hợp SUCCESS giả.
+    aggregate["success"] = True
+    aggregate["changed"] = aggregate["removed_total_pixels"] > 0
+    return current, aggregate
+
+
+def validate_final_object_crop_quality(
+    crop_before_clean: np.ndarray,
+    crop_after_clean: np.ndarray,
+    target_view: str,
+    clean_info: dict,
+) -> dict:
+    """Kiểm tra chất lượng pixel trước khi một view được phép báo thành công."""
+    result = {
+        "valid": False,
+        "view": str(target_view or "UNKNOWN").upper(),
+        "clean_success": bool(clean_info.get("success", False)),
+        "same_shape": False,
+        "red_pixels_before": 0,
+        "red_pixels_after": 0,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+            "min_red_retained_ratio": float(
+                FINAL_QUALITY_MIN_RED_RETAINED_RATIO
+            ),
+            "max_unexpected_changed_pixels": 0,
+            "max_residual_artifact_pixels": 0,
+        },
+    }
+
+    if (
+        not isinstance(crop_before_clean, np.ndarray)
+        or not isinstance(crop_after_clean, np.ndarray)
+        or crop_before_clean.size == 0
+        or crop_after_clean.size == 0
+    ):
+        result["failure_reasons"].append("crop_empty")
+        return result
+
+    result["same_shape"] = crop_before_clean.shape == crop_after_clean.shape
+    if not result["same_shape"]:
+        result["failure_reasons"].append("crop_shape_changed")
+        return result
+
+    hsv_before = cv2.cvtColor(crop_before_clean, cv2.COLOR_BGR2HSV)
+    hsv_after = cv2.cvtColor(crop_after_clean, cv2.COLOR_BGR2HSV)
+
+    def red_mask(hsv_image: np.ndarray) -> np.ndarray:
+        low = cv2.inRange(
+            hsv_image,
+            (0, PERSPECTIVE_RED_MIN_SATURATION, PERSPECTIVE_RED_MIN_VALUE),
+            (PERSPECTIVE_RED_LOW_HUE_MAX, 255, 255),
+        )
+        high = cv2.inRange(
+            hsv_image,
+            (
+                PERSPECTIVE_RED_HIGH_HUE_MIN,
+                PERSPECTIVE_RED_MIN_SATURATION,
+                PERSPECTIVE_RED_MIN_VALUE,
+            ),
+            (180, 255, 255),
+        )
+        return cv2.bitwise_or(low, high)
+
+    red_before = red_mask(hsv_before)
+    red_after = red_mask(hsv_after)
+    red_before_count = int(cv2.countNonZero(red_before))
+    red_after_count = int(cv2.countNonZero(red_after))
+    result["red_pixels_before"] = red_before_count
+    result["red_pixels_after"] = red_after_count
+    if red_before_count > 0:
+        result["red_retained_ratio"] = float(
+            min(1.0, red_after_count / red_before_count)
+        )
+
+    changed_pixels = np.any(crop_before_clean != crop_after_clean, axis=2)
+    before_saturation = hsv_before[:, :, 1]
+    unexpected_change_mask = (
+        changed_pixels
+        & (
+            (before_saturation > FINAL_CLEAN_GRAY_MAX_SATURATION)
+            | (red_before > 0)
+        )
+    )
+    result["unexpected_changed_pixels"] = int(
+        np.count_nonzero(unexpected_change_mask)
+    )
+
+    # Chạy detector làm sạch lần hai nhưng không dùng ảnh trả về. Nếu vẫn tìm
+    # thấy artifact, crop hiện tại chưa đủ sạch và view phải bị đánh dấu lỗi.
+    _, residual_info = clean_final_object_crop(crop_after_clean, target_view)
+    result["residual_label_pixels"] = int(
+        residual_info.get("removed_label_pixels", 0)
+    )
+    result["residual_grid_pixels"] = int(
+        residual_info.get("removed_grid_pixels", 0)
+    )
+    result["residual_artifact_pixels"] = int(
+        residual_info.get("removed_total_pixels", 0)
+    )
+
+    if not result["clean_success"]:
+        result["failure_reasons"].append("final_clean_failed")
+    if result["red_retained_ratio"] < FINAL_QUALITY_MIN_RED_RETAINED_RATIO:
+        result["failure_reasons"].append(
+            "red_retained_ratio_below_threshold"
+        )
+    if result["unexpected_changed_pixels"] > 0:
+        result["failure_reasons"].append("colored_or_red_pixels_modified")
+    if result["residual_artifact_pixels"] > 0:
+        result["failure_reasons"].append("residual_artifacts_detected")
+
+    result["valid"] = not result["failure_reasons"]
+    return result
+
+
+# =============================================================================
 # VẼ BOUNDING BOX
 # =============================================================================
 
@@ -1369,6 +1762,78 @@ def process_image(
         else:
             logger.info("Object trim không thành công, dùng bbox AI gốc.")
 
+    # Bbox AI/OpenCV có thể hợp lệ nhưng vẫn bỏ sót số đo đỏ nằm rời khỏi vật
+    # thể (điển hình TOP 0.70). Với sáu view chuẩn, red_annotation_mask đã được
+    # giới hạn trong đúng panel; luôn mở rộng bbox output tới toàn bộ mask này,
+    # kể cả khi acceptance gate của object refine phải fallback về bbox AI.
+    red_annotation_expansion = {
+        "attempted": False,
+        "success": False,
+        "expanded": False,
+        "annotation_pixels": 0,
+        "annotation_bbox": None,
+        "bbox_before": [float(v) for v in refined_obj_px],
+        "bbox_after": [float(v) for v in refined_obj_px],
+        "fallback_reason": None,
+    }
+    if target_view.upper() != "PERSPECTIVE":
+        red_annotation_expansion["attempted"] = True
+        annotation_mask = opencv_debug_obj.get("red_annotation_mask")
+        if isinstance(annotation_mask, np.ndarray) and annotation_mask.size > 0:
+            annotation_y, annotation_x = np.where(annotation_mask > 0)
+            red_annotation_expansion["annotation_pixels"] = int(annotation_x.size)
+            if annotation_x.size > 0 and annotation_y.size > 0:
+                annotation_pad = 2
+                annotation_bbox = [
+                    max(clean_px1, clean_px1 + int(annotation_x.min()) - annotation_pad),
+                    max(clean_py1, clean_py1 + int(annotation_y.min()) - annotation_pad),
+                    min(
+                        clean_px1 + panel_crop_clean.shape[1],
+                        clean_px1 + int(annotation_x.max()) + 1 + annotation_pad,
+                    ),
+                    min(
+                        clean_py1 + panel_crop_clean.shape[0],
+                        clean_py1 + int(annotation_y.max()) + 1 + annotation_pad,
+                    ),
+                ]
+                expanded_bbox = [
+                    min(float(refined_obj_px[0]), float(annotation_bbox[0])),
+                    min(float(refined_obj_px[1]), float(annotation_bbox[1])),
+                    max(float(refined_obj_px[2]), float(annotation_bbox[2])),
+                    max(float(refined_obj_px[3]), float(annotation_bbox[3])),
+                ]
+                expanded_bbox[0] = max(0.0, expanded_bbox[0])
+                expanded_bbox[1] = max(0.0, expanded_bbox[1])
+                expanded_bbox[2] = min(float(width), expanded_bbox[2])
+                expanded_bbox[3] = min(float(height), expanded_bbox[3])
+
+                ok_expanded, msg_expanded = bu.validate_pixel_bbox(
+                    expanded_bbox,
+                    width,
+                    height,
+                    "red_annotation_expanded_bbox",
+                )
+                red_annotation_expansion["annotation_bbox"] = [
+                    float(v) for v in annotation_bbox
+                ]
+                if ok_expanded:
+                    red_annotation_expansion["success"] = True
+                    red_annotation_expansion["expanded"] = any(
+                        abs(float(expanded_bbox[index]) - float(refined_obj_px[index])) > 0.5
+                        for index in range(4)
+                    )
+                    refined_obj_px = expanded_bbox
+                    red_annotation_expansion["bbox_after"] = [
+                        float(v) for v in refined_obj_px
+                    ]
+                else:
+                    red_annotation_expansion["fallback_reason"] = msg_expanded
+            else:
+                red_annotation_expansion["success"] = True
+                red_annotation_expansion["fallback_reason"] = "no_red_annotation_pixels"
+        else:
+            red_annotation_expansion["fallback_reason"] = "annotation_mask_unavailable"
+
     # ---- Validate pixel bbox ----
     warnings: List[str] = list(refine_warnings)
     ok1, m1 = bu.validate_pixel_bbox(panel_px, width, height, "panel_bbox")
@@ -1410,6 +1875,32 @@ def process_image(
         masked_crop = opencv_debug_obj.get("_masked_object_crop")
         if isinstance(masked_crop, np.ndarray) and masked_crop.size > 0:
             object_crop = masked_crop.copy()
+
+    object_crop_before_clean = object_crop.copy()
+    clean_object_info = {
+        "attempted": False,
+        "success": False,
+        "changed": False,
+        "fallback_reason": "disabled_by_config",
+    }
+    if ENABLE_FINAL_CROP_CLEAN and object_crop.size > 0:
+        object_crop, clean_object_info = clean_final_object_crop_until_stable(
+            object_crop,
+            target_view,
+        )
+
+    quality_validation = validate_final_object_crop_quality(
+        object_crop_before_clean,
+        object_crop,
+        target_view,
+        clean_object_info,
+    )
+    if not quality_validation["valid"]:
+        warnings.append(
+            "Object crop quality failed: "
+            + ", ".join(quality_validation["failure_reasons"])
+        )
+
     # ---- Lưu ảnh ----
     output_base.parent.mkdir(parents=True, exist_ok=True)
     
@@ -1530,14 +2021,24 @@ def process_image(
             "object_meta": object_meta,
         },
         "clean_panel": clean_panel_info,
+        "clean_object": clean_object_info,
+        "red_annotation_expansion": red_annotation_expansion,
+        "quality_validation": quality_validation,
         "output_files": output_files,
         "validation": {
-            "valid": bool(all_valid and ok_ref_panel and ok_ref_obj and (object_crop.size > 0)),
+            "valid": bool(
+                all_valid
+                and ok_ref_panel
+                and ok_ref_obj
+                and (object_crop.size > 0)
+                and quality_validation["valid"]
+            ),
             "warnings": warnings,
             "ai_bbox_valid": bool(ok1 and ok2),
             "refined_panel_bbox_valid": bool(ok_ref_panel),
             "refined_object_bbox_valid": bool(ok_ref_obj),
             "object_crop_valid": bool(object_crop.size > 0),
+            "quality_valid": bool(quality_validation["valid"]),
         },
     }
 

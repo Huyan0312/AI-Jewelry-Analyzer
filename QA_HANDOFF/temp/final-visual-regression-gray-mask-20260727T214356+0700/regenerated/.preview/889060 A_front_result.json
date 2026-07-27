@@ -1,0 +1,244 @@
+{
+  "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\889060 A.jpg",
+  "image_size": {
+    "width": 1765,
+    "height": 1176
+  },
+  "model": "qwen/qwen3-vl-4b-instruct",
+  "coordinate_input_type": "NORMALIZED_1000",
+  "processing_time_sec": 0.08,
+  "normalized": {
+    "panel_bbox": [
+      256,
+      93,
+      488,
+      517
+    ],
+    "object_bbox": [
+      300,
+      130,
+      430,
+      470
+    ],
+    "object_center": [
+      365,
+      300
+    ]
+  },
+  "pixel": {
+    "ai_panel_bbox": [
+      452,
+      109,
+      861,
+      608
+    ],
+    "refined_panel_bbox": [
+      435,
+      89,
+      878,
+      628
+    ],
+    "ai_object_bbox": [
+      530,
+      153,
+      759,
+      553
+    ],
+    "refined_object_bbox": [
+      489,
+      188,
+      878,
+      583
+    ],
+    "object_center": [
+      644,
+      353
+    ]
+  },
+  "opencv": {
+    "panel_refine_success": true,
+    "object_refine_success": true,
+    "panel_meta": {
+      "attempted": true,
+      "success": true,
+      "method": "opencv",
+      "ai_bbox": [
+        451.84000000000003,
+        109.368,
+        861.3199999999999,
+        607.992
+      ],
+      "candidate_bbox": [
+        435.0,
+        89.0,
+        878.0,
+        628.0
+      ],
+      "final_bbox": [
+        435.0,
+        89.0,
+        878.0,
+        628.0
+      ],
+      "iou_with_ai": 0.8550930597168066,
+      "center_distance_ratio": 0.00030529014176990945,
+      "area_ratio": 1.0,
+      "detected_red_annotation_pixels": 0,
+      "thresholds": {
+        "min_iou": 0.35,
+        "max_center_distance_ratio": 0.25,
+        "prefilter_max_center_distance_ratio": 0.5,
+        "min_contour_area": 1000
+      },
+      "fallback_reason": null,
+      "pre_bottom_edge_snap_bbox": [
+        435.0,
+        89.0,
+        878.0,
+        628.0
+      ],
+      "bottom_edge_snap_ratio": 0.08,
+      "bottom_edge_snap_applied": false
+    },
+    "object_meta": {
+      "attempted": true,
+      "success": true,
+      "method": "opencv",
+      "ai_bbox": [
+        529.5,
+        152.88,
+        758.9499999999999,
+        552.7199999999999
+      ],
+      "candidate_bbox": [
+        489.0,
+        188.0,
+        878.0,
+        583.0
+      ],
+      "final_bbox": [
+        489.0,
+        188.0,
+        878.0,
+        583.0
+      ],
+      "iou_with_ai": 0.5174899793637235,
+      "center_distance_ratio": 0.11085927670950871,
+      "area_ratio": 1.6748364196408578,
+      "thresholds": {
+        "min_iou": 0.3,
+        "max_center_distance_ratio": 0.25,
+        "min_area_ratio": 0.3,
+        "max_area_ratio": 2.5,
+        "min_contour_area": 50,
+        "search_margin_ratio": 0.15
+      },
+      "fallback_reason": null,
+      "detected_red_annotation_pixels": 11906
+    }
+  },
+  "clean_panel": {
+    "success": true,
+    "raw_size": {
+      "width": 443,
+      "height": 539
+    },
+    "clean_size": {
+      "width": 424,
+      "height": 525
+    },
+    "trim": {
+      "left": 19,
+      "top": 14,
+      "right": 0,
+      "bottom": 0
+    },
+    "content_retained_ratio": 0.994144987022394,
+    "fallback_reason": null
+  },
+  "clean_object": {
+    "attempted": true,
+    "success": true,
+    "changed": false,
+    "view": "FRONT",
+    "passes_run": 1,
+    "removed_label_pixels": 0,
+    "removed_grid_pixels": 0,
+    "removed_total_pixels": 0,
+    "protected_red_pixels": 7585,
+    "fallback_reason": null,
+    "passes": [
+      {
+        "attempted": true,
+        "success": true,
+        "changed": false,
+        "view": "FRONT",
+        "removed_label_pixels": 0,
+        "removed_grid_pixels": 0,
+        "removed_total_pixels": 0,
+        "protected_red_pixels": 7585,
+        "fallback_reason": null,
+        "pass": 1
+      }
+    ]
+  },
+  "red_annotation_expansion": {
+    "attempted": true,
+    "success": true,
+    "expanded": false,
+    "annotation_pixels": 11906,
+    "annotation_bbox": [
+      507.0,
+      206.0,
+      862.0,
+      565.0
+    ],
+    "bbox_before": [
+      489.0,
+      188.0,
+      878.0,
+      583.0
+    ],
+    "bbox_after": [
+      489.0,
+      188.0,
+      878.0,
+      583.0
+    ],
+    "fallback_reason": null
+  },
+  "quality_validation": {
+    "valid": true,
+    "view": "FRONT",
+    "clean_success": true,
+    "same_shape": true,
+    "red_pixels_before": 3981,
+    "red_pixels_after": 3981,
+    "red_retained_ratio": 1.0,
+    "unexpected_changed_pixels": 0,
+    "residual_label_pixels": 0,
+    "residual_grid_pixels": 0,
+    "residual_artifact_pixels": 0,
+    "failure_reasons": [],
+    "thresholds": {
+      "min_red_retained_ratio": 0.995,
+      "max_unexpected_changed_pixels": 0,
+      "max_residual_artifact_pixels": 0
+    }
+  },
+  "output_files": {
+    "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\889060 A_front_result.jpg",
+    "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\889060 A_front_panel.png",
+    "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889060 A_front_object.png",
+    "json": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\889060 A_front_result.json"
+  },
+  "validation": {
+    "valid": true,
+    "warnings": [],
+    "ai_bbox_valid": true,
+    "refined_panel_bbox_valid": true,
+    "refined_object_bbox_valid": true,
+    "object_crop_valid": true,
+    "quality_valid": true
+  }
+}

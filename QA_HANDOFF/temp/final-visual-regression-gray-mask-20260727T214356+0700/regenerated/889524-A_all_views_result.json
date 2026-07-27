@@ -1,0 +1,396 @@
+{
+  "status": "FAILED",
+  "sheet": {
+    "drawing_number": "889524",
+    "metal": "14K",
+    "brand": "14k",
+    "metal_weight": "1.48g",
+    "coordinate_scale": 1000
+  },
+  "views": [
+    {
+      "view": "FRONT",
+      "ai_bbox": [
+        562,
+        176,
+        830,
+        564
+      ],
+      "final_bbox": [
+        553,
+        185,
+        877,
+        590
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "FRONT",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 3833,
+        "red_pixels_after": 3833,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        324,
+        405
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889524-A_front_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "FRONT"
+    },
+    {
+      "view": "LEFT",
+      "ai_bbox": [
+        1025,
+        176,
+        1237,
+        564
+      ],
+      "final_bbox": [
+        1022,
+        213,
+        1203,
+        619
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "LEFT",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 2065,
+        "red_pixels_after": 2065,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        181,
+        406
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889524-A_left_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "LEFT"
+    },
+    {
+      "view": "TOP",
+      "ai_bbox": [
+        1424,
+        176,
+        1661,
+        564
+      ],
+      "final_bbox": [
+        1388,
+        280,
+        1660,
+        451
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "TOP",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 1461,
+        "red_pixels_after": 1461,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        272,
+        171
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889524-A_top_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "TOP"
+    },
+    {
+      "view": "BACK",
+      "ai_bbox": [
+        562,
+        694,
+        830,
+        1082
+      ],
+      "final_bbox": [
+        461,
+        680,
+        801,
+        1088
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "BACK",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 3865,
+        "red_pixels_after": 3865,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        340,
+        408
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889524-A_back_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "BACK"
+    },
+    {
+      "view": "RIGHT",
+      "ai_bbox": [
+        1025,
+        694,
+        1237,
+        1082
+      ],
+      "final_bbox": [
+        1025,
+        696,
+        1194,
+        1074
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "RIGHT",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 1788,
+        "red_pixels_after": 1788,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        169,
+        378
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889524-A_right_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "RIGHT"
+    },
+    {
+      "view": "BOTTOM",
+      "ai_bbox": [
+        1424,
+        694,
+        1661,
+        1082
+      ],
+      "final_bbox": [
+        1423,
+        793,
+        1678,
+        943
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "BOTTOM",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 1223,
+        "red_pixels_after": 1223,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        255,
+        150
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889524-A_bottom_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "BOTTOM"
+    },
+    {
+      "view": "PERSPECTIVE",
+      "ai_bbox": [
+        48,
+        706,
+        336,
+        1058
+      ],
+      "final_bbox": [
+        61,
+        723,
+        360,
+        1087
+      ],
+      "refine_success": true,
+      "fallback_reason": null,
+      "quality_valid": true,
+      "quality_validation": {
+        "valid": true,
+        "view": "PERSPECTIVE",
+        "clean_success": true,
+        "same_shape": true,
+        "red_pixels_before": 0,
+        "red_pixels_after": 0,
+        "red_retained_ratio": 1.0,
+        "unexpected_changed_pixels": 0,
+        "residual_label_pixels": 0,
+        "residual_grid_pixels": 0,
+        "residual_artifact_pixels": 0,
+        "failure_reasons": [],
+        "thresholds": {
+          "min_red_retained_ratio": 0.995,
+          "max_unexpected_changed_pixels": 0,
+          "max_residual_artifact_pixels": 0
+        }
+      },
+      "crop_size": [
+        299,
+        364
+      ],
+      "crop_file": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889524-A_perspective_object.png",
+      "validation": {
+        "valid": true,
+        "warnings": [],
+        "ai_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "refined_object_bbox_valid": true,
+        "object_crop_valid": true,
+        "quality_valid": true
+      },
+      "view_name": "PERSPECTIVE"
+    }
+  ],
+  "validation": {
+    "valid": false,
+    "views_expected": 7,
+    "views_received": 7,
+    "views_saved": 0,
+    "missing_views": [],
+    "duplicate_views": [],
+    "unknown_views": [],
+    "failed_views": [
+      "FRONT",
+      "LEFT",
+      "TOP",
+      "BACK",
+      "RIGHT",
+      "BOTTOM",
+      "PERSPECTIVE"
+    ]
+  },
+  "raw_response": "{\n  \"drawing_number\": \"889524\",\n  \"metal\": \"14K\",\n  \"brand\": \"14k\",\n  \"metal_weight\": \"1.48g\",\n  \"coordinate_scale\": 1000,\n  \"views\": [\n    {\n      \"view\": \"FRONT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [256, 97, 500, 534],\n      \"object_bbox\": [318, 150, 470, 480],\n      \"object_center\": [394, 315]\n    },\n    {\n      \"view\": \"LEFT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [502, 97, 746, 534],\n      \"object_bbox\": [580, 150, 700, 480],\n      \"object_center\": [640, 315]\n    },\n    {\n      \"view\": \"TOP\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [749, 97, 992, 534],\n      \"object_bbox\": [806, 150, 940, 480],\n      \"object_center\": [873, 315]\n    },\n    {\n      \"view\": \"BACK\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [256, 537, 500, 984],\n      \"object_bbox\": [318, 590, 470, 920],\n      \"object_center\": [394, 755]\n    },\n    {\n      \"view\": \"RIGHT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [502, 537, 746, 984],\n      \"object_bbox\": [580, 590, 700, 920],\n      \"object_center\": [640, 755]\n    },\n    {\n      \"view\": \"BOTTOM\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [749, 537, 992, 984],\n      \"object_bbox\": [806, 590, 940, 920],\n      \"object_center\": [873, 755]\n    },\n    {\n      \"view\": \"PERSPECTIVE\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [0, 534, 256, 984],\n      \"object_bbox\": [27, 600, 190, 900],\n      \"object_center\": [108, 750]\n    }\n  ]\n}",
+  "output_files": {}
+}

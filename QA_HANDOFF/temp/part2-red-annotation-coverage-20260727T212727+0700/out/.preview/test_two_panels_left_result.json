@@ -1,0 +1,199 @@
+{
+  "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\test_two_panels.png",
+  "image_size": {
+    "width": 1000,
+    "height": 600
+  },
+  "model": "test_model",
+  "coordinate_input_type": "NORMALIZED_1000",
+  "processing_time_sec": 0.02,
+  "normalized": {
+    "panel_bbox": [
+      50,
+      50,
+      450,
+      550
+    ],
+    "object_bbox": [
+      100,
+      200,
+      300,
+      400
+    ],
+    "object_center": [
+      200,
+      300
+    ]
+  },
+  "pixel": {
+    "ai_panel_bbox": [
+      50,
+      30,
+      450,
+      330
+    ],
+    "refined_panel_bbox": [
+      50,
+      30,
+      450,
+      330
+    ],
+    "ai_object_bbox": [
+      100,
+      120,
+      300,
+      240
+    ],
+    "refined_object_bbox": [
+      100,
+      120,
+      300,
+      240
+    ],
+    "object_center": [
+      200,
+      180
+    ]
+  },
+  "opencv": {
+    "panel_refine_success": false,
+    "object_refine_success": false,
+    "panel_meta": {
+      "attempted": true,
+      "success": false,
+      "method": "opencv",
+      "ai_bbox": [
+        50.0,
+        30.0,
+        450.0,
+        330.0
+      ],
+      "candidate_bbox": null,
+      "final_bbox": [
+        50.0,
+        30.0,
+        450.0,
+        330.0
+      ],
+      "iou_with_ai": 0.0,
+      "center_distance_ratio": 0.0,
+      "area_ratio": 1.0,
+      "detected_red_annotation_pixels": 0,
+      "thresholds": {
+        "min_iou": 0.35,
+        "max_center_distance_ratio": 0.25,
+        "prefilter_max_center_distance_ratio": 0.5,
+        "min_contour_area": 1000
+      },
+      "fallback_reason": "no_matching_contour_found",
+      "pre_bottom_edge_snap_bbox": [
+        50.0,
+        30.0,
+        450.0,
+        330.0
+      ],
+      "bottom_edge_snap_ratio": 0.08,
+      "bottom_edge_snap_applied": false
+    },
+    "object_meta": {
+      "attempted": true,
+      "success": false,
+      "method": "opencv",
+      "ai_bbox": [
+        100.0,
+        120.0,
+        300.0,
+        240.0
+      ],
+      "candidate_bbox": [
+        78.0,
+        178.0,
+        322.0,
+        322.0
+      ],
+      "final_bbox": [
+        100.0,
+        120.0,
+        300.0,
+        240.0
+      ],
+      "iou_with_ai": 0.26532009585758304,
+      "center_distance_ratio": 0.0,
+      "area_ratio": 1.464,
+      "thresholds": {
+        "min_iou": 0.3,
+        "max_center_distance_ratio": 0.25,
+        "min_area_ratio": 0.3,
+        "max_area_ratio": 2.5,
+        "min_contour_area": 50,
+        "search_margin_ratio": 0.15
+      },
+      "fallback_reason": "iou_below_threshold (0.265 < 0.3)",
+      "detected_red_annotation_pixels": 0
+    }
+  },
+  "clean_panel": {
+    "success": false,
+    "raw_size": {
+      "width": 400,
+      "height": 300
+    },
+    "clean_size": {
+      "width": 400,
+      "height": 300
+    },
+    "trim": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "content_retained_ratio": 1.0,
+    "fallback_reason": "No trim performed (all trim values = 0)"
+  },
+  "clean_object": {
+    "attempted": true,
+    "success": true,
+    "changed": false,
+    "view": "LEFT",
+    "removed_label_pixels": 0,
+    "removed_grid_pixels": 0,
+    "removed_total_pixels": 0,
+    "protected_red_pixels": 0,
+    "fallback_reason": null
+  },
+  "red_annotation_expansion": {
+    "attempted": true,
+    "success": true,
+    "expanded": false,
+    "annotation_pixels": 0,
+    "annotation_bbox": null,
+    "bbox_before": [
+      100.0,
+      120.0,
+      300.0,
+      240.0
+    ],
+    "bbox_after": [
+      100.0,
+      120.0,
+      300.0,
+      240.0
+    ],
+    "fallback_reason": "no_red_annotation_pixels"
+  },
+  "output_files": {
+    "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\out\\.preview\\test_two_panels_left_result.jpg",
+    "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\out\\.preview\\test_two_panels_left_panel.png",
+    "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\out\\test_two_panels_left_object.png",
+    "json": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\part2-red-annotation-coverage-20260727T212727+0700\\out\\.preview\\test_two_panels_left_result.json"
+  },
+  "validation": {
+    "valid": true,
+    "warnings": [],
+    "ai_bbox_valid": true,
+    "refined_panel_bbox_valid": true,
+    "refined_object_bbox_valid": true,
+    "object_crop_valid": true
+  }
+}

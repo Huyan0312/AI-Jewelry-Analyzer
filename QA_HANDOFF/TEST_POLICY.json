@@ -1,0 +1,26 @@
+{
+  "visual_review_required": true,
+  "regenerate_outputs_after_code_changes": true,
+  "allow_stale_outputs_for_acceptance": false,
+  "required_source_images": [
+    "Scale 3D/KS/DF27.COMP017.12_DI_07072026.jpg",
+    "Scale 3D/KS/889060 A.jpg",
+    "Scale 3D/KS/889524-A.jpg"
+  ],
+  "required_views": [
+    "FRONT",
+    "LEFT",
+    "RIGHT",
+    "TOP",
+    "BOTTOM",
+    "BACK",
+    "PERSPECTIVE"
+  ],
+  "rules": [
+    "Mở và nhìn trực tiếp từng ảnh output regenerated.",
+    "Không kết luận PASS chỉ dựa trên unit test, JSON hoặc thống kê pixel.",
+    "Đối chiếu output với đúng view trên ảnh gốc.",
+    "Kiểm tra nhãn view, grid xám, annotation đỏ và toàn vẹn vật thể.",
+    "Nếu output có trước thay đổi code, phải báo STALE_OUTPUT và tái tạo."
+  ]
+}

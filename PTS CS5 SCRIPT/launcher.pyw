@@ -17,7 +17,7 @@ from PySide6.QtGui import QFont, QColor, QPalette
 BASE_DIR      = Path(__file__).parent.resolve()
 DETECTOR_PY   = BASE_DIR / "headless_detector.py"
 INPUT_DIR     = BASE_DIR / "input"
-OUTPUT_DIR    = BASE_DIR / "output"
+OUTPUT_DIR    = BASE_DIR.parent / "Scale 3D" / "KS"
 CACHE_DIR     = BASE_DIR / "cache"
 LOCK_FILE     = BASE_DIR / ".detector.lock"
 STATUS_FILE   = CACHE_DIR / "launcher_status.json"

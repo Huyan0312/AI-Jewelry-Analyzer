@@ -114,7 +114,8 @@
         // ====================================
         // QUEUE AI NGAY KHI BAM NUT (truoc Scale)
         // ====================================
-        var AI_AUTODETECT_TEST = "d:\\CODE\\Agent\\AutoNhanDangAnh\\AI_AutoDetect test.jsx";
+        var projectRoot = scriptFolder.parent.parent;
+        var AI_AUTODETECT_TEST = projectRoot.fsName + "\\AI_AutoDetect test.jsx";
         try {
             if (app.documents.length > 0) {
                 var aiEarly = new File(AI_AUTODETECT_TEST);

@@ -1,0 +1,229 @@
+{
+  "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\889524-A.jpg",
+  "image_size": {
+    "width": 1767,
+    "height": 1176
+  },
+  "model": "qwen/qwen3-vl-4b-instruct",
+  "coordinate_input_type": "NORMALIZED_1000",
+  "processing_time_sec": 0.07,
+  "normalized": {
+    "panel_bbox": [
+      749,
+      537,
+      992,
+      984
+    ],
+    "object_bbox": [
+      806,
+      590,
+      940,
+      920
+    ],
+    "object_center": [
+      873,
+      755
+    ]
+  },
+  "pixel": {
+    "ai_panel_bbox": [
+      1323,
+      632,
+      1753,
+      1157
+    ],
+    "refined_panel_bbox": [
+      1306,
+      610,
+      1767,
+      1176
+    ],
+    "ai_object_bbox": [
+      1424,
+      694,
+      1661,
+      1082
+    ],
+    "refined_object_bbox": [
+      1423,
+      793,
+      1678,
+      943
+    ],
+    "object_center": [
+      1543,
+      888
+    ]
+  },
+  "opencv": {
+    "panel_refine_success": true,
+    "object_refine_success": true,
+    "panel_meta": {
+      "attempted": true,
+      "success": true,
+      "method": "opencv",
+      "ai_bbox": [
+        1323.483,
+        631.5120000000001,
+        1752.864,
+        1157.184
+      ],
+      "candidate_bbox": [
+        1306.0,
+        610.0,
+        1767.0,
+        1176.0
+      ],
+      "final_bbox": [
+        1306.0,
+        610.0,
+        1767.0,
+        1176.0
+      ],
+      "iou_with_ai": 0.8650482091934111,
+      "center_distance_ratio": 0.003165953061550749,
+      "area_ratio": 1.0,
+      "detected_red_annotation_pixels": 0,
+      "thresholds": {
+        "min_iou": 0.35,
+        "max_center_distance_ratio": 0.25,
+        "prefilter_max_center_distance_ratio": 0.5,
+        "min_contour_area": 1000
+      },
+      "fallback_reason": null,
+      "pre_bottom_edge_snap_bbox": [
+        1306.0,
+        610.0,
+        1767.0,
+        1176.0
+      ],
+      "bottom_edge_snap_ratio": 0.08,
+      "bottom_edge_snap_applied": true
+    },
+    "object_meta": {
+      "attempted": true,
+      "success": true,
+      "method": "opencv",
+      "ai_bbox": [
+        1424.202,
+        693.8399999999999,
+        1660.98,
+        1081.92
+      ],
+      "candidate_bbox": [
+        1423.0,
+        793.0,
+        1678.0,
+        943.0
+      ],
+      "final_bbox": [
+        1423.0,
+        793.0,
+        1678.0,
+        943.0
+      ],
+      "iou_with_ai": 0.3753530904280998,
+      "center_distance_ratio": 0.0470634182089562,
+      "area_ratio": 0.41626397779177393,
+      "thresholds": {
+        "min_iou": 0.3,
+        "max_center_distance_ratio": 0.25,
+        "min_area_ratio": 0.3,
+        "max_area_ratio": 2.5,
+        "min_contour_area": 50,
+        "search_margin_ratio": 0.15
+      },
+      "fallback_reason": null,
+      "detected_red_annotation_pixels": 3954
+    }
+  },
+  "clean_panel": {
+    "success": true,
+    "raw_size": {
+      "width": 461,
+      "height": 566
+    },
+    "clean_size": {
+      "width": 433,
+      "height": 531
+    },
+    "trim": {
+      "left": 20,
+      "top": 29,
+      "right": 8,
+      "bottom": 6
+    },
+    "content_retained_ratio": 0.9314236111111112,
+    "fallback_reason": null
+  },
+  "clean_object": {
+    "attempted": true,
+    "success": true,
+    "changed": false,
+    "view": "BOTTOM",
+    "removed_label_pixels": 0,
+    "removed_grid_pixels": 0,
+    "removed_total_pixels": 0,
+    "protected_red_pixels": 2583,
+    "fallback_reason": null
+  },
+  "red_annotation_expansion": {
+    "attempted": true,
+    "success": true,
+    "expanded": false,
+    "annotation_pixels": 3954,
+    "annotation_bbox": [
+      1441.0,
+      812.0,
+      1660.0,
+      924.0
+    ],
+    "bbox_before": [
+      1423.0,
+      793.0,
+      1678.0,
+      943.0
+    ],
+    "bbox_after": [
+      1423.0,
+      793.0,
+      1678.0,
+      943.0
+    ],
+    "fallback_reason": null
+  },
+  "quality_validation": {
+    "valid": true,
+    "view": "BOTTOM",
+    "clean_success": true,
+    "same_shape": true,
+    "red_pixels_before": 1223,
+    "red_pixels_after": 1223,
+    "red_retained_ratio": 1.0,
+    "unexpected_changed_pixels": 0,
+    "residual_label_pixels": 0,
+    "residual_grid_pixels": 0,
+    "residual_artifact_pixels": 0,
+    "failure_reasons": [],
+    "thresholds": {
+      "min_red_retained_ratio": 0.995,
+      "max_unexpected_changed_pixels": 0,
+      "max_residual_artifact_pixels": 0
+    }
+  },
+  "output_files": {
+    "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\regenerate-and-visual-review-20260727T213929+0700\\regenerated\\.preview\\889524-A_bottom_result.jpg",
+    "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\regenerate-and-visual-review-20260727T213929+0700\\regenerated\\.preview\\889524-A_bottom_panel.png",
+    "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\regenerate-and-visual-review-20260727T213929+0700\\regenerated\\889524-A_bottom_object.png",
+    "json": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\regenerate-and-visual-review-20260727T213929+0700\\regenerated\\.preview\\889524-A_bottom_result.json"
+  },
+  "validation": {
+    "valid": true,
+    "warnings": [],
+    "ai_bbox_valid": true,
+    "refined_panel_bbox_valid": true,
+    "refined_object_bbox_valid": true,
+    "object_crop_valid": true,
+    "quality_valid": true
+  }
+}

@@ -1,0 +1,1225 @@
+{
+  "image_size": {
+    "height": 907,
+    "width": 1365
+  },
+  "output_files": {
+    "preview_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_all_views.jpg",
+    "json": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026_all_views_result.json"
+  },
+  "raw_response": "{\n  \"drawing_number\": \"888800\",\n  \"metal\": \"925\",\n  \"brand\": \"silver\",\n  \"metal_weight\": \"0.53 gr\",\n  \"coordinate_scale\": 1000,\n  \"views\": [\n    {\n      \"view\": \"FRONT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [278, 94, 496, 503],\n      \"object_bbox\": [300, 115, 470, 475],\n      \"object_center\": [385, 295]\n    },\n    {\n      \"view\": \"LEFT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [506, 94, 724, 503],\n      \"object_bbox\": [538, 115, 700, 475],\n      \"object_center\": [619, 295]\n    },\n    {\n      \"view\": \"TOP\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [738, 94, 956, 503],\n      \"object_bbox\": [770, 115, 932, 475],\n      \"object_center\": [851, 295]\n    },\n    {\n      \"view\": \"BACK\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [278, 516, 496, 993],\n      \"object_bbox\": [300, 538, 470, 975],\n      \"object_center\": [385, 757]\n    },\n    {\n      \"view\": \"RIGHT\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [506, 516, 724, 993],\n      \"object_bbox\": [538, 538, 700, 975],\n      \"object_center\": [619, 757]\n    },\n    {\n      \"view\": \"BOTTOM\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [738, 516, 956, 993],\n      \"object_bbox\": [770, 538, 932, 975],\n      \"object_center\": [851, 757]\n    },\n    {\n      \"view\": \"PERSPECTIVE\",\n      \"coordinate_space\": \"normalized_0_1000_full_image\",\n      \"panel_bbox\": [24, 630, 278, 993],\n      \"object_bbox\": [45, 650, 250, 975],\n      \"object_center\": [147, 813]\n    }\n  ]\n}",
+  "sheet": {
+    "brand": "silver",
+    "coordinate_scale": 1000.0,
+    "drawing_number": "888800",
+    "drawing_number_raw": "888800",
+    "metal": "925",
+    "metal_weight": "0.53 gr",
+    "validation_errors": []
+  },
+  "status": "SUCCESS",
+  "validation": {
+    "duplicate_views": [],
+    "failed_views": [],
+    "missing_views": [],
+    "unknown_views": [],
+    "valid": true,
+    "views_expected": 7,
+    "views_received": 7,
+    "views_saved": 7
+  },
+  "views": [
+    {
+      "clean_panel": {
+        "clean_size": {
+          "height": 389,
+          "width": 319
+        },
+        "content_retained_ratio": 1.0,
+        "fallback_reason": null,
+        "raw_size": {
+          "height": 401,
+          "width": 321
+        },
+        "success": true,
+        "trim": {
+          "bottom": 0,
+          "left": 0,
+          "right": 2,
+          "top": 12
+        }
+      },
+      "coordinate_input_type": "normalized_0_1000",
+      "image_size": {
+        "height": 907,
+        "width": 1365
+      },
+      "model": "qwen/qwen3-vl-4b-instruct",
+      "normalized": {
+        "object_bbox": [
+          300,
+          115,
+          470,
+          475
+        ],
+        "object_center": [
+          385,
+          295
+        ],
+        "panel_bbox": [
+          278,
+          94,
+          496,
+          503
+        ]
+      },
+      "opencv": {
+        "object_meta": {
+          "ai_bbox": [
+            409.5,
+            104.305,
+            641.55,
+            430.825
+          ],
+          "area_ratio": 1.3599235338647755,
+          "attempted": true,
+          "candidate_bbox": [
+            368.0,
+            82.0,
+            648.0,
+            450.0
+          ],
+          "center_distance_ratio": 0.043923409166290846,
+          "detected_red_annotation_pixels": 11705,
+          "fallback_reason": null,
+          "final_bbox": [
+            368.0,
+            82.0,
+            648.0,
+            450.0
+          ],
+          "iou_with_ai": 0.7353354619565216,
+          "method": "opencv",
+          "success": true,
+          "thresholds": {
+            "max_area_ratio": 2.5,
+            "max_center_distance_ratio": 0.25,
+            "min_area_ratio": 0.3,
+            "min_contour_area": 50,
+            "min_iou": 0.3,
+            "search_margin_ratio": 0.15
+          }
+        },
+        "object_refine_success": true,
+        "panel_meta": {
+          "ai_bbox": [
+            379.47,
+            85.258,
+            677.04,
+            456.221
+          ],
+          "area_ratio": 1.0,
+          "attempted": true,
+          "bottom_edge_snap_applied": false,
+          "bottom_edge_snap_ratio": 0.08,
+          "candidate_bbox": [
+            368.0,
+            70.0,
+            689.0,
+            471.0
+          ],
+          "center_distance_ratio": 0.0007204394275739602,
+          "detected_red_annotation_pixels": 0,
+          "fallback_reason": null,
+          "final_bbox": [
+            368.0,
+            70.0,
+            689.0,
+            471.0
+          ],
+          "iou_with_ai": 0.8575714911319829,
+          "method": "opencv",
+          "pre_bottom_edge_snap_bbox": [
+            368.0,
+            70.0,
+            689.0,
+            471.0
+          ],
+          "success": true,
+          "thresholds": {
+            "max_center_distance_ratio": 0.25,
+            "min_contour_area": 1000,
+            "min_iou": 0.35,
+            "prefilter_max_center_distance_ratio": 0.5
+          }
+        },
+        "panel_refine_success": true
+      },
+      "output_files": {
+        "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026_front_object.png",
+        "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_front_panel.png",
+        "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_front_result.jpg"
+      },
+      "pixel": {
+        "ai_object_bbox": [
+          410,
+          104,
+          642,
+          431
+        ],
+        "ai_panel_bbox": [
+          379,
+          85,
+          677,
+          456
+        ],
+        "object_center": [
+          526,
+          268
+        ],
+        "refined_object_bbox": [
+          368,
+          82,
+          648,
+          450
+        ],
+        "refined_panel_bbox": [
+          368,
+          70,
+          689,
+          471
+        ]
+      },
+      "processing_time_sec": 0.36,
+      "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026.jpg",
+      "validation": {
+        "ai_bbox_valid": true,
+        "object_crop_valid": true,
+        "refined_object_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "valid": true,
+        "warnings": []
+      },
+      "view_name": "FRONT"
+    },
+    {
+      "clean_panel": {
+        "clean_size": {
+          "height": 389,
+          "width": 308
+        },
+        "content_retained_ratio": 1.0,
+        "fallback_reason": null,
+        "raw_size": {
+          "height": 401,
+          "width": 321
+        },
+        "success": true,
+        "trim": {
+          "bottom": 0,
+          "left": 13,
+          "right": 0,
+          "top": 12
+        }
+      },
+      "coordinate_input_type": "normalized_0_1000",
+      "image_size": {
+        "height": 907,
+        "width": 1365
+      },
+      "model": "qwen/qwen3-vl-4b-instruct",
+      "normalized": {
+        "object_bbox": [
+          538,
+          115,
+          700,
+          475
+        ],
+        "object_center": [
+          619,
+          295
+        ],
+        "panel_bbox": [
+          506,
+          94,
+          724,
+          503
+        ]
+      },
+      "opencv": {
+        "object_meta": {
+          "ai_bbox": [
+            734.37,
+            104.305,
+            955.4999999999999,
+            430.825
+          ],
+          "area_ratio": 1.243155312329228,
+          "attempted": true,
+          "candidate_bbox": [
+            710.0,
+            100.0,
+            965.0,
+            452.0
+          ],
+          "center_distance_ratio": 0.02851267460058876,
+          "detected_red_annotation_pixels": 8824,
+          "fallback_reason": null,
+          "final_bbox": [
+            710.0,
+            100.0,
+            965.0,
+            452.0
+          ],
+          "iou_with_ai": 0.8044047192513365,
+          "method": "opencv",
+          "success": true,
+          "thresholds": {
+            "max_area_ratio": 2.5,
+            "max_center_distance_ratio": 0.25,
+            "min_area_ratio": 0.3,
+            "min_contour_area": 50,
+            "min_iou": 0.3,
+            "search_margin_ratio": 0.15
+          }
+        },
+        "object_refine_success": true,
+        "panel_meta": {
+          "ai_bbox": [
+            690.69,
+            85.258,
+            988.26,
+            456.221
+          ],
+          "area_ratio": 1.0,
+          "attempted": true,
+          "bottom_edge_snap_applied": false,
+          "bottom_edge_snap_ratio": 0.08,
+          "candidate_bbox": [
+            679.0,
+            70.0,
+            1000.0,
+            471.0
+          ],
+          "center_distance_ratio": 0.0005063484382871632,
+          "detected_red_annotation_pixels": 0,
+          "fallback_reason": null,
+          "final_bbox": [
+            679.0,
+            70.0,
+            1000.0,
+            471.0
+          ],
+          "iou_with_ai": 0.8575714911319829,
+          "method": "opencv",
+          "pre_bottom_edge_snap_bbox": [
+            679.0,
+            70.0,
+            1000.0,
+            471.0
+          ],
+          "success": true,
+          "thresholds": {
+            "max_center_distance_ratio": 0.25,
+            "min_contour_area": 1000,
+            "min_iou": 0.35,
+            "prefilter_max_center_distance_ratio": 0.5
+          }
+        },
+        "panel_refine_success": true
+      },
+      "output_files": {
+        "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026_left_object.png",
+        "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_left_panel.png",
+        "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_left_result.jpg"
+      },
+      "pixel": {
+        "ai_object_bbox": [
+          734,
+          104,
+          955,
+          431
+        ],
+        "ai_panel_bbox": [
+          691,
+          85,
+          988,
+          456
+        ],
+        "object_center": [
+          845,
+          268
+        ],
+        "refined_object_bbox": [
+          710,
+          100,
+          965,
+          452
+        ],
+        "refined_panel_bbox": [
+          679,
+          70,
+          1000,
+          471
+        ]
+      },
+      "processing_time_sec": 0.04,
+      "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026.jpg",
+      "validation": {
+        "ai_bbox_valid": true,
+        "object_crop_valid": true,
+        "refined_object_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "valid": true,
+        "warnings": []
+      },
+      "view_name": "LEFT"
+    },
+    {
+      "clean_panel": {
+        "clean_size": {
+          "height": 389,
+          "width": 288
+        },
+        "content_retained_ratio": 1.0,
+        "fallback_reason": null,
+        "raw_size": {
+          "height": 401,
+          "width": 322
+        },
+        "success": true,
+        "trim": {
+          "bottom": 0,
+          "left": 34,
+          "right": 0,
+          "top": 12
+        }
+      },
+      "coordinate_input_type": "normalized_0_1000",
+      "image_size": {
+        "height": 907,
+        "width": 1365
+      },
+      "model": "qwen/qwen3-vl-4b-instruct",
+      "normalized": {
+        "object_bbox": [
+          770,
+          115,
+          932,
+          475
+        ],
+        "object_center": [
+          851,
+          295
+        ],
+        "panel_bbox": [
+          738,
+          94,
+          956,
+          503
+        ]
+      },
+      "opencv": {
+        "object_meta": {
+          "ai_bbox": [
+            1051.05,
+            104.305,
+            1272.18,
+            430.825
+          ],
+          "area_ratio": 0.7410734676037463,
+          "attempted": true,
+          "candidate_bbox": [
+            1029.0,
+            222.0,
+            1302.0,
+            418.0
+          ],
+          "center_distance_ratio": 0.1333293038387154,
+          "detected_red_annotation_pixels": 7676,
+          "fallback_reason": null,
+          "final_bbox": [
+            1029.0,
+            222.0,
+            1302.0,
+            418.0
+          ],
+          "iou_with_ai": 0.5261811235007685,
+          "method": "opencv",
+          "success": true,
+          "thresholds": {
+            "max_area_ratio": 2.5,
+            "max_center_distance_ratio": 0.25,
+            "min_area_ratio": 0.3,
+            "min_contour_area": 50,
+            "min_iou": 0.3,
+            "search_margin_ratio": 0.15
+          }
+        },
+        "object_refine_success": true,
+        "panel_meta": {
+          "ai_bbox": [
+            1007.37,
+            85.258,
+            1304.94,
+            456.221
+          ],
+          "area_ratio": 1.0,
+          "attempted": true,
+          "bottom_edge_snap_applied": false,
+          "bottom_edge_snap_ratio": 0.08,
+          "candidate_bbox": [
+            995.0,
+            70.0,
+            1317.0,
+            471.0
+          ],
+          "center_distance_ratio": 0.0005998788618510517,
+          "detected_red_annotation_pixels": 0,
+          "fallback_reason": null,
+          "final_bbox": [
+            995.0,
+            70.0,
+            1317.0,
+            471.0
+          ],
+          "iou_with_ai": 0.8549082256315733,
+          "method": "opencv",
+          "pre_bottom_edge_snap_bbox": [
+            995.0,
+            70.0,
+            1317.0,
+            471.0
+          ],
+          "success": true,
+          "thresholds": {
+            "max_center_distance_ratio": 0.25,
+            "min_contour_area": 1000,
+            "min_iou": 0.35,
+            "prefilter_max_center_distance_ratio": 0.5
+          }
+        },
+        "panel_refine_success": true
+      },
+      "output_files": {
+        "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026_top_object.png",
+        "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_top_panel.png",
+        "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_top_result.jpg"
+      },
+      "pixel": {
+        "ai_object_bbox": [
+          1051,
+          104,
+          1272,
+          431
+        ],
+        "ai_panel_bbox": [
+          1007,
+          85,
+          1305,
+          456
+        ],
+        "object_center": [
+          1162,
+          268
+        ],
+        "refined_object_bbox": [
+          1029,
+          222,
+          1302,
+          418
+        ],
+        "refined_panel_bbox": [
+          995,
+          70,
+          1317,
+          471
+        ]
+      },
+      "processing_time_sec": 0.04,
+      "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026.jpg",
+      "validation": {
+        "ai_bbox_valid": true,
+        "object_crop_valid": true,
+        "refined_object_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "valid": true,
+        "warnings": []
+      },
+      "view_name": "TOP"
+    },
+    {
+      "clean_panel": {
+        "clean_size": {
+          "height": 411,
+          "width": 319
+        },
+        "content_retained_ratio": 0.999513807856865,
+        "fallback_reason": null,
+        "raw_size": {
+          "height": 456,
+          "width": 321
+        },
+        "success": true,
+        "trim": {
+          "bottom": 0,
+          "left": 0,
+          "right": 2,
+          "top": 45
+        }
+      },
+      "coordinate_input_type": "normalized_0_1000",
+      "image_size": {
+        "height": 907,
+        "width": 1365
+      },
+      "model": "qwen/qwen3-vl-4b-instruct",
+      "normalized": {
+        "object_bbox": [
+          300,
+          538,
+          470,
+          975
+        ],
+        "object_center": [
+          385,
+          757
+        ],
+        "panel_bbox": [
+          278,
+          516,
+          496,
+          993
+        ]
+      },
+      "opencv": {
+        "object_meta": {
+          "ai_bbox": [
+            409.5,
+            487.966,
+            641.55,
+            884.3249999999999
+          ],
+          "area_ratio": 1.1123009747400028,
+          "attempted": true,
+          "candidate_bbox": [
+            381.0,
+            496.0,
+            659.0,
+            864.0
+          ],
+          "center_distance_ratio": 0.0179928553686431,
+          "detected_red_annotation_pixels": 12024,
+          "fallback_reason": null,
+          "final_bbox": [
+            381.0,
+            496.0,
+            659.0,
+            864.0
+          ],
+          "iou_with_ai": 0.7842644130316447,
+          "method": "opencv",
+          "success": true,
+          "thresholds": {
+            "max_area_ratio": 2.5,
+            "max_center_distance_ratio": 0.25,
+            "min_area_ratio": 0.3,
+            "min_contour_area": 50,
+            "min_iou": 0.3,
+            "search_margin_ratio": 0.15
+          }
+        },
+        "object_refine_success": true,
+        "panel_meta": {
+          "ai_bbox": [
+            379.47,
+            468.012,
+            677.04,
+            900.651
+          ],
+          "area_ratio": 1.0,
+          "attempted": true,
+          "bottom_edge_snap_applied": true,
+          "bottom_edge_snap_ratio": 0.08,
+          "candidate_bbox": [
+            368.0,
+            451.0,
+            689.0,
+            907.0
+          ],
+          "center_distance_ratio": 0.01016412210292504,
+          "detected_red_annotation_pixels": 0,
+          "fallback_reason": null,
+          "final_bbox": [
+            368.0,
+            451.0,
+            689.0,
+            907.0
+          ],
+          "iou_with_ai": 0.8795184130595175,
+          "method": "opencv",
+          "pre_bottom_edge_snap_bbox": [
+            368.0,
+            451.0,
+            689.0,
+            907.0
+          ],
+          "success": true,
+          "thresholds": {
+            "max_center_distance_ratio": 0.25,
+            "min_contour_area": 1000,
+            "min_iou": 0.35,
+            "prefilter_max_center_distance_ratio": 0.5
+          }
+        },
+        "panel_refine_success": true
+      },
+      "output_files": {
+        "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026_back_object.png",
+        "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_back_panel.png",
+        "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_back_result.jpg"
+      },
+      "pixel": {
+        "ai_object_bbox": [
+          410,
+          488,
+          642,
+          884
+        ],
+        "ai_panel_bbox": [
+          379,
+          468,
+          677,
+          901
+        ],
+        "object_center": [
+          526,
+          687
+        ],
+        "refined_object_bbox": [
+          381,
+          496,
+          659,
+          864
+        ],
+        "refined_panel_bbox": [
+          368,
+          451,
+          689,
+          907
+        ]
+      },
+      "processing_time_sec": 0.04,
+      "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026.jpg",
+      "validation": {
+        "ai_bbox_valid": true,
+        "object_crop_valid": true,
+        "refined_object_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "valid": true,
+        "warnings": []
+      },
+      "view_name": "BACK"
+    },
+    {
+      "clean_panel": {
+        "clean_size": {
+          "height": 411,
+          "width": 308
+        },
+        "content_retained_ratio": 0.9966690154378323,
+        "fallback_reason": null,
+        "raw_size": {
+          "height": 456,
+          "width": 321
+        },
+        "success": true,
+        "trim": {
+          "bottom": 0,
+          "left": 13,
+          "right": 0,
+          "top": 45
+        }
+      },
+      "coordinate_input_type": "normalized_0_1000",
+      "image_size": {
+        "height": 907,
+        "width": 1365
+      },
+      "model": "qwen/qwen3-vl-4b-instruct",
+      "normalized": {
+        "object_bbox": [
+          538,
+          538,
+          700,
+          975
+        ],
+        "object_center": [
+          619,
+          757
+        ],
+        "panel_bbox": [
+          506,
+          516,
+          724,
+          993
+        ]
+      },
+      "opencv": {
+        "object_meta": {
+          "ai_bbox": [
+            734.37,
+            487.966,
+            955.4999999999999,
+            884.3249999999999
+          ],
+          "area_ratio": 0.9531886777851512,
+          "attempted": true,
+          "candidate_bbox": [
+            760.0,
+            510.0,
+            996.0,
+            864.0
+          ],
+          "center_distance_ratio": 0.07287541096332299,
+          "detected_red_annotation_pixels": 9077,
+          "fallback_reason": null,
+          "final_bbox": [
+            760.0,
+            510.0,
+            996.0,
+            864.0
+          ],
+          "iou_with_ai": 0.6786073419097526,
+          "method": "opencv",
+          "success": true,
+          "thresholds": {
+            "max_area_ratio": 2.5,
+            "max_center_distance_ratio": 0.25,
+            "min_area_ratio": 0.3,
+            "min_contour_area": 50,
+            "min_iou": 0.3,
+            "search_margin_ratio": 0.15
+          }
+        },
+        "object_refine_success": true,
+        "panel_meta": {
+          "ai_bbox": [
+            690.69,
+            468.012,
+            988.26,
+            900.651
+          ],
+          "area_ratio": 1.0,
+          "attempted": true,
+          "bottom_edge_snap_applied": true,
+          "bottom_edge_snap_ratio": 0.08,
+          "candidate_bbox": [
+            679.0,
+            451.0,
+            1000.0,
+            907.0
+          ],
+          "center_distance_ratio": 0.0101535188786341,
+          "detected_red_annotation_pixels": 0,
+          "fallback_reason": null,
+          "final_bbox": [
+            679.0,
+            451.0,
+            1000.0,
+            907.0
+          ],
+          "iou_with_ai": 0.8795184130595175,
+          "method": "opencv",
+          "pre_bottom_edge_snap_bbox": [
+            679.0,
+            451.0,
+            1000.0,
+            907.0
+          ],
+          "success": true,
+          "thresholds": {
+            "max_center_distance_ratio": 0.25,
+            "min_contour_area": 1000,
+            "min_iou": 0.35,
+            "prefilter_max_center_distance_ratio": 0.5
+          }
+        },
+        "panel_refine_success": true
+      },
+      "output_files": {
+        "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026_right_object.png",
+        "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_right_panel.png",
+        "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_right_result.jpg"
+      },
+      "pixel": {
+        "ai_object_bbox": [
+          734,
+          488,
+          955,
+          884
+        ],
+        "ai_panel_bbox": [
+          691,
+          468,
+          988,
+          901
+        ],
+        "object_center": [
+          845,
+          687
+        ],
+        "refined_object_bbox": [
+          760,
+          510,
+          996,
+          864
+        ],
+        "refined_panel_bbox": [
+          679,
+          451,
+          1000,
+          907
+        ]
+      },
+      "processing_time_sec": 0.04,
+      "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026.jpg",
+      "validation": {
+        "ai_bbox_valid": true,
+        "object_crop_valid": true,
+        "refined_object_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "valid": true,
+        "warnings": []
+      },
+      "view_name": "RIGHT"
+    },
+    {
+      "clean_panel": {
+        "clean_size": {
+          "height": 411,
+          "width": 288
+        },
+        "content_retained_ratio": 0.9886499402628435,
+        "fallback_reason": null,
+        "raw_size": {
+          "height": 456,
+          "width": 322
+        },
+        "success": true,
+        "trim": {
+          "bottom": 0,
+          "left": 34,
+          "right": 0,
+          "top": 45
+        }
+      },
+      "coordinate_input_type": "normalized_0_1000",
+      "image_size": {
+        "height": 907,
+        "width": 1365
+      },
+      "model": "qwen/qwen3-vl-4b-instruct",
+      "normalized": {
+        "object_bbox": [
+          770,
+          538,
+          932,
+          975
+        ],
+        "object_center": [
+          851,
+          757
+        ],
+        "panel_bbox": [
+          738,
+          516,
+          956,
+          993
+        ]
+      },
+      "opencv": {
+        "object_meta": {
+          "ai_bbox": [
+            1051.05,
+            487.966,
+            1272.18,
+            884.3249999999999
+          ],
+          "area_ratio": 1.0309895203808714,
+          "attempted": true,
+          "candidate_bbox": [
+            1031.0,
+            496.0,
+            1304.0,
+            827.0
+          ],
+          "center_distance_ratio": 0.05582728298799752,
+          "detected_red_annotation_pixels": 7456,
+          "fallback_reason": null,
+          "final_bbox": [
+            1031.0,
+            496.0,
+            1304.0,
+            827.0
+          ],
+          "iou_with_ai": 0.6983107994334236,
+          "method": "opencv",
+          "success": true,
+          "thresholds": {
+            "max_area_ratio": 2.5,
+            "max_center_distance_ratio": 0.25,
+            "min_area_ratio": 0.3,
+            "min_contour_area": 50,
+            "min_iou": 0.3,
+            "search_margin_ratio": 0.15
+          }
+        },
+        "object_refine_success": true,
+        "panel_meta": {
+          "ai_bbox": [
+            1007.37,
+            468.012,
+            1304.94,
+            900.651
+          ],
+          "area_ratio": 1.0,
+          "attempted": true,
+          "bottom_edge_snap_applied": true,
+          "bottom_edge_snap_ratio": 0.08,
+          "candidate_bbox": [
+            995.0,
+            451.0,
+            1317.0,
+            907.0
+          ],
+          "center_distance_ratio": 0.010157697227668948,
+          "detected_red_annotation_pixels": 0,
+          "fallback_reason": null,
+          "final_bbox": [
+            995.0,
+            451.0,
+            1317.0,
+            907.0
+          ],
+          "iou_with_ai": 0.876786989416476,
+          "method": "opencv",
+          "pre_bottom_edge_snap_bbox": [
+            995.0,
+            451.0,
+            1317.0,
+            907.0
+          ],
+          "success": true,
+          "thresholds": {
+            "max_center_distance_ratio": 0.25,
+            "min_contour_area": 1000,
+            "min_iou": 0.35,
+            "prefilter_max_center_distance_ratio": 0.5
+          }
+        },
+        "panel_refine_success": true
+      },
+      "output_files": {
+        "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026_bottom_object.png",
+        "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_bottom_panel.png",
+        "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_bottom_result.jpg"
+      },
+      "pixel": {
+        "ai_object_bbox": [
+          1051,
+          488,
+          1272,
+          884
+        ],
+        "ai_panel_bbox": [
+          1007,
+          468,
+          1305,
+          901
+        ],
+        "object_center": [
+          1162,
+          687
+        ],
+        "refined_object_bbox": [
+          1031,
+          496,
+          1304,
+          827
+        ],
+        "refined_panel_bbox": [
+          995,
+          451,
+          1317,
+          907
+        ]
+      },
+      "processing_time_sec": 0.04,
+      "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026.jpg",
+      "validation": {
+        "ai_bbox_valid": true,
+        "object_crop_valid": true,
+        "refined_object_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "valid": true,
+        "warnings": []
+      },
+      "view_name": "BOTTOM"
+    },
+    {
+      "clean_panel": {},
+      "coordinate_input_type": "normalized_0_1000",
+      "image_size": {
+        "height": 907,
+        "width": 1365
+      },
+      "model": "qwen/qwen3-vl-4b-instruct",
+      "normalized": {
+        "object_bbox": [
+          45,
+          650,
+          250,
+          975
+        ],
+        "object_center": [
+          147,
+          813
+        ],
+        "panel_bbox": [
+          24,
+          630,
+          278,
+          993
+        ]
+      },
+      "opencv": {
+        "object_meta": {
+          "ai_bbox": [
+            61.425,
+            589.5500000000001,
+            341.25,
+            884.3249999999999
+          ],
+          "area_ratio": 0.23422322778383944,
+          "attempted": true,
+          "bbox": [
+            91.0,
+            688.0,
+            238.0,
+            888.0
+          ],
+          "candidate_bbox": [
+            91.0,
+            688.0,
+            238.0,
+            888.0
+          ],
+          "center_distance_ratio": 0.1549137921783046,
+          "fallback_reason": null,
+          "final_bbox": [
+            91.0,
+            688.0,
+            238.0,
+            888.0
+          ],
+          "included_red_annotation_pixels": 2,
+          "iou_with_ai": 0.23422322778383944,
+          "mask_applied": false,
+          "mask_available": true,
+          "method": "perspective_opencv",
+          "mode": "bbox_only",
+          "removed_red_pixels": 2,
+          "removed_text_grid_pixels": 4952,
+          "selected_components": 1,
+          "success": true,
+          "thresholds": {
+            "max_area_ratio": 2.5,
+            "max_center_distance_ratio": 0.5,
+            "min_area_ratio": 0.02,
+            "min_component_area": 200,
+            "min_iou": 0.05,
+            "morph_kernel_size": 7,
+            "padding_px": 16
+          }
+        },
+        "object_refine_success": true,
+        "panel_meta": {
+          "ai_bbox": [
+            32.76,
+            571.41,
+            379.47,
+            900.651
+          ],
+          "area_ratio": null,
+          "attempted": false,
+          "candidate_bbox": null,
+          "center_distance_ratio": 0.0,
+          "fallback_reason": "perspective_special_handling",
+          "final_bbox": [
+            32.76,
+            571.41,
+            379.47,
+            900.651
+          ],
+          "iou_with_ai": 0.0,
+          "method": "none",
+          "success": false,
+          "thresholds": {
+            "max_center_distance_ratio": 0.25,
+            "min_contour_area": 1000,
+            "min_iou": 0.35,
+            "prefilter_max_center_distance_ratio": 0.5
+          }
+        },
+        "panel_refine_success": false
+      },
+      "output_files": {
+        "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026_perspective_object.png",
+        "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_perspective_panel.png",
+        "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\.preview\\DF27.COMP017.12_DI_07072026_perspective_result.jpg"
+      },
+      "pixel": {
+        "ai_object_bbox": [
+          61,
+          590,
+          341,
+          884
+        ],
+        "ai_panel_bbox": [
+          33,
+          571,
+          379,
+          901
+        ],
+        "object_center": [
+          201,
+          737
+        ],
+        "refined_object_bbox": [
+          91,
+          688,
+          238,
+          888
+        ],
+        "refined_panel_bbox": [
+          33,
+          571,
+          379,
+          901
+        ]
+      },
+      "processing_time_sec": 0.03,
+      "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026.jpg",
+      "validation": {
+        "ai_bbox_valid": true,
+        "object_crop_valid": true,
+        "refined_object_bbox_valid": true,
+        "refined_panel_bbox_valid": true,
+        "valid": true,
+        "warnings": []
+      },
+      "view_name": "PERSPECTIVE"
+    }
+  ]
+}

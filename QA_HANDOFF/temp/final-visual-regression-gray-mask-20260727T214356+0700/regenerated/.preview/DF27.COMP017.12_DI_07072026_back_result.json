@@ -1,0 +1,256 @@
+{
+  "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\DF27.COMP017.12_DI_07072026.jpg",
+  "image_size": {
+    "width": 1365,
+    "height": 907
+  },
+  "model": "qwen/qwen3-vl-4b-instruct",
+  "coordinate_input_type": "NORMALIZED_1000",
+  "processing_time_sec": 0.06,
+  "normalized": {
+    "panel_bbox": [
+      278,
+      516,
+      496,
+      993
+    ],
+    "object_bbox": [
+      300,
+      538,
+      470,
+      975
+    ],
+    "object_center": [
+      385,
+      757
+    ]
+  },
+  "pixel": {
+    "ai_panel_bbox": [
+      379,
+      468,
+      677,
+      901
+    ],
+    "refined_panel_bbox": [
+      368,
+      451,
+      689,
+      907
+    ],
+    "ai_object_bbox": [
+      410,
+      488,
+      642,
+      884
+    ],
+    "refined_object_bbox": [
+      381,
+      496,
+      659,
+      864
+    ],
+    "object_center": [
+      526,
+      687
+    ]
+  },
+  "opencv": {
+    "panel_refine_success": true,
+    "object_refine_success": true,
+    "panel_meta": {
+      "attempted": true,
+      "success": true,
+      "method": "opencv",
+      "ai_bbox": [
+        379.47,
+        468.012,
+        677.04,
+        900.651
+      ],
+      "candidate_bbox": [
+        368.0,
+        451.0,
+        689.0,
+        907.0
+      ],
+      "final_bbox": [
+        368.0,
+        451.0,
+        689.0,
+        907.0
+      ],
+      "iou_with_ai": 0.8795184130595175,
+      "center_distance_ratio": 0.01016412210292504,
+      "area_ratio": 1.0,
+      "detected_red_annotation_pixels": 0,
+      "thresholds": {
+        "min_iou": 0.35,
+        "max_center_distance_ratio": 0.25,
+        "prefilter_max_center_distance_ratio": 0.5,
+        "min_contour_area": 1000
+      },
+      "fallback_reason": null,
+      "pre_bottom_edge_snap_bbox": [
+        368.0,
+        451.0,
+        689.0,
+        907.0
+      ],
+      "bottom_edge_snap_ratio": 0.08,
+      "bottom_edge_snap_applied": true
+    },
+    "object_meta": {
+      "attempted": true,
+      "success": true,
+      "method": "opencv",
+      "ai_bbox": [
+        409.5,
+        487.966,
+        641.55,
+        884.3249999999999
+      ],
+      "candidate_bbox": [
+        381.0,
+        496.0,
+        659.0,
+        864.0
+      ],
+      "final_bbox": [
+        381.0,
+        496.0,
+        659.0,
+        864.0
+      ],
+      "iou_with_ai": 0.7842644130316447,
+      "center_distance_ratio": 0.0179928553686431,
+      "area_ratio": 1.1123009747400028,
+      "thresholds": {
+        "min_iou": 0.3,
+        "max_center_distance_ratio": 0.25,
+        "min_area_ratio": 0.3,
+        "max_area_ratio": 2.5,
+        "min_contour_area": 50,
+        "search_margin_ratio": 0.15
+      },
+      "fallback_reason": null,
+      "detected_red_annotation_pixels": 12024
+    }
+  },
+  "clean_panel": {
+    "success": true,
+    "raw_size": {
+      "width": 321,
+      "height": 456
+    },
+    "clean_size": {
+      "width": 319,
+      "height": 411
+    },
+    "trim": {
+      "left": 0,
+      "top": 45,
+      "right": 2,
+      "bottom": 0
+    },
+    "content_retained_ratio": 0.999513807856865,
+    "fallback_reason": null
+  },
+  "clean_object": {
+    "attempted": true,
+    "success": true,
+    "changed": true,
+    "view": "BACK",
+    "passes_run": 2,
+    "removed_label_pixels": 616,
+    "removed_grid_pixels": 0,
+    "removed_total_pixels": 616,
+    "protected_red_pixels": 7914,
+    "fallback_reason": null,
+    "passes": [
+      {
+        "attempted": true,
+        "success": true,
+        "changed": true,
+        "view": "BACK",
+        "removed_label_pixels": 616,
+        "removed_grid_pixels": 0,
+        "removed_total_pixels": 616,
+        "protected_red_pixels": 7914,
+        "fallback_reason": null,
+        "pass": 1
+      },
+      {
+        "attempted": true,
+        "success": true,
+        "changed": false,
+        "view": "BACK",
+        "removed_label_pixels": 0,
+        "removed_grid_pixels": 0,
+        "removed_total_pixels": 0,
+        "protected_red_pixels": 7914,
+        "fallback_reason": null,
+        "pass": 2
+      }
+    ]
+  },
+  "red_annotation_expansion": {
+    "attempted": true,
+    "success": true,
+    "expanded": false,
+    "annotation_pixels": 12024,
+    "annotation_bbox": [
+      399.0,
+      514.0,
+      641.0,
+      846.0
+    ],
+    "bbox_before": [
+      381.0,
+      496.0,
+      659.0,
+      864.0
+    ],
+    "bbox_after": [
+      381.0,
+      496.0,
+      659.0,
+      864.0
+    ],
+    "fallback_reason": null
+  },
+  "quality_validation": {
+    "valid": true,
+    "view": "BACK",
+    "clean_success": true,
+    "same_shape": true,
+    "red_pixels_before": 4227,
+    "red_pixels_after": 4227,
+    "red_retained_ratio": 1.0,
+    "unexpected_changed_pixels": 0,
+    "residual_label_pixels": 0,
+    "residual_grid_pixels": 0,
+    "residual_artifact_pixels": 0,
+    "failure_reasons": [],
+    "thresholds": {
+      "min_red_retained_ratio": 0.995,
+      "max_unexpected_changed_pixels": 0,
+      "max_residual_artifact_pixels": 0
+    }
+  },
+  "output_files": {
+    "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\DF27.COMP017.12_DI_07072026_back_result.jpg",
+    "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\DF27.COMP017.12_DI_07072026_back_panel.png",
+    "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\DF27.COMP017.12_DI_07072026_back_object.png",
+    "json": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\DF27.COMP017.12_DI_07072026_back_result.json"
+  },
+  "validation": {
+    "valid": true,
+    "warnings": [],
+    "ai_bbox_valid": true,
+    "refined_panel_bbox_valid": true,
+    "refined_object_bbox_valid": true,
+    "object_crop_valid": true,
+    "quality_valid": true
+  }
+}

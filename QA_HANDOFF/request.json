@@ -1,0 +1,26 @@
+{
+  "job_id": "final-visual-regression-gray-mask-20260727T214356+0700",
+  "state": "READY_FOR_TEST",
+  "part": "Nghiệm thu ảnh cuối sau sửa false-positive artifact mask",
+  "workspace": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS",
+  "changed_files": [
+    "jewelry_front_detector/image_processor.py"
+  ],
+  "test_scope": [
+    "Tái tạo mới đủ 21 ảnh vào temp riêng của job",
+    "Mở và nhìn trực tiếp đủ 21 PNG",
+    "Kiểm tra artifact mask chỉ đếm pixel xám/đen thật, không đếm nền trắng do dilation",
+    "Kiểm tra riêng 889060 A PERSPECTIVE",
+    "Chạy compileall và toàn bộ unittest"
+  ],
+  "acceptance_criteria": [
+    "21/21 view quality_valid=true",
+    "21/21 view được kiểm tra trực quan và không còn nhãn/grid",
+    "889060 A PERSPECTIVE residual_artifact_pixels=0",
+    "Mọi annotation đỏ được giữ nguyên",
+    "889060 TOP giữ 0.70",
+    "Không xóa nhầm chi tiết vật thể",
+    "90 unit test hiện có vẫn PASS"
+  ],
+  "notes": "Đây là nghiệm thu trực quan cuối. Phải tái tạo ảnh mới sau thay đổi hiện tại; không dùng output job trước. Chỉ test, không sửa code."
+}

@@ -1,0 +1,232 @@
+{
+  "source_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\Scale 3D\\KS\\889060 A.jpg",
+  "image_size": {
+    "width": 1765,
+    "height": 1176
+  },
+  "model": "qwen/qwen3-vl-4b-instruct",
+  "coordinate_input_type": "NORMALIZED_1000",
+  "processing_time_sec": 0.07,
+  "normalized": {
+    "panel_bbox": [
+      0,
+      542,
+      256,
+      990
+    ],
+    "object_bbox": [
+      30,
+      580,
+      170,
+      930
+    ],
+    "object_center": [
+      100,
+      755
+    ]
+  },
+  "pixel": {
+    "ai_panel_bbox": [
+      0,
+      637,
+      452,
+      1164
+    ],
+    "refined_panel_bbox": [
+      0,
+      637,
+      452,
+      1164
+    ],
+    "ai_object_bbox": [
+      53,
+      682,
+      300,
+      1094
+    ],
+    "refined_object_bbox": [
+      41,
+      672,
+      441,
+      1135
+    ],
+    "object_center": [
+      176,
+      888
+    ]
+  },
+  "opencv": {
+    "panel_refine_success": false,
+    "object_refine_success": true,
+    "panel_meta": {
+      "attempted": false,
+      "success": false,
+      "method": "none",
+      "ai_bbox": [
+        0.0,
+        637.392,
+        451.84000000000003,
+        1164.24
+      ],
+      "candidate_bbox": null,
+      "final_bbox": [
+        0.0,
+        637.392,
+        451.84000000000003,
+        1164.24
+      ],
+      "iou_with_ai": 0.0,
+      "center_distance_ratio": 0.0,
+      "area_ratio": null,
+      "thresholds": {
+        "min_iou": 0.35,
+        "max_center_distance_ratio": 0.25,
+        "prefilter_max_center_distance_ratio": 0.5,
+        "min_contour_area": 1000
+      },
+      "fallback_reason": "perspective_special_handling"
+    },
+    "object_meta": {
+      "attempted": true,
+      "success": true,
+      "method": "perspective_opencv",
+      "mode": "bbox_only",
+      "bbox": [
+        41.0,
+        672.0,
+        441.0,
+        1135.0
+      ],
+      "ai_bbox": [
+        52.949999999999996,
+        682.0799999999999,
+        300.05,
+        1093.68
+      ],
+      "candidate_bbox": [
+        41.0,
+        672.0,
+        441.0,
+        1135.0
+      ],
+      "final_bbox": [
+        41.0,
+        672.0,
+        441.0,
+        1135.0
+      ],
+      "mask_available": true,
+      "mask_applied": false,
+      "selected_components": 1,
+      "removed_red_pixels": 7686,
+      "removed_text_grid_pixels": 9422,
+      "iou_with_ai": 0.44873282512801443,
+      "center_distance_ratio": 0.10102877084564073,
+      "area_ratio": 0.4528330381698842,
+      "thresholds": {
+        "min_component_area": 200,
+        "min_iou": 0.05,
+        "max_center_distance_ratio": 0.5,
+        "min_area_ratio": 0.02,
+        "max_area_ratio": 2.5,
+        "padding_px": 16,
+        "morph_kernel_size": 7
+      },
+      "fallback_reason": null,
+      "included_red_annotation_pixels": 7686
+    }
+  },
+  "clean_panel": {},
+  "clean_object": {
+    "attempted": true,
+    "success": true,
+    "changed": true,
+    "view": "PERSPECTIVE",
+    "passes_run": 2,
+    "removed_label_pixels": 1664,
+    "removed_grid_pixels": 800,
+    "removed_total_pixels": 2464,
+    "protected_red_pixels": 11718,
+    "fallback_reason": null,
+    "passes": [
+      {
+        "attempted": true,
+        "success": true,
+        "changed": true,
+        "view": "PERSPECTIVE",
+        "removed_label_pixels": 1664,
+        "removed_grid_pixels": 800,
+        "removed_total_pixels": 2464,
+        "protected_red_pixels": 11718,
+        "fallback_reason": null,
+        "pass": 1
+      },
+      {
+        "attempted": true,
+        "success": true,
+        "changed": false,
+        "view": "PERSPECTIVE",
+        "removed_label_pixels": 0,
+        "removed_grid_pixels": 0,
+        "removed_total_pixels": 0,
+        "protected_red_pixels": 11718,
+        "fallback_reason": null,
+        "pass": 2
+      }
+    ]
+  },
+  "red_annotation_expansion": {
+    "attempted": false,
+    "success": false,
+    "expanded": false,
+    "annotation_pixels": 0,
+    "annotation_bbox": null,
+    "bbox_before": [
+      41.0,
+      672.0,
+      441.0,
+      1135.0
+    ],
+    "bbox_after": [
+      41.0,
+      672.0,
+      441.0,
+      1135.0
+    ],
+    "fallback_reason": null
+  },
+  "quality_validation": {
+    "valid": true,
+    "view": "PERSPECTIVE",
+    "clean_success": true,
+    "same_shape": true,
+    "red_pixels_before": 6487,
+    "red_pixels_after": 6487,
+    "red_retained_ratio": 1.0,
+    "unexpected_changed_pixels": 0,
+    "residual_label_pixels": 0,
+    "residual_grid_pixels": 0,
+    "residual_artifact_pixels": 0,
+    "failure_reasons": [],
+    "thresholds": {
+      "min_red_retained_ratio": 0.995,
+      "max_unexpected_changed_pixels": 0,
+      "max_residual_artifact_pixels": 0
+    }
+  },
+  "output_files": {
+    "result_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\889060 A_perspective_result.jpg",
+    "panel_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\889060 A_perspective_panel.png",
+    "object_image": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\889060 A_perspective_object.png",
+    "json": "E:\\CODE\\SciptAuto=AI\\AI Super\\AI PTS\\QA_HANDOFF\\temp\\final-visual-regression-gray-mask-20260727T214356+0700\\regenerated\\.preview\\889060 A_perspective_result.json"
+  },
+  "validation": {
+    "valid": true,
+    "warnings": [],
+    "ai_bbox_valid": true,
+    "refined_panel_bbox_valid": true,
+    "refined_object_bbox_valid": true,
+    "object_crop_valid": true,
+    "quality_valid": true
+  }
+}

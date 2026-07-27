@@ -28,10 +28,15 @@ var CONFIG = {
     showAlerts: false
 };
 
-// Duong dan script tao View 1..7 tu JSON
-var AI_AUTODETECT_TEST = "d:\\CODE\\Agent\\AutoNhanDangAnh\\AI_AutoDetect test.jsx";
-var TIMING_LOG = "d:\\CODE\\Agent\\AutoNhanDangAnh\\PTS CS5 SCRIPT\\cache\\timing_log.txt";
-var TIMING_SUMMARY = "d:\\CODE\\Agent\\AutoNhanDangAnh\\PTS CS5 SCRIPT\\cache\\last_run_timing.txt";
+// Suy ra workspace từ vị trí script; không phụ thuộc ổ đĩa hoặc Windows user.
+var SCALE_SCRIPT_FOLDER = new File($.fileName).parent;
+var PROJECT_ROOT = SCALE_SCRIPT_FOLDER.parent.parent;
+var BASE_PY_DIR = PROJECT_ROOT.fsName + "\\PTS CS5 SCRIPT";
+var INPUT_DIR = BASE_PY_DIR + "\\input";
+var OUTPUT_DIR = PROJECT_ROOT.fsName + "\\Scale 3D\\KS";
+var AI_AUTODETECT_TEST = PROJECT_ROOT.fsName + "\\AI_AutoDetect test.jsx";
+var TIMING_LOG = BASE_PY_DIR + "\\cache\\timing_log.txt";
+var TIMING_SUMMARY = BASE_PY_DIR + "\\cache\\last_run_timing.txt";
 
 // ====================================
 // 💾 CACHE STATE — Cache/User_{key}/state.txt (check, drawing, brand, hanger, chain)
@@ -194,7 +199,7 @@ function writeTimingSummary(docName, timing, extraLines) {
         }
         // Ghep them last detector timing neu co
         try {
-            var det = new File("d:\\CODE\\Agent\\AutoNhanDangAnh\\PTS CS5 SCRIPT\\cache\\last_detector_timing.json");
+            var det = new File(BASE_PY_DIR + "\\cache\\last_detector_timing.json");
             if (det.exists) {
                 det.open("r");
                 var raw = det.read();
@@ -437,7 +442,7 @@ function selectMultipleLayers(doc, layers) {
                 var failBase = (typeof $.global.ksAIBaseName !== "undefined" && $.global.ksAIBaseName)
                     ? $.global.ksAIBaseName
                     : doc.name.replace(/\.[^\.]+$/, "");
-                var pendingJobFail = new File("d:\\CODE\\Agent\\AutoNhanDangAnh\\PTS CS5 SCRIPT\\input\\" + failBase + ".job.json");
+                var pendingJobFail = new File(INPUT_DIR + "\\" + failBase + ".job.json");
                 if (pendingJobFail.exists) pendingJobFail.remove();
             } catch (cleanE) { }
             $.global.ksAIQueued = false;
@@ -491,7 +496,7 @@ function selectMultipleLayers(doc, layers) {
                         ? $.global.ksAIBaseName
                         : doc.name.replace(/\.[^\.]+$/, "");
                     var cropFileName = cropBaseName + "__sel_crop.jpg";
-                    var cropFilePath = "d:\\CODE\\Agent\\AutoNhanDangAnh\\PTS CS5 SCRIPT\\input\\" + cropFileName;
+                    var cropFilePath = INPUT_DIR + "\\" + cropFileName;
                     var cropFile = new File(cropFilePath);
 
                     // Duplicate doc → crop duplicate chinh xac theo vung chon → flatten → saveAs → close
@@ -577,7 +582,7 @@ function selectMultipleLayers(doc, layers) {
                 var bn = (typeof $.global.ksAIBaseName !== "undefined" && $.global.ksAIBaseName)
                     ? $.global.ksAIBaseName
                     : doc.name.replace(/\.[^\.]+$/, "");
-                var jf = new File("d:\\CODE\\Agent\\AutoNhanDangAnh\\PTS CS5 SCRIPT\\output\\" + bn + "_all_views_result.json");
+                var jf = new File(OUTPUT_DIR + "\\" + bn + "_all_views_result.json");
                 if (!jf.exists) return null;
                 jf.open("r");
                 var txt = jf.read();
@@ -1005,7 +1010,7 @@ function selectMultipleLayers(doc, layers) {
                 var cancelBase = (typeof $.global.ksAIBaseName !== "undefined" && $.global.ksAIBaseName)
                     ? $.global.ksAIBaseName
                     : doc.name.replace(/\.[^\.]+$/, "");
-                var pendingJob = new File("d:\\CODE\\Agent\\AutoNhanDangAnh\\PTS CS5 SCRIPT\\input\\" + cancelBase + ".job.json");
+                var pendingJob = new File(INPUT_DIR + "\\" + cancelBase + ".job.json");
                 if (pendingJob.exists) pendingJob.remove();
                 // JSON neu AI da xong van ok — lan sau queue se xoa truoc khi gui lai
             } catch (cancelErr) { }
@@ -1065,8 +1070,10 @@ function selectMultipleLayers(doc, layers) {
                 $.global.ksAIPhase = "";
                 $.global.ksScaleSilentAI = false;
             }
-            if (!$.global.ksScaleAICopied || $.global.ksScaleAICopied < 1) {
-                throw new Error("AI khong tao duoc View. Kiem tra Launcher + LM Studio.");
+            if (!$.global.ksScaleAICopied || $.global.ksScaleAICopied < 7) {
+                throw new Error(
+                    "AI khong tao du 7 View sach. Kiem tra quality JSON, Launcher va LM Studio."
+                );
             }
         }
         timing.mark("5_copy_AI");
@@ -1319,4 +1326,3 @@ function selectMultipleLayers(doc, layers) {
         } catch (e) { }
     }
 })();
-

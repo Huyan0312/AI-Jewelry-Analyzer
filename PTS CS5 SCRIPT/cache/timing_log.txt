@@ -1831,3 +1831,11 @@
 2026-07-25 15:08:26 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=0ms total=23ms
 2026-07-25 16:09:58 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=29ms
 2026-07-25 16:11:37 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=0ms json=1ms total=28ms
+2026-07-27 21:12:47 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=21ms
+2026-07-27 21:25:01 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=26ms
+2026-07-27 21:29:15 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=17ms
+2026-07-27 21:31:51 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=17ms
+2026-07-27 21:35:13 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=17ms
+2026-07-27 21:36:47 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=16ms
+2026-07-27 21:42:25 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=15ms
+2026-07-27 21:44:35 | DETECTOR | test_sample | mode=original send=100x100 lm=0ms views=1ms json=1ms total=15ms
